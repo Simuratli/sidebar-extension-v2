@@ -1,0 +1,30 @@
+@import "../variables.scss";
+
+.wrongTab {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  &__actions {
+    display: flex;
+    gap: 10px;
+  }
+
+  &__text {
+    color: $blue-black;
+    text-align: center;
+    font-feature-settings:
+      "clig" off,
+      "liga" off;
+    font-family: "Segoe UI";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 22.4px */
+    letter-spacing: 0.16px;
+    strong {
+      font-weight: 700;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "version": "4.0.0",
+  "manifest_version": 3,
+  "name": "UDS Linkedin Extension",
+  "description": "UDS Linkedin Extension v4",
+  "action": {
+    "default_popup": "js/index.html",
+    "default_title": "UDS Linkedin Extension"
+  },
+  "background": {
+    "service_worker": "/serviceWorker.js"
+  },
+  "icons": {
+    "16": "images/icon.png",
+    "48": "images/icon.png",
+    "128": "images/icon.png"
+  },
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "tabs",
+    "notifications",
+    "storage",
+    "identity",
+    "clipboardRead",
+    "webNavigation"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.linkedin.com/*"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}

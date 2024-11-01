@@ -1,0 +1,20 @@
+.controlIcon__holder {
+  display: flex;
+  gap: 5px;
+  position: relative;
+  left: 5px;
+  svg {
+    // height: 25px !important;
+    // width: 18px !important;
+  }
+}
+
+.contorlIcon {
+  svg {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: -4px;
+  }
+}

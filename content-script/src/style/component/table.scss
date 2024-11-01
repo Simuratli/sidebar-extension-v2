@@ -1,0 +1,84 @@
+@import "../variables.scss";
+
+.table {
+  width: 100%;
+  border-radius: 8px;
+  border-spacing: 10px 0;
+  background: $background-bg-grey;
+  box-shadow: none !important;
+
+  tr {
+    padding: 10px 0 !important;
+    display: block;
+    border-bottom: 1px solid $borderGray;
+    display: flex;
+    gap: 20px;
+    td {
+      vertical-align: top;
+      padding: 0 !important;
+      height: max-content !important;
+      border: none !important;
+    }
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &:first-child {
+      color: $blue-black;
+      font-feature-settings:
+        "clig" off,
+        "liga" off;
+      font-family: "Segoe UI";
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 140%;
+      text-transform: uppercase;
+    }
+
+    td {
+      &:first-child {
+        width: 82px;
+        color: $blue-black;
+        font-feature-settings:
+          "clig" off,
+          "liga" off;
+        font-family: "Segoe UI";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        padding-left: 10px !important;
+      }
+
+      &:nth-child(2) {
+        min-width: 201px;
+        max-width: max-content;
+      }
+
+      &:last-child {
+        min-width: 201px;
+        max-width: max-content;
+      }
+    }
+
+    &.differentValues {
+      td {
+        &:nth-child(2) {
+          .input,
+          textarea,
+          .dropdown__header {
+            background: $yellow !important;
+          }
+        }
+        &:nth-child(3) {
+          .input,
+          textarea {
+            background: $borderGray !important;
+          }
+        }
+      }
+    }
+  }
+}

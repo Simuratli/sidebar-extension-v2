@@ -1,0 +1,271 @@
+@import "../variables.scss";
+
+.form__control {
+  position: relative;
+  .input {
+    border-radius: 13px !important;
+    background: $background-bg-grey;
+    display: flex;
+    height: 46px !important;
+    padding: 5px 12px 6px 12px !important;
+    align-items: center;
+    gap: 46px !important;
+    align-self: stretch;
+    color: $blueGray !important;
+    font-feature-settings:
+      "clig" off,
+      "liga" off;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    border: none !important;
+    outline: none !important;
+    width: 100% !important;
+    box-shadow: none !important;
+    &::placeholder {
+      color: $blueGray !important;
+      font-feature-settings:
+        "clig" off,
+        "liga" off;
+      font-family: "Segoe UI", Arial, sans-serif;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 140%;
+    }
+
+    &.error {
+      color: $danger !important;
+    }
+    transition: none !important;
+  }
+
+  &.withLabel {
+    border-radius: 13px !important;
+    background: var(--background-bg-grey, #f7f8fa);
+    height: 46px !important;
+    padding: 5px 12px 6px 12px;
+    position: relative;
+
+    &.active {
+      background-color: $lightBlue !important;
+    }
+
+    .form__control__label {
+      position: absolute;
+      top: 12px;
+      color: $blueGray;
+      font-feature-settings:
+        "clig" off,
+        "liga" off;
+      font-family: "Segoe UI";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 140%;
+      transition: 0.2s ease-in-out;
+      margin: 0 !important;
+      .required {
+        color: $orange;
+        font-feature-settings:
+          "clig" off,
+          "liga" off;
+        font-family: "Segoe UI";
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%; /* 12px */
+      }
+      margin: 0 !important;
+    }
+
+    .input {
+      border-radius: 0 !important;
+      padding: 0 !important;
+      height: 24px !important;
+      position: relative;
+      top: 10px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      background-color: transparent;
+      width: 87% !important;
+      &:not([value=""]),
+      &:focus {
+        color: $blue !important;
+      }
+
+      &:not([value=""]) + .form__control__label,
+      &:focus + .form__control__label {
+        color: $blueGray !important;
+        font-feature-settings:
+          "clig" off,
+          "liga" off;
+        font-family: "Segoe UI";
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 120%;
+        top: 5px !important;
+      }
+    }
+  }
+
+  &__button {
+    display: none;
+  }
+
+  &__cancel {
+    width: 20px;
+    height: 20px;
+    right: 12px;
+    top: 12px;
+    position: absolute;
+    border: none !important;
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+
+    &:hover {
+      border-radius: 20px;
+      background: #fff;
+      box-shadow:
+        0px 3px 6px 0px rgba(14, 31, 53, 0.08),
+        0px 6px 12px 0px rgba(14, 31, 53, 0.12),
+        0px 8px 24px 0px rgba(14, 31, 53, 0.08);
+    }
+  }
+
+  &:hover {
+    .form__control__button {
+      display: block;
+      position: absolute;
+      right: 12px;
+      background-color: transparent;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      transition: 0.3s;
+      border: none !important;
+      outline: none;
+      cursor: pointer;
+      top: 5px !important;
+      display: grid;
+      place-content: center;
+
+      &:hover {
+        border-radius: 20px;
+        background: #fff;
+        box-shadow:
+          0px 3px 6px 0px rgba(14, 31, 53, 0.08),
+          0px 6px 12px 0px rgba(14, 31, 53, 0.12),
+          0px 8px 24px 0px rgba(14, 31, 53, 0.08);
+      }
+    }
+  }
+
+  &__readonly {
+    background-color: transparent;
+    width: max-content;
+    height: max-content;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    border: none;
+    svg {
+      width: 14.667px;
+      height: 20px;
+    }
+  }
+
+  &__error {
+    color: $danger;
+    font-feature-settings:
+      "clig" off,
+      "liga" off;
+    font-family: "Segoe UI";
+    font-size: 13px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 15.6px */
+    padding-left: 12px;
+  }
+
+  &.inTable {
+    background-color: transparent;
+    padding: 0;
+    .input {
+      padding: 5px 28px 6px 12px !important;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      border-radius: 6px !important;
+      border: 1px solid $borderGray !important;
+      background: white;
+      color: $blue !important;
+      font-feature-settings:
+        "clig" off,
+        "liga" off;
+      font-family: "Segoe UI";
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%; /* 15.6px */
+      height: auto !important;
+      &::placeholder {
+        font-size: 12px;
+      }
+
+      &:read-only {
+        background-color: transparent !important;
+        cursor: no-drop;
+        border: none !important;
+        color: $blueGray !important;
+      }
+    }
+  }
+
+  &__tooltip {
+    display: none;
+    z-index: 100;
+    position: absolute;
+    padding: 3px 10px 6px 10px;
+    border-radius: 8px;
+    background: #fff;
+    color: $blue-black !important;
+    font-feature-settings:
+      "clig" off,
+      "liga" off;
+    font-family: "Segoe UI";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    bottom: 48px;
+    left: 60px;
+    line-height: 140%; /* 19.6px */
+    box-shadow:
+      0px 3px 6px 0px rgba(14, 31, 53, 0.08),
+      0px 6px 12px 0px rgba(14, 31, 53, 0.12),
+      0px 8px 24px 0px rgba(14, 31, 53, 0.08);
+  }
+
+  &:hover {
+    .form__control__tooltip {
+      display: block;
+    }
+  }
+}
+
+.editableIcon {
+  position: absolute;
+  right: 10px;
+  top: 6px;
+}
+
+// input,input[type=date],input[type=datetime-local],input[type=datetime],input[type=email],input[type=month],input[type=number],input[type=password],input[type=search],input[type=tel],input[type=text],input[type=time],input[type=url],input[type=week],select,textarea {
+//   transition: none !important
+// }

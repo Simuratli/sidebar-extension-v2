@@ -1,0 +1,110 @@
+@import "../variables.scss";
+
+.dropdownElement {
+  border-radius: 13px !important;
+  background: $bg-blue-100;
+  padding: 11px 12px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+
+  &__container {
+    flex: 1;
+    width: 80%;
+  }
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 8px;
+    gap: 10px;
+
+    h1 {
+      color: $blue;
+      font-feature-settings:
+        "clig" off,
+        "liga" off;
+      font-family: "Segoe UI";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 140%;
+    }
+
+    &__actions {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      justify-content: center;
+      button {
+        background-color: transparent;
+        width: fit-content;
+        height: fit-content;
+        border: none;
+        outline: none;
+        cursor: pointer;
+      }
+      &__button {
+        &:hover {
+          path {
+            stroke: $orange;
+            fill: $orange;
+          }
+        }
+      }
+
+      .strokeOnly {
+        &:hover {
+          path {
+            stroke: $orange;
+            fill: none;
+          }
+        }
+      }
+    }
+  }
+
+  &__body {
+    position: relative;
+    border-radius: 8px;
+    background: $lightBlue;
+    padding: 0px 10px 3px 10px;
+    color: $blueGray;
+    font-feature-settings:
+      "clig" off,
+      "liga" off;
+    font-family: "Segoe UI";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    overflow: hidden;
+    max-height: 23px;
+    transition: 0.2s;
+    cursor: pointer;
+    &.open {
+      max-height: 1000px;
+    }
+    svg {
+      position: absolute;
+      top: 5px !important;
+      right: 10px;
+    }
+  }
+
+  &__badge {
+    color: white;
+    font-feature-settings:
+      "clig" off,
+      "liga" off;
+    font-family: "Segoe UI";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    display: inline-block;
+    padding: 0px 5px 2px 5px;
+    border-radius: 3px;
+    background: $background-bg-blue-100;
+  }
+}

@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import "./variables.scss";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+@font-face {
+  font-family: SegoeUI;
+  src:
+    local("Segoe UI Light"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff2)
+      format("woff2"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff)
+      format("woff"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.ttf)
+      format("truetype");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: SegoeUI;
+  src:
+    local("Segoe UI Semilight"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.woff2)
+      format("woff2"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.woff)
+      format("woff"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.ttf)
+      format("truetype");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: SegoeUI;
+  src:
+    local("Segoe UI"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2)
+      format("woff2"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff)
+      format("woff"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.ttf)
+      format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: SegoeUI;
+  src:
+    local("Segoe UI Bold"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.woff2)
+      format("woff2"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.woff)
+      format("woff"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.ttf)
+      format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: SegoeUI;
+  src:
+    local("Segoe UI Semibold"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.woff2)
+      format("woff2"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.woff)
+      format("woff"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.ttf)
+      format("truetype");
+  font-weight: 700;
+}
+
+// // html {
+// //   padding: 40px 40px 50px 40px;
+// //   width: 605px;
+// // }
+
+.main {
+  &__footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+}
+// html {
+//   &::-webkit-scrollbar {
+//     width: 10px;
+//   }
+
+//   /* Track */
+//   &::-webkit-scrollbar-track {
+//     background: white;
+//   }
+
+//   /* Handle */
+//   &::-webkit-scrollbar-thumb {
+//     background: $scrollbarBlue;
+//     border-radius: 10px;
+//   }
+// }
+#linkedin-side-panel {
+  margin: 0;
+  top: 0;
+  width: 605px;
+  height: 100vh;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  z-index: 2147483641;
+  overflow-y: auto;
+  font-family: Arial, sans-serif;
+  padding: 30px;
+  top: 50%;
+  transform: translate(0, -50%);
+  border-radius: 13px !important;
+  right: 0;
+
+  // &.salesExtension{
+  //   right: -62px !important;
+  //   border-radius: 60px !important;
+  // }
+}
+
+#udsextension {
+  height: 100vh;
+  width: 628px;
+  position: fixed;
+  top: 0;
+  z-index: 1233123312423423442;
+  right: -578px;
+  &.open {
+    right: 0;
+    .linkedinSidePanelOpenClose {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+.LinkProfile {
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  position: relative !important;
+}
+
+#idForLinkedinIcon {
+  cursor: pointer;
+  position: absolute;
+  top: -6px;
+  right: -79px;
+
+  svg {
+    height: 38px;
+    width: 38px;
+  }
+}
+
+#idForLinkedinIconCompany {
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
+
+.reusable-search__result-container,
+.entity-result__title-text {
+  position: relative !important;
+}
+
+.entity-result__title-text {
+  display: inline !important;
+}
+
+.idForLinkedinIcon {
+  cursor: pointer;
+  position: absolute;
+  right: -55px;
+  top: 2px;
+
+  svg {
+    height: 20px;
+    width: 20px;
+  }
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.iconHolder {
+  position: relative;
+}
+
+.iconHoverDetail {
+  position: absolute;
+  padding: 3px 18px 6px 10px !important;
+  border-radius: 8px;
+  background: var(--background-bg-white-soft, #fefeff);
+  color: #000;
+  font-feature-settings:
+    "liga" off,
+    "clig" off;
+  font-family: "Segoe UI";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  box-shadow:
+    0px 3px 6px 0px rgba(14, 31, 53, 0.08),
+    0px 6px 12px 0px rgba(14, 31, 53, 0.12),
+    0px 8px 24px 0px rgba(14, 31, 53, 0.08);
+  width: max-content;
+  display: block;
+  line-height: inherit !important;
+  top: -32px;
+  left: 10px;
+}
+
+.iconHoverDetailUser {
+  padding: 11px !important;
+  left: 18px !important;
+}
+
+.noOverflow {
+  overflow: initial !important;
+}
+
+.closeIconLinkedin {
+  display: flex;
+  justify-content: flex-end;
+  svg {
+    cursor: pointer;
+  }
+}
+
+.linkedinSidePanelOpenClose {
+  position: absolute;
+  border: none !important;
+  left: 0;
+  width: 44px;
+  height: 44px;
+  padding: 11px 8px 11px 7px;
+  z-index: 12312423453452;
+  top: 100px;
+  border-radius: 13px;
+  background: var(--background-bg-blue-100, #85a5cc);
+  box-shadow:
+    0px 3px 6px 0px rgba(14, 31, 53, 0.08),
+    0px 6px 12px 0px rgba(14, 31, 53, 0.12),
+    0px 8px 24px 0px rgba(14, 31, 53, 0.08);
+}
+
+.rotateIcon {
+  transform: rotate(180deg);
+}

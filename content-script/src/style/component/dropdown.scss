@@ -1,0 +1,181 @@
+@import "../variables.scss";
+
+.extensiondropdown {
+  width: 100%;
+  &__header {
+    border-radius: 13px !important;
+    background-color: $lightBlue !important;
+    padding: 6px 12px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    cursor: pointer;
+  }
+
+  &__body {
+    border-radius: 13px !important;
+    background-color: $lightBlue !important;
+    overflow: hidden;
+    margin-top: 3px;
+    max-height: 0;
+
+    &.open {
+      max-height: 482px;
+      padding: 10px;
+    }
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 12px 11px 12px;
+
+    &__button {
+      display: flex !important;
+      gap: 10px;
+      justify-content: center !important;
+      align-items: center;
+      text-align: center;
+      background-color: transparent !important;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      color: $orange;
+      font-feature-settings:
+        "clig" off,
+        "liga" off;
+      font-family: "Segoe UI";
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 140%; /* 19.6px */
+      text-decoration-line: underline;
+      svg {
+        margin-top: 3px;
+      }
+    }
+  }
+
+  &__elements {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-height: 417px;
+    overflow: auto;
+    padding-right: 10px;
+  }
+
+  &.inner {
+    .extensiondropdownElement__badge {
+      display: none;
+    }
+
+    .extensiondropdown__body {
+      width: 196px;
+      z-index: 100;
+      position: absolute;
+      &.open {
+        padding: 5px;
+      }
+    }
+
+    .extensiondropdown__elements {
+      max-height: 250px;
+    }
+    .extensiondropdown__header {
+      border-radius: 6px;
+      border: 1px solid $borderGray;
+      height: 27px;
+      position: relative;
+      background-color: white;
+      margin: 0 !important;
+      outline: none;
+      &__label {
+        width: 90% !important;
+        box-shadow: none !important;
+        outline: none !important;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: inline-block;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        &::placeholder {
+          font-size: 12px;
+          font-family: "Segoe UI";
+        }
+
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        background-color: transparent;
+        width: 87%;
+        &:not([value=""]),
+        &:focus {
+          color: $blue;
+        }
+
+        &:not([value=""]) + .form__control__label,
+        &:focus + .form__control__label {
+          color: $blueGray;
+          font-feature-settings:
+            "clig" off,
+            "liga" off;
+          font-family: "Segoe UI";
+          font-size: 10px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 120%;
+          top: 5px !important;
+        }
+
+        &.error {
+          color: $danger !important;
+        }
+      }
+    }
+
+    .extensiondropdownElement__header {
+      h1 {
+        font-size: 12px;
+        word-wrap: break-word;
+        word-break: break-all;
+      }
+    }
+  }
+
+  &.single {
+    .extensiondropdown__header {
+      background-color: $lightBlue;
+      border-radius: 13px !important;
+      height: 46px !important;
+      padding: 5px 12px 6px;
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+
+    .extensiondropdown__body {
+      width: 258px;
+    }
+  }
+}
+
+.extensiondropdown__elements {
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: white;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: $scrollbarBlue;
+    border-radius: 10px;
+  }
+}

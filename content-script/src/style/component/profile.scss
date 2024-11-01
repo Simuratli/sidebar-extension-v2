@@ -1,0 +1,55 @@
+@import "../variables.scss";
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__data {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__information {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    &__name {
+      color: $blue-black;
+      text-align: left;
+      font-feature-settings:
+        "clig" off,
+        "liga" off;
+      font-family: "Segoe UI";
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 130%; /* 26px */
+    }
+
+    &__info {
+      color: $blueGray;
+      text-align: center;
+      font-feature-settings:
+        "clig" off,
+        "liga" off;
+      font-family: "Segoe UI";
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 140%;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      svg {
+        width: 24px;
+        height: 24px !important;
+        margin-bottom: 1px;
+      }
+    }
+  }
+}

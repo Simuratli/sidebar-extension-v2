@@ -1,0 +1,19 @@
+@import "../variables.scss";
+.setup {
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .tutorial {
+    margin-top: 20px;
+  }
+}

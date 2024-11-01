@@ -1,0 +1,149 @@
+@import "../variables.scss";
+
+.textarea__control {
+  position: relative;
+  padding: 15px 20px 6px 12px !important;
+  background: $background-bg-grey !important;
+
+  &__label {
+    color: $blueGray;
+    font-feature-settings:
+      "clig" off,
+      "liga" off;
+    font-family: "Segoe UI";
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    position: absolute !important;
+    top: 15px !important;
+    left: 12px !important;
+    margin: 0 !important;
+  }
+
+  .textarea {
+    width: 100% !important;
+    border-radius: 6px !important;
+    color: $blueGray !important;
+    font-feature-settings:
+      "clig" off,
+      "liga" off;
+    font-family: "Segoe UI";
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    outline: none !important;
+    border: none !important;
+    resize: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+
+    &.error {
+      color: $danger !important;
+    }
+
+    &:not(:placeholder-shown),
+    &:focus {
+      color: $blue;
+    }
+
+    &:not(:placeholder-shown) + .textarea__control__label,
+    &:focus + .textarea__control__label {
+      color: $blueGray;
+      font-feature-settings:
+        "clig" off,
+        "liga" off;
+      font-family: "Segoe UI";
+      font-size: 10px !important;
+      font-style: normal;
+      font-weight: 400 !important;
+      line-height: 120%;
+      top: -5px !important;
+    }
+
+    &.error {
+      color: $danger;
+    }
+
+    &::-webkit-scrollbar {
+      width: 10px;
+    }
+    /* Track */
+    &::-webkit-scrollbar-track {
+      background: #ffffff !important;
+    }
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+      background: $gray !important;
+      border-radius: 5px;
+    }
+  }
+
+  &.active {
+    background-color: $lightBlue !important;
+  }
+  &__button {
+    width: 20px;
+    height: 20px;
+    right: 12px;
+    top: 12px;
+    position: absolute;
+    border: none;
+    cursor: pointer;
+    background-color: transparent !important;
+    outline: none;
+    &:hover {
+      border-radius: 20px;
+      background: #fff !important;
+      box-shadow:
+        0px 3px 6px 0px rgba(14, 31, 53, 0.08),
+        0px 6px 12px 0px rgba(14, 31, 53, 0.12),
+        0px 8px 24px 0px rgba(14, 31, 53, 0.08);
+    }
+  }
+
+  &.inTable {
+    padding: 0 !important;
+    background: transparent !important;
+    .textarea {
+      padding: 5px 12px 6px 12px !important;
+      border-radius: 6px !important;
+      border: 1px solid #e8ebfe !important;
+      background: #fff !important;
+      color: $blue;
+      font-feature-settings:
+        "clig" off,
+        "liga" off;
+      font-family: "Segoe UI";
+      font-size: 12px !important;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 130%; /* 15.6px */
+      height: 57px; /* Set the height to fit three lines of text */
+
+      &::placeholder {
+        font-size: 12px;
+      }
+
+      &:read-only {
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        cursor: no-drop;
+      }
+    }
+
+    &.right {
+      float: unset !important;
+      .textarea {
+        &:read-only {
+          background: transparent !important;
+          border: none;
+          color: $blueGray;
+        }
+      }
+    }
+  }
+}

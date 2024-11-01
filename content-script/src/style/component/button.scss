@@ -1,0 +1,77 @@
+@import "../variables.scss";
+.button {
+  min-width: 120px;
+  height: 40px;
+  padding: 11px 11px 12px 11px;
+  color: $whiteFE;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 13px !important;
+
+  &.gold {
+    background: var(
+      --Gradients-linear_orange,
+      linear-gradient(270deg, #ff8f3e 4.23%, #ffb178 91.19%)
+    );
+    box-shadow:
+      0px 3px 6px 0px rgba(14, 31, 53, 0.08),
+      0px 6px 12px 0px rgba(14, 31, 53, 0.12),
+      0px 8px 24px 0px rgba(14, 31, 53, 0.08);
+  }
+
+  &.blue {
+    border-radius: 13px !important;
+    background: $blue;
+    box-shadow:
+      0px 3px 6px 0px rgba(14, 31, 53, 0.08),
+      0px 6px 12px 0px rgba(14, 31, 53, 0.12),
+      0px 8px 24px 0px rgba(14, 31, 53, 0.08);
+  }
+
+  &.logout {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    max-width: 30px;
+    padding: 9px 8.257px 9px 9.75px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: $blueGray;
+    display: grid;
+    place-content: center;
+  }
+
+  &.reload {
+    width: 30px;
+    display: grid;
+    place-content: center;
+    height: 30px;
+    border-radius: 20px !important;
+    min-width: 30px;
+    max-width: 30px;
+    background: var(
+      --gradients-gradient-blue,
+      linear-gradient(125deg, #618fd0 8.27%, #0d3b7c 84.58%)
+    );
+    box-shadow:
+      0px 3px 6px 0px rgba(14, 31, 53, 0.08),
+      0px 6px 12px 0px rgba(14, 31, 53, 0.12),
+      0px 8px 24px 0px rgba(14, 31, 53, 0.08);
+  }
+
+  &:disabled {
+    cursor: no-drop;
+    background: $gray;
+    color: white;
+    box-shadow: none;
+  }
+}
