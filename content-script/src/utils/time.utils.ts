@@ -4,9 +4,9 @@ export const dateToNormalDateString = (dateString?: string) => {
   }
 
   // Split the input string into month and day parts
-  const parts = dateString.split(" ");
-  const monthName = parts[0];
-  const day = parseInt(parts[1]);
+  const parts = dateString.split("/");
+  const monthName = parseInt(parts[1]);
+  const day = parseInt(parts[0]);
 
   // Map month names to month numbers
   const monthMap: Record<string, number> = {
@@ -28,7 +28,7 @@ export const dateToNormalDateString = (dateString?: string) => {
   const currentYear = new Date().getFullYear();
 
   // Get the month number from the map
-  const month = monthMap[monthName];
+  const month = monthName;
 
   // Create a new Date object for the specified month and day of the current year
   const date = new Date(currentYear, month, day);
@@ -40,9 +40,9 @@ export const dateToNormalDateString = (dateString?: string) => {
 
   // Return the date in the format "DD.MM.YYYY"
   return (
-    (formattedDay < 10 ? "0" + formattedDay : formattedDay) +
-    "." +
     (formattedMonth < 10 ? "0" + formattedMonth : formattedMonth) +
+    "." +
+    (formattedDay < 10 ? "0" + formattedDay : formattedDay) +
     "." +
     formattedYear
   );

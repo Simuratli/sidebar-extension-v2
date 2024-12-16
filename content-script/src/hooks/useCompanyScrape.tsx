@@ -31,9 +31,7 @@ export const useCompanyScrape = () => {
 
         if (url.includes(LINKEDIN_PAGE_ENUM.SALES_COMPANY)) {
           setSalesNavigatorCompanyUrl(url);
-          const headerForSales = html.querySelector(
-            ".account-top-card__lockup",
-          );
+          const headerForSales = html.querySelectorAll("header")[1];
           companyImage = headerForSales
             ?.querySelector("img")
             ?.getAttribute("src");
@@ -54,7 +52,7 @@ export const useCompanyScrape = () => {
             ?.getAttribute("href");
         } else {
           setCompanyProfileUrl(url);
-          const header = html.querySelector(".org-top-card__primary-content");
+          const header = html.querySelector(".org-top-card");
           const actions = html.querySelector(".org-top-card-primary-actions");
           companyImage = header?.querySelector("img")?.getAttribute("src");
           numOfEmployees = convertLinkedInEmployeesCount(

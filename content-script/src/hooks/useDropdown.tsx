@@ -44,7 +44,10 @@ export function useDropdown(
         setUserPagination(EXIST_PAGE_PAGINATION.NOT_EXIST);
       }
     } else {
-      onCreateNew && onCreateNew();
+      if (onCreateNew) {
+        onCreateNew();
+      } else {
+      }
       setOpen && setOpen(false);
       if (type === DROPDOWN_TYPE.SINGLE) {
         const dropdownInput = document.getElementById("dropdown");
@@ -59,6 +62,7 @@ export function useDropdown(
         (companyData) => companyData.accountid === id,
       )[0];
     if (filteredCompanyData) {
+      console.log(filteredCompanyData);
       setCompanyBackendData(filteredCompanyData);
       setCompanyPagination(EXIST_PAGE_PAGINATION.EXIST);
     } else {
@@ -95,6 +99,7 @@ export function useDropdown(
         setCompanyName(filteredCompanyData?.name);
         setAccountid(filteredCompanyData?.accountid);
         setCompanyBackendDataForSelect(filteredCompanyData);
+        // setCompanyBackendData(filteredCompanyData)
         setOpen && setOpen(false);
       }
     }

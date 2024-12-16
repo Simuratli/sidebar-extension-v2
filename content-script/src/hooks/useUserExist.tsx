@@ -15,6 +15,8 @@ export const useUserExist = () => {
     setErrorText,
     fullname,
     setCompanyBackendData,
+    setCompanyBackendDataForSelect,
+    setCompanyBackendDataWithNames,
     webApiEndpoint,
     userBackendData,
     accessToken,
@@ -42,7 +44,7 @@ export const useUserExist = () => {
 
   const getUsersWithNames = async (LIMIT: number = 5) => {
     const existWithName = await getDataverse(
-      `${webApiEndpoint}/contacts?$filter=contains(fullname,'${fullname}')&$top=${LIMIT}`,
+      `${webApiEndpoint}/contacts?$filter=contains(fullname,'${fullname.replace(/'/g, " ")}')&$top=${LIMIT}`,
       accessToken,
     );
     if (existWithName.error) {
@@ -59,36 +61,44 @@ export const useUserExist = () => {
   };
 
   const getCustomerWithCustomerId = async () => {
-    const query = `contains(uds_linkedincompanyid,'${customerId}')`;
-    const encodedQuery = encodeURIComponent(query);
-    let existWithID = await getDataverse(
-      `${webApiEndpoint}/accounts?$filter=${encodedQuery}`,
-      accessToken,
-    );
-    if (existWithID && existWithID.value.length === 0) {
-      const query = `contains(name,'${customer.trim()}'))`;
-      const encodedQuery = encodeURIComponent(query);
+    let existWithID: any = null;
+
+    if (customerId) {
       existWithID = await getDataverse(
-        `${webApiEndpoint}/accounts?$filter=${encodedQuery}`,
+        `${webApiEndpoint}/accounts?$filter=contains(uds_linkedincompanyid,'${customerId}')`,
         accessToken,
       );
+
+      if (existWithID && existWithID.value.length !== 0) {
+        setCompanyBackendData(existWithID.value ? existWithID.value[0] : null);
+      }
     }
 
-    setCompanyBackendData(existWithID.value ? existWithID.value[0] : null);
+    if (existWithID && existWithID.value.length === 0) {
+      existWithID = await getDataverse(
+        `${webApiEndpoint}/accounts?$filter=contains(name,'${customer.trim()}')`,
+        accessToken,
+      );
+      if (existWithID && existWithID.value.length !== 0) {
+        setCompanyBackendDataWithNames(existWithID.value);
+      }
+    }
+
     return;
   };
 
   const checkUserExist = async () => {
+    console.log("i am out on ifn eos", fullname, uds_salesnavigatoruserurl);
+
     if ((uds_linkedin && fullname) || (uds_salesnavigatoruserurl && fullname)) {
+      console.log("i am in on ifn eos");
       const query = `contains(${uds_linkedin ? "uds_linkedin" : "uds_salesnavigatoruserurl"},'${uds_linkedin ? fixUserLinkedinUrl(uds_linkedin.replace(/\/$/, "")) : fixUserLinkedinUrl(uds_salesnavigatoruserurl)}')`;
       const encodedQuery = encodeURIComponent(query);
       const response = await getDataverse(
         `${webApiEndpoint}/contacts?$filter=${encodedQuery}`,
         accessToken,
       );
-      if (customerId) {
-        await getCustomerWithCustomerId();
-      }
+      console.log("check user no?");
 
       if (!response.error) {
         if (response.value.length === 0) {
@@ -104,6 +114,13 @@ export const useUserExist = () => {
       }
     }
   };
+
+  useEffect(() => {
+    if (customer || customerId) {
+      console.log("war customer", customer, customerId);
+      getCustomerWithCustomerId();
+    }
+  }, [customer, customerId]);
 
   const generateUserScrapePage = () => {
     switch (userPagination) {

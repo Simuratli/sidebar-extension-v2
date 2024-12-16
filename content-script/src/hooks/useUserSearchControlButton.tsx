@@ -35,6 +35,7 @@ export const useUserSearchControlButton = (
     setCompanyName,
     setCompanyBackendDataForSelect,
     setCompanyBackendDataWithNames,
+    setProfileBackground,
     setCustomer,
     setCustomerId,
   } = useStore();
@@ -75,6 +76,7 @@ export const useUserSearchControlButton = (
     setCompanyBackendDataWithNames(null);
     setCompanyBackendDataForSelect(null);
     setResetUser();
+    setProfileBackground(null);
     setTimeout(() => {
       setUserLinkedin(url ? url : "");
       setFullname(name);

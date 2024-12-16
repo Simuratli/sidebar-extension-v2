@@ -205,7 +205,7 @@
           l = t.n(a)()(o());
         l.push([
           e.id,
-          '.company__form{margin-top:40px}.company__form__inputs{display:grid;grid-template-columns:repeat(2, 1fr);grid-column-gap:10px;grid-row-gap:10px;margin-bottom:10px}.company__footer{margin-top:20px;display:flex;justify-content:space-between;align-items:center}.company__footer__text{display:flex;align-items:center;color:#696d8c;text-align:center;font-feature-settings:"clig" off,"liga" off;font-family:"Segoe UI";font-size:14px;font-style:normal;font-weight:400;line-height:140%;gap:10px}.company__footer__text svg{width:20px;height:20px}.company__footer__text svg path{fill:#1a4f95}.company__footer__success{color:#80bb5b;font-feature-settings:"clig" off,"liga" off;font-family:"Segoe UI";font-size:13px !important;font-style:normal;font-weight:400;line-height:120%;display:flex;gap:10px;align-items:center}.company__footer__buttonContainer{display:flex;align-items:center;gap:20px}.company__captureButton{padding:0px 11px 3px 11px;min-width:80px;height:40px;font-size:16px;font-style:normal;font-weight:600;line-height:120%}.existCompanyFooter{display:flex;align-items:center;justify-content:center;gap:10px;margin-top:20px}',
+          '.company__form{margin-top:40px}.company__form__inputs{display:grid;grid-template-columns:repeat(2, 1fr);grid-column-gap:10px;grid-row-gap:10px;margin-bottom:10px}.company__footer{margin-top:20px;display:flex;justify-content:space-between;align-items:center}.company__footer__text{display:flex;align-items:center;color:#696d8c;text-align:center;font-feature-settings:"clig" off,"liga" off;font-family:"Segoe UI";font-size:14px;font-style:normal;font-weight:400;line-height:140%;gap:10px}.company__footer__text svg{width:20px;height:20px}.company__footer__text svg path{fill:#1a4f95}.company__footer__success{color:#80bb5b;font-feature-settings:"clig" off,"liga" off;font-family:"Segoe UI";font-size:13px !important;font-style:normal;font-weight:400;line-height:120%;display:flex;gap:3px;align-items:center}.company__footer__buttonContainer{display:flex;align-items:center;gap:20px}.company__captureButton{padding:0px 11px 3px 11px;min-width:80px;height:40px;font-size:16px;font-style:normal;font-weight:600;line-height:120%}.existCompanyFooter{display:flex;align-items:center;justify-content:center;gap:10px;margin-top:20px}',
           "",
         ]);
         const i = l;
@@ -287,7 +287,7 @@
         ]),
           l.push([
             e.id,
-            '*{box-sizing:border-box;padding:0;margin:0}@font-face{font-family:SegoeUI;src:local("Segoe UI Light"),url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff2) format("woff2"),url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff) format("woff"),url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.ttf) format("truetype");font-weight:100}@font-face{font-family:SegoeUI;src:local("Segoe UI Semilight"),url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.woff2) format("woff2"),url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.woff) format("woff"),url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.ttf) format("truetype");font-weight:200}@font-face{font-family:SegoeUI;src:local("Segoe UI"),url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2) format("woff2"),url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff) format("woff"),url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.ttf) format("truetype");font-weight:400}@font-face{font-family:SegoeUI;src:local("Segoe UI Bold"),url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.woff2) format("woff2"),url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.woff) format("woff"),url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.ttf) format("truetype");font-weight:600}@font-face{font-family:SegoeUI;src:local("Segoe UI Semibold"),url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.woff2) format("woff2"),url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.woff) format("woff"),url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.ttf) format("truetype");font-weight:700}.main__footer{display:flex;justify-content:center;margin-top:40px}#linkedin-side-panel{margin:0;top:0;width:605px;height:100vh;background-color:#fff;box-shadow:0 0 10px rgba(0,0,0,.5);position:absolute;z-index:2147483641;overflow-y:auto;font-family:Arial,sans-serif;padding:30px;top:50%;transform:translate(0, -50%);border-radius:13px !important;right:0}#udsextension{height:100vh;width:628px;position:fixed;top:0;z-index:1233123312423423500;right:-578px}#udsextension.open{right:0}#udsextension.open .linkedinSidePanelOpenClose{transform:rotate(180deg)}.LinkProfile{display:flex !important;align-items:center !important;gap:10px !important;position:relative !important}#idForLinkedinIcon{cursor:pointer;position:absolute;top:-6px;right:-79px}#idForLinkedinIcon svg{height:38px;width:38px}#idForLinkedinIconCompany{display:inline-block;position:relative;top:2px;left:2px}.reusable-search__result-container,.entity-result__title-text{position:relative !important}.entity-result__title-text{display:inline !important}.idForLinkedinIcon{cursor:pointer;position:absolute;right:-55px;top:2px}.idForLinkedinIcon svg{height:20px;width:20px}.mt-30{margin-top:30px}.mt-20{margin-top:20px}.iconHolder{position:relative}.iconHoverDetail{position:absolute;padding:3px 18px 6px 10px !important;border-radius:8px;background:var(--background-bg-white-soft, #fefeff);color:#000;font-feature-settings:"liga" off,"clig" off;font-family:"Segoe UI";font-size:14px;font-style:normal;font-weight:400;line-height:140%;box-shadow:0px 3px 6px 0px rgba(14,31,53,.08),0px 6px 12px 0px rgba(14,31,53,.12),0px 8px 24px 0px rgba(14,31,53,.08);width:max-content;display:block;line-height:inherit !important;top:-32px;left:10px}.iconHoverDetailUser{padding:11px !important;left:18px !important}.noOverflow{overflow:initial !important}.closeIconLinkedin{display:flex;justify-content:flex-end}.closeIconLinkedin svg{cursor:pointer}.linkedinSidePanelOpenClose{position:absolute;border:none !important;left:0;width:44px;height:44px;padding:11px 8px 11px 7px;z-index:12312423453452;top:100px;border-radius:13px;background:var(--background-bg-blue-100, #85a5cc);box-shadow:0px 3px 6px 0px rgba(14,31,53,.08),0px 6px 12px 0px rgba(14,31,53,.12),0px 8px 24px 0px rgba(14,31,53,.08)}.rotateIcon{transform:rotate(180deg)}',
+            '.uds_withReset *{box-sizing:border-box}@font-face{font-family:SegoeUI;src:local("Segoe UI Light"),url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff2) format("woff2"),url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff) format("woff"),url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.ttf) format("truetype");font-weight:100}@font-face{font-family:SegoeUI;src:local("Segoe UI Semilight"),url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.woff2) format("woff2"),url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.woff) format("woff"),url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.ttf) format("truetype");font-weight:200}@font-face{font-family:SegoeUI;src:local("Segoe UI"),url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2) format("woff2"),url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff) format("woff"),url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.ttf) format("truetype");font-weight:400}@font-face{font-family:SegoeUI;src:local("Segoe UI Bold"),url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.woff2) format("woff2"),url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.woff) format("woff"),url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.ttf) format("truetype");font-weight:600}@font-face{font-family:SegoeUI;src:local("Segoe UI Semibold"),url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.woff2) format("woff2"),url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.woff) format("woff"),url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.ttf) format("truetype");font-weight:700}.main__footer{display:flex;justify-content:center;margin-top:40px}#linkedin-side-panel{margin:0;top:0;width:600px;height:100vh;background-color:#fff;box-shadow:0 0 10px rgba(0,0,0,.5);position:absolute;z-index:2147483641;overflow-y:auto;font-family:Arial,sans-serif;padding:30px;top:50%;transform:translate(0, -50%);border-radius:13px !important;right:0}#udsextension{height:100vh;width:610px;position:fixed;top:0;z-index:1233123312423423500;right:-602px}#udsextension.open{right:0}#udsextension.open .linkedinSidePanelOpenClose{transform:rotate(180deg)}.LinkProfile{display:flex !important;align-items:center !important;gap:10px !important;position:relative !important}#idForLinkedinIcon{cursor:pointer;position:absolute;top:-6px;right:-79px}#idForLinkedinIcon svg{height:38px;width:38px}#idForLinkedinIconCompany{display:inline-block;position:relative;top:2px;left:2px}.reusable-search__result-container,.entity-result__title-text{position:relative !important}.entity-result__title-text{display:inline !important}.idForLinkedinIcon{cursor:pointer;position:absolute;right:-55px;top:2px}.idForLinkedinIcon svg{height:20px;width:20px}.mt-30{margin-top:30px}.mt-20{margin-top:20px}.iconHolder{position:relative}.iconHoverDetail{position:absolute;padding:3px 18px 6px 10px !important;border-radius:8px;background:var(--background-bg-white-soft, #fefeff);color:#000;font-feature-settings:"liga" off,"clig" off;font-family:"Segoe UI";font-size:14px;font-style:normal;font-weight:400;line-height:140%;box-shadow:0px 3px 6px 0px rgba(14,31,53,.08),0px 6px 12px 0px rgba(14,31,53,.12),0px 8px 24px 0px rgba(14,31,53,.08);width:max-content;display:block;line-height:inherit !important;top:-32px;left:10px}.iconHoverDetailUser{padding:11px !important;left:18px !important}.noOverflow{overflow:initial !important}.closeIconLinkedin{display:flex;justify-content:flex-end}.closeIconLinkedin svg{cursor:pointer}.linkedinSidePanelOpenClose{position:absolute;border:none !important;left:0;width:36px;height:36px;padding:7px 8px 9px 5px;z-index:12312423453452;top:60px;border-radius:12px;background:var(--background-bg-blue-100, #85a5cc);box-shadow:0px 3px 6px 0px rgba(14,31,53,.08),0px 6px 12px 0px rgba(14,31,53,.12),0px 8px 24px 0px rgba(14,31,53,.08);left:-30px}.rotateIcon{transform:rotate(180deg)}',
             "",
           ]);
         const i = l;
@@ -587,17 +587,17 @@
               ? e
               : null;
         }
-        var M,
-          U = Object.assign;
-        function D(e) {
-          if (void 0 === M)
+        var D,
+          M = Object.assign;
+        function U(e) {
+          if (void 0 === D)
             try {
               throw Error();
             } catch (e) {
               var n = e.stack.trim().match(/\n( *(at )?)/);
-              M = (n && n[1]) || "";
+              D = (n && n[1]) || "";
             }
-          return "\n" + M + e;
+          return "\n" + D + e;
         }
         var F = !1;
         function B(e, n) {
@@ -671,18 +671,18 @@
           } finally {
             (F = !1), (Error.prepareStackTrace = t);
           }
-          return (e = e ? e.displayName || e.name : "") ? D(e) : "";
+          return (e = e ? e.displayName || e.name : "") ? U(e) : "";
         }
         function H(e) {
           switch (e.tag) {
             case 5:
-              return D(e.type);
+              return U(e.type);
             case 16:
-              return D("Lazy");
+              return U("Lazy");
             case 13:
-              return D("Suspense");
+              return U("Suspense");
             case 19:
-              return D("SuspenseList");
+              return U("SuspenseList");
             case 0:
             case 2:
             case 15:
@@ -856,7 +856,7 @@
               }
             })(e));
         }
-        function $(e) {
+        function Y(e) {
           if (!e) return !1;
           var n = e._valueTracker;
           if (!n) return !0;
@@ -867,7 +867,7 @@
             (e = r) !== t && (n.setValue(e), !0)
           );
         }
-        function Y(e) {
+        function $(e) {
           if (
             void 0 ===
             (e = e || ("undefined" != typeof document ? document : void 0))
@@ -881,7 +881,7 @@
         }
         function Z(e, n) {
           var t = n.checked;
-          return U({}, n, {
+          return M({}, n, {
             defaultChecked: void 0,
             defaultValue: void 0,
             value: void 0,
@@ -942,7 +942,7 @@
             "" !== t && (e.name = t);
         }
         function ee(e, n, t) {
-          ("number" === n && Y(e.ownerDocument) === e) ||
+          ("number" === n && $(e.ownerDocument) === e) ||
             (null == t
               ? (e.defaultValue = "" + e._wrapperState.initialValue)
               : e.defaultValue !== "" + t && (e.defaultValue = "" + t));
@@ -969,7 +969,7 @@
         }
         function re(e, n) {
           if (null != n.dangerouslySetInnerHTML) throw Error(a(91));
-          return U({}, n, {
+          return M({}, n, {
             value: void 0,
             defaultValue: void 0,
             children: "" + e._wrapperState.initialValue,
@@ -1131,7 +1131,7 @@
               (pe[n] = pe[e]);
           });
         });
-        var ye = U(
+        var ye = M(
           { menuitem: !0 },
           {
             area: !0,
@@ -1285,17 +1285,17 @@
             this.onError(e);
           }
         }
-        var Me = !1,
-          Ue = null,
-          De = !1,
+        var De = !1,
+          Me = null,
+          Ue = !1,
           Fe = null,
           Be = {
             onError: function (e) {
-              (Me = !0), (Ue = e);
+              (De = !0), (Me = e);
             },
           };
         function He(e, n, t, r, o, a, l, i, s) {
-          (Me = !1), (Ue = null), Re.apply(Be, arguments);
+          (De = !1), (Me = null), Re.apply(Be, arguments);
         }
         function ze(e) {
           var n = e,
@@ -1397,8 +1397,8 @@
           }
           return null;
         }
-        var $e = o.unstable_scheduleCallback,
-          Ye = o.unstable_cancelCallback,
+        var Ye = o.unstable_scheduleCallback,
+          $e = o.unstable_cancelCallback,
           Ze = o.unstable_shouldYield,
           Qe = o.unstable_requestPaint,
           Ke = o.unstable_now,
@@ -1577,7 +1577,7 @@
             "mousedown mouseup touchcancel touchend touchstart auxclick dblclick pointercancel pointerdown pointerup dragend dragstart drop compositionend compositionstart keydown keypress keyup input textInput copy cut paste click change contextmenu reset submit".split(
               " ",
             );
-        function Mn(e, n) {
+        function Dn(e, n) {
           switch (e) {
             case "focusin":
             case "focusout":
@@ -1600,7 +1600,7 @@
               In.delete(n.pointerId);
           }
         }
-        function Un(e, n, t, r, o, a) {
+        function Mn(e, n, t, r, o, a) {
           return null === e || e.nativeEvent !== a
             ? ((e = {
                 blockedOn: n,
@@ -1616,7 +1616,7 @@
               null !== o && -1 === n.indexOf(o) && n.push(o),
               e);
         }
-        function Dn(e) {
+        function Un(e) {
           var n = bo(e.target);
           if (null !== n) {
             var t = ze(n);
@@ -1690,7 +1690,7 @@
           )
             (r = Pn[t]).blockedOn === e && (r.blockedOn = null);
           for (; 0 < Pn.length && null === (t = Pn[0]).blockedOn; )
-            Dn(t), null === t.blockedOn && Pn.shift();
+            Un(t), null === t.blockedOn && Pn.shift();
         }
         var qn = x.ReactCurrentBatchConfig,
           Wn = !0;
@@ -1699,41 +1699,41 @@
             a = qn.transition;
           qn.transition = null;
           try {
-            (xn = 1), Yn(e, n, t, r);
-          } finally {
-            (xn = o), (qn.transition = a);
-          }
-        }
-        function $n(e, n, t, r) {
-          var o = xn,
-            a = qn.transition;
-          qn.transition = null;
-          try {
-            (xn = 4), Yn(e, n, t, r);
+            (xn = 1), $n(e, n, t, r);
           } finally {
             (xn = o), (qn.transition = a);
           }
         }
         function Yn(e, n, t, r) {
+          var o = xn,
+            a = qn.transition;
+          qn.transition = null;
+          try {
+            (xn = 4), $n(e, n, t, r);
+          } finally {
+            (xn = o), (qn.transition = a);
+          }
+        }
+        function $n(e, n, t, r) {
           if (Wn) {
             var o = Qn(e, n, t, r);
-            if (null === o) qr(e, n, r, Zn, t), Mn(e, r);
+            if (null === o) qr(e, n, r, Zn, t), Dn(e, r);
             else if (
               (function (e, n, t, r, o) {
                 switch (n) {
                   case "focusin":
-                    return (Ln = Un(Ln, e, n, t, r, o)), !0;
+                    return (Ln = Mn(Ln, e, n, t, r, o)), !0;
                   case "dragenter":
-                    return (An = Un(An, e, n, t, r, o)), !0;
+                    return (An = Mn(An, e, n, t, r, o)), !0;
                   case "mouseover":
-                    return (On = Un(On, e, n, t, r, o)), !0;
+                    return (On = Mn(On, e, n, t, r, o)), !0;
                   case "pointerover":
                     var a = o.pointerId;
-                    return Tn.set(a, Un(Tn.get(a) || null, e, n, t, r, o)), !0;
+                    return Tn.set(a, Mn(Tn.get(a) || null, e, n, t, r, o)), !0;
                   case "gotpointercapture":
                     return (
                       (a = o.pointerId),
-                      In.set(a, Un(In.get(a) || null, e, n, t, r, o)),
+                      In.set(a, Mn(In.get(a) || null, e, n, t, r, o)),
                       !0
                     );
                 }
@@ -1741,7 +1741,7 @@
               })(o, e, n, t, r)
             )
               r.stopPropagation();
-            else if ((Mn(e, r), 4 & n && -1 < Rn.indexOf(e))) {
+            else if ((Dn(e, r), 4 & n && -1 < Rn.indexOf(e))) {
               for (; null !== o; ) {
                 var a = xo(o);
                 if (
@@ -1917,7 +1917,7 @@
             );
           }
           return (
-            U(n.prototype, {
+            M(n.prototype, {
               preventDefault: function () {
                 this.defaultPrevented = !0;
                 var e = this.nativeEvent;
@@ -1956,9 +1956,9 @@
             isTrusted: 0,
           },
           ct = at(ut),
-          dt = U({}, ut, { view: 0, detail: 0 }),
+          dt = M({}, ut, { view: 0, detail: 0 }),
           ft = at(dt),
-          pt = U({}, dt, {
+          pt = M({}, dt, {
             screenX: 0,
             screenY: 0,
             clientX: 0,
@@ -1995,12 +1995,12 @@
             },
           }),
           ht = at(pt),
-          mt = at(U({}, pt, { dataTransfer: 0 })),
-          vt = at(U({}, dt, { relatedTarget: 0 })),
+          mt = at(M({}, pt, { dataTransfer: 0 })),
+          vt = at(M({}, dt, { relatedTarget: 0 })),
           yt = at(
-            U({}, ut, { animationName: 0, elapsedTime: 0, pseudoElement: 0 }),
+            M({}, ut, { animationName: 0, elapsedTime: 0, pseudoElement: 0 }),
           ),
-          gt = U({}, ut, {
+          gt = M({}, ut, {
             clipboardData: function (e) {
               return "clipboardData" in e
                 ? e.clipboardData
@@ -2008,7 +2008,7 @@
             },
           }),
           bt = at(gt),
-          xt = at(U({}, ut, { data: 0 })),
+          xt = at(M({}, ut, { data: 0 })),
           Ct = {
             Esc: "Escape",
             Spacebar: " ",
@@ -2076,7 +2076,7 @@
         function Et() {
           return kt;
         }
-        var St = U({}, dt, {
+        var St = M({}, dt, {
             key: function (e) {
               if (e.key) {
                 var n = Ct[e.key] || e.key;
@@ -2115,7 +2115,7 @@
           }),
           jt = at(St),
           Nt = at(
-            U({}, pt, {
+            M({}, pt, {
               pointerId: 0,
               width: 0,
               height: 0,
@@ -2129,7 +2129,7 @@
             }),
           ),
           Lt = at(
-            U({}, dt, {
+            M({}, dt, {
               touches: 0,
               targetTouches: 0,
               changedTouches: 0,
@@ -2141,9 +2141,9 @@
             }),
           ),
           At = at(
-            U({}, ut, { propertyName: 0, elapsedTime: 0, pseudoElement: 0 }),
+            M({}, ut, { propertyName: 0, elapsedTime: 0, pseudoElement: 0 }),
           ),
-          Ot = U({}, pt, {
+          Ot = M({}, pt, {
             deltaX: function (e) {
               return "deltaX" in e
                 ? e.deltaX
@@ -2168,9 +2168,9 @@
           Pt = c && "CompositionEvent" in window,
           Rt = null;
         c && "documentMode" in document && (Rt = document.documentMode);
-        var Mt = c && "TextEvent" in window && !Rt,
-          Ut = c && (!Pt || (Rt && 8 < Rt && 11 >= Rt)),
-          Dt = String.fromCharCode(32),
+        var Dt = c && "TextEvent" in window && !Rt,
+          Mt = c && (!Pt || (Rt && 8 < Rt && 11 >= Rt)),
+          Ut = String.fromCharCode(32),
           Ft = !1;
         function Bt(e, n) {
           switch (e) {
@@ -2220,12 +2220,12 @@
               e.push({ event: t, listeners: n }));
         }
         var Gt = null,
-          $t = null;
-        function Yt(e) {
-          Dr(e, 0);
+          Yt = null;
+        function $t(e) {
+          Ur(e, 0);
         }
         function Zt(e) {
-          if ($(Co(e))) return e;
+          if (Y(Co(e))) return e;
         }
         function Qt(e, n) {
           if ("change" === e) return n;
@@ -2245,22 +2245,22 @@
           Kt = Xt && (!document.documentMode || 9 < document.documentMode);
         }
         function nr() {
-          Gt && (Gt.detachEvent("onpropertychange", tr), ($t = Gt = null));
+          Gt && (Gt.detachEvent("onpropertychange", tr), (Yt = Gt = null));
         }
         function tr(e) {
-          if ("value" === e.propertyName && Zt($t)) {
+          if ("value" === e.propertyName && Zt(Yt)) {
             var n = [];
-            Wt(n, $t, e, Ce(e)), Oe(Yt, n);
+            Wt(n, Yt, e, Ce(e)), Oe($t, n);
           }
         }
         function rr(e, n, t) {
           "focusin" === e
-            ? (nr(), ($t = t), (Gt = n).attachEvent("onpropertychange", tr))
+            ? (nr(), (Yt = t), (Gt = n).attachEvent("onpropertychange", tr))
             : "focusout" === e && nr();
         }
         function or(e) {
           if ("selectionchange" === e || "keyup" === e || "keydown" === e)
-            return Zt($t);
+            return Zt(Yt);
         }
         function ar(e, n) {
           if ("click" === e) return Zt(n);
@@ -2334,14 +2334,14 @@
           );
         }
         function fr() {
-          for (var e = window, n = Y(); n instanceof e.HTMLIFrameElement; ) {
+          for (var e = window, n = $(); n instanceof e.HTMLIFrameElement; ) {
             try {
               var t = "string" == typeof n.contentWindow.location.href;
             } catch (e) {
               t = !1;
             }
             if (!t) break;
-            n = Y((e = n.contentWindow).document);
+            n = $((e = n.contentWindow).document);
           }
           return n;
         }
@@ -2428,7 +2428,7 @@
                 : t.ownerDocument;
           br ||
             null == vr ||
-            vr !== Y(r) ||
+            vr !== $(r) ||
             ((r =
               "selectionStart" in (r = vr) && pr(r)
                 ? { start: r.selectionStart, end: r.selectionEnd }
@@ -2548,22 +2548,22 @@
             "abort canplay canplaythrough durationchange emptied encrypted ended error loadeddata loadedmetadata loadstart pause play playing progress ratechange resize seeked seeking stalled suspend timeupdate volumechange waiting".split(
               " ",
             ),
-          Mr = new Set(
+          Dr = new Set(
             "cancel close invalid load scroll toggle".split(" ").concat(Rr),
           );
-        function Ur(e, n, t) {
+        function Mr(e, n, t) {
           var r = e.type || "unknown-event";
           (e.currentTarget = t),
             (function (e, n, t, r, o, l, i, s, u) {
-              if ((He.apply(this, arguments), Me)) {
-                if (!Me) throw Error(a(198));
-                var c = Ue;
-                (Me = !1), (Ue = null), De || ((De = !0), (Fe = c));
+              if ((He.apply(this, arguments), De)) {
+                if (!De) throw Error(a(198));
+                var c = Me;
+                (De = !1), (Me = null), Ue || ((Ue = !0), (Fe = c));
               }
             })(r, n, void 0, e),
             (e.currentTarget = null);
         }
-        function Dr(e, n) {
+        function Ur(e, n) {
           n = !!(4 & n);
           for (var t = 0; t < e.length; t++) {
             var r = e[t],
@@ -2578,7 +2578,7 @@
                     u = i.currentTarget;
                   if (((i = i.listener), s !== a && o.isPropagationStopped()))
                     break e;
-                  Ur(o, i, u), (a = s);
+                  Mr(o, i, u), (a = s);
                 }
               else
                 for (l = 0; l < r.length; l++) {
@@ -2589,11 +2589,11 @@
                     s !== a && o.isPropagationStopped())
                   )
                     break e;
-                  Ur(o, i, u), (a = s);
+                  Mr(o, i, u), (a = s);
                 }
             }
           }
-          if (De) throw ((e = Fe), (De = !1), (Fe = null), e);
+          if (Ue) throw ((e = Fe), (Ue = !1), (Fe = null), e);
         }
         function Fr(e, n) {
           var t = n[vo];
@@ -2611,7 +2611,7 @@
             (e[Hr] = !0),
               l.forEach(function (n) {
                 "selectionchange" !== n &&
-                  (Mr.has(n) || Br(n, !1, e), Br(n, !0, e));
+                  (Dr.has(n) || Br(n, !1, e), Br(n, !0, e));
               });
             var n = 9 === e.nodeType ? e : e.ownerDocument;
             null === n || n[Hr] || ((n[Hr] = !0), Br("selectionchange", !1, n));
@@ -2623,10 +2623,10 @@
               var o = Gn;
               break;
             case 4:
-              o = $n;
+              o = Yn;
               break;
             default:
-              o = Yn;
+              o = $n;
           }
           (t = o.bind(null, n, t, e)),
             (o = void 0),
@@ -2826,19 +2826,19 @@
                   s && u)
                 )
                   e: {
-                    for (f = u, h = 0, p = c = s; p; p = $r(p)) h++;
-                    for (p = 0, m = f; m; m = $r(m)) p++;
-                    for (; 0 < h - p; ) (c = $r(c)), h--;
-                    for (; 0 < p - h; ) (f = $r(f)), p--;
+                    for (f = u, h = 0, p = c = s; p; p = Yr(p)) h++;
+                    for (p = 0, m = f; m; m = Yr(m)) p++;
+                    for (; 0 < h - p; ) (c = Yr(c)), h--;
+                    for (; 0 < p - h; ) (f = Yr(f)), p--;
                     for (; h--; ) {
                       if (c === f || (null !== f && c === f.alternate)) break e;
-                      (c = $r(c)), (f = $r(f));
+                      (c = Yr(c)), (f = Yr(f));
                     }
                     c = null;
                   }
                 else c = null;
-                null !== s && Yr(l, i, s, c, !1),
-                  null !== u && null !== d && Yr(l, d, u, c, !0);
+                null !== s && $r(l, i, s, c, !1),
+                  null !== u && null !== d && $r(l, d, u, c, !0);
               }
               if (
                 "select" ===
@@ -2915,7 +2915,7 @@
                     229 === t.keyCode &&
                     (b = "onCompositionStart");
               b &&
-                (Ut &&
+                (Mt &&
                   "ko" !== t.locale &&
                   (zt || "onCompositionStart" !== b
                     ? "onCompositionEnd" === b && zt && (g = nt())
@@ -2925,15 +2925,15 @@
                   ((b = new xt(b, e, null, t, o)),
                   l.push({ event: b, listeners: y }),
                   (g || null !== (g = Ht(t))) && (b.data = g))),
-                (g = Mt
+                (g = Dt
                   ? (function (e, n) {
                       switch (e) {
                         case "compositionend":
                           return Ht(n);
                         case "keypress":
-                          return 32 !== n.which ? null : ((Ft = !0), Dt);
+                          return 32 !== n.which ? null : ((Ft = !0), Ut);
                         case "textInput":
-                          return (e = n.data) === Dt && Ft ? null : e;
+                          return (e = n.data) === Ut && Ft ? null : e;
                         default:
                           return null;
                       }
@@ -2957,7 +2957,7 @@
                           }
                           return null;
                         case "compositionend":
-                          return Ut && "ko" !== n.locale ? null : n.data;
+                          return Mt && "ko" !== n.locale ? null : n.data;
                       }
                     })(e, t)) &&
                   0 < (r = Gr(r, "onBeforeInput")).length &&
@@ -2965,7 +2965,7 @@
                   l.push({ event: o, listeners: r }),
                   (o.data = g));
             }
-            Dr(l, n);
+            Ur(l, n);
           });
         }
         function Wr(e, n, t) {
@@ -2984,14 +2984,14 @@
           }
           return r;
         }
-        function $r(e) {
+        function Yr(e) {
           if (null === e) return null;
           do {
             e = e.return;
           } while (e && 5 !== e.tag);
           return e || null;
         }
-        function Yr(e, n, t, r, o) {
+        function $r(e, n, t, r, o) {
           for (var a = n._reactName, l = []; null !== t && t !== r; ) {
             var i = t,
               s = i.alternate,
@@ -3167,7 +3167,7 @@
           if (Lo.current !== No) throw Error(a(168));
           jo(Lo, n), jo(Ao, t);
         }
-        function Mo(e, n, t) {
+        function Do(e, n, t) {
           var r = e.stateNode;
           if (
             ((n = n.childContextTypes), "function" != typeof r.getChildContext)
@@ -3175,9 +3175,9 @@
             return t;
           for (var o in (r = r.getChildContext()))
             if (!(o in n)) throw Error(a(108, V(e) || "Unknown", o));
-          return U({}, t, r);
+          return M({}, t, r);
         }
-        function Uo(e) {
+        function Mo(e) {
           return (
             (e =
               ((e = e.stateNode) &&
@@ -3189,11 +3189,11 @@
             !0
           );
         }
-        function Do(e, n, t) {
+        function Uo(e, n, t) {
           var r = e.stateNode;
           if (!r) throw Error(a(169));
           t
-            ? ((e = Mo(e, n, Oo)),
+            ? ((e = Do(e, n, Oo)),
               (r.__reactInternalMemoizedMergedChildContext = e),
               So(Ao),
               So(Lo),
@@ -3222,7 +3222,7 @@
               }
               (Fo = null), (Bo = !1);
             } catch (n) {
-              throw (null !== Fo && (Fo = Fo.slice(e + 1)), $e(Je, Vo), n);
+              throw (null !== Fo && (Fo = Fo.slice(e + 1)), Ye(Je, Vo), n);
             } finally {
               (xn = n), (Ho = !1);
             }
@@ -3232,17 +3232,17 @@
         var qo = [],
           Wo = 0,
           Go = null,
-          $o = 0,
-          Yo = [],
+          Yo = 0,
+          $o = [],
           Zo = 0,
           Qo = null,
           Ko = 1,
           Xo = "";
         function Jo(e, n) {
-          (qo[Wo++] = $o), (qo[Wo++] = Go), (Go = e), ($o = n);
+          (qo[Wo++] = Yo), (qo[Wo++] = Go), (Go = e), (Yo = n);
         }
         function ea(e, n, t) {
-          (Yo[Zo++] = Ko), (Yo[Zo++] = Xo), (Yo[Zo++] = Qo), (Qo = e);
+          ($o[Zo++] = Ko), ($o[Zo++] = Xo), ($o[Zo++] = Qo), (Qo = e);
           var r = Ko;
           e = Xo;
           var o = 32 - ln(r) - 1;
@@ -3262,14 +3262,14 @@
         }
         function ta(e) {
           for (; e === Go; )
-            (Go = qo[--Wo]), (qo[Wo] = null), ($o = qo[--Wo]), (qo[Wo] = null);
+            (Go = qo[--Wo]), (qo[Wo] = null), (Yo = qo[--Wo]), (qo[Wo] = null);
           for (; e === Qo; )
-            (Qo = Yo[--Zo]),
-              (Yo[Zo] = null),
-              (Xo = Yo[--Zo]),
-              (Yo[Zo] = null),
-              (Ko = Yo[--Zo]),
-              (Yo[Zo] = null);
+            (Qo = $o[--Zo]),
+              ($o[Zo] = null),
+              (Xo = $o[--Zo]),
+              ($o[Zo] = null),
+              (Ko = $o[--Zo]),
+              ($o[Zo] = null);
         }
         var ra = null,
           oa = null,
@@ -3487,7 +3487,7 @@
           }
           function s(e, n, t, r) {
             return null === n || 6 !== n.tag
-              ? (((n = Uu(t, e.mode, r)).return = e), n)
+              ? (((n = Mu(t, e.mode, r)).return = e), n)
               : (((n = o(n, t)).return = e), n);
           }
           function u(e, n, t, r) {
@@ -3514,7 +3514,7 @@
               4 !== n.tag ||
               n.stateNode.containerInfo !== t.containerInfo ||
               n.stateNode.implementation !== t.implementation
-              ? (((n = Du(t, e.mode, r)).return = e), n)
+              ? (((n = Uu(t, e.mode, r)).return = e), n)
               : (((n = o(n, t.children || [])).return = e), n);
           }
           function d(e, n, t, r, a) {
@@ -3524,7 +3524,7 @@
           }
           function f(e, n, t) {
             if (("string" == typeof n && "" !== n) || "number" == typeof n)
-              return ((n = Uu("" + n, e.mode, t)).return = e), n;
+              return ((n = Mu("" + n, e.mode, t)).return = e), n;
             if ("object" == typeof n && null !== n) {
               switch (n.$$typeof) {
                 case C:
@@ -3538,7 +3538,7 @@
                     t
                   );
                 case w:
-                  return ((n = Du(n, e.mode, t)).return = e), n;
+                  return ((n = Uu(n, e.mode, t)).return = e), n;
                 case T:
                   return f(e, (0, n._init)(n._payload), t);
               }
@@ -3759,7 +3759,7 @@
                       }
                       n(r, a), (a = a.sibling);
                     }
-                    ((a = Du(l, r.mode, s)).return = r), (r = a);
+                    ((a = Uu(l, r.mode, s)).return = r), (r = a);
                   }
                   return i(r);
                 case T:
@@ -3773,7 +3773,7 @@
               ? ((l = "" + l),
                 null !== a && 6 === a.tag
                   ? (t(r, a.sibling), ((a = o(a, l)).return = r), (r = a))
-                  : (t(r, a), ((a = Uu(l, r.mode, s)).return = r), (r = a)),
+                  : (t(r, a), ((a = Mu(l, r.mode, s)).return = r), (r = a)),
                 i(r))
               : t(r, a);
           };
@@ -3846,8 +3846,8 @@
               (e = e.return);
           return 3 === t.tag ? t.stateNode : null;
         }
-        var Ma = !1;
-        function Ua(e) {
+        var Da = !1;
+        function Ma(e) {
           e.updateQueue = {
             baseState: e.memoizedState,
             firstBaseUpdate: null,
@@ -3856,7 +3856,7 @@
             effects: null,
           };
         }
-        function Da(e, n) {
+        function Ua(e, n) {
           (e = e.updateQueue),
             n.updateQueue === e &&
               (n.updateQueue = {
@@ -3940,7 +3940,7 @@
         }
         function Va(e, n, t, r) {
           var o = e.updateQueue;
-          Ma = !1;
+          Da = !1;
           var a = o.firstBaseUpdate,
             l = o.lastBaseUpdate,
             i = o.shared.pending;
@@ -3993,10 +3993,10 @@
                             : h)
                       )
                         break e;
-                      d = U({}, d, f);
+                      d = M({}, d, f);
                       break e;
                     case 2:
-                      Ma = !0;
+                      Da = !0;
                   }
                 }
                 null !== i.callback &&
@@ -4034,7 +4034,7 @@
                 (l |= o.lane), (o = o.next);
               } while (o !== n);
             } else null === a && (o.shared.lanes = 0);
-            (Ms |= l), (e.lanes = l), (e.memoizedState = d);
+            (Ds |= l), (e.lanes = l), (e.memoizedState = d);
           }
         }
         function qa(e, n, t) {
@@ -4051,14 +4051,14 @@
         }
         var Wa = {},
           Ga = Eo(Wa),
-          $a = Eo(Wa),
-          Ya = Eo(Wa);
+          Ya = Eo(Wa),
+          $a = Eo(Wa);
         function Za(e) {
           if (e === Wa) throw Error(a(174));
           return e;
         }
         function Qa(e, n) {
-          switch ((jo(Ya, n), jo($a, e), jo(Ga, Wa), (e = n.nodeType))) {
+          switch ((jo($a, n), jo(Ya, e), jo(Ga, Wa), (e = n.nodeType))) {
             case 9:
             case 11:
               n = (n = n.documentElement) ? n.namespaceURI : se(null, "");
@@ -4072,16 +4072,16 @@
           So(Ga), jo(Ga, n);
         }
         function Ka() {
-          So(Ga), So($a), So(Ya);
+          So(Ga), So(Ya), So($a);
         }
         function Xa(e) {
-          Za(Ya.current);
+          Za($a.current);
           var n = Za(Ga.current),
             t = se(n, e.type);
-          n !== t && (jo($a, e), jo(Ga, t));
+          n !== t && (jo(Ya, e), jo(Ga, t));
         }
         function Ja(e) {
-          $a.current === e && (So(Ga), So($a));
+          Ya.current === e && (So(Ga), So(Ya));
         }
         var el = Eo(0);
         function nl(e) {
@@ -4249,7 +4249,7 @@
                 };
                 null === u ? ((s = u = f), (i = r)) : (u = u.next = f),
                   (il.lanes |= d),
-                  (Ms |= d);
+                  (Ds |= d);
               }
               c = c.next;
             } while (null !== c && c !== l);
@@ -4263,7 +4263,7 @@
           if (null !== (e = t.interleaved)) {
             o = e;
             do {
-              (l = o.lane), (il.lanes |= l), (Ms |= l), (o = o.next);
+              (l = o.lane), (il.lanes |= l), (Ds |= l), (o = o.next);
             } while (o !== e);
           } else null === o && (t.lanes = 0);
           return [n.memoizedState, t.dispatch];
@@ -4298,7 +4298,7 @@
           if (
             (l && ((r.memoizedState = o), (bi = !0)),
             (r = r.queue),
-            Ml(jl.bind(null, t, r, e), [e]),
+            Dl(jl.bind(null, t, r, e), [e]),
             r.getSnapshot !== n ||
               l ||
               (null !== ul && 1 & ul.memoizedState.tag))
@@ -4360,7 +4360,7 @@
               lastRenderedState: e,
             }),
             (n.queue = e),
-            (e = e.dispatch = Yl.bind(null, il, e)),
+            (e = e.dispatch = $l.bind(null, il, e)),
             [n.memoizedState, e]
           );
         }
@@ -4402,13 +4402,13 @@
         function Rl(e, n) {
           return Il(8390656, 8, e, n);
         }
-        function Ml(e, n) {
+        function Dl(e, n) {
           return Pl(2048, 8, e, n);
         }
-        function Ul(e, n) {
+        function Ml(e, n) {
           return Pl(4, 2, e, n);
         }
-        function Dl(e, n) {
+        function Ul(e, n) {
           return Pl(4, 4, e, n);
         }
         function Fl(e, n) {
@@ -4452,7 +4452,7 @@
         function ql(e, n, t) {
           return 21 & ll
             ? (ir(t, n) ||
-                ((t = vn()), (il.lanes |= t), (Ms |= t), (e.baseState = !0)),
+                ((t = vn()), (il.lanes |= t), (Ds |= t), (e.baseState = !0)),
               n)
             : (e.baseState && ((e.baseState = !1), (bi = !0)),
               (e.memoizedState = t));
@@ -4471,7 +4471,7 @@
         function Gl() {
           return bl().memoizedState;
         }
-        function $l(e, n, t) {
+        function Yl(e, n, t) {
           var r = nu(e);
           (t = {
             lane: r,
@@ -4485,7 +4485,7 @@
               : null !== (t = Pa(e, n, t, r)) &&
                 (tu(t, e, r, eu()), Kl(t, n, r));
         }
-        function Yl(e, n, t) {
+        function $l(e, n, t) {
           var r = nu(e),
             o = {
               lane: r,
@@ -4597,7 +4597,7 @@
                   lastRenderedState: n,
                 }),
                 (r.queue = e),
-                (e = e.dispatch = $l.bind(null, il, e)),
+                (e = e.dispatch = Yl.bind(null, il, e)),
                 [r.memoizedState, e]
               );
             },
@@ -4658,10 +4658,10 @@
             readContext: Oa,
             useCallback: zl,
             useContext: Oa,
-            useEffect: Ml,
+            useEffect: Dl,
             useImperativeHandle: Bl,
-            useInsertionEffect: Ul,
-            useLayoutEffect: Dl,
+            useInsertionEffect: Ml,
+            useLayoutEffect: Ul,
             useMemo: Vl,
             useReducer: Cl,
             useRef: Tl,
@@ -4684,10 +4684,10 @@
             readContext: Oa,
             useCallback: zl,
             useContext: Oa,
-            useEffect: Ml,
+            useEffect: Dl,
             useImperativeHandle: Bl,
-            useInsertionEffect: Ul,
-            useLayoutEffect: Dl,
+            useInsertionEffect: Ml,
+            useLayoutEffect: Ul,
             useMemo: Vl,
             useReducer: wl,
             useRef: Tl,
@@ -4711,14 +4711,14 @@
           };
         function ti(e, n) {
           if (e && e.defaultProps) {
-            for (var t in ((n = U({}, n)), (e = e.defaultProps)))
+            for (var t in ((n = M({}, n)), (e = e.defaultProps)))
               void 0 === n[t] && (n[t] = e[t]);
             return n;
           }
           return n;
         }
         function ri(e, n, t, r) {
-          (t = null == (t = t(r, (n = e.memoizedState))) ? n : U({}, n, t)),
+          (t = null == (t = t(r, (n = e.memoizedState))) ? n : M({}, n, t)),
             (e.memoizedState = t),
             0 === e.lanes && (e.updateQueue.baseState = t);
         }
@@ -4797,7 +4797,7 @@
         }
         function si(e, n, t, r) {
           var o = e.stateNode;
-          (o.props = t), (o.state = e.memoizedState), (o.refs = {}), Ua(e);
+          (o.props = t), (o.state = e.memoizedState), (o.refs = {}), Ma(e);
           var a = n.contextType;
           "object" == typeof a && null !== a
             ? (o.context = Oa(a))
@@ -5051,7 +5051,7 @@
         function ji(e, n, t, r, o) {
           if (Io(t)) {
             var a = !0;
-            Uo(n);
+            Mo(n);
           } else a = !1;
           if ((Aa(n, o), null === n.stateNode))
             Vi(e, n), li(n, t, r), si(n, t, r, o), (r = !0);
@@ -5073,15 +5073,15 @@
               ("function" != typeof l.UNSAFE_componentWillReceiveProps &&
                 "function" != typeof l.componentWillReceiveProps) ||
               ((i !== r || s !== u) && ii(n, l, r, u)),
-              (Ma = !1);
+              (Da = !1);
             var f = n.memoizedState;
             (l.state = f),
               Va(n, r, l, o),
               (s = n.memoizedState),
-              i !== r || f !== s || Ao.current || Ma
+              i !== r || f !== s || Ao.current || Da
                 ? ("function" == typeof c &&
                     (ri(n, t, c, r), (s = n.memoizedState)),
-                  (i = Ma || ai(n, t, i, r, f, s, u))
+                  (i = Da || ai(n, t, i, r, f, s, u))
                     ? (d ||
                         ("function" != typeof l.UNSAFE_componentWillMount &&
                           "function" != typeof l.componentWillMount) ||
@@ -5104,7 +5104,7 @@
                   (r = !1));
           } else {
             (l = n.stateNode),
-              Da(e, n),
+              Ua(e, n),
               (i = n.memoizedProps),
               (u = n.type === n.elementType ? i : ti(n.type, i)),
               (l.props = u),
@@ -5121,15 +5121,15 @@
               ("function" != typeof l.UNSAFE_componentWillReceiveProps &&
                 "function" != typeof l.componentWillReceiveProps) ||
               ((i !== d || f !== s) && ii(n, l, r, s)),
-              (Ma = !1),
+              (Da = !1),
               (f = n.memoizedState),
               (l.state = f),
               Va(n, r, l, o);
             var h = n.memoizedState;
-            i !== d || f !== h || Ao.current || Ma
+            i !== d || f !== h || Ao.current || Da
               ? ("function" == typeof p &&
                   (ri(n, t, p, r), (h = n.memoizedState)),
-                (u = Ma || ai(n, t, u, r, f, h, s) || !1)
+                (u = Da || ai(n, t, u, r, f, h, s) || !1)
                   ? (c ||
                       ("function" != typeof l.UNSAFE_componentWillUpdate &&
                         "function" != typeof l.componentWillUpdate) ||
@@ -5165,7 +5165,7 @@
         function Ni(e, n, t, r, o, a) {
           Ei(e, n);
           var l = !!(128 & n.flags);
-          if (!r && !l) return o && Do(n, t, !1), qi(e, n, a);
+          if (!r && !l) return o && Uo(n, t, !1), qi(e, n, a);
           (r = n.stateNode), (gi.current = n);
           var i =
             l && "function" != typeof t.getDerivedStateFromError
@@ -5178,7 +5178,7 @@
                 (n.child = Ca(n, null, i, a)))
               : xi(e, n, i, a),
             (n.memoizedState = r.state),
-            o && Do(n, t, !0),
+            o && Uo(n, t, !0),
             n.child
           );
         }
@@ -5197,10 +5197,10 @@
           Ii,
           Pi,
           Ri = { dehydrated: null, treeContext: null, retryLane: 0 };
-        function Mi(e) {
+        function Di(e) {
           return { baseLanes: e, cachePool: null, transitions: null };
         }
-        function Ui(e, n, t) {
+        function Mi(e, n, t) {
           var r,
             o = n.pendingProps,
             l = el.current,
@@ -5231,17 +5231,17 @@
                       (i = n.child),
                       (s = { mode: "hidden", children: s }),
                       1 & o || null === i
-                        ? (i = Mu(s, o, 0, null))
+                        ? (i = Du(s, o, 0, null))
                         : ((i.childLanes = 0), (i.pendingProps = s)),
                       (e = Ru(e, o, t, null)),
                       (i.return = n),
                       (e.return = n),
                       (i.sibling = e),
                       (n.child = i),
-                      (n.child.memoizedState = Mi(t)),
+                      (n.child.memoizedState = Di(t)),
                       (n.memoizedState = Ri),
                       e)
-                    : Di(n, s))
+                    : Ui(n, s))
             );
           if (null !== (l = e.memoizedState) && null !== (r = l.dehydrated))
             return (function (e, n, t, r, o, l, i) {
@@ -5252,7 +5252,7 @@
                     ? ((n.child = e.child), (n.flags |= 128), null)
                     : ((l = r.fallback),
                       (o = n.mode),
-                      (r = Mu(
+                      (r = Du(
                         { mode: "visible", children: r.children },
                         o,
                         0,
@@ -5264,7 +5264,7 @@
                       (r.sibling = l),
                       (n.child = r),
                       1 & n.mode && Ca(n, e.child, null, i),
-                      (n.child.memoizedState = Mi(i)),
+                      (n.child.memoizedState = Di(i)),
                       (n.memoizedState = Ri),
                       l);
               if (!(1 & n.mode)) return Fi(e, n, i, null);
@@ -5331,13 +5331,13 @@
                   (aa = !0),
                   (la = null),
                   null !== e &&
-                    ((Yo[Zo++] = Ko),
-                    (Yo[Zo++] = Xo),
-                    (Yo[Zo++] = Qo),
+                    (($o[Zo++] = Ko),
+                    ($o[Zo++] = Xo),
+                    ($o[Zo++] = Qo),
                     (Ko = e.id),
                     (Xo = e.overflow),
                     (Qo = n)),
-                  ((n = Di(n, r.children)).flags |= 4096),
+                  ((n = Ui(n, r.children)).flags |= 4096),
                   n);
             })(e, n, s, o, r, l, t);
           if (i) {
@@ -5360,7 +5360,7 @@
               (i = n.child),
               (s =
                 null === (s = e.child.memoizedState)
-                  ? Mi(t)
+                  ? Di(t)
                   : {
                       baseLanes: s.baseLanes | t,
                       cachePool: null,
@@ -5387,9 +5387,9 @@
             o
           );
         }
-        function Di(e, n) {
+        function Ui(e, n) {
           return (
-            ((n = Mu(
+            ((n = Du(
               { mode: "visible", children: n },
               e.mode,
               0,
@@ -5402,7 +5402,7 @@
           return (
             null !== r && ma(r),
             Ca(n, e.child, null, t),
-            ((e = Di(n, n.pendingProps.children)).flags |= 2),
+            ((e = Ui(n, n.pendingProps.children)).flags |= 2),
             (n.memoizedState = null),
             e
           );
@@ -5492,7 +5492,7 @@
         function qi(e, n, t) {
           if (
             (null !== e && (n.dependencies = e.dependencies),
-            (Ms |= n.lanes),
+            (Ds |= n.lanes),
             !(t & n.childLanes))
           )
             return null;
@@ -5549,7 +5549,7 @@
                 (o = o.sibling);
           return (e.subtreeFlags |= r), (e.childLanes = t), n;
         }
-        function $i(e, n, t) {
+        function Yi(e, n, t) {
           var r = n.pendingProps;
           switch ((ta(n), n.tag)) {
             case 2:
@@ -5588,7 +5588,7 @@
               );
             case 5:
               Ja(n);
-              var o = Za(Ya.current);
+              var o = Za($a.current);
               if (((t = n.type), null !== e && null != n.stateNode))
                 Ii(e, n, t, r, o),
                   e.ref !== n.ref && ((n.flags |= 512), (n.flags |= 2097152));
@@ -5723,7 +5723,7 @@
                         break;
                       case "select":
                         (e._wrapperState = { wasMultiple: !!r.multiple }),
-                          (o = U({}, r, { value: void 0 })),
+                          (o = M({}, r, { value: void 0 })),
                           Fr("invalid", e);
                         break;
                       case "textarea":
@@ -5794,7 +5794,7 @@
               else {
                 if ("string" != typeof r && null === n.stateNode)
                   throw Error(a(166));
-                if (((t = Za(Ya.current)), Za(Ga.current), fa(n))) {
+                if (((t = Za($a.current)), Za(Ga.current), fa(n))) {
                   if (
                     ((r = n.stateNode),
                     (t = n.memoizedProps),
@@ -5984,7 +5984,7 @@
           }
           throw Error(a(156, n.tag));
         }
-        function Yi(e, n) {
+        function $i(e, n) {
           switch ((ta(n), n.tag)) {
             case 1:
               return (
@@ -6056,8 +6056,8 @@
                   (o = Z(e, o)), (r = Z(e, r)), (l = []);
                   break;
                 case "select":
-                  (o = U({}, o, { value: void 0 })),
-                    (r = U({}, r, { value: void 0 })),
+                  (o = M({}, o, { value: void 0 })),
+                    (r = M({}, r, { value: void 0 })),
                     (l = []);
                   break;
                 case "textarea":
@@ -6869,9 +6869,9 @@
           Is = Eo(0),
           Ps = 0,
           Rs = null,
+          Ds = 0,
           Ms = 0,
           Us = 0,
-          Ds = 0,
           Fs = null,
           Bs = null,
           Hs = 0,
@@ -6880,8 +6880,8 @@
           qs = !1,
           Ws = null,
           Gs = null,
-          $s = !1,
-          Ys = null,
+          Ys = !1,
+          $s = null,
           Zs = 0,
           Qs = 0,
           Ks = null,
@@ -6905,7 +6905,7 @@
           if (50 < Qs) throw ((Qs = 0), (Ks = null), Error(a(185)));
           gn(e, t, r),
             (2 & Ns && e === Ls) ||
-              (e === Ls && (!(2 & Ns) && (Us |= t), 4 === Ps && iu(e, Os)),
+              (e === Ls && (!(2 & Ns) && (Ms |= t), 4 === Ps && iu(e, Os)),
               ru(e, r),
               1 === t &&
                 0 === Ns &&
@@ -6934,11 +6934,11 @@
           })(e, n);
           var r = pn(e, e === Ls ? Os : 0);
           if (0 === r)
-            null !== t && Ye(t),
+            null !== t && $e(t),
               (e.callbackNode = null),
               (e.callbackPriority = 0);
           else if (((n = r & -r), e.callbackPriority !== n)) {
-            if ((null != t && Ye(t), 1 === n))
+            if ((null != t && $e(t), 1 === n))
               0 === e.tag
                 ? (function (e) {
                     (Bo = !0), zo(e);
@@ -7117,8 +7117,8 @@
         }
         function iu(e, n) {
           for (
-            n &= ~Ds,
-              n &= ~Us,
+            n &= ~Us,
+              n &= ~Ms,
               e.suspendedLanes |= n,
               e.pingedLanes &= ~n,
               e = e.expirationTimes;
@@ -7160,7 +7160,7 @@
           }
         }
         function cu(e) {
-          null !== Ys && 0 === Ys.tag && !(6 & Ns) && wu();
+          null !== $s && 0 === $s.tag && !(6 & Ns) && wu();
           var n = Ns;
           Ns |= 1;
           var t = js.transition,
@@ -7212,7 +7212,7 @@
             (Os = Ts = n),
             (Ps = 0),
             (Rs = null),
-            (Ds = Us = Ms = 0),
+            (Us = Ms = Ds = 0),
             (Bs = Fs = null),
             null !== Ta)
           ) {
@@ -7353,7 +7353,7 @@
         function mu() {
           (0 !== Ps && 3 !== Ps && 2 !== Ps) || (Ps = 4),
             null === Ls ||
-              (!(268435455 & Ms) && !(268435455 & Us)) ||
+              (!(268435455 & Ds) && !(268435455 & Ms)) ||
               iu(Ls, Os);
         }
         function vu(e, n) {
@@ -7388,11 +7388,11 @@
           do {
             var t = n.alternate;
             if (((e = n.return), 32768 & n.flags)) {
-              if (null !== (t = Yi(t, n)))
+              if (null !== (t = $i(t, n)))
                 return (t.flags &= 32767), void (As = t);
               if (null === e) return (Ps = 6), void (As = null);
               (e.flags |= 32768), (e.subtreeFlags = 0), (e.deletions = null);
-            } else if (null !== (t = $i(t, n, Ts))) return void (As = t);
+            } else if (null !== (t = Yi(t, n, Ts))) return void (As = t);
             if (null !== (n = n.sibling)) return void (As = n);
             As = n = e;
           } while (null !== n);
@@ -7407,7 +7407,7 @@
               (function (e, n, t, r) {
                 do {
                   wu();
-                } while (null !== Ys);
+                } while (null !== $s);
                 if (6 & Ns) throw Error(a(327));
                 t = e.finishedWork;
                 var o = e.finishedLanes;
@@ -7439,8 +7439,8 @@
                   })(e, l),
                   e === Ls && ((As = Ls = null), (Os = 0)),
                   (!(2064 & t.subtreeFlags) && !(2064 & t.flags)) ||
-                    $s ||
-                    (($s = !0),
+                    Ys ||
+                    ((Ys = !0),
                     Lu(nn, function () {
                       return wu(), null;
                     })),
@@ -7594,7 +7594,7 @@
                     (js.transition = l);
                 } else e.current = t;
                 if (
-                  ($s && (($s = !1), (Ys = e), (Zs = o)),
+                  (Ys && ((Ys = !1), ($s = e), (Zs = o)),
                   0 === (l = e.pendingLanes) && (Gs = null),
                   (function (e) {
                     if (an && "function" == typeof an.onCommitFiberRoot)
@@ -7630,15 +7630,15 @@
           return null;
         }
         function wu() {
-          if (null !== Ys) {
+          if (null !== $s) {
             var e = Cn(Zs),
               n = js.transition,
               t = xn;
             try {
-              if (((js.transition = null), (xn = 16 > e ? 16 : e), null === Ys))
+              if (((js.transition = null), (xn = 16 > e ? 16 : e), null === $s))
                 var r = !1;
               else {
-                if (((e = Ys), (Ys = null), (Zs = 0), 6 & Ns))
+                if (((e = $s), ($s = null), (Zs = 0), 6 & Ns))
                   throw Error(a(331));
                 var o = Ns;
                 for (Ns |= 4, Xi = e.current; null !== Xi; ) {
@@ -7794,7 +7794,7 @@
               (4 === Ps ||
               (3 === Ps && (130023424 & Os) === Os && 500 > Ke() - Hs)
                 ? fu(e, 0)
-                : (Ds |= t)),
+                : (Us |= t)),
             ru(e, n);
         }
         function Su(e, n) {
@@ -7827,7 +7827,7 @@
           null !== r && r.delete(n), Su(e, t);
         }
         function Lu(e, n) {
-          return $e(e, n);
+          return Ye(e, n);
         }
         function Au(e, n, t, r) {
           (this.tag = e),
@@ -7916,7 +7916,7 @@
                   ((e = Ou(19, t, n, o)).elementType = A), (e.lanes = l), e
                 );
               case I:
-                return Mu(t, o, l, n);
+                return Du(t, o, l, n);
               default:
                 if ("object" == typeof e && null !== e)
                   switch (e.$$typeof) {
@@ -7948,7 +7948,7 @@
         function Ru(e, n, t, r) {
           return ((e = Ou(7, e, r, n)).lanes = t), e;
         }
-        function Mu(e, n, t, r) {
+        function Du(e, n, t, r) {
           return (
             ((e = Ou(22, e, r, n)).elementType = I),
             (e.lanes = t),
@@ -7956,10 +7956,10 @@
             e
           );
         }
-        function Uu(e, n, t) {
+        function Mu(e, n, t) {
           return ((e = Ou(6, e, null, n)).lanes = t), e;
         }
-        function Du(e, n, t) {
+        function Uu(e, n, t) {
           return (
             ((n = Ou(
               4,
@@ -8015,7 +8015,7 @@
               transitions: null,
               pendingSuspenseBoundaries: null,
             }),
-            Ua(a),
+            Ma(a),
             e
           );
         }
@@ -8042,7 +8042,7 @@
           }
           if (1 === e.tag) {
             var t = e.type;
-            if (Io(t)) return Mo(e, t, n);
+            if (Io(t)) return Do(e, t, n);
           }
           return n;
         }
@@ -8101,7 +8101,7 @@
                         Xa(n);
                         break;
                       case 1:
-                        Io(n.type) && Uo(n);
+                        Io(n.type) && Mo(n);
                         break;
                       case 4:
                         Qa(n, n.stateNode.containerInfo);
@@ -8116,7 +8116,7 @@
                           return null !== r.dehydrated
                             ? (jo(el, 1 & el.current), (n.flags |= 128), null)
                             : t & n.child.childLanes
-                              ? Ui(e, n, t)
+                              ? Mi(e, n, t)
                               : (jo(el, 1 & el.current),
                                 null !== (e = qi(e, n, t)) ? e.sibling : null);
                         jo(el, 1 & el.current);
@@ -8145,7 +8145,7 @@
                 );
               bi = !!(131072 & e.flags);
             }
-          else (bi = !1), aa && 1048576 & n.flags && ea(n, $o, n.index);
+          else (bi = !1), aa && 1048576 & n.flags && ea(n, Yo, n.index);
           switch (((n.lanes = 0), n.tag)) {
             case 2:
               var r = n.type;
@@ -8162,10 +8162,10 @@
                   ? ((n.tag = 1),
                     (n.memoizedState = null),
                     (n.updateQueue = null),
-                    Io(r) ? ((l = !0), Uo(n)) : (l = !1),
+                    Io(r) ? ((l = !0), Mo(n)) : (l = !1),
                     (n.memoizedState =
                       null !== o.state && void 0 !== o.state ? o.state : null),
-                    Ua(n),
+                    Ma(n),
                     (o.updater = oi),
                     (n.stateNode = o),
                     (o._reactInternals = n),
@@ -8230,7 +8230,7 @@
                 if ((Li(n), null === e)) throw Error(a(387));
                 (r = n.pendingProps),
                   (o = (l = n.memoizedState).element),
-                  Da(e, n),
+                  Ua(e, n),
                   Va(n, r, null, t);
                 var i = n.memoizedState;
                 if (((r = i.element), l.isDehydrated)) {
@@ -8292,7 +8292,7 @@
             case 6:
               return null === e && ca(n), null;
             case 13:
-              return Ui(e, n, t);
+              return Mi(e, n, t);
             case 4:
               return (
                 Qa(n, n.stateNode.containerInfo),
@@ -8408,7 +8408,7 @@
                 (o = n.elementType === r ? o : ti(r, o)),
                 Vi(e, n),
                 (n.tag = 1),
-                Io(r) ? ((e = !0), Uo(n)) : (e = !1),
+                Io(r) ? ((e = !0), Mo(n)) : (e = !1),
                 Aa(n, t),
                 li(n, r, o),
                 si(n, r, o, t),
@@ -8421,13 +8421,13 @@
           }
           throw Error(a(156, n.tag));
         };
-        var $u =
+        var Yu =
           "function" == typeof reportError
             ? reportError
             : function (e) {
                 console.error(e);
               };
-        function Yu(e) {
+        function $u(e) {
           this._internalRoot = e;
         }
         function Zu(e) {
@@ -8502,13 +8502,13 @@
             })(t, n, e, o, r);
           return qu(l);
         }
-        (Zu.prototype.render = Yu.prototype.render =
+        (Zu.prototype.render = $u.prototype.render =
           function (e) {
             var n = this._internalRoot;
             if (null === n) throw Error(a(409));
             Vu(e, n, null, null);
           }),
-          (Zu.prototype.unmount = Yu.prototype.unmount =
+          (Zu.prototype.unmount = $u.prototype.unmount =
             function () {
               var e = this._internalRoot;
               if (null !== e) {
@@ -8529,7 +8529,7 @@
                 t < Pn.length && 0 !== n && n < Pn[t].priority;
                 t++
               );
-              Pn.splice(t, 0, e), 0 === t && Dn(e);
+              Pn.splice(t, 0, e), 0 === t && Un(e);
             }
           }),
           (wn = function (e) {
@@ -8598,7 +8598,7 @@
                     if (r !== e && r.form === e.form) {
                       var o = wo(r);
                       if (!o) throw Error(a(90));
-                      $(r), X(r, o);
+                      Y(r), X(r, o);
                     }
                   }
                 }
@@ -8684,7 +8684,7 @@
             if (!Qu(e)) throw Error(a(299));
             var t = !1,
               r = "",
-              o = $u;
+              o = Yu;
             return (
               null != n &&
                 (!0 === n.unstable_strictMode && (t = !0),
@@ -8693,7 +8693,7 @@
               (n = Bu(e, 1, !1, null, 0, t, 0, r, o)),
               (e[mo] = n.current),
               zr(8 === e.nodeType ? e.parentNode : e),
-              new Yu(n)
+              new $u(n)
             );
           }),
           (n.findDOMNode = function (e) {
@@ -8718,7 +8718,7 @@
             var r = (null != t && t.hydratedSources) || null,
               o = !1,
               l = "",
-              i = $u;
+              i = Yu;
             if (
               (null != t &&
                 (!0 === t.unstable_strictMode && (o = !0),
@@ -10037,9 +10037,9 @@
       ),
     );
   };
-  var M = function () {
+  var D = function () {
     return (
-      (M =
+      (D =
         Object.assign ||
         function (e) {
           for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -10047,13 +10047,13 @@
               Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
           return e;
         }),
-      M.apply(this, arguments)
+      D.apply(this, arguments)
     );
   };
-  const U = function () {
+  const M = function () {
     return (0, r.jsxs)(
       "svg",
-      M(
+      D(
         {
           width: "15",
           height: "15",
@@ -10082,9 +10082,9 @@
       ),
     );
   };
-  var D = function () {
+  var U = function () {
     return (
-      (D =
+      (U =
         Object.assign ||
         function (e) {
           for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -10092,13 +10092,13 @@
               Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
           return e;
         }),
-      D.apply(this, arguments)
+      U.apply(this, arguments)
     );
   };
   const F = function () {
     return (0, r.jsx)(
       "svg",
-      D(
+      U(
         {
           width: "12",
           height: "13",
@@ -10258,7 +10258,7 @@
       G.apply(this, arguments)
     );
   };
-  const $ = function () {
+  const Y = function () {
     return (0, r.jsxs)(
       "svg",
       G(
@@ -10288,9 +10288,9 @@
       ),
     );
   };
-  var Y = function () {
+  var $ = function () {
     return (
-      (Y =
+      ($ =
         Object.assign ||
         function (e) {
           for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -10298,7 +10298,7 @@
               Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
           return e;
         }),
-      Y.apply(this, arguments)
+      $.apply(this, arguments)
     );
   };
   const Z = function (e) {
@@ -10307,7 +10307,7 @@
       children: n
         ? (0, r.jsxs)(
             "svg",
-            Y(
+            $(
               {
                 width: "24",
                 height: "24",
@@ -10331,7 +10331,7 @@
           )
         : (0, r.jsx)(
             "svg",
-            Y(
+            $(
               {
                 width: "24",
                 height: "24",
@@ -10916,7 +10916,8 @@
         (e.HANDLE_LOGIN_TRIGGERED = "handleLoginTriggered"),
         (e.ACCESS_TOKEN_GOES_BACK = "accessTokenGoesBack"),
         (e.REFRESS_TOKEN = "refresh"),
-        (e.LOGOUT = "logout");
+        (e.LOGOUT = "logout"),
+        (e.CREDENTIALS = "CREDENTIALS");
     })(he || (he = {})),
     (function (e) {
       (e.LOGIN = "login"), (e.ACTION = "action");
@@ -11292,11 +11293,11 @@
         l = (n = e(r, o, a));
       return a;
     },
-    Me = (e) => e,
-    Ue = (e) => {
+    De = (e) => e,
+    Me = (e) => {
       const n = ((e) => (e ? Re(e) : Re))(e),
         t = (e) =>
-          (function (e, n = Me) {
+          (function (e, n = De) {
             const t = o.useSyncExternalStore(
               e.subscribe,
               () => n(e.getState()),
@@ -11306,7 +11307,7 @@
           })(n, e);
       return Object.assign(t, n), t;
     };
-  var De = function (e) {
+  var Ue = function (e) {
       return {
         page: se.SETUP,
         setPage: function (n) {
@@ -11474,7 +11475,7 @@
           ? e.split(ce.USER_ABOUT_PROFILE)[0]
           : e;
     },
-    $e = function (e) {
+    Ye = function (e) {
       return {
         fullname: "",
         firstname: "",
@@ -11583,7 +11584,7 @@
         },
       };
     },
-    Ye = function (e) {
+    $e = function (e) {
       return {
         userPagination: null,
         setUserPagination: function (n) {
@@ -11689,14 +11690,22 @@
         },
       };
     },
-    en = function (e, n, t) {
+    en = function (e) {
+      return {
+        profileBackground: null,
+        setProfileBackground: function (n) {
+          return e({ profileBackground: n });
+        },
+      };
+    },
+    nn = function (e, n, t) {
       if (t || 2 === arguments.length)
         for (var r, o = 0, a = n.length; o < a; o++)
           (!r && o in n) ||
             (r || (r = Array.prototype.slice.call(n, 0, o)), (r[o] = n[o]));
       return e.concat(r || Array.prototype.slice.call(n));
     },
-    nn = function (e) {
+    tn = function (e) {
       return {
         searchControlCompanyData: [],
         setSearchControlCompanyData: function (n) {
@@ -11705,8 +11714,8 @@
         setSearchControlCompanyDataOneByOne: function (n) {
           return e(function (e) {
             return {
-              searchControlCompanyData: en(
-                en([], e.searchControlCompanyData, !0),
+              searchControlCompanyData: nn(
+                nn([], e.searchControlCompanyData, !0),
                 [n],
                 !1,
               ),
@@ -11715,9 +11724,9 @@
         },
       };
     },
-    tn = function () {
+    rn = function () {
       return (
-        (tn =
+        (rn =
           Object.assign ||
           function (e) {
             for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -11725,27 +11734,30 @@
                 Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
             return e;
           }),
-        tn.apply(this, arguments)
+        rn.apply(this, arguments)
       );
     },
-    rn = Ue(function () {
+    on = Me(function () {
       for (var e = [], n = 0; n < arguments.length; n++) e[n] = arguments[n];
-      return tn(
-        tn(
-          tn(
-            tn(
-              tn(
-                tn(
-                  tn(
-                    tn(
-                      tn(
-                        tn(
-                          tn(
-                            tn(
-                              tn(
-                                tn(
-                                  tn({}, Xe.apply(void 0, e)),
-                                  De.apply(void 0, e),
+      return rn(
+        rn(
+          rn(
+            rn(
+              rn(
+                rn(
+                  rn(
+                    rn(
+                      rn(
+                        rn(
+                          rn(
+                            rn(
+                              rn(
+                                rn(
+                                  rn(
+                                    rn({}, Xe.apply(void 0, e)),
+                                    en.apply(void 0, e),
+                                  ),
+                                  Ue.apply(void 0, e),
                                 ),
                                 Fe.apply(void 0, e),
                               ),
@@ -11761,21 +11773,21 @@
                     ),
                     We.apply(void 0, e),
                   ),
-                  $e.apply(void 0, e),
+                  Ye.apply(void 0, e),
                 ),
-                Ye.apply(void 0, e),
+                $e.apply(void 0, e),
               ),
               Ze.apply(void 0, e),
             ),
             Qe.apply(void 0, e),
           ),
-          nn.apply(void 0, e),
+          tn.apply(void 0, e),
         ),
         Je.apply(void 0, e),
       );
     }),
-    on = t(961),
-    an = function (e, n, t) {
+    an = t(961),
+    ln = function (e, n, t) {
       window.open(
         ""
           .concat(e, "/main.aspx?pagetype=entityrecord&etn=")
@@ -11784,16 +11796,16 @@
         "_blank",
       );
     },
-    ln = t(727),
-    sn = {};
-  (sn.styleTagTransform = y()),
-    (sn.setAttributes = p()),
-    (sn.insert = d().bind(null, "head")),
-    (sn.domAPI = u()),
-    (sn.insertStyleElement = m()),
-    i()(ln.A, sn),
-    ln.A && ln.A.locals && ln.A.locals;
-  var un = function (e, n, t, r) {
+    sn = t(727),
+    un = {};
+  (un.styleTagTransform = y()),
+    (un.setAttributes = p()),
+    (un.insert = d().bind(null, "head")),
+    (un.domAPI = u()),
+    (un.insertStyleElement = m()),
+    i()(sn.A, un),
+    sn.A && sn.A.locals && sn.A.locals;
+  var cn = function (e, n, t, r) {
       return new (t || (t = Promise))(function (o, a) {
         function l(e) {
           try {
@@ -11823,7 +11835,7 @@
         s((r = r.apply(e, n || [])).next());
       });
     },
-    cn = function (e, n) {
+    dn = function (e, n) {
       var t,
         r,
         o,
@@ -11913,10 +11925,10 @@
         };
       }
     };
-  function dn(e, n) {
-    return un(this, void 0, void 0, function () {
+  function fn(e, n) {
+    return cn(this, void 0, void 0, function () {
       var t, r;
-      return cn(this, function (o) {
+      return dn(this, function (o) {
         switch (o.label) {
           case 0:
             (t = {
@@ -11943,10 +11955,10 @@
       });
     });
   }
-  function fn(e, n, t, r) {
-    return un(this, void 0, void 0, function () {
+  function pn(e, n, t, r) {
+    return cn(this, void 0, void 0, function () {
       var o, a, l, i, s;
-      return cn(this, function (u) {
+      return dn(this, function (u) {
         switch (u.label) {
           case 0:
             (o = {
@@ -11964,9 +11976,16 @@
           case 1:
             return u.trys.push([1, 4, , 5]), [4, fetch(e, a)];
           case 2:
-            if (!(l = u.sent()).ok)
-              throw new Error("Error creating data: ".concat(l.statusText));
-            return [4, l.json()];
+            return (
+              (l = u.sent()).ok ||
+                l.text().then(function (e) {
+                  throw (
+                    (console.error("Error Text:", e),
+                    new Error("Error Text: ".concat(e)))
+                  );
+                }),
+              [4, l.json()]
+            );
           case 3:
             return [2, u.sent()];
           case 4:
@@ -11982,9 +12001,9 @@
       });
     });
   }
-  var pn = function (e, n, t, r, o, a) {
-      return un(void 0, void 0, void 0, function () {
-        return cn(this, function (l) {
+  var hn = function (e, n, t, r, o, a) {
+      return cn(void 0, void 0, void 0, function () {
+        return dn(this, function (l) {
           switch (l.label) {
             case 0:
               return [
@@ -12024,7 +12043,7 @@
         });
       });
     },
-    hn = function (e, n, t, r) {
+    mn = function (e, n, t, r) {
       return new (t || (t = Promise))(function (o, a) {
         function l(e) {
           try {
@@ -12054,7 +12073,7 @@
         s((r = r.apply(e, n || [])).next());
       });
     },
-    mn = function (e, n) {
+    vn = function (e, n) {
       var t,
         r,
         o,
@@ -12144,9 +12163,9 @@
         };
       }
     },
-    vn = function () {
+    yn = function () {
       return (
-        (vn =
+        (yn =
           Object.assign ||
           function (e) {
             for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -12154,11 +12173,11 @@
                 Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
             return e;
           }),
-        vn.apply(this, arguments)
+        yn.apply(this, arguments)
       );
     },
-    yn = function (e, n, t, r, a, l, i, s) {
-      var u = rn(),
+    gn = function (e, n, t, r, a, l, i, s) {
+      var u = on(),
         c = u.webApiEndpoint,
         d = u.accessToken,
         f = u.setSearchControlDataOneByOne,
@@ -12179,26 +12198,27 @@
         j = u.setCompanyName,
         N = u.setCompanyBackendDataForSelect,
         L = u.setCompanyBackendDataWithNames,
-        A = u.setCustomer,
-        O = u.setCustomerId,
-        T = (0, o.useState)(null),
-        I = T[0],
-        P = T[1],
-        R = (0, o.useState)(!1),
-        M = R[0],
-        U = R[1],
+        A = u.setProfileBackground,
+        O = u.setCustomer,
+        T = u.setCustomerId,
+        I = (0, o.useState)(null),
+        P = I[0],
+        R = I[1],
         D = (0, o.useState)(!1),
-        F = D[0],
-        B = D[1];
+        M = D[0],
+        U = D[1],
+        F = (0, o.useState)(!1),
+        B = F[0],
+        H = F[1];
       return (
         (0, o.useEffect)(
           function () {
-            !I &&
+            !P &&
               d &&
               (function (e, n, t) {
-                return hn(void 0, void 0, void 0, function () {
+                return mn(void 0, void 0, void 0, function () {
                   var r, o, a, l, i, s, u, c;
-                  return mn(this, function (d) {
+                  return vn(this, function (d) {
                     switch (d.label) {
                       case 0:
                         return (
@@ -12208,7 +12228,7 @@
                           (o = encodeURIComponent(r)),
                           [
                             4,
-                            dn(
+                            fn(
                               "".concat(n, "/contacts?$filter=").concat(o),
                               t || "",
                             ),
@@ -12227,7 +12247,7 @@
                               (s = encodeURIComponent(i)),
                               [
                                 4,
-                                dn(
+                                fn(
                                   "".concat(n, "/accounts?$filter=").concat(s),
                                   t || "",
                                 ),
@@ -12242,7 +12262,7 @@
                   });
                 });
               })(e, c, d).then(function (o) {
-                P(o.userData),
+                R(o.userData),
                   f({
                     userName: n,
                     job: t,
@@ -12389,13 +12409,13 @@
                             address1_name: r,
                             uds_linkedin: e,
                           }),
-                          [4, fn("".concat(c, "/contacts"), d, a, "POST")])
+                          [4, pn("".concat(c, "/contacts"), d, a, "POST")])
                         : [3, 2];
                     case 1:
                       (l = s.sent()),
                         v(l),
                         (i = h.map(function (n) {
-                          return vn(vn({}, n), {
+                          return yn(yn({}, n), {
                             exist: n.url === e || n.exist,
                             existedData: n.url === e ? l : n.existedData,
                           });
@@ -12445,8 +12465,9 @@
               L(null),
               N(null),
               g(),
+              A(null),
               setTimeout(function () {
-                x(e || ""), C(n), w(t), _(r), k(a), E(i), A(l), O(s);
+                x(e || ""), C(n), w(t), _(r), k(a), E(i), O(l), T(s);
                 var o = h.filter(function (e) {
                   return e.id === a;
                 })[0];
@@ -12457,18 +12478,18 @@
                   b(!1);
               }, 200);
           },
-          ifExist: I,
-          setIfExist: P,
+          ifExist: P,
+          setIfExist: R,
           showMainInfoDetail: M,
           setShowMainInfoDetail: U,
-          showQuickCaptureDetail: F,
-          setQuickShowCaptureDetail: B,
+          showQuickCaptureDetail: B,
+          setQuickShowCaptureDetail: H,
         }
       );
     },
-    gn = function () {
+    bn = function () {
       return (
-        (gn =
+        (bn =
           Object.assign ||
           function (e) {
             for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -12476,10 +12497,10 @@
                 Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
             return e;
           }),
-        gn.apply(this, arguments)
+        bn.apply(this, arguments)
       );
     };
-  const bn = function (e) {
+  const xn = function (e) {
     var n = e.image,
       t = e.job,
       o = e.location,
@@ -12488,11 +12509,11 @@
       i = e.company,
       s = e.description,
       u = e.jobCompanyId,
-      c = rn(),
+      c = on(),
       d = c.accessToken,
       f = c.searchControlData,
       p = c.crmUrl,
-      h = yn(
+      h = gn(
         l || "",
         a || "",
         t || "",
@@ -12510,13 +12531,13 @@
       x = h.showQuickCaptureDetail;
     return (0, r.jsxs)(
       "div",
-      gn(
+      bn(
         { className: "controlIcon__holder" },
         {
           children: [
             (0, r.jsxs)(
               "div",
-              gn(
+              bn(
                 {
                   className: "iconHolder contorlIcon",
                   onMouseEnter: function () {
@@ -12544,7 +12565,7 @@
                     b &&
                       (0, r.jsx)(
                         "span",
-                        gn(
+                        bn(
                           { className: "iconHoverDetail" },
                           {
                             children: d
@@ -12573,7 +12594,7 @@
               })[0].exist
                 ? (0, r.jsxs)(
                     "div",
-                    gn(
+                    bn(
                       {
                         onMouseEnter: function () {
                           y(!0);
@@ -12589,7 +12610,7 @@
                           x &&
                             (0, r.jsx)(
                               "span",
-                              gn(
+                              bn(
                                 { className: "iconHoverDetail" },
                                 { children: "Quick capture" },
                               ),
@@ -12600,7 +12621,7 @@
                   )
                 : (0, r.jsxs)(
                     "div",
-                    gn(
+                    bn(
                       {
                         onMouseEnter: function () {
                           y(!0);
@@ -12618,13 +12639,13 @@
                                   return e.id === n;
                                 })[0].existedData,
                                 t = e ? e.contactid : "";
-                              an(p, Ce.USER, t);
+                              ln(p, Ce.USER, t);
                             },
                           }),
                           x &&
                             (0, r.jsx)(
                               "span",
-                              gn(
+                              bn(
                                 { className: "iconHoverDetail" },
                                 { children: "Redirect to Contact" },
                               ),
@@ -12638,8 +12659,8 @@
       ),
     );
   };
-  var xn = function () {
-      var e = rn(),
+  var Cn = function () {
+      var e = on(),
         n = e.accessToken,
         t = e.userBackendData,
         r = e.companyBackData,
@@ -12670,9 +12691,9 @@
         }
       );
     },
-    Cn = function () {
+    wn = function () {
       return (
-        (Cn =
+        (wn =
           Object.assign ||
           function (e) {
             for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -12680,19 +12701,19 @@
                 Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
             return e;
           }),
-        Cn.apply(this, arguments)
+        wn.apply(this, arguments)
       );
     };
-  const wn = function () {
+  const _n = function () {
     var e = (0, o.useState)(!1),
       n = e[0],
       t = e[1],
-      a = xn(),
+      a = Cn(),
       l = a.generateTypeOfControl,
       i = a.handleClickControl;
     return (0, r.jsxs)(
       "div",
-      Cn(
+      wn(
         {
           onMouseEnter: function () {
             t(!0);
@@ -12708,7 +12729,7 @@
             n &&
               (0, r.jsx)(
                 "span",
-                Cn(
+                wn(
                   { className: "iconHoverDetail iconHoverDetailUser" },
                   {
                     children:
@@ -12725,9 +12746,9 @@
       ),
     );
   };
-  var _n = function () {
+  var kn = function () {
     return (
-      (_n =
+      (kn =
         Object.assign ||
         function (e) {
           for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -12735,19 +12756,19 @@
               Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
           return e;
         }),
-      _n.apply(this, arguments)
+      kn.apply(this, arguments)
     );
   };
-  const kn = function () {
+  const En = function () {
     var e = (0, o.useState)(!1),
       n = e[0],
       t = e[1],
-      a = xn(),
+      a = Cn(),
       l = a.generateTypeOfControl,
       i = a.handleClickControl;
     return (0, r.jsxs)(
       "div",
-      _n(
+      kn(
         {
           onMouseEnter: function () {
             t(!0);
@@ -12763,7 +12784,7 @@
             n &&
               (0, r.jsx)(
                 "span",
-                _n(
+                kn(
                   { className: "iconHoverDetail iconHoverDetailUser" },
                   {
                     children:
@@ -12780,9 +12801,9 @@
       ),
     );
   };
-  var En = function () {
+  var Sn = function () {
       return (
-        (En =
+        (Sn =
           Object.assign ||
           function (e) {
             for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -12790,10 +12811,10 @@
                 Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
             return e;
           }),
-        En.apply(this, arguments)
+        Sn.apply(this, arguments)
       );
     },
-    Sn = function (e, n, t, r) {
+    jn = function (e, n, t, r) {
       return new (t || (t = Promise))(function (o, a) {
         function l(e) {
           try {
@@ -12823,7 +12844,7 @@
         s((r = r.apply(e, n || [])).next());
       });
     },
-    jn = function (e, n) {
+    Nn = function (e, n) {
       var t,
         r,
         o,
@@ -12913,9 +12934,9 @@
         };
       }
     },
-    Nn = function () {
+    Ln = function () {
       return (
-        (Nn =
+        (Ln =
           Object.assign ||
           function (e) {
             for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -12923,10 +12944,10 @@
                 Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
             return e;
           }),
-        Nn.apply(this, arguments)
+        Ln.apply(this, arguments)
       );
     };
-  const Ln = function (e) {
+  const An = function (e) {
     var n = e.url,
       t = e.image,
       a = e.description,
@@ -12944,7 +12965,7 @@
           h = (0, o.useState)(!1),
           m = h[0],
           v = h[1],
-          y = rn(),
+          y = on(),
           g = y.setCompanyAdress,
           b = y.setUserBackendData,
           x = y.setNumberOfEmployees,
@@ -12968,9 +12989,9 @@
               !u &&
                 L &&
                 (function (e, n, t, r) {
-                  return hn(void 0, void 0, void 0, function () {
+                  return mn(void 0, void 0, void 0, function () {
                     var o, a, l, i, s;
-                    return mn(this, function (u) {
+                    return vn(this, function (u) {
                       switch (u.label) {
                         case 0:
                           return (
@@ -12984,7 +13005,7 @@
                             n
                               ? [
                                   4,
-                                  dn(
+                                  fn(
                                     ""
                                       .concat(t, "/accounts?$filter=")
                                       .concat(a),
@@ -12998,7 +13019,7 @@
                         case 2:
                           return [
                             4,
-                            dn(
+                            fn(
                               "".concat(t, "/accounts?$filter=").concat(i),
                               r || "",
                             ),
@@ -13035,9 +13056,9 @@
             setShowMainInfoDetail: p,
             setQuickShowCaptureDetail: v,
             handleClickQuickFetchCompany: function () {
-              return Sn(void 0, void 0, void 0, function () {
+              return jn(void 0, void 0, void 0, function () {
                 var n, o, s;
-                return jn(this, function (u) {
+                return Nn(this, function (u) {
                   switch (u.label) {
                     case 0:
                       return (
@@ -13051,14 +13072,14 @@
                             i && (n.numberofemployees = i),
                             r && (n.address1_name = r),
                             l && (n.uds_linkedincompanyid = l),
-                            [4, fn("".concat(O, "/accounts"), L, n, "POST")])
+                            [4, pn("".concat(O, "/accounts"), L, n, "POST")])
                           : [3, 2]
                       );
                     case 1:
                       (o = u.sent()),
                         N(o),
                         (s = I.map(function (n) {
-                          return En(En({}, n), {
+                          return Sn(Sn({}, n), {
                             exist: n.url === e || n.exist,
                             existedData: n.url === e ? o : n.existedData,
                           });
@@ -13072,8 +13093,8 @@
               });
             },
             handleClickCompanyControl: function () {
-              return Sn(void 0, void 0, void 0, function () {
-                return jn(this, function (o) {
+              return jn(void 0, void 0, void 0, function () {
+                return Nn(this, function (o) {
                   return (
                     N(null),
                     A(!0),
@@ -13118,19 +13139,19 @@
       h = c.showQuickCaptureDetail,
       m = c.handleClickQuickFetchCompany,
       v = c.handleClickCompanyControl,
-      y = rn(),
+      y = on(),
       g = y.crmUrl,
       b = y.accessToken,
       x = y.searchControlCompanyData;
     return (0, r.jsxs)(
       "div",
-      Nn(
+      Ln(
         { className: "controlIcon__holder" },
         {
           children: [
             (0, r.jsxs)(
               "div",
-              Nn(
+              Ln(
                 {
                   onMouseEnter: function () {
                     f(!0);
@@ -13158,7 +13179,7 @@
                     p &&
                       (0, r.jsx)(
                         "span",
-                        Nn(
+                        Ln(
                           { className: "iconHoverDetail" },
                           {
                             children: b
@@ -13187,7 +13208,7 @@
               })[0].exist
                 ? (0, r.jsxs)(
                     "div",
-                    Nn(
+                    Ln(
                       {
                         onMouseEnter: function () {
                           d(!0);
@@ -13203,7 +13224,7 @@
                           h &&
                             (0, r.jsx)(
                               "span",
-                              Nn(
+                              Ln(
                                 { className: "iconHoverDetail" },
                                 { children: "Quick capture" },
                               ),
@@ -13214,7 +13235,7 @@
                   )
                 : (0, r.jsxs)(
                     "div",
-                    Nn(
+                    Ln(
                       {
                         onMouseEnter: function () {
                           d(!0);
@@ -13232,13 +13253,13 @@
                                   return e.id === t;
                                 })[0].existedData,
                                 n = e ? e.accountid : "";
-                              an(g, Ce.COMPANY, n);
+                              ln(g, Ce.COMPANY, n);
                             },
                           }),
                           h &&
                             (0, r.jsx)(
                               "span",
-                              Nn(
+                              Ln(
                                 { className: "iconHoverDetail" },
                                 { children: "Redirect to Contact" },
                               ),
@@ -13252,18 +13273,18 @@
       ),
     );
   };
-  var An = t(729),
-    On = {};
-  (On.styleTagTransform = y()),
-    (On.setAttributes = p()),
-    (On.insert = d().bind(null, "head")),
-    (On.domAPI = u()),
-    (On.insertStyleElement = m()),
-    i()(An.A, On),
-    An.A && An.A.locals && An.A.locals;
-  var Tn = function () {
+  var On = t(729),
+    Tn = {};
+  (Tn.styleTagTransform = y()),
+    (Tn.setAttributes = p()),
+    (Tn.insert = d().bind(null, "head")),
+    (Tn.domAPI = u()),
+    (Tn.insertStyleElement = m()),
+    i()(On.A, Tn),
+    On.A && On.A.locals && On.A.locals;
+  var In = function () {
     return (
-      (Tn =
+      (In =
         Object.assign ||
         function (e) {
           for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -13271,27 +13292,27 @@
               Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
           return e;
         }),
-      Tn.apply(this, arguments)
+      In.apply(this, arguments)
     );
   };
-  const In = function () {
+  const Pn = function () {
     return (0, r.jsx)(
       "div",
-      Tn(
+      In(
         { className: "extension__loader__container" },
         { children: (0, r.jsx)("div", { className: "extension__loader" }) },
       ),
     );
   };
-  var Pn = t(142),
-    Rn = {};
-  (Rn.styleTagTransform = y()),
-    (Rn.setAttributes = p()),
-    (Rn.insert = d().bind(null, "head")),
-    (Rn.domAPI = u()),
-    (Rn.insertStyleElement = m()),
-    i()(Pn.A, Rn),
-    Pn.A && Pn.A.locals && Pn.A.locals;
+  var Rn = t(142),
+    Dn = {};
+  (Dn.styleTagTransform = y()),
+    (Dn.setAttributes = p()),
+    (Dn.insert = d().bind(null, "head")),
+    (Dn.domAPI = u()),
+    (Dn.insertStyleElement = m()),
+    i()(Rn.A, Dn),
+    Rn.A && Rn.A.locals && Rn.A.locals;
   var Mn = function () {
     return (
       (Mn =
@@ -13324,18 +13345,18 @@
       ),
     );
   };
-  var Dn = t(263),
-    Fn = {};
-  (Fn.styleTagTransform = y()),
-    (Fn.setAttributes = p()),
-    (Fn.insert = d().bind(null, "head")),
-    (Fn.domAPI = u()),
-    (Fn.insertStyleElement = m()),
-    i()(Dn.A, Fn),
-    Dn.A && Dn.A.locals && Dn.A.locals;
-  var Bn = function () {
+  var Fn = t(263),
+    Bn = {};
+  (Bn.styleTagTransform = y()),
+    (Bn.setAttributes = p()),
+    (Bn.insert = d().bind(null, "head")),
+    (Bn.domAPI = u()),
+    (Bn.insertStyleElement = m()),
+    i()(Fn.A, Bn),
+    Fn.A && Fn.A.locals && Fn.A.locals;
+  var Hn = function () {
     return (
-      (Bn =
+      (Hn =
         Object.assign ||
         function (e) {
           for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -13343,23 +13364,23 @@
               Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
           return e;
         }),
-      Bn.apply(this, arguments)
+      Hn.apply(this, arguments)
     );
   };
-  const Hn = function (e) {
+  const zn = function (e) {
     var n = e.children;
-    return (0, r.jsx)("h1", Bn({ className: "header" }, { children: n }));
+    return (0, r.jsx)("h1", Hn({ className: "header" }, { children: n }));
   };
-  var zn = t(430),
-    Vn = {};
-  (Vn.styleTagTransform = y()),
-    (Vn.setAttributes = p()),
-    (Vn.insert = d().bind(null, "head")),
-    (Vn.domAPI = u()),
-    (Vn.insertStyleElement = m()),
-    i()(zn.A, Vn),
-    zn.A && zn.A.locals && zn.A.locals;
-  function qn(e) {
+  var Vn = t(430),
+    qn = {};
+  (qn.styleTagTransform = y()),
+    (qn.setAttributes = p()),
+    (qn.insert = d().bind(null, "head")),
+    (qn.domAPI = u()),
+    (qn.insertStyleElement = m()),
+    i()(Vn.A, qn),
+    Vn.A && Vn.A.locals && Vn.A.locals;
+  function Wn(e) {
     var n = this,
       t = (0, o.useState)(!1),
       r = t[0],
@@ -13526,9 +13547,9 @@
       }
     );
   }
-  var Wn = function () {
+  var Gn = function () {
     return (
-      (Wn =
+      (Gn =
         Object.assign ||
         function (e) {
           for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -13536,10 +13557,10 @@
               Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
           return e;
         }),
-      Wn.apply(this, arguments)
+      Gn.apply(this, arguments)
     );
   };
-  const Gn = function (e) {
+  const Yn = function (e) {
     var n = this,
       t = e.name,
       o = e.onChange,
@@ -13586,7 +13607,7 @@
         "inputType",
         "style",
       ]),
-      b = qn(l),
+      b = Wn(l),
       x = b.focus,
       C = b.handleFocus,
       w = b.handlePaste;
@@ -13594,7 +13615,7 @@
       children: [
         (0, r.jsxs)(
           "div",
-          Wn(
+          Gn(
             {
               style: y,
               className: "form__control "
@@ -13605,7 +13626,7 @@
               children: [
                 (0, r.jsx)(
                   "input",
-                  Wn(
+                  Gn(
                     {
                       id: s,
                       style: { height: p || "auto" },
@@ -13628,7 +13649,7 @@
                 ),
                 (0, r.jsx)(
                   "label",
-                  Wn(
+                  Gn(
                     { htmlFor: s, className: "form__control__label" },
                     {
                       children:
@@ -13640,7 +13661,7 @@
                                 f &&
                                   (0, r.jsx)(
                                     "span",
-                                    Wn(
+                                    Gn(
                                       { className: "required" },
                                       { children: "*" },
                                     ),
@@ -13657,7 +13678,7 @@
                       !l &&
                         (0, r.jsx)(
                           "button",
-                          Wn(
+                          Gn(
                             {
                               onClick: function () {
                                 return (
@@ -13853,7 +13874,7 @@
                       c
                         ? (0, r.jsx)(
                             "button",
-                            Wn(
+                            Gn(
                               { className: "form__control__readonly" },
                               { children: (0, r.jsx)(R, {}) },
                             ),
@@ -13863,7 +13884,7 @@
                             ? (0, r.jsx)(r.Fragment, {})
                             : (0, r.jsx)(
                                 "button",
-                                Wn(
+                                Gn(
                                   {
                                     onClick: u,
                                     className: "form__control__cancel",
@@ -13877,7 +13898,7 @@
                 i === fe.IN_TABLE && !c && x
                   ? (0, r.jsx)(
                       "span",
-                      Wn(
+                      Gn(
                         { className: "editableIcon" },
                         { children: (0, r.jsx)(K, {}) },
                       ),
@@ -13886,7 +13907,7 @@
                 l
                   ? (0, r.jsx)(
                       "span",
-                      Wn(
+                      Gn(
                         { className: "form__control__tooltip" },
                         { children: l },
                       ),
@@ -13899,23 +13920,23 @@
         d &&
           (0, r.jsx)(
             "p",
-            Wn({ className: "form__control__error" }, { children: d }),
+            Gn({ className: "form__control__error" }, { children: d }),
           ),
       ],
     });
   };
   var $n = t(608),
-    Yn = {};
-  (Yn.styleTagTransform = y()),
-    (Yn.setAttributes = p()),
-    (Yn.insert = d().bind(null, "head")),
-    (Yn.domAPI = u()),
-    (Yn.insertStyleElement = m()),
-    i()($n.A, Yn),
+    Zn = {};
+  (Zn.styleTagTransform = y()),
+    (Zn.setAttributes = p()),
+    (Zn.insert = d().bind(null, "head")),
+    (Zn.domAPI = u()),
+    (Zn.insertStyleElement = m()),
+    i()($n.A, Zn),
     $n.A && $n.A.locals && $n.A.locals;
-  var Zn = function () {
+  var Qn = function () {
     return (
-      (Zn =
+      (Qn =
         Object.assign ||
         function (e) {
           for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -13923,13 +13944,13 @@
               Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
           return e;
         }),
-      Zn.apply(this, arguments)
+      Qn.apply(this, arguments)
     );
   };
-  const Qn = function () {
+  const Kn = function () {
     return (0, r.jsxs)(
       "a",
-      Zn(
+      Qn(
         {
           className: "tutorial",
           target: "__blank",
@@ -13939,18 +13960,18 @@
       ),
     );
   };
-  var Kn = t(712),
-    Xn = {};
-  (Xn.styleTagTransform = y()),
-    (Xn.setAttributes = p()),
-    (Xn.insert = d().bind(null, "head")),
-    (Xn.domAPI = u()),
-    (Xn.insertStyleElement = m()),
-    i()(Kn.A, Xn),
-    Kn.A && Kn.A.locals && Kn.A.locals;
-  var Jn = function () {
+  var Xn = t(712),
+    Jn = {};
+  (Jn.styleTagTransform = y()),
+    (Jn.setAttributes = p()),
+    (Jn.insert = d().bind(null, "head")),
+    (Jn.domAPI = u()),
+    (Jn.insertStyleElement = m()),
+    i()(Xn.A, Jn),
+    Xn.A && Xn.A.locals && Xn.A.locals;
+  var et = function () {
     return (
-      (Jn =
+      (et =
         Object.assign ||
         function (e) {
           for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -13958,10 +13979,10 @@
               Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
           return e;
         }),
-      Jn.apply(this, arguments)
+      et.apply(this, arguments)
     );
   };
-  const et = function (e) {
+  const nt = function (e) {
     var n = e.name,
       t = e.onChange,
       o = e.value,
@@ -13970,14 +13991,14 @@
       i = e.type,
       s = e.className,
       u = e.readOnly,
-      c = qn(o),
+      c = Wn(o),
       d = c.focus,
       f = c.handleFocus;
     return (0, r.jsxs)("div", {
       children: [
         (0, r.jsxs)(
           "div",
-          Jn(
+          et(
             {
               className: "textarea__control "
                 .concat(d && "active", " ")
@@ -14005,7 +14026,7 @@
                 i === xe.NORMAL &&
                   (0, r.jsx)(
                     "label",
-                    Jn(
+                    et(
                       {
                         className: "textarea__control__label",
                         htmlFor: "texarea",
@@ -14019,23 +14040,23 @@
         ),
         (0, r.jsx)(
           "p",
-          Jn({ className: "form__control__error" }, { children: l }),
+          et({ className: "form__control__error" }, { children: l }),
         ),
       ],
     });
   };
-  var nt = t(31),
-    tt = {};
-  (tt.styleTagTransform = y()),
-    (tt.setAttributes = p()),
-    (tt.insert = d().bind(null, "head")),
-    (tt.domAPI = u()),
-    (tt.insertStyleElement = m()),
-    i()(nt.A, tt),
-    nt.A && nt.A.locals && nt.A.locals;
-  var rt = function () {
+  var tt = t(31),
+    rt = {};
+  (rt.styleTagTransform = y()),
+    (rt.setAttributes = p()),
+    (rt.insert = d().bind(null, "head")),
+    (rt.domAPI = u()),
+    (rt.insertStyleElement = m()),
+    i()(tt.A, rt),
+    tt.A && tt.A.locals && tt.A.locals;
+  var ot = function () {
     return (
-      (rt =
+      (ot =
         Object.assign ||
         function (e) {
           for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -14043,14 +14064,14 @@
               Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
           return e;
         }),
-      rt.apply(this, arguments)
+      ot.apply(this, arguments)
     );
   };
-  const ot = function (e) {
+  const at = function (e) {
     var n = e.image,
       t = e.name,
       o = e.onClick,
-      a = rn(),
+      a = on(),
       l = a.setPage,
       i = a.companyBackData,
       s = a.userBackendData,
@@ -14060,33 +14081,33 @@
       f = a.setRefreshToken;
     return (0, r.jsxs)(
       "div",
-      rt(
+      ot(
         { className: "profile ".concat("mt-30") },
         {
           children: [
             (0, r.jsxs)(
               "div",
-              rt(
+              ot(
                 { className: "profile__data" },
                 {
                   children: [
-                    (0, r.jsx)(st, { onClick: o, image: n }),
+                    (0, r.jsx)(ut, { onClick: o, image: n }),
                     (0, r.jsxs)(
                       "div",
-                      rt(
+                      ot(
                         { className: "profile__information" },
                         {
                           children: [
                             (0, r.jsx)(
                               "h1",
-                              rt(
+                              ot(
                                 { className: "profile__information__name" },
                                 { children: t },
                               ),
                             ),
                             (0, r.jsxs)(
                               "h2",
-                              rt(
+                              ot(
                                 { className: "profile__information__info" },
                                 {
                                   children: [
@@ -14126,18 +14147,18 @@
       ),
     );
   };
-  var at = t(795),
-    lt = {};
-  (lt.styleTagTransform = y()),
-    (lt.setAttributes = p()),
-    (lt.insert = d().bind(null, "head")),
-    (lt.domAPI = u()),
-    (lt.insertStyleElement = m()),
-    i()(at.A, lt),
-    at.A && at.A.locals && at.A.locals;
-  var it = function () {
+  var lt = t(795),
+    it = {};
+  (it.styleTagTransform = y()),
+    (it.setAttributes = p()),
+    (it.insert = d().bind(null, "head")),
+    (it.domAPI = u()),
+    (it.insertStyleElement = m()),
+    i()(lt.A, it),
+    lt.A && lt.A.locals && lt.A.locals;
+  var st = function () {
     return (
-      (it =
+      (st =
         Object.assign ||
         function (e) {
           for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -14145,15 +14166,15 @@
               Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
           return e;
         }),
-      it.apply(this, arguments)
+      st.apply(this, arguments)
     );
   };
-  const st = function (e) {
+  const ut = function (e) {
     var n = e.image,
       t = e.onClick;
     return (0, r.jsxs)(
       "div",
-      it(
+      st(
         { className: "avatar" },
         {
           children: [
@@ -14168,27 +14189,27 @@
       ),
     );
   };
-  var ut = t(847),
-    ct = {};
-  (ct.styleTagTransform = y()),
-    (ct.setAttributes = p()),
-    (ct.insert = d().bind(null, "head")),
-    (ct.domAPI = u()),
-    (ct.insertStyleElement = m()),
-    i()(ut.A, ct),
-    ut.A && ut.A.locals && ut.A.locals;
-  var dt = t(701),
-    ft = {};
-  (ft.styleTagTransform = y()),
-    (ft.setAttributes = p()),
-    (ft.insert = d().bind(null, "head")),
-    (ft.domAPI = u()),
-    (ft.insertStyleElement = m()),
-    i()(dt.A, ft),
-    dt.A && dt.A.locals && dt.A.locals;
-  var pt = function () {
+  var ct = t(847),
+    dt = {};
+  (dt.styleTagTransform = y()),
+    (dt.setAttributes = p()),
+    (dt.insert = d().bind(null, "head")),
+    (dt.domAPI = u()),
+    (dt.insertStyleElement = m()),
+    i()(ct.A, dt),
+    ct.A && ct.A.locals && ct.A.locals;
+  var ft = t(701),
+    pt = {};
+  (pt.styleTagTransform = y()),
+    (pt.setAttributes = p()),
+    (pt.insert = d().bind(null, "head")),
+    (pt.domAPI = u()),
+    (pt.insertStyleElement = m()),
+    i()(ft.A, pt),
+    ft.A && ft.A.locals && ft.A.locals;
+  var ht = function () {
     return (
-      (pt =
+      (ht =
         Object.assign ||
         function (e) {
           for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -14196,10 +14217,10 @@
               Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
           return e;
         }),
-      pt.apply(this, arguments)
+      ht.apply(this, arguments)
     );
   };
-  const ht = function (e) {
+  const mt = function (e) {
     var n = e.createNew,
       t = e.data,
       a = e.name,
@@ -14211,35 +14232,35 @@
       d = (0, o.useState)(!1),
       f = d[0],
       p = d[1],
-      h = rn().accountid;
+      h = on().accountid;
     return (0, r.jsxs)(
       "div",
-      pt(
+      ht(
         { className: "dropdownElement" },
         {
           children: [
             u &&
-              (0, r.jsx)(Nt, {
+              (0, r.jsx)(Lt, {
                 onClick: n ? s : l,
                 checked: n ? !h : h === c,
                 id: c,
               }),
             (0, r.jsxs)(
               "div",
-              pt(
+              ht(
                 { className: "dropdownElement__container" },
                 {
                   children: [
                     (0, r.jsxs)(
                       "div",
-                      pt(
+                      ht(
                         { className: "dropdownElement__header" },
                         {
                           children: [
                             (0, r.jsx)("h1", { children: a }),
                             (0, r.jsx)(
                               "div",
-                              pt(
+                              ht(
                                 {
                                   className: "dropdownElement__header__actions",
                                 },
@@ -14249,7 +14270,7 @@
                                         children: [
                                           (0, r.jsx)(
                                             "span",
-                                            pt(
+                                            ht(
                                               {
                                                 className:
                                                   "dropdownElement__badge",
@@ -14262,7 +14283,7 @@
                                           ),
                                           (0, r.jsx)(
                                             "button",
-                                            pt(
+                                            ht(
                                               { onClick: s },
                                               { children: (0, r.jsx)(H, {}) },
                                             ),
@@ -14274,7 +14295,7 @@
                                           !u &&
                                             (0, r.jsx)(
                                               "button",
-                                              pt(
+                                              ht(
                                                 {
                                                   onClick: l,
                                                   className:
@@ -14285,7 +14306,7 @@
                                             ),
                                           (0, r.jsx)(
                                             "button",
-                                            pt(
+                                            ht(
                                               {
                                                 onClick: i,
                                                 className:
@@ -14306,7 +14327,7 @@
                     0 !== t.length &&
                       (0, r.jsxs)(
                         "div",
-                        pt(
+                        ht(
                           {
                             onClick: function () {
                               p(function (e) {
@@ -14323,7 +14344,7 @@
                               t.map(function (e, n) {
                                 return (0, r.jsx)(
                                   "div",
-                                  pt(
+                                  ht(
                                     {
                                       className:
                                         "dropdownElement__body__element",
@@ -14346,9 +14367,9 @@
       ),
     );
   };
-  var mt = function () {
+  var vt = function () {
     return (
-      (mt =
+      (vt =
         Object.assign ||
         function (e) {
           for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -14356,10 +14377,10 @@
               Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
           return e;
         }),
-      mt.apply(this, arguments)
+      vt.apply(this, arguments)
     );
   };
-  const vt = function (e) {
+  const yt = function (e) {
     var n = e.withLabel,
       t = void 0 === n || n,
       a = e.createNewData,
@@ -14404,7 +14425,7 @@
       w = x.setOpen,
       _ = x.ref,
       k = (function (e, n, t, r, o) {
-        var a = rn(),
+        var a = on(),
           l = a.companyBackDataWithNames,
           i = a.userBackendDataWithNames,
           s = a.setCompanyPagination,
@@ -14428,7 +14449,7 @@
                         : l.filter(function (n) {
                             return n.accountid === e;
                           })[0];
-                    n ? (d(n), s(de.EXIST)) : s(de.NOT_EXIST);
+                    n ? (console.log(n), d(n), s(de.EXIST)) : s(de.NOT_EXIST);
                   })(t)
                 : (function (e) {
                     var n =
@@ -14466,201 +14487,212 @@
       })(d, u, c, w, y),
       E = k.handleClickEdit,
       S = k.goToCreateNew,
-      j = rn().crmUrl;
-    return (0, r.jsxs)(
-      "div",
-      mt(
-        { ref: _, className: "extensiondropdown ".concat(d, " ").concat(y) },
-        {
-          children: [
-            t &&
-              (p
-                ? (0, r.jsxs)("div", {
+      j = on(),
+      N = j.crmUrl;
+    return (
+      j.companyBackData,
+      j.setCompanyBackendData,
+      (0, r.jsxs)(
+        "div",
+        vt(
+          { ref: _, className: "extensiondropdown ".concat(d, " ").concat(y) },
+          {
+            children: [
+              t &&
+                (p
+                  ? (0, r.jsxs)("div", {
+                      children: [
+                        (0, r.jsxs)(
+                          "label",
+                          vt(
+                            {
+                              htmlFor: "extensiondropdown",
+                              className: "extensiondropdown__header",
+                            },
+                            {
+                              children: [
+                                (0, r.jsx)("input", {
+                                  id: "extensiondropdown",
+                                  onFocus: function () {
+                                    w(!0);
+                                  },
+                                  value: m,
+                                  onChange: h,
+                                  className:
+                                    "extensiondropdown__header__label ".concat(
+                                      b && "error",
+                                    ),
+                                  placeholder: "Add Company",
+                                }),
+                                (0, r.jsx)(F, {}),
+                              ],
+                            },
+                          ),
+                        ),
+                        (0, r.jsx)(
+                          "p",
+                          vt(
+                            { className: "form__control__error" },
+                            { children: b },
+                          ),
+                        ),
+                      ],
+                    })
+                  : (0, r.jsxs)(
+                      "div",
+                      vt(
+                        {
+                          onClick: function () {
+                            w(function (e) {
+                              return !e;
+                            });
+                          },
+                          className: "extensiondropdown__header",
+                        },
+                        {
+                          children: [
+                            (0, r.jsx)(
+                              "span",
+                              vt(
+                                {
+                                  className: "extensiondropdown__header__label",
+                                },
+                                { children: f },
+                              ),
+                            ),
+                            (0, r.jsx)(F, {}),
+                          ],
+                        },
+                      ),
+                    )),
+              (0, r.jsxs)(
+                "div",
+                vt(
+                  {
+                    className: "extensiondropdown__body ".concat(
+                      C ? "open" : t ? "" : "open",
+                    ),
+                  },
+                  {
                     children: [
                       (0, r.jsxs)(
-                        "label",
-                        mt(
-                          {
-                            htmlFor: "extensiondropdown",
-                            className: "extensiondropdown__header",
-                          },
+                        "div",
+                        vt(
+                          { className: "extensiondropdown__elements" },
                           {
                             children: [
-                              (0, r.jsx)("input", {
-                                id: "extensiondropdown",
-                                onFocus: function () {
-                                  w(!0);
-                                },
-                                value: m,
-                                onChange: h,
-                                className:
-                                  "extensiondropdown__header__label ".concat(
-                                    b && "error",
-                                  ),
-                                placeholder: "Add Company",
-                              }),
-                              (0, r.jsx)(F, {}),
+                              (0, r.jsx)(
+                                "div",
+                                vt(
+                                  { className: "extensiondropdown__element" },
+                                  {
+                                    children:
+                                      a.name &&
+                                      (0, r.jsx)(
+                                        "div",
+                                        vt(
+                                          {
+                                            className:
+                                              "extensiondropdown__element__container",
+                                          },
+                                          {
+                                            children: (0, r.jsx)(
+                                              mt,
+                                              vt(
+                                                {
+                                                  elementId: "create",
+                                                  withRadioButton: g,
+                                                  onCreateNew: S,
+                                                  createNew: !0,
+                                                },
+                                                a,
+                                              ),
+                                            ),
+                                          },
+                                        ),
+                                      ),
+                                  },
+                                ),
+                              ),
+                              l &&
+                                l.map(function (e, n) {
+                                  return (0, r.jsx)(
+                                    "div",
+                                    vt(
+                                      {
+                                        className: "extensiondropdown__element",
+                                      },
+                                      {
+                                        children: (0, r.jsx)(
+                                          mt,
+                                          vt(
+                                            {
+                                              withRadioButton: g,
+                                              onClickEdit: function () {
+                                                E(e.id);
+                                              },
+                                              elementId: e.id,
+                                              onClickRedirect: function () {
+                                                ln(N, u, e.id);
+                                              },
+                                            },
+                                            e,
+                                          ),
+                                        ),
+                                      },
+                                    ),
+                                    n,
+                                  );
+                                }),
+                              v && (0, r.jsx)(Et, {}),
                             ],
                           },
                         ),
                       ),
-                      (0, r.jsx)(
-                        "p",
-                        mt(
-                          { className: "form__control__error" },
-                          { children: b },
-                        ),
-                      ),
-                    ],
-                  })
-                : (0, r.jsxs)(
-                    "div",
-                    mt(
-                      {
-                        onClick: function () {
-                          w(function (e) {
-                            return !e;
-                          });
-                        },
-                        className: "extensiondropdown__header",
-                      },
-                      {
-                        children: [
-                          (0, r.jsx)(
-                            "span",
-                            mt(
-                              { className: "extensiondropdown__header__label" },
-                              { children: f },
-                            ),
+                      !s &&
+                        (0, r.jsx)(
+                          "div",
+                          vt(
+                            { className: "extensiondropdown__footer" },
+                            {
+                              children: (0, r.jsxs)(
+                                "button",
+                                vt(
+                                  {
+                                    onClick: i,
+                                    className:
+                                      "extensiondropdown__footer__button",
+                                  },
+                                  {
+                                    children: ["view more ", (0, r.jsx)(M, {})],
+                                  },
+                                ),
+                              ),
+                            },
                           ),
-                          (0, r.jsx)(F, {}),
-                        ],
-                      },
-                    ),
-                  )),
-            (0, r.jsxs)(
-              "div",
-              mt(
-                {
-                  className: "extensiondropdown__body ".concat(
-                    C ? "open" : t ? "" : "open",
-                  ),
-                },
-                {
-                  children: [
-                    (0, r.jsxs)(
-                      "div",
-                      mt(
-                        { className: "extensiondropdown__elements" },
-                        {
-                          children: [
-                            (0, r.jsx)(
-                              "div",
-                              mt(
-                                { className: "extensiondropdown__element" },
-                                {
-                                  children:
-                                    a.name &&
-                                    (0, r.jsx)(
-                                      "div",
-                                      mt(
-                                        {
-                                          className:
-                                            "extensiondropdown__element__container",
-                                        },
-                                        {
-                                          children: (0, r.jsx)(
-                                            ht,
-                                            mt(
-                                              {
-                                                elementId: "create",
-                                                withRadioButton: g,
-                                                onCreateNew: S,
-                                                createNew: !0,
-                                              },
-                                              a,
-                                            ),
-                                          ),
-                                        },
-                                      ),
-                                    ),
-                                },
-                              ),
-                            ),
-                            l &&
-                              l.map(function (e, n) {
-                                return (0, r.jsx)(
-                                  "div",
-                                  mt(
-                                    { className: "extensiondropdown__element" },
-                                    {
-                                      children: (0, r.jsx)(
-                                        ht,
-                                        mt(
-                                          {
-                                            withRadioButton: g,
-                                            onClickEdit: function () {
-                                              E(e.id);
-                                            },
-                                            elementId: e.id,
-                                            onClickRedirect: function () {
-                                              an(j, u, e.id);
-                                            },
-                                          },
-                                          e,
-                                        ),
-                                      ),
-                                    },
-                                  ),
-                                  n,
-                                );
-                              }),
-                            v && (0, r.jsx)(kt, {}),
-                          ],
-                        },
-                      ),
-                    ),
-                    !s &&
-                      (0, r.jsx)(
-                        "div",
-                        mt(
-                          { className: "extensiondropdown__footer" },
-                          {
-                            children: (0, r.jsxs)(
-                              "button",
-                              mt(
-                                {
-                                  onClick: i,
-                                  className:
-                                    "extensiondropdown__footer__button",
-                                },
-                                { children: ["view more ", (0, r.jsx)(U, {})] },
-                              ),
-                            ),
-                          },
                         ),
-                      ),
-                  ],
-                },
+                    ],
+                  },
+                ),
               ),
-            ),
-          ],
-        },
-      ),
+            ],
+          },
+        ),
+      )
     );
   };
-  var yt = t(686),
-    gt = {};
-  (gt.styleTagTransform = y()),
-    (gt.setAttributes = p()),
-    (gt.insert = d().bind(null, "head")),
-    (gt.domAPI = u()),
-    (gt.insertStyleElement = m()),
-    i()(yt.A, gt),
-    yt.A && yt.A.locals && yt.A.locals;
-  var bt = function () {
+  var gt = t(686),
+    bt = {};
+  (bt.styleTagTransform = y()),
+    (bt.setAttributes = p()),
+    (bt.insert = d().bind(null, "head")),
+    (bt.domAPI = u()),
+    (bt.insertStyleElement = m()),
+    i()(gt.A, bt),
+    gt.A && gt.A.locals && gt.A.locals;
+  var xt = function () {
     return (
-      (bt =
+      (xt =
         Object.assign ||
         function (e) {
           for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -14668,14 +14700,14 @@
               Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
           return e;
         }),
-      bt.apply(this, arguments)
+      xt.apply(this, arguments)
     );
   };
-  const xt = function (e) {
+  const Ct = function (e) {
     var n = e.children;
     return (0, r.jsxs)(
       "table",
-      bt(
+      xt(
         { className: "table" },
         {
           children: [
@@ -14692,18 +14724,18 @@
       ),
     );
   };
-  var Ct = t(462),
-    wt = {};
-  (wt.styleTagTransform = y()),
-    (wt.setAttributes = p()),
-    (wt.insert = d().bind(null, "head")),
-    (wt.domAPI = u()),
-    (wt.insertStyleElement = m()),
-    i()(Ct.A, wt),
-    Ct.A && Ct.A.locals && Ct.A.locals;
-  var _t = function () {
+  var wt = t(462),
+    _t = {};
+  (_t.styleTagTransform = y()),
+    (_t.setAttributes = p()),
+    (_t.insert = d().bind(null, "head")),
+    (_t.domAPI = u()),
+    (_t.insertStyleElement = m()),
+    i()(wt.A, _t),
+    wt.A && wt.A.locals && wt.A.locals;
+  var kt = function () {
     return (
-      (_t =
+      (kt =
         Object.assign ||
         function (e) {
           for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -14711,30 +14743,30 @@
               Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
           return e;
         }),
-      _t.apply(this, arguments)
+      kt.apply(this, arguments)
     );
   };
-  const kt = function () {
+  const Et = function () {
     return (0, r.jsx)(
       "div",
-      _t(
+      kt(
         { className: "smallLoaderContainer" },
         { children: (0, r.jsx)("div", { className: "smallLoader" }) },
       ),
     );
   };
-  var Et = t(889),
-    St = {};
-  (St.styleTagTransform = y()),
-    (St.setAttributes = p()),
-    (St.insert = d().bind(null, "head")),
-    (St.domAPI = u()),
-    (St.insertStyleElement = m()),
-    i()(Et.A, St),
-    Et.A && Et.A.locals && Et.A.locals;
-  var jt = function () {
+  var St = t(889),
+    jt = {};
+  (jt.styleTagTransform = y()),
+    (jt.setAttributes = p()),
+    (jt.insert = d().bind(null, "head")),
+    (jt.domAPI = u()),
+    (jt.insertStyleElement = m()),
+    i()(St.A, jt),
+    St.A && St.A.locals && St.A.locals;
+  var Nt = function () {
     return (
-      (jt =
+      (Nt =
         Object.assign ||
         function (e) {
           for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -14742,16 +14774,16 @@
               Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
           return e;
         }),
-      jt.apply(this, arguments)
+      Nt.apply(this, arguments)
     );
   };
-  const Nt = function (e) {
+  const Lt = function (e) {
     var n = e.checked,
       t = e.id,
       o = e.onClick;
     return (0, r.jsxs)(
       "label",
-      jt(
+      Nt(
         { onClick: o, htmlFor: t, className: "radioContainer" },
         {
           children: [
@@ -14767,18 +14799,18 @@
       ),
     );
   };
-  var Lt = t(84),
-    At = {};
-  (At.styleTagTransform = y()),
-    (At.setAttributes = p()),
-    (At.insert = d().bind(null, "head")),
-    (At.domAPI = u()),
-    (At.insertStyleElement = m()),
-    i()(Lt.A, At),
-    Lt.A && Lt.A.locals && Lt.A.locals;
-  var Ot = function () {
+  var At = t(84),
+    Ot = {};
+  (Ot.styleTagTransform = y()),
+    (Ot.setAttributes = p()),
+    (Ot.insert = d().bind(null, "head")),
+    (Ot.domAPI = u()),
+    (Ot.insertStyleElement = m()),
+    i()(At.A, Ot),
+    At.A && At.A.locals && At.A.locals;
+  var Tt = function () {
     return (
-      (Ot =
+      (Tt =
         Object.assign ||
         function (e) {
           for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -14786,14 +14818,14 @@
               Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
           return e;
         }),
-      Ot.apply(this, arguments)
+      Tt.apply(this, arguments)
     );
   };
-  const Tt = function (e) {
+  const It = function (e) {
     var n = e.text;
-    return (0, r.jsx)("h1", Ot({ className: "alert" }, { children: n }));
+    return (0, r.jsx)("h1", Tt({ className: "alert" }, { children: n }));
   };
-  var It = function () {
+  var Pt = function () {
     return {
       addForUserSearch: function () {
         return (
@@ -14997,8 +15029,8 @@
                             : e.querySelector(".entity-result__title-text"),
                         k = e.querySelector(".idForLinkedinIcon");
                       if (k)
-                        on.render(
-                          (0, r.jsx)(bn, {
+                        an.render(
+                          (0, r.jsx)(xn, {
                             name: x,
                             job: C,
                             image:
@@ -15087,7 +15119,7 @@
                     )[1]
                     .querySelector("a"));
           var o = document.querySelector("#idForLinkedinIcon");
-          if (o) on.render((0, r.jsx)(wn, {}), o);
+          if (o) an.render((0, r.jsx)(_n, {}), o);
           else {
             var a = document.createElement("div");
             (a.id = "idForLinkedinIcon"),
@@ -15110,7 +15142,7 @@
                 e.add("inline"),
               o)
             )
-              on.render((0, r.jsx)(wn, {}), o);
+              an.render((0, r.jsx)(_n, {}), o);
             else {
               var a = document.createElement("div");
               (a.id = "idForLinkedinIconCompany"),
@@ -15267,8 +15299,8 @@
                         : x.trim(),
                     P = e.querySelector(".idForLinkedinIcon");
                   if (P)
-                    on.render(
-                      (0, r.jsx)(bn, {
+                    an.render(
+                      (0, r.jsx)(xn, {
                         job: T,
                         company: L,
                         jobCompanyId: k,
@@ -15293,7 +15325,7 @@
       },
     };
   };
-  function Pt(e) {
+  function Rt(e) {
     return (
       (n = this),
       (t = void 0),
@@ -15432,14 +15464,14 @@
     );
     var n, t, r, o;
   }
-  function Rt(e) {
+  function Dt(e) {
     return e.replace(
       /[\u{1F600}-\u{1F64F}\u{1F300}-\u{1F5FF}\u{1F680}-\u{1F6FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}]/gu,
       "",
     );
   }
   const Mt = function () {
-    var e = rn(),
+    var e = on(),
       n = e.setFullname,
       t = e.setPage,
       r = e.setLoading,
@@ -15575,7 +15607,7 @@
                 case 0:
                   return [
                     4,
-                    Pt(function (e, g) {
+                    Rt(function (e, g) {
                       var b,
                         x,
                         C,
@@ -15593,9 +15625,9 @@
                         I,
                         P,
                         R,
+                        D,
                         M,
                         U,
-                        D,
                         F,
                         B,
                         H,
@@ -15603,54 +15635,58 @@
                         V,
                         q,
                         W,
-                        G;
+                        G,
+                        Y,
+                        $,
+                        Z,
+                        Q;
                       if (e) {
-                        var $ = null,
-                          Y = null,
-                          Z = null,
-                          Q = null,
-                          K = null,
+                        var K = null,
                           X = null,
                           J = null,
                           ee = null,
                           ne = null,
-                          te = null;
+                          te = null,
+                          re = null,
+                          oe = null,
+                          ae = null,
+                          le = null;
                         if (g.includes(ce.USER)) {
-                          var re = e.querySelector(".pb5")
+                          var ie = e.querySelector(".pb5")
                               ? document.querySelector(".pb5")
                               : document.querySelector(".ph5"),
-                            oe = document.querySelectorAll(".artdeco-card");
-                          (te =
+                            ue = document.querySelectorAll(".artdeco-card");
+                          (le =
                             null ===
                               (b =
-                                null == re
+                                null == ie
                                   ? void 0
-                                  : re.querySelector("img")) || void 0 === b
+                                  : ie.querySelector("img")) || void 0 === b
                               ? void 0
                               : b.getAttribute("src")),
-                            (Q =
+                            (ee =
                               null ===
                                 (C =
                                   null ===
                                     (x =
-                                      null == re
+                                      null == ie
                                         ? void 0
-                                        : re.querySelector("h1")) ||
+                                        : ie.querySelector("h1")) ||
                                   void 0 === x
                                     ? void 0
                                     : x.textContent) || void 0 === C
                                 ? void 0
                                 : C.trim().slice(0, 100)),
-                            (K =
+                            (ne =
                               null ===
                                 (k =
                                   null ===
                                     (_ =
                                       null ===
                                         (w =
-                                          null == re
+                                          null == ie
                                             ? void 0
-                                            : re.querySelector(".mt2")) ||
+                                            : ie.querySelector(".mt2")) ||
                                       void 0 === w
                                         ? void 0
                                         : w.querySelector(
@@ -15660,92 +15696,109 @@
                                     : _.textContent) || void 0 === k
                                 ? void 0
                                 : k.trim().replace(/\s+/g, " ")),
-                            (X =
+                            (te =
                               null ===
                                 (S =
                                   null ===
                                     (E =
-                                      null == re
+                                      null == ie
                                         ? void 0
-                                        : re.querySelector(
+                                        : ie.querySelector(
                                             ".text-body-medium",
                                           )) || void 0 === E
                                     ? void 0
                                     : E.textContent) || void 0 === S
                                 ? void 0
-                                : S.trim().replace(/\s+/g, " ").slice(0, 1e3)),
-                            oe.forEach(function (e) {
-                              var n, t, r, o, a, l, i, s, u;
-                              if (
-                                (null ===
-                                  (n = e.querySelector(".pvs-header__title")) ||
-                                void 0 === n
-                                  ? void 0
-                                  : n.innerHTML.includes("Experience")) ||
-                                (null ===
-                                  (t = e.querySelector(".pvs-header__title")) ||
-                                void 0 === t
-                                  ? void 0
-                                  : t.innerHTML.includes("Deneyim"))
-                              ) {
-                                var c =
-                                  null ===
-                                    (a =
-                                      null ===
-                                        (o =
-                                          null ===
-                                            (r =
-                                              null == e
-                                                ? void 0
-                                                : e.querySelector("ul")) ||
-                                          void 0 === r
-                                            ? void 0
-                                            : r.querySelector(
-                                                '[data-field="experience_company_logo"]',
-                                              )) || void 0 === o
-                                        ? void 0
-                                        : o.getAttribute("href")) ||
-                                  void 0 === a
-                                    ? void 0
-                                    : a.split(
-                                        "https://www.linkedin.com/company/",
-                                      )[1];
-                                c &&
-                                  (($ = null == c ? void 0 : c.split("/")[0]),
-                                  (Y =
+                                : S.trim().replace(/\s+/g, " ").slice(0, 1e3));
+                          var de =
+                            null ===
+                              (A =
+                                null ===
+                                  (L =
                                     null ===
-                                      (u =
+                                      (N =
                                         null ===
-                                          (s =
-                                            null ===
-                                              (i =
-                                                null ===
-                                                  (l = e.querySelector("li")) ||
-                                                void 0 === l
-                                                  ? void 0
-                                                  : l.querySelector(
-                                                      ".t-normal",
-                                                    )) || void 0 === i
+                                          (j =
+                                            null == ie
                                               ? void 0
-                                              : i.querySelector(
-                                                  '[aria-hidden="true"]',
-                                                )) || void 0 === s
+                                              : ie.querySelector("ul")) ||
+                                        void 0 === j
                                           ? void 0
-                                          : s.textContent) || void 0 === u
+                                          : j.querySelector("button")) ||
+                                    void 0 === N
                                       ? void 0
-                                      : u.split("·")[0]));
-                              }
-                            });
-                          var ae = e.querySelector("[role='dialog']"),
-                            le =
-                              null == ae
+                                      : N.querySelector("span")) || void 0 === L
+                                  ? void 0
+                                  : L.textContent) || void 0 === A
+                              ? void 0
+                              : A.trim();
+                          ue.forEach(function (e) {
+                            var n, t, r, o, a, l, i, s;
+                            if (
+                              (null ===
+                                (n = e.querySelector(".pvs-header__title")) ||
+                              void 0 === n
                                 ? void 0
-                                : ae.querySelectorAll(
+                                : n.innerHTML.includes("Experience")) ||
+                              (null ===
+                                (t = e.querySelector(".pvs-header__title")) ||
+                              void 0 === t
+                                ? void 0
+                                : t.innerHTML.includes("Deneyim"))
+                            ) {
+                              var u =
+                                null ===
+                                  (a =
+                                    null ===
+                                      (o =
+                                        null ===
+                                          (r =
+                                            null == e
+                                              ? void 0
+                                              : e.querySelector("ul")) ||
+                                        void 0 === r
+                                          ? void 0
+                                          : r.querySelector(
+                                              '[data-field="experience_company_logo"]',
+                                            )) || void 0 === o
+                                      ? void 0
+                                      : o.getAttribute("href")) || void 0 === a
+                                  ? void 0
+                                  : a.split(
+                                      "https://www.linkedin.com/company/",
+                                    )[1];
+                              (X =
+                                de ||
+                                (null ===
+                                  (s =
+                                    null ===
+                                      (i =
+                                        null ===
+                                          (l =
+                                            null == e
+                                              ? void 0
+                                              : e.querySelector("ul")) ||
+                                        void 0 === l
+                                          ? void 0
+                                          : l.querySelector("img")) ||
+                                    void 0 === i
+                                      ? void 0
+                                      : i.getAttribute("alt")) || void 0 === s
+                                  ? void 0
+                                  : s.trim())),
+                                u && (K = null == u ? void 0 : u.split("/")[0]);
+                            }
+                          });
+                          var fe = e.querySelector("[role='dialog']"),
+                            pe =
+                              null == fe
+                                ? void 0
+                                : fe.querySelectorAll(
                                     ".pv-contact-info__contact-type",
                                   );
-                          null == le ||
-                            le.forEach(function (e) {
-                              var n, t, r, o, a, l, i, s, u, c, d, f, p, h;
+                          null == pe ||
+                            pe.forEach(function (e) {
+                              var n, t, r, o, a, l, i, s, u, c, d, f, p;
                               (null ===
                                 (n =
                                   null == e ? void 0 : e.querySelector("h3")) ||
@@ -15794,7 +15847,7 @@
                                         : i.innerHTML.trim()) || void 0 === s
                                     ? void 0
                                     : s.includes("Mobil"))
-                                  ? (J =
+                                  ? (re =
                                       null ===
                                         (c =
                                           null ===
@@ -15808,7 +15861,7 @@
                                       void 0 === c
                                         ? void 0
                                         : c.innerHTML.trim())
-                                  : (ee =
+                                  : (oe =
                                       null ===
                                         (f =
                                           null ===
@@ -15822,207 +15875,165 @@
                                       void 0 === f
                                         ? void 0
                                         : f.innerHTML.trim())
-                                : (null ===
+                                : null ===
                                     (p =
                                       null == e
                                         ? void 0
-                                        : e.querySelector("h3")) || void 0 === p
-                                    ? void 0
-                                    : p.innerHTML.includes("Birthday")) &&
-                                  (Z = (function (e) {
-                                    if (!e) return null;
-                                    var n = e.split(" "),
-                                      t = n[0],
-                                      r = parseInt(n[1]),
-                                      o = new Date().getFullYear(),
-                                      a = new Date(
-                                        o,
-                                        {
-                                          January: 0,
-                                          February: 1,
-                                          March: 2,
-                                          April: 3,
-                                          May: 4,
-                                          June: 5,
-                                          July: 6,
-                                          August: 7,
-                                          September: 8,
-                                          October: 9,
-                                          November: 10,
-                                          December: 11,
-                                        }[t],
-                                        r,
-                                      ),
-                                      l = a.getDate(),
-                                      i = a.getMonth() + 1;
-                                    return (
-                                      (l < 10 ? "0" + l : l) +
-                                      "." +
-                                      (i < 10 ? "0" + i : i) +
-                                      "." +
-                                      a.getFullYear()
-                                    );
-                                  })(
-                                    null ===
-                                      (h =
-                                        null == e
-                                          ? void 0
-                                          : e.querySelector("span")) ||
-                                      void 0 === h
-                                      ? void 0
-                                      : h.innerHTML.trim(),
-                                  ));
+                                        : e.querySelector("h3")) ||
+                                  void 0 === p ||
+                                  p.innerHTML.includes("Birthday");
                             }),
-                            (ne =
+                            (ae =
                               null ===
-                                (N =
+                                (T =
                                   null ===
-                                    (j =
-                                      null == ae
+                                    (O =
+                                      null == fe
                                         ? void 0
-                                        : ae.querySelector(
+                                        : fe.querySelector(
                                             'a[href*="mailto"]',
-                                          )) || void 0 === j
+                                          )) || void 0 === O
                                     ? void 0
-                                    : j.textContent) || void 0 === N
+                                    : O.textContent) || void 0 === T
                                 ? void 0
-                                : N.trim().replace(/\s+/g, " ")),
+                                : T.trim().replace(/\s+/g, " ")),
                             a(g);
                         } else
-                          (re = e.querySelector("._header_sqh8tm")),
+                          (ie = e.querySelector("._header_sqh8tm")),
                             l(g),
-                            ($ =
+                            (K =
                               null ===
-                                (A =
+                                (P =
                                   null ===
-                                    (L =
+                                    (I =
                                       null == e
                                         ? void 0
                                         : e.querySelector(
                                             '[data-sn-view-name="lead-current-role"]',
-                                          )) || void 0 === L
+                                          )) || void 0 === I
                                     ? void 0
-                                    : L.querySelector("a")) || void 0 === A
+                                    : I.querySelector("a")) || void 0 === P
                                 ? void 0
-                                : A.href.split("/sales/company/")[1]),
-                            (Y =
+                                : P.href.split("/sales/company/")[1]),
+                            (X =
                               null ===
-                                (I =
+                                (M =
                                   null ===
-                                    (T =
+                                    (D =
                                       null ===
-                                        (O =
+                                        (R =
                                           null == e
                                             ? void 0
                                             : e.querySelector(
                                                 '[data-sn-view-name="lead-current-role"]',
-                                              )) || void 0 === O
+                                              )) || void 0 === R
                                         ? void 0
-                                        : O.querySelector(
+                                        : R.querySelector(
                                             '[data-anonymize="company-name"]',
-                                          )) || void 0 === T
+                                          )) || void 0 === D
                                     ? void 0
-                                    : T.textContent) || void 0 === I
+                                    : D.textContent) || void 0 === M
                                 ? void 0
-                                : I.trim()),
-                            (Z = null),
-                            (Q =
-                              null ===
-                                (R =
-                                  null ===
-                                    (P =
-                                      null == re
-                                        ? void 0
-                                        : re.querySelector("h1")) ||
-                                  void 0 === P
-                                    ? void 0
-                                    : P.textContent) || void 0 === R
-                                ? void 0
-                                : R.trim()),
-                            (K =
-                              null ===
-                                (U =
-                                  null ===
-                                    (M =
-                                      null == re
-                                        ? void 0
-                                        : re.querySelector(
-                                            ".EBmuDvcrKIsrIgEqZcRfFWErAPcMMNRSLo",
-                                          )) || void 0 === M
-                                    ? void 0
-                                    : M.textContent) || void 0 === U
-                                ? void 0
-                                : U.trim().split("  ")[0]),
-                            (X =
+                                : M.trim()),
+                            (J = null),
+                            (ee =
                               null ===
                                 (F =
                                   null ===
-                                    (D =
-                                      null == re
+                                    (U =
+                                      null == ie
                                         ? void 0
-                                        : re.querySelector(
-                                            '[data-anonymize="headline"]',
-                                          )) || void 0 === D
+                                        : ie.querySelector("h1")) ||
+                                  void 0 === U
                                     ? void 0
-                                    : D.textContent) || void 0 === F
+                                    : U.textContent) || void 0 === F
                                 ? void 0
                                 : F.trim()),
-                            (J =
-                              null ===
-                                (z =
-                                  null ===
-                                    (H =
-                                      null ===
-                                        (B = e.querySelector(
-                                          '[data-sn-view-name="lead-contact-info"]',
-                                        )) || void 0 === B
-                                        ? void 0
-                                        : B.querySelector(
-                                            '[data-anonymize="phone"]',
-                                          )) || void 0 === H
-                                    ? void 0
-                                    : H.textContent) || void 0 === z
-                                ? void 0
-                                : z.trim()),
-                            (ee = null),
                             (ne =
                               null ===
-                                (W =
+                                (H =
                                   null ===
-                                    (q =
-                                      null ===
-                                        (V = e.querySelector(
-                                          '[data-sn-view-name="lead-contact-info"]',
-                                        )) || void 0 === V
+                                    (B =
+                                      null == ie
                                         ? void 0
-                                        : V.querySelector(
-                                            '[data-anonymize="email"]',
-                                          )) || void 0 === q
+                                        : ie.querySelector(
+                                            ".HblPRqGaLuHGtcuWzKdSRYYJoJQWyVdffTxA",
+                                          )) || void 0 === B
                                     ? void 0
-                                    : q.textContent) || void 0 === W
+                                    : B.textContent) || void 0 === H
                                 ? void 0
-                                : W.trim()),
+                                : H.trim().split("  ")[0]),
+                            console.log(ne, "DFSDFSDFSDFSDF ADRESS"),
                             (te =
                               null ===
-                                (G =
-                                  null == re
+                                (V =
+                                  null ===
+                                    (z =
+                                      null == ie
+                                        ? void 0
+                                        : ie.querySelector(
+                                            '[data-anonymize="headline"]',
+                                          )) || void 0 === z
                                     ? void 0
-                                    : re.querySelector("img")) || void 0 === G
+                                    : z.textContent) || void 0 === V
                                 ? void 0
-                                : G.getAttribute("src"));
-                        n(Rt(Q || "")),
-                          o(K),
-                          s(ee),
-                          d(ne),
-                          J && f(J),
-                          i(Rt(X || "")),
-                          p(Z),
-                          c($),
-                          u(Y),
-                          h(te),
-                          y(null),
-                          m(Y || ""),
-                          v($);
+                                : V.trim()),
+                            (re =
+                              null ===
+                                (G =
+                                  null ===
+                                    (W =
+                                      null ===
+                                        (q = e.querySelector(
+                                          '[data-sn-view-name="lead-contact-info"]',
+                                        )) || void 0 === q
+                                        ? void 0
+                                        : q.querySelector(
+                                            '[data-anonymize="phone"]',
+                                          )) || void 0 === W
+                                    ? void 0
+                                    : W.textContent) || void 0 === G
+                                ? void 0
+                                : G.trim()),
+                            (oe = null),
+                            (ae =
+                              null ===
+                                (Z =
+                                  null ===
+                                    ($ =
+                                      null ===
+                                        (Y = e.querySelector(
+                                          '[data-sn-view-name="lead-contact-info"]',
+                                        )) || void 0 === Y
+                                        ? void 0
+                                        : Y.querySelector(
+                                            '[data-anonymize="email"]',
+                                          )) || void 0 === $
+                                    ? void 0
+                                    : $.textContent) || void 0 === Z
+                                ? void 0
+                                : Z.trim()),
+                            (le =
+                              null ===
+                                (Q =
+                                  null == ie
+                                    ? void 0
+                                    : ie.querySelector("img")) || void 0 === Q
+                                ? void 0
+                                : Q.getAttribute("src")),
+                            p(J),
+                            d(ae),
+                            re && f(re),
+                            y(null),
+                            c(K),
+                            u(X);
+                        n(Dt(ee || "")),
+                          o(ne),
+                          s(oe),
+                          i(Dt(te || "")),
+                          h(le),
+                          m(X || ""),
+                          v(K);
                       } else r(!1), t(se.ERROR);
                     }),
                   ];
@@ -16065,30 +16076,30 @@
     };
   };
   var Ut,
-    Dt,
-    Ft = function (e, n) {
+    Ft,
+    Bt = function (e, n) {
       return ((null !== e && "" !== e) || (null !== n && "" !== n)) && e !== n
         ? "differentValues"
         : "sameValues";
     },
-    Bt = function (e, n) {
+    Ht = function (e, n) {
       return ((null !== e && "" !== e) || (null !== n && "" !== n)) && e !== n;
     },
-    Ht = function (e, n, t) {
+    zt = function (e, n, t) {
       if (t || 2 === arguments.length)
         for (var r, o = 0, a = n.length; o < a; o++)
           (!r && o in n) ||
             (r || (r = Array.prototype.slice.call(n, 0, o)), (r[o] = n[o]));
       return e.concat(r || Array.prototype.slice.call(n));
     },
-    zt = function (e, n, t, r) {
-      return Ht(
-        Ht(Ht(Ht([], e ? [e] : [], !0), n ? [n] : [], !0), [t], !1),
+    Vt = function (e, n, t, r) {
+      return zt(
+        zt(zt(zt([], e ? [e] : [], !0), n ? [n] : [], !0), [t], !1),
         r ? [r] : [],
         !0,
       ).filter(Boolean);
     },
-    Vt = function (e) {
+    qt = function (e) {
       var n = [];
       return (
         e &&
@@ -16096,7 +16107,7 @@
             n.push({
               name: e.name,
               id: e.accountid,
-              data: zt(
+              data: Vt(
                 e.address1_name,
                 e.websiteurl,
                 e.uds_linkedinprofilecompanyurl,
@@ -16107,9 +16118,9 @@
         n
       );
     };
-  function qt() {
+  function Wt() {
     var e = this,
-      n = rn(),
+      n = on(),
       t = n.uds_linkedin,
       r = n.uds_salesnavigatoruserurl,
       a = n.userBackendData,
@@ -16138,17 +16149,17 @@
       checkHaveDifferentValueForButton: function () {
         return (
           (r
-            ? Bt(r, null == a ? void 0 : a.uds_salesnavigatoruserurl)
-            : Bt(t, null == a ? void 0 : a.uds_linkedin)) ||
-          Bt(l || "", (null == a ? void 0 : a.fullname) || "") ||
-          Bt(v || "", (null == u ? void 0 : u.name) || "") ||
-          Bt(s || "", (null == a ? void 0 : a.jobtitle) || "") ||
-          Bt(i || "", (null == a ? void 0 : a.address1_name) || "") ||
-          Bt(c || "", (null == a ? void 0 : a.mobilephone) || "") ||
-          Bt(d || "", (null == a ? void 0 : a.telephone1) || "") ||
-          Bt(f || "", (null == a ? void 0 : a.emailaddress1) || "") ||
-          Bt(p || "", (null == a ? void 0 : a.emailaddress2) || "") ||
-          Bt(h || "", (null == a ? void 0 : a.description) || "")
+            ? Ht(r, null == a ? void 0 : a.uds_salesnavigatoruserurl)
+            : Ht(t, null == a ? void 0 : a.uds_linkedin)) ||
+          Ht(l || "", (null == a ? void 0 : a.fullname) || "") ||
+          Ht(v || "", (null == u ? void 0 : u.name) || "") ||
+          Ht(s || "", (null == a ? void 0 : a.jobtitle) || "") ||
+          Ht(i || "", (null == a ? void 0 : a.address1_name) || "") ||
+          Ht(c || "", (null == a ? void 0 : a.mobilephone) || "") ||
+          Ht(d || "", (null == a ? void 0 : a.telephone1) || "") ||
+          Ht(f || "", (null == a ? void 0 : a.emailaddress1) || "") ||
+          Ht(p || "", (null == a ? void 0 : a.emailaddress2) || "") ||
+          Ht(h || "", (null == a ? void 0 : a.description) || "")
         );
       },
       handleSearch: function (n) {
@@ -16265,7 +16276,7 @@
                     x(null),
                     (t = "contains(name,'".concat(e, "')")),
                     (r = encodeURIComponent(t)),
-                    [4, dn("".concat(y, "/accounts?$filter=").concat(r), g)]
+                    [4, fn("".concat(y, "/accounts?$filter=").concat(r), g)]
                   );
                 case 1:
                   return (o = a.sent()), b(o.value), _(!1), [2];
@@ -16307,7 +16318,7 @@
       customerError: E,
     };
   }
-  var Wt =
+  var Gt =
       (((Ut = {})[ye.COMPANY_NAME] = {
         max: 160,
         type: be.STRING,
@@ -16322,36 +16333,36 @@
       (Ut[ye.COMPANY_IMAGE] = { max: 2e3, type: be.STRING }),
       (Ut[ye.UDS_SALES_PROFILE_COMPANY] = { max: 2e3, type: be.URL }),
       Ut),
-    Gt =
-      (((Dt = {})[ge.FULLNAME] = { max: 100, type: be.STRING, required: !0 }),
-      (Dt[ge.USER_IMAGE] = { max: 1e3, type: be.STRING, required: !0 }),
-      (Dt[ge.JOB_TITLE] = { max: 1e3, type: be.STRING, required: !1 }),
-      (Dt[ge.ADRESS] = { max: 200, type: be.STRING, required: !1 }),
-      (Dt[ge.DESCRIPTION] = { max: 2e3, type: be.STRING, required: !1 }),
-      (Dt[ge.BIRTHDAY] = { max: 10, type: be.DATE, required: !1 }),
-      (Dt[ge.CUSTOMER] = { max: 160, type: be.STRING, required: !1 }),
-      (Dt[ge.EMAIL] = { max: 100, type: be.EMAIL, required: !1 }),
-      (Dt[ge.PERSONAL_EMAIL] = { max: 100, type: be.EMAIL, required: !1 }),
-      (Dt[ge.MOBILE_PHONE] = { max: 50, type: be.STRING, required: !1 }),
-      (Dt[ge.WORK_PHONE] = { max: 50, type: be.STRING, required: !1 }),
-      (Dt[ge.UDS_LINKEDIN_PROFILE_USER] = {
+    Yt =
+      (((Ft = {})[ge.FULLNAME] = { max: 100, type: be.STRING, required: !0 }),
+      (Ft[ge.USER_IMAGE] = { max: 1e3, type: be.STRING, required: !0 }),
+      (Ft[ge.JOB_TITLE] = { max: 1e3, type: be.STRING, required: !1 }),
+      (Ft[ge.ADRESS] = { max: 200, type: be.STRING, required: !1 }),
+      (Ft[ge.DESCRIPTION] = { max: 2e3, type: be.STRING, required: !1 }),
+      (Ft[ge.BIRTHDAY] = { max: 10, type: be.DATE, required: !1 }),
+      (Ft[ge.CUSTOMER] = { max: 160, type: be.STRING, required: !1 }),
+      (Ft[ge.EMAIL] = { max: 100, type: be.EMAIL, required: !1 }),
+      (Ft[ge.PERSONAL_EMAIL] = { max: 100, type: be.EMAIL, required: !1 }),
+      (Ft[ge.MOBILE_PHONE] = { max: 50, type: be.STRING, required: !1 }),
+      (Ft[ge.WORK_PHONE] = { max: 50, type: be.STRING, required: !1 }),
+      (Ft[ge.UDS_LINKEDIN_PROFILE_USER] = {
         max: 2e3,
         type: be.STRING,
         required: !1,
       }),
-      (Dt[ge.UDS_SALES_PROFILE_USER] = {
+      (Ft[ge.UDS_SALES_PROFILE_USER] = {
         max: 2e3,
         type: be.STRING,
         required: !1,
       }),
-      Dt),
+      Ft),
     $t =
       /^[a-zA-Z0-9!#$%&'*+\\/=?^_`{|}~-]+(\.[a-zA-Z0-9!#$%&'*+\\/=?^_`{|}~-]+)*@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*(\.[a-zA-Z]{2,})$/,
-    Yt =
+    Zt =
       /^(https?|ftp):\/\/(([a-z\d]([a-z\d-]*[a-z\d])?\.)+[a-z]{2,}|localhost)(\/[-a-z\d%_.~+]*)*(\?[;&a-z\d%_.~+=-]*)?(\#[-a-z\d_]*)?$/i,
-    Zt = /^\d{2}\.\d{2}\.\d{4}$/;
-  function Qt() {
-    var e = rn(),
+    Qt = /^\d{2}\.\d{2}\.\d{4}$/;
+  function Kt() {
+    var e = on(),
       n = e.setFullname,
       t = e.setWorkPhone,
       r = e.setBirthday,
@@ -16366,7 +16377,7 @@
         var d = e.target,
           f = d.name,
           p = d.value,
-          h = Gt[f],
+          h = Yt[f],
           m = h.min,
           v = h.max,
           y = h.type,
@@ -16385,26 +16396,26 @@
             );
           else if (y === be.DATE)
             if (p)
-              if (Zt.test(p)) {
+              if (Qt.test(p)) {
                 var b = p.split("."),
                   x = parseInt(b[0], 10),
                   C = parseInt(b[1], 10),
                   w = parseInt(b[2], 10);
                 c(
                   f,
-                  x >= 1 && x <= 31 && C >= 1 && C <= 12 && w >= 1e3
+                  x >= 1 && x <= 12 && C >= 1 && C <= 31 && w >= 1e3
                     ? null
-                    : "Invalid date format. Please enter date in dd.mm.yyyy format.",
+                    : "Invalid date format. Please enter date in mm.dd.yyyy format.",
                 );
               } else
                 c(
                   f,
-                  "Invalid date format. Please enter date in dd.mm.yyyy format.",
+                  "Invalid date format. Please enter date in mm.dd.yyyy format.",
                 );
             else c(f, null);
           else
             y === be.URL
-              ? c(f, p ? (Yt.test(p) ? null : "Not correct URL") : null)
+              ? c(f, p ? (Zt.test(p) ? null : "Not correct URL") : null)
               : c(
                   f,
                   p.length > v
@@ -16458,7 +16469,7 @@
       },
     };
   }
-  var Kt = function (e, n, t, r, o, a, l, i) {
+  var Xt = function (e, n, t, r, o, a, l, i) {
       return {
         uds_linkedinprofilecompanyurl: e,
         uds_linkedincompanyid: n,
@@ -16470,9 +16481,9 @@
         description: i || "",
       };
     },
-    Xt = function () {
+    Jt = function () {
       return (
-        (Xt =
+        (Jt =
           Object.assign ||
           function (e) {
             for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -16480,10 +16491,10 @@
                 Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
             return e;
           }),
-        Xt.apply(this, arguments)
+        Jt.apply(this, arguments)
       );
     },
-    Jt = function (e, n, t, r) {
+    er = function (e, n, t, r) {
       return new (t || (t = Promise))(function (o, a) {
         function l(e) {
           try {
@@ -16513,7 +16524,7 @@
         s((r = r.apply(e, n || [])).next());
       });
     },
-    er = function (e, n) {
+    nr = function (e, n) {
       var t,
         r,
         o,
@@ -16603,14 +16614,14 @@
         };
       }
     },
-    nr = function () {
+    tr = function () {
       var e = (0, o.useState)(!1),
         n = e[0],
         t = e[1],
         r = (0, o.useState)(null),
         a = r[0],
         l = r[1],
-        i = rn(),
+        i = on(),
         s = i.customer,
         u = i.customerId,
         c = i.webApiEndpoint,
@@ -16632,13 +16643,13 @@
         S = i.setCompanyBackendData,
         j = i.uds_salesnavigatorcompanyurl,
         N = function (e, n) {
-          return Jt(void 0, void 0, void 0, function () {
-            return er(this, function (t) {
+          return er(void 0, void 0, void 0, function () {
+            return nr(this, function (t) {
               switch (t.label) {
                 case 0:
                   return [
                     4,
-                    fn(
+                    pn(
                       ""
                         .concat(c, "/accounts")
                         .concat(
@@ -16659,9 +16670,9 @@
         };
       return {
         createCompanyForUser: function () {
-          return Jt(void 0, void 0, void 0, function () {
+          return er(void 0, void 0, void 0, function () {
             var e;
-            return er(this, function (n) {
+            return nr(this, function (n) {
               switch (n.label) {
                 case 0:
                   return (
@@ -16676,8 +16687,8 @@
           });
         },
         createCompanyForUserOnupdate: function () {
-          return Jt(void 0, void 0, void 0, function () {
-            return er(this, function (e) {
+          return er(void 0, void 0, void 0, function () {
+            return nr(this, function (e) {
               switch (e.label) {
                 case 0:
                   return [4, N("POST", { name: p })];
@@ -16688,13 +16699,13 @@
           });
         },
         createCompany: function () {
-          return Jt(void 0, void 0, void 0, function () {
+          return er(void 0, void 0, void 0, function () {
             var e, n, r;
-            return er(this, function (o) {
+            return nr(this, function (o) {
               switch (o.label) {
                 case 0:
                   return (
-                    h(!0), (e = Kt(m, v, p, y, g, b, w, E)), [4, N("POST", e)]
+                    h(!0), (e = Xt(m, v, p, y, g, b, w, E)), [4, N("POST", e)]
                   );
                 case 1:
                   return (n = o.sent()).error
@@ -16704,7 +16715,7 @@
                       h(!1),
                       t(!0),
                       (r = k.map(function (e) {
-                        return Xt(Xt({}, e), {
+                        return Jt(Jt({}, e), {
                           exist: e.url === m || e.exist,
                           existedData: e.url === m ? n : e.existedData,
                         });
@@ -16720,14 +16731,14 @@
         checkHaveDifferentValueForButton: function () {
           return (
             (j
-              ? Bt(j, null == f ? void 0 : f.uds_salesnavigatorcompanyurl)
-              : Bt(m, null == f ? void 0 : f.uds_linkedinprofilecompanyurl)) ||
-            Bt(m, null == f ? void 0 : f.uds_linkedinprofilecompanyurl) ||
-            Bt(b, null == f ? void 0 : f.websiteurl) ||
-            Bt(y, null == f ? void 0 : f.numberofemployees) ||
-            Bt(w, null == f ? void 0 : f.uds_linkedinsize) ||
-            Bt(g, null == f ? void 0 : f.address1_name) ||
-            Bt(
+              ? Ht(j, null == f ? void 0 : f.uds_salesnavigatorcompanyurl)
+              : Ht(m, null == f ? void 0 : f.uds_linkedinprofilecompanyurl)) ||
+            Ht(m, null == f ? void 0 : f.uds_linkedinprofilecompanyurl) ||
+            Ht(b, null == f ? void 0 : f.websiteurl) ||
+            Ht(y, null == f ? void 0 : f.numberofemployees) ||
+            Ht(w, null == f ? void 0 : f.uds_linkedinsize) ||
+            Ht(g, null == f ? void 0 : f.address1_name) ||
+            Ht(
               E,
               (null == f ? void 0 : f.description)
                 ? null == f
@@ -16738,13 +16749,13 @@
           );
         },
         updateCurrentCompany: function () {
-          return Jt(void 0, void 0, void 0, function () {
+          return er(void 0, void 0, void 0, function () {
             var e, n;
-            return er(this, function (t) {
+            return nr(this, function (t) {
               switch (t.label) {
                 case 0:
                   return (
-                    h(!0), (e = Kt(m, v, p, y, g, b, w, E)), [4, N("PATCH", e)]
+                    h(!0), (e = Xt(m, v, p, y, g, b, w, E)), [4, N("PATCH", e)]
                   );
                 case 1:
                   return (
@@ -16759,9 +16770,9 @@
         },
       };
     },
-    tr = function () {
+    rr = function () {
       return (
-        (tr =
+        (rr =
           Object.assign ||
           function (e) {
             for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -16769,10 +16780,10 @@
                 Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
             return e;
           }),
-        tr.apply(this, arguments)
+        rr.apply(this, arguments)
       );
     },
-    rr = function (e, n, t, r) {
+    or = function (e, n, t, r) {
       return new (t || (t = Promise))(function (o, a) {
         function l(e) {
           try {
@@ -16802,7 +16813,7 @@
         s((r = r.apply(e, n || [])).next());
       });
     },
-    or = function (e, n) {
+    ar = function (e, n) {
       var t,
         r,
         o,
@@ -16892,11 +16903,11 @@
         };
       }
     },
-    ar = function () {
-      var e = nr(),
+    lr = function () {
+      var e = tr(),
         n = e.createCompanyForUser,
         t = e.createCompanyForUserOnupdate,
-        r = rn(),
+        r = on(),
         a = r.fullname,
         l = r.uds_linkedin,
         i = r.uds_salesnavigatoruserurl,
@@ -16925,9 +16936,9 @@
         A = r.companyBackData,
         O = r.name,
         T = function (e, n) {
-          return rr(void 0, void 0, void 0, function () {
+          return or(void 0, void 0, void 0, function () {
             var t, r;
-            return or(this, function (o) {
+            return ar(this, function (o) {
               switch (o.label) {
                 case 0:
                   return (
@@ -16966,7 +16977,7 @@
                         "/accounts(".concat(n, ")")),
                     [
                       4,
-                      fn(
+                      pn(
                         ""
                           .concat(d, "/contacts")
                           .concat(
@@ -16993,23 +17004,23 @@
         I = (0, o.useState)(!1),
         P = I[0],
         R = I[1],
-        M = (0, o.useState)(null),
-        U = (M[0], M[1]),
-        D = function (e) {
+        D = (0, o.useState)(null),
+        M = (D[0], D[1]),
+        U = function (e) {
           var n = _.map(function (n) {
-            return tr(tr({}, n), {
+            return rr(rr({}, n), {
               exist: n.url === l || n.exist,
               existedData: n.url === l ? e : n.existedData,
               existedUsersCompanyData:
                 n.url === l ? E : n.existedUsersCompanyData,
             });
           });
-          S(n), R(!0), U(e), N(e), E && j(E);
+          S(n), R(!0), M(e), N(e), E && j(E);
         },
         F = function (e) {
-          return rr(void 0, void 0, void 0, function () {
+          return or(void 0, void 0, void 0, function () {
             var r, o, a;
-            return or(this, function (l) {
+            return ar(this, function (l) {
               switch (l.label) {
                 case 0:
                   return "PATCH" !== e ? [3, 2] : [4, t()];
@@ -17022,7 +17033,12 @@
                 case 4:
                   return j((r = o)), [4, T(e, r.accountid)];
                 case 5:
-                  return (a = l.sent()), N(a), D(a), [2];
+                  return (
+                    (a = l.sent()).error
+                      ? (w(se.ERROR), k(a.error))
+                      : (N(a), U(a)),
+                    [2]
+                  );
               }
             });
           });
@@ -17030,23 +17046,28 @@
       return {
         saveUser: T,
         handleClickSaveButtonUser: function (e) {
-          return rr(void 0, void 0, void 0, function () {
+          return or(void 0, void 0, void 0, function () {
             var n, t, r;
-            return or(this, function (o) {
+            return ar(this, function (o) {
               switch (o.label) {
                 case 0:
                   return (
                     b(!0),
                     "POST" !== e
                       ? [3, 8]
-                      : x || A || C
-                        ? A
-                          ? [4, T("POST", A.accountid)]
+                      : x || E || C
+                        ? E
+                          ? [4, T("POST", E.accountid)]
                           : [3, 2]
                         : [3, 5]
                   );
                 case 1:
-                  return (n = o.sent()), N(n), D(n), [3, 4];
+                  return (
+                    (n = o.sent()).error
+                      ? (w(se.ERROR), k(n.error))
+                      : (N(n), U(n)),
+                    [3, 4]
+                  );
                 case 2:
                   return x || C ? [4, F("POST")] : [3, 4];
                 case 3:
@@ -17056,7 +17077,7 @@
                 case 5:
                   return [4, T("POST")];
                 case 6:
-                  (r = o.sent()).error ? (w(se.ERROR), k(r.error)) : D(r),
+                  (r = o.sent()).error ? (w(se.ERROR), k(r.error)) : U(r),
                     (o.label = 7);
                 case 7:
                   return [3, 20];
@@ -17073,7 +17094,7 @@
                 case 10:
                   return [4, T("PATCH", A.accountid)];
                 case 11:
-                  (t = o.sent()).error ? (w(se.ERROR), k(t.error)) : D(t),
+                  (t = o.sent()).error ? (w(se.ERROR), k(t.error)) : U(t),
                     (o.label = 12);
                 case 12:
                   return [3, 17];
@@ -17083,7 +17104,7 @@
                     : [3, 15];
                 case 14:
                   return (
-                    (t = o.sent()).error ? (w(se.ERROR), k(t.error)) : D(t),
+                    (t = o.sent()).error ? (w(se.ERROR), k(t.error)) : U(t),
                     [3, 17]
                   );
                 case 15:
@@ -17095,7 +17116,7 @@
                 case 18:
                   return [4, T("PATCH")];
                 case 19:
-                  (r = o.sent()).error ? (w(se.ERROR), k(r.error)) : D(r),
+                  (r = o.sent()).error ? (w(se.ERROR), k(r.error)) : U(r),
                     (o.label = 20);
                 case 20:
                   return b(!1), [2];
@@ -17105,7 +17126,7 @@
         },
         isCreated: P,
         handleClickOpenUser: function () {
-          an(
+          ln(
             L,
             Ce.USER,
             (null == f ? void 0 : f.contactid)
@@ -17117,9 +17138,9 @@
         },
       };
     },
-    lr = function () {
+    ir = function () {
       return (
-        (lr =
+        (ir =
           Object.assign ||
           function (e) {
             for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -17127,11 +17148,11 @@
                 Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
             return e;
           }),
-        lr.apply(this, arguments)
+        ir.apply(this, arguments)
       );
     };
-  const ir = function () {
-    var e = rn(),
+  const sr = function () {
+    var e = on(),
       n = e.uds_linkedin,
       t = e.uds_salesnavigatoruserurl,
       o = e.userBackendData,
@@ -17160,390 +17181,401 @@
       j = e.emailaddress1Error,
       N = e.userAddress1_nameError,
       L = e.isUserHaveError,
-      A = qt(),
+      A = Wt(),
       O = A.checkHaveDifferentValueForButton,
       T = A.handleSearch,
       I = A.showLoaderForDropdown,
       P = A.customerError,
-      R = ar(),
-      M = R.handleClickSaveButtonUser,
-      U = R.handleClickOpenUser,
-      D = Qt().handleChange;
-    return (0, r.jsxs)(r.Fragment, {
-      children: [
-        (0, r.jsxs)(xt, {
-          children: [
-            (0, r.jsxs)(
-              "tr",
-              lr(
-                {
-                  className: t
-                    ? Ft(t, null == o ? void 0 : o.uds_salesnavigatoruserurl)
-                    : Ft(n, null == o ? void 0 : o.uds_linkedin),
-                },
-                {
-                  children: [
-                    (0, r.jsx)("td", { children: "Profile link" }),
-                    (0, r.jsx)("td", {
-                      children: (0, r.jsx)(et, {
-                        type: xe.IN_TABLE,
-                        name: "companyProfileLink",
-                        readOnly: !0,
-                        placeholder: "Profile link",
-                        value: t || n,
-                      }),
-                    }),
-                    (0, r.jsx)("td", {
-                      children: (0, r.jsx)(et, {
-                        type: xe.IN_TABLE,
-                        name: "companyProfileLink",
-                        readOnly: !0,
-                        className: "right",
-                        value: t
-                          ? null == o
-                            ? void 0
-                            : o.uds_salesnavigatoruserurl
-                          : null == o
-                            ? void 0
-                            : o.uds_linkedin,
-                      }),
-                    }),
-                  ],
-                },
-              ),
-            ),
-            (0, r.jsxs)(
-              "tr",
-              lr(
-                { className: Ft(a, null == o ? void 0 : o.fullname) },
-                {
-                  children: [
-                    (0, r.jsx)("td", { children: "Name" }),
-                    (0, r.jsx)("td", {
-                      children: (0, r.jsx)(Gn, {
-                        type: fe.IN_TABLE,
-                        placeholder: "Name",
-                        id: "fullname",
-                        value: a,
-                        name: "fullname",
-                        onChange: D,
-                        error: C,
-                      }),
-                    }),
-                    (0, r.jsx)("td", {
-                      children: (0, r.jsx)(Gn, {
-                        type: fe.IN_TABLE,
-                        value: null == o ? void 0 : o.fullname,
-                        readonly: !0,
-                      }),
-                    }),
-                  ],
-                },
-              ),
-            ),
-            (0, r.jsxs)(
-              "tr",
-              lr(
-                { className: Ft(i, null == o ? void 0 : o.jobtitle) },
-                {
-                  children: [
-                    (0, r.jsx)("td", { children: "Job title" }),
-                    (0, r.jsx)("td", {
-                      children: (0, r.jsx)(Gn, {
-                        type: fe.IN_TABLE,
-                        id: "jobtitle",
-                        error: w,
-                        value: i,
-                        name: "jobtitle",
-                        placeholder: "Job title",
-                        onChange: D,
-                      }),
-                    }),
-                    (0, r.jsx)("td", {
-                      children: (0, r.jsx)(Gn, {
-                        type: fe.IN_TABLE,
-                        value: null == o ? void 0 : o.jobtitle,
-                        readonly: !0,
-                      }),
-                    }),
-                  ],
-                },
-              ),
-            ),
-            (0, r.jsxs)(
-              "tr",
-              lr(
-                { className: Ft(l, null == o ? void 0 : o.address1_name) },
-                {
-                  children: [
-                    (0, r.jsx)("td", { children: "Address" }),
-                    (0, r.jsx)("td", {
-                      children: (0, r.jsx)(Gn, {
-                        id: "userAddress1_name",
-                        type: fe.IN_TABLE,
-                        error: N,
-                        value: l,
-                        name: "userAddress1_name",
-                        placeholder: "Address",
-                        onChange: D,
-                      }),
-                    }),
-                    (0, r.jsx)("td", {
-                      children: (0, r.jsx)(Gn, {
-                        type: fe.IN_TABLE,
-                        value: null == o ? void 0 : o.address1_name,
-                        readonly: !0,
-                      }),
-                    }),
-                  ],
-                },
-              ),
-            ),
-            (0, r.jsxs)(
-              "tr",
-              lr(
-                { className: Ft(y || "", (null == s ? void 0 : s.name) || "") },
-                {
-                  children: [
-                    (0, r.jsx)("td", { children: "Company" }),
-                    (0, r.jsx)("td", {
-                      children: (0, r.jsx)(vt, {
-                        withRadioButton: !0,
-                        withSearch: !0,
-                        loader: I,
-                        onSearch: T,
-                        error: P,
-                        searchValue: y,
-                        onCreateNew: function () {
-                          m(h.trim()), v(g), x(null);
-                        },
-                        label: y || "Add company",
-                        inOut: we.INNER,
-                        location: Ce.USER,
-                        createNewData: { name: h || "", id: g || "", data: [] },
-                        withLabel: !0,
-                        dataForExistedElements: Vt(b) || [],
-                        onViewMore: function () {},
-                        hideViewMore: !0,
-                      }),
-                    }),
-                    (0, r.jsx)("td", {
-                      children: (0, r.jsx)(Gn, {
-                        type: fe.IN_TABLE,
-                        value: null == s ? void 0 : s.name,
-                        readonly: !0,
-                      }),
-                    }),
-                  ],
-                },
-              ),
-            ),
-            (0, r.jsxs)(
-              "tr",
-              lr(
-                {
-                  className: Ft(
-                    c || "",
-                    (null == o ? void 0 : o.telephone1) || "",
-                  ),
-                },
-                {
-                  children: [
-                    (0, r.jsx)("td", { children: "Work phone" }),
-                    (0, r.jsx)("td", {
-                      children: (0, r.jsx)(Gn, {
-                        type: fe.IN_TABLE,
-                        value: c,
-                        name: "telephone1",
-                        id: "telephone1",
-                        error: _,
-                        placeholder: "Work phone",
-                        onChange: D,
-                      }),
-                    }),
-                    (0, r.jsx)("td", {
-                      children: (0, r.jsx)(Gn, {
-                        type: fe.IN_TABLE,
-                        value: null == o ? void 0 : o.telephone1,
-                        readonly: !0,
-                      }),
-                    }),
-                  ],
-                },
-              ),
-            ),
-            (0, r.jsxs)(
-              "tr",
-              lr(
-                {
-                  className: Ft(
-                    u || "",
-                    (null == o ? void 0 : o.mobilephone) || "",
-                  ),
-                },
-                {
-                  children: [
-                    (0, r.jsx)("td", { children: "Personal phone" }),
-                    (0, r.jsx)("td", {
-                      children: (0, r.jsx)(Gn, {
-                        type: fe.IN_TABLE,
-                        name: "mobilephone",
-                        id: "mobilephone",
-                        error: E,
-                        value: u,
-                        placeholder: "Personal phone",
-                        onChange: D,
-                      }),
-                    }),
-                    (0, r.jsx)("td", {
-                      children: (0, r.jsx)(Gn, {
-                        type: fe.IN_TABLE,
-                        value: null == o ? void 0 : o.mobilephone,
-                        readonly: !0,
-                      }),
-                    }),
-                  ],
-                },
-              ),
-            ),
-            (0, r.jsxs)(
-              "tr",
-              lr(
-                {
-                  className: Ft(
-                    f || "",
-                    (null == o ? void 0 : o.emailaddress2) || "",
-                  ),
-                },
-                {
-                  children: [
-                    (0, r.jsx)("td", { children: "Email" }),
-                    (0, r.jsx)("td", {
-                      children: (0, r.jsx)(Gn, {
-                        type: fe.IN_TABLE,
-                        value: f,
-                        name: "emailaddress2",
-                        id: "emailaddress2",
-                        error: S,
-                        placeholder: "Email",
-                        onChange: D,
-                      }),
-                    }),
-                    (0, r.jsx)("td", {
-                      children: (0, r.jsx)(Gn, {
-                        type: fe.IN_TABLE,
-                        value: null == o ? void 0 : o.emailaddress2,
-                        readonly: !0,
-                      }),
-                    }),
-                  ],
-                },
-              ),
-            ),
-            (0, r.jsxs)(
-              "tr",
-              lr(
-                {
-                  className: Ft(
-                    d || "",
-                    (null == o ? void 0 : o.emailaddress1) || "",
-                  ),
-                },
-                {
-                  children: [
-                    (0, r.jsx)("td", { children: "Personal email" }),
-                    (0, r.jsx)("td", {
-                      children: (0, r.jsx)(Gn, {
-                        type: fe.IN_TABLE,
-                        value: d,
-                        placeholder: "Personal email",
-                        name: "emailaddress1",
-                        id: "emailaddress1",
-                        error: j,
-                        onChange: D,
-                      }),
-                    }),
-                    (0, r.jsx)("td", {
-                      children: (0, r.jsx)(Gn, {
-                        type: fe.IN_TABLE,
-                        value: null == o ? void 0 : o.emailaddress1,
-                        readonly: !0,
-                      }),
-                    }),
-                  ],
-                },
-              ),
-            ),
-            (0, r.jsxs)(
-              "tr",
-              lr(
-                {
-                  className: Ft(
-                    p || "",
-                    (null == o ? void 0 : o.description)
-                      ? null == o
-                        ? void 0
-                        : o.description
-                      : "",
-                  ),
-                },
-                {
-                  children: [
-                    (0, r.jsx)("td", { children: "Comment" }),
-                    (0, r.jsx)("td", {
-                      children: (0, r.jsx)(et, {
-                        type: xe.IN_TABLE,
-                        name: "description",
-                        placeholder: "Comment",
-                        value: p,
-                        error: k,
-                        onChange: D,
-                      }),
-                    }),
-                    (0, r.jsx)("td", {
-                      children: (0, r.jsx)(et, {
-                        type: xe.IN_TABLE,
-                        name: "description",
-                        className: "right",
-                        readOnly: !0,
-                        value: null == o ? void 0 : o.description,
-                      }),
-                    }),
-                  ],
-                },
-              ),
-            ),
-          ],
-        }),
-        (0, r.jsxs)(
-          "div",
-          lr(
-            { className: "existCompanyFooter" },
-            {
-              children: [
-                (0, r.jsx)(Un, {
-                  type: ue.BLUE,
-                  onClick: U,
-                  text: "Go to CRM",
-                }),
-                (0, r.jsx)(Un, {
-                  type: ue.GOLD,
-                  disabled: !O() || L,
-                  onClick: function () {
-                    M("PATCH");
+      R = lr(),
+      D = R.handleClickSaveButtonUser,
+      M = R.handleClickOpenUser,
+      U = Kt().handleChange;
+    return (
+      console.log(o, "userBackendData"),
+      (0, r.jsxs)(r.Fragment, {
+        children: [
+          (0, r.jsxs)(Ct, {
+            children: [
+              (0, r.jsxs)(
+                "tr",
+                ir(
+                  {
+                    className: t
+                      ? Bt(t, null == o ? void 0 : o.uds_salesnavigatoruserurl)
+                      : Bt(n, null == o ? void 0 : o.uds_linkedin),
                   },
-                  text: "Update data",
-                }),
-              ],
-            },
+                  {
+                    children: [
+                      (0, r.jsx)("td", { children: "Profile link" }),
+                      (0, r.jsx)("td", {
+                        children: (0, r.jsx)(nt, {
+                          type: xe.IN_TABLE,
+                          name: "companyProfileLink",
+                          readOnly: !0,
+                          placeholder: "Profile link",
+                          value: t || n,
+                        }),
+                      }),
+                      (0, r.jsx)("td", {
+                        children: (0, r.jsx)(nt, {
+                          type: xe.IN_TABLE,
+                          name: "companyProfileLink",
+                          readOnly: !0,
+                          className: "right",
+                          value: (
+                            null == o ? void 0 : o.uds_salesnavigatoruserurl
+                          )
+                            ? null == o
+                              ? void 0
+                              : o.uds_salesnavigatoruserurl
+                            : null == o
+                              ? void 0
+                              : o.uds_linkedin,
+                        }),
+                      }),
+                    ],
+                  },
+                ),
+              ),
+              (0, r.jsxs)(
+                "tr",
+                ir(
+                  { className: Bt(a, null == o ? void 0 : o.fullname) },
+                  {
+                    children: [
+                      (0, r.jsx)("td", { children: "Name" }),
+                      (0, r.jsx)("td", {
+                        children: (0, r.jsx)(Yn, {
+                          type: fe.IN_TABLE,
+                          placeholder: "Name",
+                          id: "fullname",
+                          value: a,
+                          name: "fullname",
+                          onChange: U,
+                          error: C,
+                        }),
+                      }),
+                      (0, r.jsx)("td", {
+                        children: (0, r.jsx)(Yn, {
+                          type: fe.IN_TABLE,
+                          value: null == o ? void 0 : o.fullname,
+                          readonly: !0,
+                        }),
+                      }),
+                    ],
+                  },
+                ),
+              ),
+              (0, r.jsxs)(
+                "tr",
+                ir(
+                  { className: Bt(i, null == o ? void 0 : o.jobtitle) },
+                  {
+                    children: [
+                      (0, r.jsx)("td", { children: "Job title" }),
+                      (0, r.jsx)("td", {
+                        children: (0, r.jsx)(Yn, {
+                          type: fe.IN_TABLE,
+                          id: "jobtitle",
+                          error: w,
+                          value: i,
+                          name: "jobtitle",
+                          placeholder: "Job title",
+                          onChange: U,
+                        }),
+                      }),
+                      (0, r.jsx)("td", {
+                        children: (0, r.jsx)(Yn, {
+                          type: fe.IN_TABLE,
+                          value: null == o ? void 0 : o.jobtitle,
+                          readonly: !0,
+                        }),
+                      }),
+                    ],
+                  },
+                ),
+              ),
+              (0, r.jsxs)(
+                "tr",
+                ir(
+                  { className: Bt(l, null == o ? void 0 : o.address1_name) },
+                  {
+                    children: [
+                      (0, r.jsx)("td", { children: "Address" }),
+                      (0, r.jsx)("td", {
+                        children: (0, r.jsx)(Yn, {
+                          id: "userAddress1_name",
+                          type: fe.IN_TABLE,
+                          error: N,
+                          value: l,
+                          name: "userAddress1_name",
+                          placeholder: "Address",
+                          onChange: U,
+                        }),
+                      }),
+                      (0, r.jsx)("td", {
+                        children: (0, r.jsx)(Yn, {
+                          type: fe.IN_TABLE,
+                          value: null == o ? void 0 : o.address1_name,
+                          readonly: !0,
+                        }),
+                      }),
+                    ],
+                  },
+                ),
+              ),
+              (0, r.jsxs)(
+                "tr",
+                ir(
+                  {
+                    className: Bt(y || "", (null == s ? void 0 : s.name) || ""),
+                  },
+                  {
+                    children: [
+                      (0, r.jsx)("td", { children: "Company" }),
+                      (0, r.jsx)("td", {
+                        children: (0, r.jsx)(yt, {
+                          withRadioButton: !0,
+                          withSearch: !0,
+                          loader: I,
+                          onSearch: T,
+                          error: P,
+                          searchValue: y,
+                          onCreateNew: function () {
+                            m(h.trim()), v(g), x(null);
+                          },
+                          label: y || "Add company",
+                          inOut: we.INNER,
+                          location: Ce.USER,
+                          createNewData: {
+                            name: h || "",
+                            id: g || "",
+                            data: [],
+                          },
+                          withLabel: !0,
+                          dataForExistedElements: qt(b) || [],
+                          onViewMore: function () {},
+                          hideViewMore: !0,
+                        }),
+                      }),
+                      (0, r.jsx)("td", {
+                        children: (0, r.jsx)(Yn, {
+                          type: fe.IN_TABLE,
+                          value: null == s ? void 0 : s.name,
+                          readonly: !0,
+                        }),
+                      }),
+                    ],
+                  },
+                ),
+              ),
+              (0, r.jsxs)(
+                "tr",
+                ir(
+                  {
+                    className: Bt(
+                      c || "",
+                      (null == o ? void 0 : o.telephone1) || "",
+                    ),
+                  },
+                  {
+                    children: [
+                      (0, r.jsx)("td", { children: "Work phone" }),
+                      (0, r.jsx)("td", {
+                        children: (0, r.jsx)(Yn, {
+                          type: fe.IN_TABLE,
+                          value: c,
+                          name: "telephone1",
+                          id: "telephone1",
+                          error: _,
+                          placeholder: "Work phone",
+                          onChange: U,
+                        }),
+                      }),
+                      (0, r.jsx)("td", {
+                        children: (0, r.jsx)(Yn, {
+                          type: fe.IN_TABLE,
+                          value: null == o ? void 0 : o.telephone1,
+                          readonly: !0,
+                        }),
+                      }),
+                    ],
+                  },
+                ),
+              ),
+              (0, r.jsxs)(
+                "tr",
+                ir(
+                  {
+                    className: Bt(
+                      u || "",
+                      (null == o ? void 0 : o.mobilephone) || "",
+                    ),
+                  },
+                  {
+                    children: [
+                      (0, r.jsx)("td", { children: "Personal phone" }),
+                      (0, r.jsx)("td", {
+                        children: (0, r.jsx)(Yn, {
+                          type: fe.IN_TABLE,
+                          name: "mobilephone",
+                          id: "mobilephone",
+                          error: E,
+                          value: u,
+                          placeholder: "Personal phone",
+                          onChange: U,
+                        }),
+                      }),
+                      (0, r.jsx)("td", {
+                        children: (0, r.jsx)(Yn, {
+                          type: fe.IN_TABLE,
+                          value: null == o ? void 0 : o.mobilephone,
+                          readonly: !0,
+                        }),
+                      }),
+                    ],
+                  },
+                ),
+              ),
+              (0, r.jsxs)(
+                "tr",
+                ir(
+                  {
+                    className: Bt(
+                      f || "",
+                      (null == o ? void 0 : o.emailaddress2) || "",
+                    ),
+                  },
+                  {
+                    children: [
+                      (0, r.jsx)("td", { children: "Email" }),
+                      (0, r.jsx)("td", {
+                        children: (0, r.jsx)(Yn, {
+                          type: fe.IN_TABLE,
+                          value: f,
+                          name: "emailaddress2",
+                          id: "emailaddress2",
+                          error: S,
+                          placeholder: "Email",
+                          onChange: U,
+                        }),
+                      }),
+                      (0, r.jsx)("td", {
+                        children: (0, r.jsx)(Yn, {
+                          type: fe.IN_TABLE,
+                          value: null == o ? void 0 : o.emailaddress2,
+                          readonly: !0,
+                        }),
+                      }),
+                    ],
+                  },
+                ),
+              ),
+              (0, r.jsxs)(
+                "tr",
+                ir(
+                  {
+                    className: Bt(
+                      d || "",
+                      (null == o ? void 0 : o.emailaddress1) || "",
+                    ),
+                  },
+                  {
+                    children: [
+                      (0, r.jsx)("td", { children: "Personal email" }),
+                      (0, r.jsx)("td", {
+                        children: (0, r.jsx)(Yn, {
+                          type: fe.IN_TABLE,
+                          value: d,
+                          placeholder: "Personal email",
+                          name: "emailaddress1",
+                          id: "emailaddress1",
+                          error: j,
+                          onChange: U,
+                        }),
+                      }),
+                      (0, r.jsx)("td", {
+                        children: (0, r.jsx)(Yn, {
+                          type: fe.IN_TABLE,
+                          value: null == o ? void 0 : o.emailaddress1,
+                          readonly: !0,
+                        }),
+                      }),
+                    ],
+                  },
+                ),
+              ),
+              (0, r.jsxs)(
+                "tr",
+                ir(
+                  {
+                    className: Bt(
+                      p || "",
+                      (null == o ? void 0 : o.description)
+                        ? null == o
+                          ? void 0
+                          : o.description
+                        : "",
+                    ),
+                  },
+                  {
+                    children: [
+                      (0, r.jsx)("td", { children: "Comment" }),
+                      (0, r.jsx)("td", {
+                        children: (0, r.jsx)(nt, {
+                          type: xe.IN_TABLE,
+                          name: "description",
+                          placeholder: "Comment",
+                          value: p,
+                          error: k,
+                          onChange: U,
+                        }),
+                      }),
+                      (0, r.jsx)("td", {
+                        children: (0, r.jsx)(nt, {
+                          type: xe.IN_TABLE,
+                          name: "description",
+                          className: "right",
+                          readOnly: !0,
+                          value: null == o ? void 0 : o.description,
+                        }),
+                      }),
+                    ],
+                  },
+                ),
+              ),
+            ],
+          }),
+          (0, r.jsxs)(
+            "div",
+            ir(
+              { className: "existCompanyFooter" },
+              {
+                children: [
+                  (0, r.jsx)(Un, {
+                    type: ue.BLUE,
+                    onClick: M,
+                    text: "Go to CRM",
+                  }),
+                  (0, r.jsx)(Un, {
+                    type: ue.GOLD,
+                    disabled: !O() || L,
+                    onClick: function () {
+                      D("PATCH");
+                    },
+                    text: "Update data",
+                  }),
+                ],
+              },
+            ),
           ),
-        ),
-      ],
-    });
+        ],
+      })
+    );
   };
-  var sr = function () {
+  var ur = function () {
       return (
-        (sr =
+        (ur =
           Object.assign ||
           function (e) {
             for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -17551,10 +17583,10 @@
                 Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
             return e;
           }),
-        sr.apply(this, arguments)
+        ur.apply(this, arguments)
       );
     },
-    ur = function (e, n, t, r) {
+    cr = function (e, n, t, r) {
       return new (t || (t = Promise))(function (o, a) {
         function l(e) {
           try {
@@ -17584,7 +17616,7 @@
         s((r = r.apply(e, n || [])).next());
       });
     },
-    cr = function (e, n) {
+    dr = function (e, n) {
       var t,
         r,
         o,
@@ -17674,9 +17706,9 @@
         };
       }
     };
-  const dr = function () {
+  const fr = function () {
     var e = this,
-      n = rn(),
+      n = on(),
       t = n.uds_linkedin,
       o = n.uds_salesnavigatoruserurl,
       a = n.customer,
@@ -17709,35 +17741,35 @@
       I = n.emailaddress1Error,
       P = n.emailaddress2Error,
       R = n.telephone1Error,
-      M = n.jobtitleError,
-      U = n.mobilephoneError,
-      D = n.isUserHaveError,
+      D = n.jobtitleError,
+      M = n.mobilephoneError,
+      U = n.isUserHaveError,
       F = n.userAddress1_nameError,
-      B = Qt(),
+      B = Kt(),
       H = B.handleChange,
       z = B.handlePaste,
-      V = qt(),
+      V = Wt(),
       q = V.handleSearch,
       W = V.showLoaderForDropdown,
-      G = ar(),
-      Y = G.isCreated,
+      G = lr(),
+      $ = G.isCreated,
       Z = G.handleClickOpenUser,
       Q = G.handleClickSaveButtonUser;
     return (0, r.jsxs)(r.Fragment, {
       children: [
         (0, r.jsxs)(
           "div",
-          sr(
+          ur(
             { className: "company__form" },
             {
               children: [
                 (0, r.jsxs)(
                   "div",
-                  sr(
+                  ur(
                     { className: "company__form__inputs" },
                     {
                       children: [
-                        (0, r.jsx)(Gn, {
+                        (0, r.jsx)(Yn, {
                           id: "uds_linkedin",
                           type: fe.WITH_LABEL,
                           name: "uds_linkedinprofilecompanyurl",
@@ -17746,7 +17778,7 @@
                           readonly: !0,
                           required: !0,
                         }),
-                        (0, r.jsx)(vt, {
+                        (0, r.jsx)(yt, {
                           withRadioButton: !0,
                           type: _e.SINGLE,
                           withSearch: !0,
@@ -17765,11 +17797,11 @@
                             data: [],
                           },
                           withLabel: !0,
-                          dataForExistedElements: Vt(N) || [],
+                          dataForExistedElements: qt(N) || [],
                           onViewMore: function () {},
                           hideViewMore: !0,
                         }),
-                        (0, r.jsx)(Gn, {
+                        (0, r.jsx)(Yn, {
                           id: "fullname",
                           type: fe.WITH_LABEL,
                           name: "fullname",
@@ -17782,14 +17814,14 @@
                           error: A,
                           required: !0,
                           onPaste: function (n) {
-                            return ur(e, void 0, void 0, function () {
-                              return cr(this, function (e) {
+                            return cr(e, void 0, void 0, function () {
+                              return dr(this, function (e) {
                                 return z(n || l, "fullname"), [2];
                               });
                             });
                           },
                         }),
-                        (0, r.jsx)(Gn, {
+                        (0, r.jsx)(Yn, {
                           id: "telephone1",
                           type: fe.WITH_LABEL,
                           name: "telephone1",
@@ -17801,14 +17833,14 @@
                           },
                           error: R,
                           onPaste: function (n) {
-                            return ur(e, void 0, void 0, function () {
-                              return cr(this, function (e) {
+                            return cr(e, void 0, void 0, function () {
+                              return dr(this, function (e) {
                                 return z(n || s, "telephone1"), [2];
                               });
                             });
                           },
                         }),
-                        (0, r.jsx)(Gn, {
+                        (0, r.jsx)(Yn, {
                           id: "birthday",
                           type: fe.WITH_LABEL,
                           name: "birthday",
@@ -17819,8 +17851,8 @@
                             d("");
                           },
                           onPaste: function (n) {
-                            return ur(e, void 0, void 0, function () {
-                              return cr(this, function (e) {
+                            return cr(e, void 0, void 0, function () {
+                              return dr(this, function (e) {
                                 return (
                                   !isNaN(Number(n)) && z(n || c, "birthday"),
                                   [2]
@@ -17830,7 +17862,7 @@
                           },
                           error: O,
                         }),
-                        (0, r.jsx)(Gn, {
+                        (0, r.jsx)(Yn, {
                           id: "mobilephone",
                           type: fe.WITH_LABEL,
                           name: "mobilephone",
@@ -17841,15 +17873,15 @@
                             p("");
                           },
                           onPaste: function (n) {
-                            return ur(e, void 0, void 0, function () {
-                              return cr(this, function (e) {
+                            return cr(e, void 0, void 0, function () {
+                              return dr(this, function (e) {
                                 return z(n || f, "mobilephone"), [2];
                               });
                             });
                           },
-                          error: U,
+                          error: M,
                         }),
-                        (0, r.jsx)(Gn, {
+                        (0, r.jsx)(Yn, {
                           id: "jobtitle",
                           type: fe.WITH_LABEL,
                           name: "jobtitle",
@@ -17860,15 +17892,15 @@
                             m("");
                           },
                           onPaste: function (n) {
-                            return ur(e, void 0, void 0, function () {
-                              return cr(this, function (e) {
+                            return cr(e, void 0, void 0, function () {
+                              return dr(this, function (e) {
                                 return z(n || h, "jobtitle"), [2];
                               });
                             });
                           },
-                          error: M,
+                          error: D,
                         }),
-                        (0, r.jsx)(Gn, {
+                        (0, r.jsx)(Yn, {
                           id: "emailaddress1",
                           type: fe.WITH_LABEL,
                           name: "emailaddress1",
@@ -17879,15 +17911,15 @@
                             w("");
                           },
                           onPaste: function (n) {
-                            return ur(e, void 0, void 0, function () {
-                              return cr(this, function (e) {
+                            return cr(e, void 0, void 0, function () {
+                              return dr(this, function (e) {
                                 return z(n || v, "emailaddress1"), [2];
                               });
                             });
                           },
                           error: I,
                         }),
-                        (0, r.jsx)(Gn, {
+                        (0, r.jsx)(Yn, {
                           id: "userAddress1_name",
                           type: fe.WITH_LABEL,
                           name: "userAddress1_name",
@@ -17898,15 +17930,15 @@
                             g("");
                           },
                           onPaste: function (n) {
-                            return ur(e, void 0, void 0, function () {
-                              return cr(this, function (e) {
+                            return cr(e, void 0, void 0, function () {
+                              return dr(this, function (e) {
                                 return z(n || b, "userAddress1_name"), [2];
                               });
                             });
                           },
                           error: F,
                         }),
-                        (0, r.jsx)(Gn, {
+                        (0, r.jsx)(Yn, {
                           id: "emailaddress2",
                           type: fe.WITH_LABEL,
                           name: "emailaddress2",
@@ -17917,8 +17949,8 @@
                             y("");
                           },
                           onPaste: function (n) {
-                            return ur(e, void 0, void 0, function () {
-                              return cr(this, function (e) {
+                            return cr(e, void 0, void 0, function () {
+                              return dr(this, function (e) {
                                 return z(n || x, "emailaddress2"), [2];
                               });
                             });
@@ -17929,7 +17961,7 @@
                     },
                   ),
                 ),
-                (0, r.jsx)(et, {
+                (0, r.jsx)(nt, {
                   type: xe.NORMAL,
                   onChange: H,
                   value: _,
@@ -17943,13 +17975,13 @@
         ),
         (0, r.jsxs)(
           "div",
-          sr(
+          ur(
             { className: "company__footer" },
             {
               children: [
                 (0, r.jsxs)(
                   "div",
-                  sr(
+                  ur(
                     { className: "company__footer__text" },
                     {
                       children: [
@@ -17964,17 +17996,17 @@
                 ),
                 (0, r.jsx)(
                   "div",
-                  sr(
+                  ur(
                     { className: "company__footer__buttonContainer" },
                     {
-                      children: Y
+                      children: $
                         ? (0, r.jsxs)(r.Fragment, {
                             children: [
                               (0, r.jsxs)(
                                 "p",
-                                sr(
+                                ur(
                                   { className: "company__footer__success" },
-                                  { children: [(0, r.jsx)($, {}), "Success!"] },
+                                  { children: [(0, r.jsx)(Y, {}), "Success!"] },
                                 ),
                               ),
                               (0, r.jsx)(Un, {
@@ -17993,7 +18025,7 @@
                               },
                               text: "Capture",
                               type: ue.GOLD,
-                              disabled: D,
+                              disabled: U,
                             }),
                           }),
                     },
@@ -18006,18 +18038,18 @@
       ],
     });
   };
-  var fr = t(15),
-    pr = {};
-  (pr.styleTagTransform = y()),
-    (pr.setAttributes = p()),
-    (pr.insert = d().bind(null, "head")),
-    (pr.domAPI = u()),
-    (pr.insertStyleElement = m()),
-    i()(fr.A, pr),
-    fr.A && fr.A.locals && fr.A.locals;
-  var hr = function () {
+  var pr = t(15),
+    hr = {};
+  (hr.styleTagTransform = y()),
+    (hr.setAttributes = p()),
+    (hr.insert = d().bind(null, "head")),
+    (hr.domAPI = u()),
+    (hr.insertStyleElement = m()),
+    i()(pr.A, hr),
+    pr.A && pr.A.locals && pr.A.locals;
+  var mr = function () {
       return (
-        (hr =
+        (mr =
           Object.assign ||
           function (e) {
             for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -18025,10 +18057,10 @@
                 Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
             return e;
           }),
-        hr.apply(this, arguments)
+        mr.apply(this, arguments)
       );
     },
-    mr = function (e, n, t, r) {
+    vr = function (e, n, t, r) {
       return new (t || (t = Promise))(function (o, a) {
         function l(e) {
           try {
@@ -18058,7 +18090,7 @@
         s((r = r.apply(e, n || [])).next());
       });
     },
-    vr = function (e, n) {
+    yr = function (e, n) {
       var t,
         r,
         o,
@@ -18148,11 +18180,11 @@
         };
       }
     };
-  const yr = function () {
+  const gr = function () {
     var e,
       n,
       t = this,
-      a = rn(),
+      a = on(),
       l = a.fullname,
       i = a.telephone1,
       s = a.emailaddress1,
@@ -18160,15 +18192,15 @@
       c = a.jobtitle,
       d = a.userBackendDataWithNames,
       f = a.setLoading,
-      p = xr().getUsersWithNames,
+      p = Cr().getUsersWithNames,
       h = (0, o.useState)(5),
       m = h[0],
       v = h[1];
     return (
       (0, o.useMemo)(
         function () {
-          return mr(t, void 0, void 0, function () {
-            return vr(this, function (e) {
+          return vr(t, void 0, void 0, function () {
+            return yr(this, function (e) {
               switch (e.label) {
                 case 0:
                   return 5 === m ? [3, 2] : (f(!0), [4, p(m)]);
@@ -18184,20 +18216,20 @@
       ),
       (0, r.jsxs)(
         "div",
-        hr(
+        mr(
           { className: "selectCompany" },
           {
             children: [
               (0, r.jsx)(
                 "div",
-                hr(
+                mr(
                   { className: "selectCompany__icon" },
                   { children: (0, r.jsx)(j, {}) },
                 ),
               ),
               (0, r.jsxs)(
                 "h1",
-                hr(
+                mr(
                   { className: "selectCompany__title" },
                   {
                     children: [
@@ -18208,10 +18240,10 @@
                   },
                 ),
               ),
-              (0, r.jsx)(vt, {
+              (0, r.jsx)(yt, {
                 inOut: we.OUTER,
                 location: Ce.USER,
-                createNewData: { name: l || "", id: "", data: zt(c, i, s, u) },
+                createNewData: { name: l || "", id: "", data: Vt(c, i, s, u) },
                 withLabel: !1,
                 dataForExistedElements:
                   ((e = d),
@@ -18221,13 +18253,13 @@
                       n.push({
                         name: e.fullname,
                         id: e.contactid,
-                        data: zt(e.address1_name, e.jobtitle, e.emailaddress1),
+                        data: Vt(e.address1_name, e.jobtitle, e.emailaddress1),
                       });
                     }),
                   n),
                 onViewMore: function () {
-                  return mr(t, void 0, void 0, function () {
-                    return vr(this, function (e) {
+                  return vr(t, void 0, void 0, function () {
+                    return yr(this, function (e) {
                       return (
                         v(function (e) {
                           return e + 5;
@@ -18247,7 +18279,7 @@
       )
     );
   };
-  var gr = function (e, n, t, r) {
+  var br = function (e, n, t, r) {
       return new (t || (t = Promise))(function (o, a) {
         function l(e) {
           try {
@@ -18277,7 +18309,7 @@
         s((r = r.apply(e, n || [])).next());
       });
     },
-    br = function (e, n) {
+    xr = function (e, n) {
       var t,
         r,
         o,
@@ -18367,8 +18399,8 @@
         };
       }
     },
-    xr = function () {
-      var e = rn(),
+    Cr = function () {
+      var e = on(),
         n = e.uds_linkedin,
         t = e.customerId,
         a = e.setUserBackendData,
@@ -18377,25 +18409,27 @@
         s = e.setErrorText,
         u = e.fullname,
         c = e.setCompanyBackendData,
-        d = e.webApiEndpoint,
-        f = e.userBackendData,
-        p = e.accessToken,
-        h = e.uds_salesnavigatoruserurl,
-        m = e.customer,
-        v = e.setUserPagination,
-        y = e.userPagination,
-        g = function () {
-          return gr(void 0, void 0, void 0, function () {
+        d =
+          (e.setCompanyBackendDataForSelect, e.setCompanyBackendDataWithNames),
+        f = e.webApiEndpoint,
+        p = e.userBackendData,
+        h = e.accessToken,
+        m = e.uds_salesnavigatoruserurl,
+        v = e.customer,
+        y = e.setUserPagination,
+        g = e.userPagination,
+        b = function () {
+          return br(void 0, void 0, void 0, function () {
             var e, n, t;
-            return br(this, function (r) {
+            return xr(this, function (r) {
               switch (r.label) {
                 case 0:
                   return (
                     (e = "accountid eq ".concat(
-                      null == f ? void 0 : f._parentcustomerid_value,
+                      null == p ? void 0 : p._parentcustomerid_value,
                     )),
                     (n = encodeURIComponent(e)),
-                    [4, dn("".concat(d, "/accounts?$filter=").concat(n), p)]
+                    [4, fn("".concat(f, "/accounts?$filter=").concat(n), h)]
                   );
                 case 1:
                   return (t = r.sent()), c(t.value[0]), [2];
@@ -18405,26 +18439,26 @@
         };
       (0, o.useEffect)(
         function () {
-          (null == f ? void 0 : f._parentcustomerid_value) && g();
+          (null == p ? void 0 : p._parentcustomerid_value) && b();
         },
-        [f],
+        [p],
       );
-      var b = function (e) {
+      var x = function (e) {
         return (
           void 0 === e && (e = 5),
-          gr(void 0, void 0, void 0, function () {
+          br(void 0, void 0, void 0, function () {
             var n;
-            return br(this, function (t) {
+            return xr(this, function (t) {
               switch (t.label) {
                 case 0:
                   return [
                     4,
-                    dn(
+                    fn(
                       ""
-                        .concat(d, "/contacts?$filter=contains(fullname,'")
-                        .concat(u, "')&$top=")
+                        .concat(f, "/contacts?$filter=contains(fullname,'")
+                        .concat(u.replace(/'/g, " "), "')&$top=")
                         .concat(e),
-                      p,
+                      h,
                     ),
                   ];
                 case 1:
@@ -18432,8 +18466,8 @@
                     (n = t.sent()).error
                       ? (i(se.ERROR), s(n.error))
                       : 0 !== n.value.length
-                        ? (l(n.value), v(de.SELECT))
-                        : v(de.NOT_EXIST),
+                        ? (l(n.value), y(de.SELECT))
+                        : y(de.NOT_EXIST),
                     [2]
                   );
               }
@@ -18441,112 +18475,120 @@
           })
         );
       };
-      return {
-        checkUserExist: function () {
-          return gr(void 0, void 0, void 0, function () {
-            var e, r, o, l;
-            return br(this, function (f) {
-              switch (f.label) {
-                case 0:
-                  return (n && u) || (h && u)
-                    ? ((e = "contains("
-                        .concat(
-                          n ? "uds_linkedin" : "uds_salesnavigatoruserurl",
-                          ",'",
-                        )
-                        .concat(Ge(n ? n.replace(/\/$/, "") : h), "')")),
-                      (r = encodeURIComponent(e)),
-                      [4, dn("".concat(d, "/contacts?$filter=").concat(r), p)])
-                    : [3, 4];
-                case 1:
-                  return (
-                    (o = f.sent()),
-                    t
-                      ? [
-                          4,
-                          gr(void 0, void 0, void 0, function () {
-                            var e, n, r, o, a;
-                            return br(this, function (l) {
-                              switch (l.label) {
-                                case 0:
-                                  return (
-                                    (e =
-                                      "contains(uds_linkedincompanyid,'".concat(
-                                        t,
-                                        "')",
-                                      )),
-                                    (n = encodeURIComponent(e)),
-                                    [
-                                      4,
-                                      dn(
-                                        ""
-                                          .concat(d, "/accounts?$filter=")
-                                          .concat(n),
-                                        p,
-                                      ),
-                                    ]
-                                  );
-                                case 1:
-                                  return (r = l.sent()) && 0 === r.value.length
-                                    ? ((o = "contains(name,'".concat(
-                                        m.trim(),
-                                        "'))",
-                                      )),
-                                      (a = encodeURIComponent(o)),
-                                      [
-                                        4,
-                                        dn(
-                                          ""
-                                            .concat(d, "/accounts?$filter=")
-                                            .concat(a),
-                                          p,
-                                        ),
-                                      ])
-                                    : [3, 3];
-                                case 2:
-                                  (r = l.sent()), (l.label = 3);
-                                case 3:
-                                  return c(r.value ? r.value[0] : null), [2];
-                              }
-                            });
-                          }),
-                        ]
-                      : [3, 3]
-                  );
-                case 2:
-                  f.sent(), (f.label = 3);
-                case 3:
-                  o.error
-                    ? (i(se.ERROR), (l = o.error), s(l.message))
-                    : 0 === o.value.length
-                      ? b()
-                      : (a(o.value[0]), v(de.EXIST)),
-                    (f.label = 4);
-                case 4:
-                  return [2];
-              }
-            });
-          });
-        },
-        getCustomerWithId: g,
-        generateUserScrapePage: function () {
-          switch (y) {
-            case de.SELECT:
-              return (0, r.jsx)(yr, {});
-            case de.EXIST:
-              return (0, r.jsx)(ir, {});
-            case de.NOT_EXIST:
-              return (0, r.jsx)(dr, {});
-            default:
-              (0, r.jsx)(r.Fragment, {});
-          }
-        },
-        getUsersWithNames: b,
-      };
-    },
-    Cr = function () {
       return (
-        (Cr =
+        (0, o.useEffect)(
+          function () {
+            (v || t) &&
+              (console.log("war customer", v, t),
+              br(void 0, void 0, void 0, function () {
+                var e;
+                return xr(this, function (n) {
+                  switch (n.label) {
+                    case 0:
+                      return (
+                        (e = null),
+                        t
+                          ? [
+                              4,
+                              fn(
+                                ""
+                                  .concat(
+                                    f,
+                                    "/accounts?$filter=contains(uds_linkedincompanyid,'",
+                                  )
+                                  .concat(t, "')"),
+                                h,
+                              ),
+                            ]
+                          : [3, 2]
+                      );
+                    case 1:
+                      (e = n.sent()) &&
+                        0 !== e.value.length &&
+                        c(e.value ? e.value[0] : null),
+                        (n.label = 2);
+                    case 2:
+                      return e && 0 === e.value.length
+                        ? [
+                            4,
+                            fn(
+                              ""
+                                .concat(f, "/accounts?$filter=contains(name,'")
+                                .concat(v.trim(), "')"),
+                              h,
+                            ),
+                          ]
+                        : [3, 4];
+                    case 3:
+                      (e = n.sent()) && 0 !== e.value.length && d(e.value),
+                        (n.label = 4);
+                    case 4:
+                      return [2];
+                  }
+                });
+              }));
+          },
+          [v, t],
+        ),
+        {
+          checkUserExist: function () {
+            return br(void 0, void 0, void 0, function () {
+              var e, t, r, o;
+              return xr(this, function (l) {
+                switch (l.label) {
+                  case 0:
+                    return (
+                      console.log("i am out on ifn eos", u, m),
+                      (n && u) || (m && u)
+                        ? (console.log("i am in on ifn eos"),
+                          (e = "contains("
+                            .concat(
+                              n ? "uds_linkedin" : "uds_salesnavigatoruserurl",
+                              ",'",
+                            )
+                            .concat(Ge(n ? n.replace(/\/$/, "") : m), "')")),
+                          (t = encodeURIComponent(e)),
+                          [
+                            4,
+                            fn("".concat(f, "/contacts?$filter=").concat(t), h),
+                          ])
+                        : [3, 2]
+                    );
+                  case 1:
+                    (r = l.sent()),
+                      console.log("check user no?"),
+                      r.error
+                        ? (i(se.ERROR), (o = r.error), s(o.message))
+                        : 0 === r.value.length
+                          ? x()
+                          : (a(r.value[0]), y(de.EXIST)),
+                      (l.label = 2);
+                  case 2:
+                    return [2];
+                }
+              });
+            });
+          },
+          getCustomerWithId: b,
+          generateUserScrapePage: function () {
+            switch (g) {
+              case de.SELECT:
+                return (0, r.jsx)(gr, {});
+              case de.EXIST:
+                return (0, r.jsx)(sr, {});
+              case de.NOT_EXIST:
+                return (0, r.jsx)(fr, {});
+              default:
+                (0, r.jsx)(r.Fragment, {});
+            }
+          },
+          getUsersWithNames: x,
+        }
+      );
+    },
+    wr = function () {
+      return (
+        (wr =
           Object.assign ||
           function (e) {
             for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -18554,18 +18596,139 @@
                 Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
             return e;
           }),
-        Cr.apply(this, arguments)
+        wr.apply(this, arguments)
       );
+    },
+    _r = function (e, n, t, r) {
+      return new (t || (t = Promise))(function (o, a) {
+        function l(e) {
+          try {
+            s(r.next(e));
+          } catch (e) {
+            a(e);
+          }
+        }
+        function i(e) {
+          try {
+            s(r.throw(e));
+          } catch (e) {
+            a(e);
+          }
+        }
+        function s(e) {
+          var n;
+          e.done
+            ? o(e.value)
+            : ((n = e.value),
+              n instanceof t
+                ? n
+                : new t(function (e) {
+                    e(n);
+                  })).then(l, i);
+        }
+        s((r = r.apply(e, n || [])).next());
+      });
+    },
+    kr = function (e, n) {
+      var t,
+        r,
+        o,
+        a,
+        l = {
+          label: 0,
+          sent: function () {
+            if (1 & o[0]) throw o[1];
+            return o[1];
+          },
+          trys: [],
+          ops: [],
+        };
+      return (
+        (a = { next: i(0), throw: i(1), return: i(2) }),
+        "function" == typeof Symbol &&
+          (a[Symbol.iterator] = function () {
+            return this;
+          }),
+        a
+      );
+      function i(i) {
+        return function (s) {
+          return (function (i) {
+            if (t) throw new TypeError("Generator is already executing.");
+            for (; a && ((a = 0), i[0] && (l = 0)), l; )
+              try {
+                if (
+                  ((t = 1),
+                  r &&
+                    (o =
+                      2 & i[0]
+                        ? r.return
+                        : i[0]
+                          ? r.throw || ((o = r.return) && o.call(r), 0)
+                          : r.next) &&
+                    !(o = o.call(r, i[1])).done)
+                )
+                  return o;
+                switch (((r = 0), o && (i = [2 & i[0], o.value]), i[0])) {
+                  case 0:
+                  case 1:
+                    o = i;
+                    break;
+                  case 4:
+                    return l.label++, { value: i[1], done: !1 };
+                  case 5:
+                    l.label++, (r = i[1]), (i = [0]);
+                    continue;
+                  case 7:
+                    (i = l.ops.pop()), l.trys.pop();
+                    continue;
+                  default:
+                    if (
+                      !(
+                        (o = (o = l.trys).length > 0 && o[o.length - 1]) ||
+                        (6 !== i[0] && 2 !== i[0])
+                      )
+                    ) {
+                      l = 0;
+                      continue;
+                    }
+                    if (3 === i[0] && (!o || (i[1] > o[0] && i[1] < o[3]))) {
+                      l.label = i[1];
+                      break;
+                    }
+                    if (6 === i[0] && l.label < o[1]) {
+                      (l.label = o[1]), (o = i);
+                      break;
+                    }
+                    if (o && l.label < o[2]) {
+                      (l.label = o[2]), l.ops.push(i);
+                      break;
+                    }
+                    o[2] && l.ops.pop(), l.trys.pop();
+                    continue;
+                }
+                i = n.call(e, l);
+              } catch (e) {
+                (i = [6, e]), (r = 0);
+              } finally {
+                t = o = 0;
+              }
+            if (5 & i[0]) throw i[1];
+            return { value: i[0] ? i[1] : void 0, done: !0 };
+          })([i, s]);
+        };
+      }
     };
-  const wr = function () {
-    var e = It(),
+  const Er = function () {
+    (0, o.useRef)(!1);
+    var e = Pt(),
       n = e.addControlForUser,
       t = e.addControlForUserSales,
       a = Mt().scrapeUserData,
-      l = xr(),
+      l = Cr(),
       i = l.checkUserExist,
       s = l.generateUserScrapePage,
-      u = rn(),
+      u = on(),
       c = u.fullname,
       d = u.userProfileImage,
       f = u.uds_salesnavigatoruserurl,
@@ -18573,11 +18736,18 @@
       h = u.setLoading,
       m = u.setResetUserError,
       v = u.sidebarOpen,
-      y = u.accessToken,
-      g = u.userPagination,
-      b = (0, o.useState)(!1),
-      x = b[0],
-      C = b[1];
+      y = u.setPersonalEmail,
+      g = u.accessToken,
+      b = u.userPagination,
+      x = u.profileBackground,
+      C = u.setPersonalPhone,
+      w = u.setBirthday,
+      _ = u.customer,
+      k = u.setCustomer,
+      E = u.setCustomerId,
+      S = (0, o.useState)(!1),
+      j = S[0],
+      N = S[1];
     return (
       (0, o.useEffect)(function () {
         a(),
@@ -18589,201 +18759,86 @@
       }, []),
       (0, o.useEffect)(
         function () {
-          v &&
-            y &&
-            (window.location.href.includes(ce.USER) &&
-              document
-                .querySelector("#top-card-text-details-contact-info")
-                .click(),
-            setTimeout(function () {
-              a(),
-                setTimeout(function () {
-                  var e;
-                  a();
-                  var n =
-                    null ===
-                      (e = document.querySelector(".artdeco-modal-overlay")) ||
-                    void 0 === e
-                      ? void 0
-                      : e.querySelector(".artdeco-button");
-                  n && n.click();
-                }, 500);
-            }, 1e3));
+          console.log(x, "profileBackground"),
+            v &&
+              g &&
+              (x &&
+                (x.MOBILE && C(x.MOBILE),
+                x.company && k(x.company),
+                x.companyId && E(x.companyId),
+                x.email && y(x.email),
+                x.birthDate &&
+                  w(
+                    (function (e) {
+                      if (!e) return null;
+                      var n = e.split("/"),
+                        t = parseInt(n[1]),
+                        r = parseInt(n[0]),
+                        o = new Date().getFullYear(),
+                        a = new Date(o, t, r),
+                        l = a.getDate(),
+                        i = a.getMonth() + 1;
+                      return (
+                        (i < 10 ? "0" + i : i) +
+                        "." +
+                        (l < 10 ? "0" + l : l) +
+                        "." +
+                        a.getFullYear()
+                      );
+                    })(x.birthDate),
+                  )),
+              setTimeout(function () {
+                a(),
+                  setTimeout(function () {
+                    a();
+                  }, 500);
+              }, 1e3));
         },
-        [v, y],
+        [v, g, x],
       ),
       (0, o.useEffect)(
         function () {
-          !x &&
-            (f || p) &&
-            c &&
-            (i().then(function () {
-              h(!1);
-            }),
-            C(!0));
+          _r(void 0, void 0, void 0, function () {
+            return kr(this, function (e) {
+              switch (e.label) {
+                case 0:
+                  return j || (!f && !p) || !c ? [3, 2] : [4, i()];
+                case 1:
+                  e.sent(), N(!0), (e.label = 2);
+                case 2:
+                  return [2];
+              }
+            });
+          }),
+            h(!1);
         },
-        [x, p, c],
+        [j, p, c, _, f],
       ),
       (0, r.jsxs)("div", {
         children: [
-          g !== de.SELECT &&
-            (0, r.jsx)(ot, {
+          b !== de.SELECT &&
+            (0, r.jsx)(at, {
               name: c,
               onClick: function () {
-                return (
-                  (e = void 0),
-                  (n = void 0),
-                  (r = function () {
-                    return (function (e, n) {
-                      var t,
-                        r,
-                        o,
-                        a,
-                        l = {
-                          label: 0,
-                          sent: function () {
-                            if (1 & o[0]) throw o[1];
-                            return o[1];
-                          },
-                          trys: [],
-                          ops: [],
-                        };
-                      return (
-                        (a = { next: i(0), throw: i(1), return: i(2) }),
-                        "function" == typeof Symbol &&
-                          (a[Symbol.iterator] = function () {
-                            return this;
-                          }),
-                        a
-                      );
-                      function i(i) {
-                        return function (s) {
-                          return (function (i) {
-                            if (t)
-                              throw new TypeError(
-                                "Generator is already executing.",
-                              );
-                            for (; a && ((a = 0), i[0] && (l = 0)), l; )
-                              try {
-                                if (
-                                  ((t = 1),
-                                  r &&
-                                    (o =
-                                      2 & i[0]
-                                        ? r.return
-                                        : i[0]
-                                          ? r.throw ||
-                                            ((o = r.return) && o.call(r), 0)
-                                          : r.next) &&
-                                    !(o = o.call(r, i[1])).done)
-                                )
-                                  return o;
-                                switch (
-                                  ((r = 0),
-                                  o && (i = [2 & i[0], o.value]),
-                                  i[0])
-                                ) {
-                                  case 0:
-                                  case 1:
-                                    o = i;
-                                    break;
-                                  case 4:
-                                    return l.label++, { value: i[1], done: !1 };
-                                  case 5:
-                                    l.label++, (r = i[1]), (i = [0]);
-                                    continue;
-                                  case 7:
-                                    (i = l.ops.pop()), l.trys.pop();
-                                    continue;
-                                  default:
-                                    if (
-                                      !(
-                                        (o =
-                                          (o = l.trys).length > 0 &&
-                                          o[o.length - 1]) ||
-                                        (6 !== i[0] && 2 !== i[0])
-                                      )
-                                    ) {
-                                      l = 0;
-                                      continue;
-                                    }
-                                    if (
-                                      3 === i[0] &&
-                                      (!o || (i[1] > o[0] && i[1] < o[3]))
-                                    ) {
-                                      l.label = i[1];
-                                      break;
-                                    }
-                                    if (6 === i[0] && l.label < o[1]) {
-                                      (l.label = o[1]), (o = i);
-                                      break;
-                                    }
-                                    if (o && l.label < o[2]) {
-                                      (l.label = o[2]), l.ops.push(i);
-                                      break;
-                                    }
-                                    o[2] && l.ops.pop(), l.trys.pop();
-                                    continue;
-                                }
-                                i = n.call(e, l);
-                              } catch (e) {
-                                (i = [6, e]), (r = 0);
-                              } finally {
-                                t = o = 0;
-                              }
-                            if (5 & i[0]) throw i[1];
-                            return { value: i[0] ? i[1] : void 0, done: !0 };
-                          })([i, s]);
-                        };
-                      }
-                    })(this, function (e) {
-                      switch (e.label) {
-                        case 0:
-                          return h(!0), [4, i()];
-                        case 1:
-                          return e.sent(), [4, a()];
-                        case 2:
-                          return (
-                            e.sent(),
-                            m(),
-                            setTimeout(function () {
-                              h(!1);
-                            }, 200),
-                            [2]
-                          );
-                      }
-                    });
-                  }),
-                  new ((t = void 0) || (t = Promise))(function (o, a) {
-                    function l(e) {
-                      try {
-                        s(r.next(e));
-                      } catch (e) {
-                        a(e);
-                      }
+                return _r(void 0, void 0, void 0, function () {
+                  return kr(this, function (e) {
+                    switch (e.label) {
+                      case 0:
+                        return h(!0), [4, i()];
+                      case 1:
+                        return e.sent(), [4, a()];
+                      case 2:
+                        return (
+                          e.sent(),
+                          m(),
+                          setTimeout(function () {
+                            h(!1);
+                          }, 200),
+                          [2]
+                        );
                     }
-                    function i(e) {
-                      try {
-                        s(r.throw(e));
-                      } catch (e) {
-                        a(e);
-                      }
-                    }
-                    function s(e) {
-                      var n;
-                      e.done
-                        ? o(e.value)
-                        : ((n = e.value),
-                          n instanceof t
-                            ? n
-                            : new t(function (e) {
-                                e(n);
-                              })).then(l, i);
-                    }
-                    s((r = r.apply(e, n || [])).next());
-                  })
-                );
-                var e, n, t, r;
+                  });
+                });
               },
               image: (
                 null == d ? void 0 : d.includes("https://media.licdn.com")
@@ -18793,16 +18848,16 @@
             }),
           (0, r.jsx)(
             "div",
-            Cr(
-              { className: g !== de.SELECT ? "company__form" : "" },
-              { children: s() },
+            wr(
+              { className: b !== de.SELECT ? "company__form" : "" },
+              { children: b ? s() : (0, r.jsx)(Pn, {}) },
             ),
           ),
         ],
       })
     );
   };
-  function _r(e) {
+  function Sr(e) {
     if (!e) return null;
     var n = e.match(/(\d{1,3}(,\d{3})*(\.\d+)?)([KkMmBb]{0,1})/);
     if (!n) return null;
@@ -18811,7 +18866,7 @@
       o = n[4].toLowerCase();
     return "k" === o ? 1e3 * r : "m" === o ? 1e6 * r : "b" === o ? 1e9 * r : r;
   }
-  var kr = function () {
+  var jr = function () {
       return {
         addControlForCompany: function () {
           var e;
@@ -18829,7 +18884,7 @@
                 e.add("inline"),
               o)
             )
-              on.render((0, r.jsx)(kn, {}), o);
+              an.render((0, r.jsx)(En, {}), o);
             else {
               var a = document.createElement("div");
               (a.id = "idForLinkedinIconCompany"),
@@ -18855,7 +18910,7 @@
                   e.add("inline"),
                 o)
               )
-                on.render((0, r.jsx)(kn, {}), o);
+                an.render((0, r.jsx)(En, {}), o);
               else {
                 var a = document.createElement("div");
                 (a.id = "idForLinkedinIconCompany"),
@@ -19073,8 +19128,8 @@
                                 : v.href.split("?")[0],
                             E = null == k ? void 0 : k.split("/"),
                             S = E ? E[E.length - 2] : "";
-                          on.render(
-                            (0, r.jsx)(Ln, {
+                          an.render(
+                            (0, r.jsx)(An, {
                               name: b,
                               description: C,
                               image: g || S,
@@ -19192,7 +19247,7 @@
                               : s.textContent) || void 0 === u
                           ? void 0
                           : u.trim(),
-                      b = _r(null == g ? void 0 : g.split(" ")[0]),
+                      b = Sr(null == g ? void 0 : g.split(" ")[0]),
                       x =
                         null ===
                           (f =
@@ -19221,8 +19276,8 @@
                       _ = null == w ? void 0 : w.split("?")[0],
                       k = e.querySelector(".idForLinkedinIcon");
                     if (k)
-                      on.render(
-                        (0, r.jsx)(Ln, {
+                      an.render(
+                        (0, r.jsx)(An, {
                           name: y,
                           description: x,
                           image: C,
@@ -19244,7 +19299,7 @@
         },
       };
     },
-    Er = function (e, n, t, r) {
+    Nr = function (e, n, t, r) {
       return new (t || (t = Promise))(function (o, a) {
         function l(e) {
           try {
@@ -19274,7 +19329,7 @@
         s((r = r.apply(e, n || [])).next());
       });
     },
-    Sr = function (e, n) {
+    Lr = function (e, n) {
       var t,
         r,
         o,
@@ -19364,8 +19419,8 @@
         };
       }
     },
-    jr = function () {
-      var e = rn(),
+    Ar = function () {
+      var e = on(),
         n = e.setLoading,
         t = e.uds_linkedincompanyid,
         r = e.webApiEndpoint,
@@ -19377,36 +19432,35 @@
         u = function (e) {
           return (
             void 0 === e && (e = 5),
-            Er(void 0, void 0, void 0, function () {
-              var n;
-              return Sr(this, function (t) {
-                switch (t.label) {
+            Nr(void 0, void 0, void 0, function () {
+              var t;
+              return Lr(this, function (s) {
+                switch (s.label) {
                   case 0:
                     return a
-                      ? [
+                      ? (n(!0),
+                        [
                           4,
-                          dn(
+                          fn(
                             ""
                               .concat(r, "/accounts?$filter=contains(name,'")
                               .concat(encodeURIComponent(a), "')&$top=")
                               .concat(e),
                             o,
                           ),
-                        ]
+                        ])
                       : [3, 2];
                   case 1:
                     return (
-                      (n = t.sent()),
-                      console.log(n, "exiasnd"),
-                      n.value && 0 !== n.value.length
-                        ? (l(n.value), i(de.SELECT))
+                      (t = s.sent()).value && 0 !== t.value.length
+                        ? (l(t.value), i(de.SELECT))
                         : i(de.NOT_EXIST),
                       [3, 3]
                     );
                   case 2:
-                    i(de.NOT_EXIST), (t.label = 3);
+                    i(de.NOT_EXIST), (s.label = 3);
                   case 3:
-                    return [2, ""];
+                    return n(!1), [2, ""];
                 }
               });
             })
@@ -19414,16 +19468,20 @@
         };
       return {
         checkCompanyExist: function () {
-          return Er(void 0, void 0, void 0, function () {
+          return Nr(void 0, void 0, void 0, function () {
             var e, a, l;
-            return Sr(this, function (c) {
+            return Lr(this, function (c) {
               switch (c.label) {
                 case 0:
                   return (
+                    console.log(
+                      "what is going on here uds_linkedincompanyid",
+                      t,
+                    ),
                     n(!0),
                     (e = "contains(uds_linkedincompanyid,'".concat(t, "')")),
                     (a = encodeURIComponent(e)),
-                    [4, dn("".concat(r, "/accounts?$filter=").concat(a), o)]
+                    [4, fn("".concat(r, "/accounts?$filter=").concat(a), o)]
                   );
                 case 1:
                   return (
@@ -19444,8 +19502,8 @@
         getCompaniesWithNames: u,
       };
     };
-  function Nr() {
-    var e = rn(),
+  function Or() {
+    var e = on(),
       n = e.setCompanyAdress,
       t = e.setCompanyName,
       r = e.setCompanyWebsiteUrl,
@@ -19458,7 +19516,7 @@
         var s = e.target,
           u = s.name,
           c = s.value,
-          d = Wt[u],
+          d = Gt[u],
           f = d.min,
           p = d.max,
           h = d.type,
@@ -19475,7 +19533,7 @@
                     : "Not valid email",
                 )
               : h === be.URL
-                ? i(u, c ? (Yt.test(c) ? null : "Not correct URL") : null)
+                ? i(u, c ? (Zt.test(c) ? null : "Not correct URL") : null)
                 : i(
                     u,
                     c.length > p
@@ -19515,9 +19573,9 @@
       },
     };
   }
-  var Lr = function () {
+  var Tr = function () {
     return (
-      (Lr =
+      (Tr =
         Object.assign ||
         function (e) {
           for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -19525,11 +19583,11 @@
               Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
           return e;
         }),
-      Lr.apply(this, arguments)
+      Tr.apply(this, arguments)
     );
   };
-  const Ar = function () {
-    var e = rn(),
+  const Ir = function () {
+    var e = on(),
       n = e.name,
       t = e.companyBackData,
       o = e.uds_linkedinprofilecompanyurl,
@@ -19547,31 +19605,31 @@
       v = e.websiteurlError,
       y = e.companyDescriptionError,
       g = e.isCompanyHaveError,
-      b = nr(),
+      b = tr(),
       x = b.updateCurrentCompany,
       C = b.checkHaveDifferentValueForButton,
-      w = Nr().handleChange;
+      w = Or().handleChange;
     return (0, r.jsxs)("div", {
       children: [
         (0, r.jsx)(
           "div",
-          Lr(
+          Tr(
             { className: "company__form" },
             {
-              children: (0, r.jsxs)(xt, {
+              children: (0, r.jsxs)(Ct, {
                 children: [
                   (0, r.jsxs)(
                     "tr",
-                    Lr(
+                    Tr(
                       {
                         className: a
-                          ? Ft(
+                          ? Bt(
                               a,
                               null == t
                                 ? void 0
                                 : t.uds_salesnavigatorcompanyurl,
                             )
-                          : Ft(
+                          : Bt(
                               o,
                               null == t
                                 ? void 0
@@ -19584,7 +19642,7 @@
                             children: "Company profile link",
                           }),
                           (0, r.jsx)("td", {
-                            children: (0, r.jsx)(et, {
+                            children: (0, r.jsx)(nt, {
                               type: xe.IN_TABLE,
                               name: "uds_linkedinprofilecompanyurl",
                               readOnly: !0,
@@ -19593,7 +19651,7 @@
                             }),
                           }),
                           (0, r.jsx)("td", {
-                            children: (0, r.jsx)(et, {
+                            children: (0, r.jsx)(nt, {
                               type: xe.IN_TABLE,
                               name: "companyProfileLink",
                               readOnly: !0,
@@ -19613,13 +19671,13 @@
                   ),
                   (0, r.jsxs)(
                     "tr",
-                    Lr(
-                      { className: Ft(n, null == t ? void 0 : t.name) },
+                    Tr(
+                      { className: Bt(n, null == t ? void 0 : t.name) },
                       {
                         children: [
                           (0, r.jsx)("td", { children: "Company name" }),
                           (0, r.jsx)("td", {
-                            children: (0, r.jsx)(Gn, {
+                            children: (0, r.jsx)(Yn, {
                               type: fe.IN_TABLE,
                               placeholder: "Company name",
                               id: "name",
@@ -19630,7 +19688,7 @@
                             }),
                           }),
                           (0, r.jsx)("td", {
-                            children: (0, r.jsx)(Gn, {
+                            children: (0, r.jsx)(Yn, {
                               type: fe.IN_TABLE,
                               value: null == t ? void 0 : t.name,
                               readonly: !0,
@@ -19642,15 +19700,15 @@
                   ),
                   (0, r.jsxs)(
                     "tr",
-                    Lr(
+                    Tr(
                       {
-                        className: Ft(s, null == t ? void 0 : t.address1_name),
+                        className: Bt(s, null == t ? void 0 : t.address1_name),
                       },
                       {
                         children: [
                           (0, r.jsx)("td", { children: "Company address" }),
                           (0, r.jsx)("td", {
-                            children: (0, r.jsx)(Gn, {
+                            children: (0, r.jsx)(Yn, {
                               type: fe.IN_TABLE,
                               id: "companyAddress1_name",
                               name: "companyAddress1_name",
@@ -19661,7 +19719,7 @@
                             }),
                           }),
                           (0, r.jsx)("td", {
-                            children: (0, r.jsx)(Gn, {
+                            children: (0, r.jsx)(Yn, {
                               type: fe.IN_TABLE,
                               value: null == t ? void 0 : t.address1_name,
                               readonly: !0,
@@ -19673,9 +19731,9 @@
                   ),
                   (0, r.jsxs)(
                     "tr",
-                    Lr(
+                    Tr(
                       {
-                        className: Ft(
+                        className: Bt(
                           Number(c),
                           null == t ? void 0 : t.numberofemployees,
                         ),
@@ -19684,7 +19742,7 @@
                         children: [
                           (0, r.jsx)("td", { children: "Employees on Ln" }),
                           (0, r.jsx)("td", {
-                            children: (0, r.jsx)(Gn, {
+                            children: (0, r.jsx)(Yn, {
                               type: fe.IN_TABLE,
                               value: c,
                               id: "numberofemployees",
@@ -19695,7 +19753,7 @@
                             }),
                           }),
                           (0, r.jsx)("td", {
-                            children: (0, r.jsx)(Gn, {
+                            children: (0, r.jsx)(Yn, {
                               type: fe.IN_TABLE,
                               value: null == t ? void 0 : t.numberofemployees,
                               readonly: !0,
@@ -19707,9 +19765,9 @@
                   ),
                   (0, r.jsxs)(
                     "tr",
-                    Lr(
+                    Tr(
                       {
-                        className: Ft(
+                        className: Bt(
                           l || "",
                           (null == t ? void 0 : t.websiteurl) || "",
                         ),
@@ -19718,7 +19776,7 @@
                         children: [
                           (0, r.jsx)("td", { children: "Website" }),
                           (0, r.jsx)("td", {
-                            children: (0, r.jsx)(Gn, {
+                            children: (0, r.jsx)(Yn, {
                               type: fe.IN_TABLE,
                               value: l || "",
                               id: "websiteurl",
@@ -19729,7 +19787,7 @@
                             }),
                           }),
                           (0, r.jsx)("td", {
-                            children: (0, r.jsx)(Gn, {
+                            children: (0, r.jsx)(Yn, {
                               type: fe.IN_TABLE,
                               readonly: !0,
                               value: null == t ? void 0 : t.websiteurl,
@@ -19741,9 +19799,9 @@
                   ),
                   (0, r.jsxs)(
                     "tr",
-                    Lr(
+                    Tr(
                       {
-                        className: Ft(
+                        className: Bt(
                           Number(i) || "",
                           (null == t ? void 0 : t.uds_linkedinsize) || "",
                         ),
@@ -19752,7 +19810,7 @@
                         children: [
                           (0, r.jsx)("td", { children: "Company size" }),
                           (0, r.jsx)("td", {
-                            children: (0, r.jsx)(Gn, {
+                            children: (0, r.jsx)(Yn, {
                               type: fe.IN_TABLE,
                               value: i,
                               id: "companySize",
@@ -19763,7 +19821,7 @@
                             }),
                           }),
                           (0, r.jsx)("td", {
-                            children: (0, r.jsx)(Gn, {
+                            children: (0, r.jsx)(Yn, {
                               type: fe.IN_TABLE,
                               readonly: !0,
                               value: null == t ? void 0 : t.uds_linkedinsize,
@@ -19775,9 +19833,9 @@
                   ),
                   (0, r.jsxs)(
                     "tr",
-                    Lr(
+                    Tr(
                       {
-                        className: Ft(
+                        className: Bt(
                           u,
                           (null == t ? void 0 : t.description)
                             ? null == t
@@ -19790,7 +19848,7 @@
                         children: [
                           (0, r.jsx)("td", { children: "Comment" }),
                           (0, r.jsx)("td", {
-                            children: (0, r.jsx)(et, {
+                            children: (0, r.jsx)(nt, {
                               type: xe.IN_TABLE,
                               name: "companyDescription",
                               placeholder: "Comment",
@@ -19800,7 +19858,7 @@
                             }),
                           }),
                           (0, r.jsx)("td", {
-                            children: (0, r.jsx)(et, {
+                            children: (0, r.jsx)(nt, {
                               type: xe.IN_TABLE,
                               name: "companyComment",
                               className: "right",
@@ -19819,14 +19877,14 @@
         ),
         (0, r.jsxs)(
           "div",
-          Lr(
+          Tr(
             { className: "existCompanyFooter" },
             {
               children: [
                 (0, r.jsx)(Un, {
                   type: ue.BLUE,
                   onClick: function () {
-                    an(
+                    ln(
                       d,
                       Ce.COMPANY,
                       (null == t ? void 0 : t.accountid)
@@ -19851,9 +19909,9 @@
       ],
     });
   };
-  var Or = function () {
+  var Pr = function () {
       return (
-        (Or =
+        (Pr =
           Object.assign ||
           function (e) {
             for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -19861,10 +19919,10 @@
                 Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
             return e;
           }),
-        Or.apply(this, arguments)
+        Pr.apply(this, arguments)
       );
     },
-    Tr = function (e, n, t, r) {
+    Rr = function (e, n, t, r) {
       return new (t || (t = Promise))(function (o, a) {
         function l(e) {
           try {
@@ -19894,7 +19952,7 @@
         s((r = r.apply(e, n || [])).next());
       });
     },
-    Ir = function (e, n) {
+    Dr = function (e, n) {
       var t,
         r,
         o,
@@ -19984,9 +20042,9 @@
         };
       }
     };
-  const Pr = function () {
+  const Mr = function () {
     var e = this,
-      n = rn(),
+      n = on(),
       t = n.name,
       o = n.numberofemployees,
       a = n.uds_linkedinprofilecompanyurl,
@@ -20008,11 +20066,11 @@
       w = n.websiteurlError,
       _ = n.companyDescriptionError,
       k = n.isCompanyHaveError,
-      E = nr(),
+      E = tr(),
       S = E.createCompany,
       j = E.createdCompany,
       N = E.isCreated,
-      L = Nr().handleChange,
+      L = Or().handleChange,
       A = function (e, n) {
         L({ target: { name: n, value: e } });
       };
@@ -20020,17 +20078,17 @@
       children: [
         (0, r.jsxs)(
           "div",
-          Or(
+          Pr(
             { className: "company__form" },
             {
               children: [
                 (0, r.jsxs)(
                   "div",
-                  Or(
+                  Pr(
                     { className: "company__form__inputs" },
                     {
                       children: [
-                        (0, r.jsx)(Gn, {
+                        (0, r.jsx)(Yn, {
                           id: "uds_linkedinprofilecompanyurl",
                           name: "uds_linkedinprofilecompanyurl",
                           type: fe.WITH_LABEL,
@@ -20039,7 +20097,7 @@
                           readonly: !0,
                           required: !0,
                         }),
-                        (0, r.jsx)(Gn, {
+                        (0, r.jsx)(Yn, {
                           id: "companySize",
                           type: fe.WITH_LABEL,
                           name: "companySize",
@@ -20050,8 +20108,8 @@
                             m(0);
                           },
                           onPaste: function (n) {
-                            return Tr(e, void 0, void 0, function () {
-                              return Ir(this, function (e) {
+                            return Rr(e, void 0, void 0, function () {
+                              return Dr(this, function (e) {
                                 return (
                                   !isNaN(Number(n)) &&
                                     A(n ? Number(n) : s, "companySize"),
@@ -20062,7 +20120,7 @@
                           },
                           error: x,
                         }),
-                        (0, r.jsx)(Gn, {
+                        (0, r.jsx)(Yn, {
                           id: "name",
                           type: fe.WITH_LABEL,
                           name: "name",
@@ -20075,14 +20133,14 @@
                           error: y,
                           required: !0,
                           onPaste: function (n) {
-                            return Tr(e, void 0, void 0, function () {
-                              return Ir(this, function (e) {
+                            return Rr(e, void 0, void 0, function () {
+                              return Dr(this, function (e) {
                                 return A(n || t, "name"), [2];
                               });
                             });
                           },
                         }),
-                        (0, r.jsx)(Gn, {
+                        (0, r.jsx)(Yn, {
                           id: "companyAddress1_name",
                           type: fe.WITH_LABEL,
                           name: "companyAddress1_name",
@@ -20094,14 +20152,14 @@
                           },
                           error: b,
                           onPaste: function (n) {
-                            return Tr(e, void 0, void 0, function () {
-                              return Ir(this, function (e) {
+                            return Rr(e, void 0, void 0, function () {
+                              return Dr(this, function (e) {
                                 return A(n || i, "companyAddress1_name"), [2];
                               });
                             });
                           },
                         }),
-                        (0, r.jsx)(Gn, {
+                        (0, r.jsx)(Yn, {
                           id: "numberofemployees",
                           type: fe.WITH_LABEL,
                           name: "numberofemployees",
@@ -20112,8 +20170,8 @@
                             v(0);
                           },
                           onPaste: function (n) {
-                            return Tr(e, void 0, void 0, function () {
-                              return Ir(this, function (e) {
+                            return Rr(e, void 0, void 0, function () {
+                              return Dr(this, function (e) {
                                 return (
                                   !isNaN(Number(n)) &&
                                     A(n ? Number(n) : o, "numberofemployees"),
@@ -20124,7 +20182,7 @@
                           },
                           error: g,
                         }),
-                        (0, r.jsx)(Gn, {
+                        (0, r.jsx)(Yn, {
                           id: "websiteurl",
                           type: fe.WITH_LABEL,
                           name: "websiteurl",
@@ -20135,8 +20193,8 @@
                             h("");
                           },
                           onPaste: function (n) {
-                            return Tr(e, void 0, void 0, function () {
-                              return Ir(this, function (e) {
+                            return Rr(e, void 0, void 0, function () {
+                              return Dr(this, function (e) {
                                 return A(n || u, "websiteurl"), [2];
                               });
                             });
@@ -20147,7 +20205,7 @@
                     },
                   ),
                 ),
-                (0, r.jsx)(et, {
+                (0, r.jsx)(nt, {
                   type: xe.NORMAL,
                   onChange: L,
                   value: c,
@@ -20161,13 +20219,13 @@
         ),
         (0, r.jsxs)(
           "div",
-          Or(
+          Pr(
             { className: "company__footer" },
             {
               children: [
                 (0, r.jsxs)(
                   "div",
-                  Or(
+                  Pr(
                     { className: "company__footer__text" },
                     {
                       children: [
@@ -20182,7 +20240,7 @@
                 ),
                 (0, r.jsx)(
                   "div",
-                  Or(
+                  Pr(
                     { className: "company__footer__buttonContainer" },
                     {
                       children: N
@@ -20190,15 +20248,15 @@
                             children: [
                               (0, r.jsxs)(
                                 "p",
-                                Or(
+                                Pr(
                                   { className: "company__footer__success" },
-                                  { children: [(0, r.jsx)($, {}), "Success!"] },
+                                  { children: [(0, r.jsx)(Y, {}), "Success!"] },
                                 ),
                               ),
                               (0, r.jsx)(Un, {
                                 className: "company__captureButton",
                                 onClick: function () {
-                                  an(
+                                  ln(
                                     d,
                                     Ce.COMPANY,
                                     (null == j ? void 0 : j.accountid)
@@ -20232,9 +20290,9 @@
       ],
     });
   };
-  var Rr = function () {
+  var Ur = function () {
       return (
-        (Rr =
+        (Ur =
           Object.assign ||
           function (e) {
             for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -20242,10 +20300,10 @@
                 Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
             return e;
           }),
-        Rr.apply(this, arguments)
+        Ur.apply(this, arguments)
       );
     },
-    Mr = function (e, n, t, r) {
+    Fr = function (e, n, t, r) {
       return new (t || (t = Promise))(function (o, a) {
         function l(e) {
           try {
@@ -20275,7 +20333,7 @@
         s((r = r.apply(e, n || [])).next());
       });
     },
-    Ur = function (e, n) {
+    Br = function (e, n) {
       var t,
         r,
         o,
@@ -20365,9 +20423,9 @@
         };
       }
     };
-  const Dr = function () {
+  const Hr = function () {
     var e = this,
-      n = rn(),
+      n = on(),
       t = n.name,
       a = n.websiteurl,
       l = n.uds_linkedinprofilecompanyurl,
@@ -20376,15 +20434,15 @@
       u = n.companyBackDataWithNames,
       c = n.uds_linkedincompanyid,
       d = n.setLoading,
-      f = jr().getCompaniesWithNames,
+      f = Ar().getCompaniesWithNames,
       p = (0, o.useState)(5),
       h = p[0],
       m = p[1];
     return (
       (0, o.useMemo)(
         function () {
-          return Mr(e, void 0, void 0, function () {
-            return Ur(this, function (e) {
+          return Fr(e, void 0, void 0, function () {
+            return Br(this, function (e) {
               switch (e.label) {
                 case 0:
                   return 5 === h ? [3, 2] : (d(!0), [4, f(h)]);
@@ -20400,20 +20458,20 @@
       ),
       (0, r.jsxs)(
         "div",
-        Rr(
+        Ur(
           { className: "selectCompany" },
           {
             children: [
               (0, r.jsx)(
                 "div",
-                Rr(
+                Ur(
                   { className: "selectCompany__icon" },
                   { children: (0, r.jsx)(j, {}) },
                 ),
               ),
               (0, r.jsxs)(
                 "h1",
-                Rr(
+                Ur(
                   { className: "selectCompany__title" },
                   {
                     children: [
@@ -20424,19 +20482,19 @@
                   },
                 ),
               ),
-              (0, r.jsx)(vt, {
+              (0, r.jsx)(yt, {
                 inOut: we.OUTER,
                 location: Ce.COMPANY,
                 createNewData: {
                   name: t || "",
                   id: c || "",
-                  data: zt(s, a, l, i),
+                  data: Vt(s, a, l, i),
                 },
                 withLabel: !1,
-                dataForExistedElements: Vt(u),
+                dataForExistedElements: qt(u),
                 onViewMore: function () {
-                  return Mr(e, void 0, void 0, function () {
-                    return Ur(this, function (e) {
+                  return Fr(e, void 0, void 0, function () {
+                    return Br(this, function (e) {
                       return (
                         m(function (e) {
                           return e + 5;
@@ -20456,15 +20514,15 @@
       )
     );
   };
-  const Fr = function () {
-    var e = kr(),
+  const zr = function () {
+    var e = jr(),
       n = e.addControlForCompany,
       t = e.addControlForCompanySales,
       a = (0, o.useState)(!1),
       l = a[0],
       i = a[1],
       s = (function () {
-        var e = rn(),
+        var e = on(),
           n = e.setCompanyProfileImage,
           t = e.setCompanyProfileUrl,
           r = e.setCompanyAdress,
@@ -20588,7 +20646,7 @@
                     case 0:
                       return [
                         4,
-                        Pt(function (e, p) {
+                        Rt(function (e, p) {
                           var h,
                             m,
                             v,
@@ -20612,16 +20670,14 @@
                             P;
                           if (e) {
                             var R = null,
+                              D = null,
                               M = null,
                               U = null,
-                              D = null,
                               F = null,
                               B = null;
                             if (p.includes(ce.SALES_COMPANY)) {
                               d(p);
-                              var H = e.querySelector(
-                                ".account-top-card__lockup",
-                              );
+                              var H = e.querySelectorAll("header")[1];
                               (R =
                                 null ===
                                   (h =
@@ -20630,7 +20686,7 @@
                                       : H.querySelector("img")) || void 0 === h
                                   ? void 0
                                   : h.getAttribute("src")),
-                                (M = _r(
+                                (D = Sr(
                                   null ===
                                     (v =
                                       null ===
@@ -20645,7 +20701,7 @@
                                     ? void 0
                                     : v.trim(),
                                 )),
-                                (U =
+                                (M =
                                   null ===
                                     (g =
                                       null ===
@@ -20659,7 +20715,7 @@
                                         : y.textContent) || void 0 === g
                                     ? void 0
                                     : g.trim()),
-                                (D =
+                                (U =
                                   null ===
                                     (x =
                                       null ===
@@ -20683,9 +20739,7 @@
                                     : C.getAttribute("href"));
                             } else {
                               t(p);
-                              var z = e.querySelector(
-                                  ".org-top-card__primary-content",
-                                ),
+                              var z = e.querySelector(".org-top-card"),
                                 V = e.querySelector(
                                   ".org-top-card-primary-actions",
                                 );
@@ -20697,7 +20751,7 @@
                                       : z.querySelector("img")) || void 0 === w
                                   ? void 0
                                   : w.getAttribute("src")),
-                                (M = _r(
+                                (D = Sr(
                                   null ===
                                     (E =
                                       null ===
@@ -20714,7 +20768,7 @@
                                     ? void 0
                                     : E.trim(),
                                 )),
-                                (U =
+                                (M =
                                   null ===
                                     (N =
                                       null ===
@@ -20732,7 +20786,7 @@
                                         : j.textContent) || void 0 === N
                                     ? void 0
                                     : N.trim()),
-                                (D =
+                                (U =
                                   null ===
                                     (A =
                                       null ===
@@ -20775,7 +20829,7 @@
                                       ? void 0
                                       : P.href);
                             }
-                            n(R), r(U), o(D), a(B), l(F), i(M), u(null), s(0);
+                            n(R), r(M), o(U), a(B), l(F), i(D), u(null), s(0);
                           } else c(!1), f(se.ERROR);
                         }),
                       ];
@@ -20817,15 +20871,16 @@
           },
         };
       })().scrapeCompanyData,
-      u = jr().checkCompanyExist,
-      c = rn(),
+      u = Ar().checkCompanyExist,
+      c = on(),
       d = c.uds_salesnavigatorcompanyurl,
       f = c.uds_linkedinprofilecompanyurl,
       p = c.name,
       h = c.setLoading,
-      m = c.companyPagination,
-      v = c.companyImage,
-      y = c.setResetCompanyError;
+      m = c.uds_linkedincompanyid,
+      v = c.companyPagination,
+      y = c.companyImage,
+      g = c.setResetCompanyError;
     return (
       (0, o.useEffect)(function () {
         s(),
@@ -20837,25 +20892,26 @@
       }, []),
       (0, o.useEffect)(
         function () {
-          !l &&
-            (d || f) &&
-            p &&
-            (u().then(function () {
-              h(!1);
-            }),
-            i(!0));
+          h(!0),
+            !l &&
+              (d || f) &&
+              m &&
+              (u().then(function () {
+                h(!1);
+              }),
+              i(!0));
         },
-        [l, f, p],
+        [l, f, m, d],
       ),
       (0, r.jsxs)("div", {
         children: [
-          m !== de.SELECT &&
-            (0, r.jsx)(ot, {
+          v !== de.SELECT &&
+            (0, r.jsx)(at, {
               name: p || "",
               image: (
-                null == v ? void 0 : v.includes("https://media.licdn.com")
+                null == y ? void 0 : y.includes("https://media.licdn.com")
               )
-                ? v
+                ? y
                 : "https://openseauserdata.com/files/a1439c13b366dd156de18328ca708f9f.png",
               onClick: function () {
                 return (
@@ -20973,7 +21029,7 @@
                         case 2:
                           return (
                             e.sent(),
-                            y(),
+                            g(),
                             setTimeout(function () {
                               h(!1);
                             }, 500),
@@ -21015,31 +21071,31 @@
               },
             }),
           (function () {
-            switch (m) {
+            switch (v) {
               case de.EXIST:
-                return (0, r.jsx)(Ar, {});
+                return (0, r.jsx)(Ir, {});
               case de.SELECT:
-                return (0, r.jsx)(Dr, {});
+                return (0, r.jsx)(Hr, {});
               default:
-                return (0, r.jsx)(Pr, {});
+                return (0, r.jsx)(Mr, {});
             }
           })(),
         ],
       })
     );
   };
-  var Br = t(98),
-    Hr = {};
-  (Hr.styleTagTransform = y()),
-    (Hr.setAttributes = p()),
-    (Hr.insert = d().bind(null, "head")),
-    (Hr.domAPI = u()),
-    (Hr.insertStyleElement = m()),
-    i()(Br.A, Hr),
-    Br.A && Br.A.locals && Br.A.locals;
-  var zr = function () {
+  var Vr = t(98),
+    qr = {};
+  (qr.styleTagTransform = y()),
+    (qr.setAttributes = p()),
+    (qr.insert = d().bind(null, "head")),
+    (qr.domAPI = u()),
+    (qr.insertStyleElement = m()),
+    i()(Vr.A, qr),
+    Vr.A && Vr.A.locals && Vr.A.locals;
+  var Wr = function () {
     return (
-      (zr =
+      (Wr =
         Object.assign ||
         function (e) {
           for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -21047,26 +21103,26 @@
               Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
           return e;
         }),
-      zr.apply(this, arguments)
+      Wr.apply(this, arguments)
     );
   };
-  const Vr = function (e) {
+  const Gr = function (e) {
     var n = e.page,
-      t = rn(),
+      t = on(),
       o = t.setPage,
       a = t.errorForCredentials,
       l = t.errorText;
     return (0, r.jsxs)(
       "section",
-      zr(
+      Wr(
         { className: "errorPage" },
         {
           children: [
             (0, r.jsx)(j, {}),
-            (0, r.jsx)(Hn, { children: "Something went wrong..." }),
+            (0, r.jsx)(zn, { children: "Something went wrong..." }),
             (0, r.jsx)(
               "p",
-              zr(
+              Wr(
                 { className: "errorPage__text" },
                 { children: n === me.LOGIN ? a : l },
               ),
@@ -21074,15 +21130,15 @@
             n === me.ACTION &&
               (0, r.jsx)(
                 "p",
-                zr(
+                Wr(
                   { className: "errorPage__text" },
                   { children: "Please restart the extension." },
                 ),
               ),
-            (0, r.jsx)(Qn, {}),
+            (0, r.jsx)(Kn, {}),
             (0, r.jsxs)(
               "div",
-              zr(
+              Wr(
                 { className: "errorPage__footer" },
                 {
                   children: [
@@ -21110,18 +21166,18 @@
       ),
     );
   };
-  var qr = t(145),
-    Wr = {};
-  (Wr.styleTagTransform = y()),
-    (Wr.setAttributes = p()),
-    (Wr.insert = d().bind(null, "head")),
-    (Wr.domAPI = u()),
-    (Wr.insertStyleElement = m()),
-    i()(qr.A, Wr),
-    qr.A && qr.A.locals && qr.A.locals;
-  var Gr = function () {
+  var Yr = t(145),
+    $r = {};
+  ($r.styleTagTransform = y()),
+    ($r.setAttributes = p()),
+    ($r.insert = d().bind(null, "head")),
+    ($r.domAPI = u()),
+    ($r.insertStyleElement = m()),
+    i()(Yr.A, $r),
+    Yr.A && Yr.A.locals && Yr.A.locals;
+  var Zr = function () {
     return (
-      (Gr =
+      (Zr =
         Object.assign ||
         function (e) {
           for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -21129,13 +21185,13 @@
               Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
           return e;
         }),
-      Gr.apply(this, arguments)
+      Zr.apply(this, arguments)
     );
   };
-  const $r = function () {
+  const Qr = function () {
     var e = (function () {
       var e = this,
-        n = rn(),
+        n = on(),
         t = n.clientId,
         r = n.tenantId,
         o = n.crmUrl,
@@ -21294,22 +21350,22 @@
     })().handleLogin;
     return (0, r.jsx)(
       "section",
-      Gr(
+      Zr(
         { className: "login" },
         {
           children: (0, r.jsxs)(
             "div",
-            Gr(
+            Zr(
               { className: "login__content" },
               {
                 children: [
                   (0, r.jsx)(j, {}),
-                  (0, r.jsx)(Hn, {
+                  (0, r.jsx)(zn, {
                     children: "Log In with your Microsoft Account ",
                   }),
                   (0, r.jsx)(
                     "p",
-                    Gr(
+                    Zr(
                       { className: "login__text" },
                       {
                         children:
@@ -21318,7 +21374,7 @@
                     ),
                   ),
                   (0, r.jsx)(Un, { type: ue.GOLD, text: "Log in", onClick: e }),
-                  (0, r.jsx)(Qn, {}),
+                  (0, r.jsx)(Kn, {}),
                 ],
               },
             ),
@@ -21327,24 +21383,24 @@
       ),
     );
   };
-  var Yr = t(73),
-    Zr = {};
-  let Qr;
-  async function Kr(e) {
-    const n = await Qr.subtle.digest("SHA-256", new TextEncoder().encode(e));
+  var Kr = t(73),
+    Xr = {};
+  let Jr;
+  async function eo(e) {
+    const n = await Jr.subtle.digest("SHA-256", new TextEncoder().encode(e));
     return btoa(String.fromCharCode(...new Uint8Array(n)))
       .replace(/\//g, "_")
       .replace(/\+/g, "-")
       .replace(/=/g, "");
   }
-  async function Xr(e) {
+  async function no(e) {
     if ((e || (e = 43), e < 43 || e > 128))
       throw `Expected a length between 43 and 128. Received ${e}.`;
     const n = (function (e) {
       return (function (e) {
         let n = "";
         const t = (function (e) {
-          return Qr.getRandomValues(new Uint8Array(e));
+          return Jr.getRandomValues(new Uint8Array(e));
         })(e);
         for (let r = 0; r < e; r++)
           n +=
@@ -21354,19 +21410,19 @@
         return n;
       })(e);
     })(e);
-    return { code_verifier: n, code_challenge: await Kr(n) };
+    return { code_verifier: n, code_challenge: await eo(n) };
   }
-  (Zr.styleTagTransform = y()),
-    (Zr.setAttributes = p()),
-    (Zr.insert = d().bind(null, "head")),
-    (Zr.domAPI = u()),
-    (Zr.insertStyleElement = m()),
-    i()(Yr.A, Zr),
-    Yr.A && Yr.A.locals && Yr.A.locals,
-    (Qr = globalThis.crypto);
-  var Jr = function () {
+  (Xr.styleTagTransform = y()),
+    (Xr.setAttributes = p()),
+    (Xr.insert = d().bind(null, "head")),
+    (Xr.domAPI = u()),
+    (Xr.insertStyleElement = m()),
+    i()(Kr.A, Xr),
+    Kr.A && Kr.A.locals && Kr.A.locals,
+    (Jr = globalThis.crypto);
+  var to = function () {
       return (
-        (Jr =
+        (to =
           Object.assign ||
           function (e) {
             for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -21374,12 +21430,12 @@
                 Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
             return e;
           }),
-        Jr.apply(this, arguments)
+        to.apply(this, arguments)
       );
     },
-    eo = function () {
+    ro = function () {
       return (
-        (eo =
+        (ro =
           Object.assign ||
           function (e) {
             for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -21387,13 +21443,13 @@
                 Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
             return e;
           }),
-        eo.apply(this, arguments)
+        ro.apply(this, arguments)
       );
     };
-  const no = function () {
+  const oo = function () {
     var e = (function () {
         var e = this,
-          n = rn(),
+          n = on(),
           t = n.setPage,
           r = n.clientId,
           a = n.crmUrl,
@@ -21525,7 +21581,7 @@
                 })(this, function (n) {
                   switch (n.label) {
                     case 0:
-                      return [4, Xr()];
+                      return [4, no()];
                     case 1:
                       return (
                         (e = n.sent()),
@@ -21582,7 +21638,7 @@
               case "clientId":
                 i(r),
                   p(function (n) {
-                    return Jr(Jr({}, n), {
+                    return to(to({}, n), {
                       clientIdError: r
                         ? h.test(e.target.value)
                           ? null
@@ -21594,7 +21650,7 @@
               case "tenantId":
                 s(r),
                   p(function (n) {
-                    return Jr(Jr({}, n), {
+                    return to(to({}, n), {
                       tenantIdError: r
                         ? h.test(e.target.value)
                           ? null
@@ -21606,7 +21662,7 @@
               case "crmUrl":
                 u(r),
                   p(function (e) {
-                    return Jr(Jr({}, e), {
+                    return to(to({}, e), {
                       crmUrlError: r
                         ? r.match(m)
                           ? null
@@ -21622,17 +21678,17 @@
       n = e.handleChangeCredentials,
       t = e.handleSetup,
       a = e.setupError,
-      l = rn(),
+      l = on(),
       i = l.clientId,
       s = l.crmUrl,
       u = l.tenantId;
     return (0, r.jsxs)(
       "section",
-      eo(
+      ro(
         { className: "setup" },
         {
           children: [
-            (0, r.jsxs)(Hn, {
+            (0, r.jsxs)(zn, {
               children: [
                 "Azure AD B2C application credentials ",
                 (0, r.jsx)("br", {}),
@@ -21641,11 +21697,11 @@
             }),
             (0, r.jsxs)(
               "div",
-              eo(
+              ro(
                 { className: "setup__form" },
                 {
                   children: [
-                    (0, r.jsx)(Gn, {
+                    (0, r.jsx)(Yn, {
                       type: fe.NORMAL,
                       placeholder: "Client ID",
                       value: i,
@@ -21653,7 +21709,7 @@
                       name: "clientId",
                       error: a.clientIdError,
                     }),
-                    (0, r.jsx)(Gn, {
+                    (0, r.jsx)(Yn, {
                       type: fe.NORMAL,
                       placeholder: "Tenant ID",
                       value: u,
@@ -21661,7 +21717,7 @@
                       name: "tenantId",
                       error: a.tenantIdError,
                     }),
-                    (0, r.jsx)(Gn, {
+                    (0, r.jsx)(Yn, {
                       type: fe.NORMAL,
                       placeholder: "CRM URL",
                       value: s,
@@ -21675,14 +21731,14 @@
             ),
             (0, r.jsx)(
               "div",
-              eo(
+              ro(
                 { className: "setup__tutorial" },
-                { children: (0, r.jsx)(Qn, {}) },
+                { children: (0, r.jsx)(Kn, {}) },
               ),
             ),
             (0, r.jsx)(
               "div",
-              eo(
+              ro(
                 { className: "setup__footer" },
                 {
                   children: (0, r.jsx)(Un, {
@@ -21705,18 +21761,18 @@
       ),
     );
   };
-  var to = t(208),
-    ro = {};
-  (ro.styleTagTransform = y()),
-    (ro.setAttributes = p()),
-    (ro.insert = d().bind(null, "head")),
-    (ro.domAPI = u()),
-    (ro.insertStyleElement = m()),
-    i()(to.A, ro),
-    to.A && to.A.locals && to.A.locals;
-  var oo = function () {
+  var ao = t(208),
+    lo = {};
+  (lo.styleTagTransform = y()),
+    (lo.setAttributes = p()),
+    (lo.insert = d().bind(null, "head")),
+    (lo.domAPI = u()),
+    (lo.insertStyleElement = m()),
+    i()(ao.A, lo),
+    ao.A && ao.A.locals && ao.A.locals;
+  var io = function () {
     return (
-      (oo =
+      (io =
         Object.assign ||
         function (e) {
           for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -21724,10 +21780,10 @@
               Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
           return e;
         }),
-      oo.apply(this, arguments)
+      io.apply(this, arguments)
     );
   };
-  const ao = function () {
+  const so = function () {
     var e = (function () {
       var e = (0, o.useState)(!1),
         n = e[0],
@@ -21752,16 +21808,16 @@
     })().inLinkedinButWrong;
     return (0, r.jsxs)(
       "section",
-      oo(
+      io(
         { className: "wrongTab" },
         {
           children: [
             (0, r.jsx)(j, {}),
-            (0, r.jsx)(Hn, { children: "Please, pay attention!" }),
+            (0, r.jsx)(zn, { children: "Please, pay attention!" }),
             e
               ? (0, r.jsxs)(
                   "p",
-                  oo(
+                  io(
                     { className: "wrongTab__text" },
                     {
                       children: [
@@ -21779,7 +21835,7 @@
                 )
               : (0, r.jsxs)(
                   "p",
-                  oo(
+                  io(
                     { className: "wrongTab__text" },
                     {
                       children: [
@@ -21798,7 +21854,7 @@
             !e &&
               (0, r.jsxs)(
                 "div",
-                oo(
+                io(
                   { className: "wrongTab__actions" },
                   {
                     children: [
@@ -21825,9 +21881,9 @@
       ),
     );
   };
-  var lo = function () {
+  var uo = function () {
     return (
-      (lo =
+      (uo =
         Object.assign ||
         function (e) {
           for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -21835,11 +21891,11 @@
               Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
           return e;
         }),
-      lo.apply(this, arguments)
+      uo.apply(this, arguments)
     );
   };
-  const io = function () {
-    var e = rn(),
+  const co = function () {
+    var e = on(),
       n = e.uds_linkedin,
       t = e.uds_salesnavigatoruserurl,
       o = e.userBackendData,
@@ -21868,32 +21924,32 @@
       j = e.emailaddress1Error,
       N = e.userAddress1_nameError,
       L = e.isUserHaveError,
-      A = qt(),
+      A = Wt(),
       O = A.checkHaveDifferentValueForButton,
       T = A.handleSearch,
       I = A.showLoaderForDropdown,
       P = A.customerError,
-      R = Qt().handleChange,
-      M = ar(),
-      U = M.handleClickOpenUser,
-      D = M.handleClickSaveButtonUser;
+      R = Kt().handleChange,
+      D = lr(),
+      M = D.handleClickOpenUser,
+      U = D.handleClickSaveButtonUser;
     return (0, r.jsxs)(r.Fragment, {
       children: [
-        (0, r.jsxs)(xt, {
+        (0, r.jsxs)(Ct, {
           children: [
             (0, r.jsxs)(
               "tr",
-              lo(
+              uo(
                 {
                   className: t
-                    ? Ft(t, null == o ? void 0 : o.uds_salesnavigatoruserurl)
-                    : Ft(n, null == o ? void 0 : o.uds_linkedin),
+                    ? Bt(t, null == o ? void 0 : o.uds_salesnavigatoruserurl)
+                    : Bt(n, null == o ? void 0 : o.uds_linkedin),
                 },
                 {
                   children: [
                     (0, r.jsx)("td", { children: "Profile link" }),
                     (0, r.jsx)("td", {
-                      children: (0, r.jsx)(et, {
+                      children: (0, r.jsx)(nt, {
                         type: xe.IN_TABLE,
                         name: "companyProfileLink",
                         readOnly: !0,
@@ -21902,7 +21958,7 @@
                       }),
                     }),
                     (0, r.jsx)("td", {
-                      children: (0, r.jsx)(et, {
+                      children: (0, r.jsx)(nt, {
                         type: xe.IN_TABLE,
                         name: "companyProfileLink",
                         readOnly: !0,
@@ -21922,13 +21978,13 @@
             ),
             (0, r.jsxs)(
               "tr",
-              lo(
-                { className: Ft(a, null == o ? void 0 : o.fullname) },
+              uo(
+                { className: Bt(a, null == o ? void 0 : o.fullname) },
                 {
                   children: [
                     (0, r.jsx)("td", { children: "Name" }),
                     (0, r.jsx)("td", {
-                      children: (0, r.jsx)(Gn, {
+                      children: (0, r.jsx)(Yn, {
                         type: fe.IN_TABLE,
                         placeholder: "Name",
                         id: "fullname",
@@ -21939,7 +21995,7 @@
                       }),
                     }),
                     (0, r.jsx)("td", {
-                      children: (0, r.jsx)(Gn, {
+                      children: (0, r.jsx)(Yn, {
                         type: fe.IN_TABLE,
                         value: null == o ? void 0 : o.fullname,
                         readonly: !0,
@@ -21951,13 +22007,13 @@
             ),
             (0, r.jsxs)(
               "tr",
-              lo(
-                { className: Ft(i, null == o ? void 0 : o.jobtitle) },
+              uo(
+                { className: Bt(i, null == o ? void 0 : o.jobtitle) },
                 {
                   children: [
                     (0, r.jsx)("td", { children: "Job title" }),
                     (0, r.jsx)("td", {
-                      children: (0, r.jsx)(Gn, {
+                      children: (0, r.jsx)(Yn, {
                         type: fe.IN_TABLE,
                         id: "jobtitle",
                         error: w,
@@ -21968,7 +22024,7 @@
                       }),
                     }),
                     (0, r.jsx)("td", {
-                      children: (0, r.jsx)(Gn, {
+                      children: (0, r.jsx)(Yn, {
                         type: fe.IN_TABLE,
                         value: null == o ? void 0 : o.jobtitle,
                         readonly: !0,
@@ -21980,13 +22036,13 @@
             ),
             (0, r.jsxs)(
               "tr",
-              lo(
-                { className: Ft(l, null == o ? void 0 : o.address1_name) },
+              uo(
+                { className: Bt(l, null == o ? void 0 : o.address1_name) },
                 {
                   children: [
                     (0, r.jsx)("td", { children: "Address" }),
                     (0, r.jsx)("td", {
-                      children: (0, r.jsx)(Gn, {
+                      children: (0, r.jsx)(Yn, {
                         id: "userAddress1_name",
                         type: fe.IN_TABLE,
                         error: N,
@@ -21997,7 +22053,7 @@
                       }),
                     }),
                     (0, r.jsx)("td", {
-                      children: (0, r.jsx)(Gn, {
+                      children: (0, r.jsx)(Yn, {
                         type: fe.IN_TABLE,
                         value: null == o ? void 0 : o.address1_name,
                         readonly: !0,
@@ -22009,13 +22065,13 @@
             ),
             (0, r.jsxs)(
               "tr",
-              lo(
-                { className: Ft(y || "", (null == s ? void 0 : s.name) || "") },
+              uo(
+                { className: Bt(y || "", (null == s ? void 0 : s.name) || "") },
                 {
                   children: [
                     (0, r.jsx)("td", { children: "Company" }),
                     (0, r.jsx)("td", {
-                      children: (0, r.jsx)(vt, {
+                      children: (0, r.jsx)(yt, {
                         withRadioButton: !0,
                         withSearch: !0,
                         loader: I,
@@ -22030,13 +22086,13 @@
                         location: Ce.USER,
                         createNewData: { name: h || "", id: g || "", data: [] },
                         withLabel: !0,
-                        dataForExistedElements: Vt(b) || [],
+                        dataForExistedElements: qt(b) || [],
                         onViewMore: function () {},
                         hideViewMore: !0,
                       }),
                     }),
                     (0, r.jsx)("td", {
-                      children: (0, r.jsx)(Gn, {
+                      children: (0, r.jsx)(Yn, {
                         type: fe.IN_TABLE,
                         value: null == s ? void 0 : s.name,
                         readonly: !0,
@@ -22048,9 +22104,9 @@
             ),
             (0, r.jsxs)(
               "tr",
-              lo(
+              uo(
                 {
-                  className: Ft(
+                  className: Bt(
                     c || "",
                     (null == o ? void 0 : o.telephone1) || "",
                   ),
@@ -22059,7 +22115,7 @@
                   children: [
                     (0, r.jsx)("td", { children: "Work phone" }),
                     (0, r.jsx)("td", {
-                      children: (0, r.jsx)(Gn, {
+                      children: (0, r.jsx)(Yn, {
                         type: fe.IN_TABLE,
                         value: c,
                         name: "telephone1",
@@ -22070,7 +22126,7 @@
                       }),
                     }),
                     (0, r.jsx)("td", {
-                      children: (0, r.jsx)(Gn, {
+                      children: (0, r.jsx)(Yn, {
                         type: fe.IN_TABLE,
                         value: null == o ? void 0 : o.telephone1,
                         readonly: !0,
@@ -22082,9 +22138,9 @@
             ),
             (0, r.jsxs)(
               "tr",
-              lo(
+              uo(
                 {
-                  className: Ft(
+                  className: Bt(
                     u || "",
                     (null == o ? void 0 : o.mobilephone) || "",
                   ),
@@ -22093,7 +22149,7 @@
                   children: [
                     (0, r.jsx)("td", { children: "Personal phone" }),
                     (0, r.jsx)("td", {
-                      children: (0, r.jsx)(Gn, {
+                      children: (0, r.jsx)(Yn, {
                         type: fe.IN_TABLE,
                         name: "mobilephone",
                         id: "mobilephone",
@@ -22104,7 +22160,7 @@
                       }),
                     }),
                     (0, r.jsx)("td", {
-                      children: (0, r.jsx)(Gn, {
+                      children: (0, r.jsx)(Yn, {
                         type: fe.IN_TABLE,
                         value: null == o ? void 0 : o.mobilephone,
                         readonly: !0,
@@ -22116,9 +22172,9 @@
             ),
             (0, r.jsxs)(
               "tr",
-              lo(
+              uo(
                 {
-                  className: Ft(
+                  className: Bt(
                     f || "",
                     (null == o ? void 0 : o.emailaddress2) || "",
                   ),
@@ -22127,7 +22183,7 @@
                   children: [
                     (0, r.jsx)("td", { children: "Email" }),
                     (0, r.jsx)("td", {
-                      children: (0, r.jsx)(Gn, {
+                      children: (0, r.jsx)(Yn, {
                         type: fe.IN_TABLE,
                         value: f,
                         name: "emailaddress2",
@@ -22138,7 +22194,7 @@
                       }),
                     }),
                     (0, r.jsx)("td", {
-                      children: (0, r.jsx)(Gn, {
+                      children: (0, r.jsx)(Yn, {
                         type: fe.IN_TABLE,
                         value: null == o ? void 0 : o.emailaddress2,
                         readonly: !0,
@@ -22150,9 +22206,9 @@
             ),
             (0, r.jsxs)(
               "tr",
-              lo(
+              uo(
                 {
-                  className: Ft(
+                  className: Bt(
                     d || "",
                     (null == o ? void 0 : o.emailaddress1) || "",
                   ),
@@ -22161,7 +22217,7 @@
                   children: [
                     (0, r.jsx)("td", { children: "Personal email" }),
                     (0, r.jsx)("td", {
-                      children: (0, r.jsx)(Gn, {
+                      children: (0, r.jsx)(Yn, {
                         type: fe.IN_TABLE,
                         value: d,
                         placeholder: "Personal email",
@@ -22172,7 +22228,7 @@
                       }),
                     }),
                     (0, r.jsx)("td", {
-                      children: (0, r.jsx)(Gn, {
+                      children: (0, r.jsx)(Yn, {
                         type: fe.IN_TABLE,
                         value: null == o ? void 0 : o.emailaddress1,
                         readonly: !0,
@@ -22184,9 +22240,9 @@
             ),
             (0, r.jsxs)(
               "tr",
-              lo(
+              uo(
                 {
-                  className: Ft(
+                  className: Bt(
                     p || "",
                     (null == o ? void 0 : o.description)
                       ? null == o
@@ -22199,7 +22255,7 @@
                   children: [
                     (0, r.jsx)("td", { children: "Comment" }),
                     (0, r.jsx)("td", {
-                      children: (0, r.jsx)(et, {
+                      children: (0, r.jsx)(nt, {
                         type: xe.IN_TABLE,
                         name: "description",
                         placeholder: "Comment",
@@ -22209,7 +22265,7 @@
                       }),
                     }),
                     (0, r.jsx)("td", {
-                      children: (0, r.jsx)(et, {
+                      children: (0, r.jsx)(nt, {
                         type: xe.IN_TABLE,
                         name: "description",
                         className: "right",
@@ -22225,20 +22281,20 @@
         }),
         (0, r.jsxs)(
           "div",
-          lo(
+          uo(
             { className: "existCompanyFooter" },
             {
               children: [
                 (0, r.jsx)(Un, {
                   type: ue.BLUE,
-                  onClick: U,
+                  onClick: M,
                   text: "Go to CRM",
                 }),
                 (0, r.jsx)(Un, {
                   type: ue.GOLD,
                   disabled: !O() || L,
                   onClick: function () {
-                    D("PATCH");
+                    U("PATCH");
                   },
                   text: "Update data",
                 }),
@@ -22249,18 +22305,18 @@
       ],
     });
   };
-  var so = t(359),
-    uo = {};
-  (uo.styleTagTransform = y()),
-    (uo.setAttributes = p()),
-    (uo.insert = d().bind(null, "head")),
-    (uo.domAPI = u()),
-    (uo.insertStyleElement = m()),
-    i()(so.A, uo),
-    so.A && so.A.locals && so.A.locals;
-  var co = function () {
+  var fo = t(359),
+    po = {};
+  (po.styleTagTransform = y()),
+    (po.setAttributes = p()),
+    (po.insert = d().bind(null, "head")),
+    (po.domAPI = u()),
+    (po.insertStyleElement = m()),
+    i()(fo.A, po),
+    fo.A && fo.A.locals && fo.A.locals;
+  var ho = function () {
       return (
-        (co =
+        (ho =
           Object.assign ||
           function (e) {
             for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -22268,10 +22324,10 @@
                 Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
             return e;
           }),
-        co.apply(this, arguments)
+        ho.apply(this, arguments)
       );
     },
-    fo = function (e, n, t, r) {
+    mo = function (e, n, t, r) {
       return new (t || (t = Promise))(function (o, a) {
         function l(e) {
           try {
@@ -22301,7 +22357,7 @@
         s((r = r.apply(e, n || [])).next());
       });
     },
-    po = function (e, n) {
+    vo = function (e, n) {
       var t,
         r,
         o,
@@ -22391,8 +22447,8 @@
         };
       }
     };
-  const ho = function () {
-      var e = rn(),
+  const yo = function () {
+      var e = on(),
         n = e.fullname,
         t = e.uds_linkedin,
         o = e.uds_salesnavigatoruserurl,
@@ -22407,11 +22463,11 @@
         p = e.description,
         h = e.descriptionError,
         m = e.isUserHaveError,
-        v = ar(),
+        v = lr(),
         y = v.handleClickOpenUser,
         g = v.isCreated,
         b = v.handleClickSaveButtonUser,
-        x = Qt(),
+        x = Kt(),
         w = x.handleChange,
         _ = x.handlePaste;
       return (0, r.jsx)("div", {
@@ -22419,17 +22475,17 @@
           children: [
             (0, r.jsxs)(
               "div",
-              co(
+              ho(
                 { className: "company__form" },
                 {
                   children: [
                     (0, r.jsxs)(
                       "div",
-                      co(
+                      ho(
                         { className: "company__form__inputs" },
                         {
                           children: [
-                            (0, r.jsx)(Gn, {
+                            (0, r.jsx)(Yn, {
                               id: "uds_linkedin",
                               type: fe.WITH_LABEL,
                               name: "uds_linkedinprofilecompanyurl",
@@ -22438,7 +22494,7 @@
                               readonly: !0,
                               required: !0,
                             }),
-                            (0, r.jsx)(Gn, {
+                            (0, r.jsx)(Yn, {
                               id: "fullname",
                               type: fe.WITH_LABEL,
                               name: "fullname",
@@ -22451,14 +22507,14 @@
                               error: l,
                               required: !0,
                               onPaste: function (e) {
-                                return fo(void 0, void 0, void 0, function () {
-                                  return po(this, function (t) {
+                                return mo(void 0, void 0, void 0, function () {
+                                  return vo(this, function (t) {
                                     return _(e || n, "fullname"), [2];
                                   });
                                 });
                               },
                             }),
-                            (0, r.jsx)(Gn, {
+                            (0, r.jsx)(Yn, {
                               id: "jobtitle",
                               type: fe.WITH_LABEL,
                               name: "jobtitle",
@@ -22469,15 +22525,15 @@
                                 u("");
                               },
                               onPaste: function (e) {
-                                return fo(void 0, void 0, void 0, function () {
-                                  return po(this, function (n) {
+                                return mo(void 0, void 0, void 0, function () {
+                                  return vo(this, function (n) {
                                     return _(e || i, "jobtitle"), [2];
                                   });
                                 });
                               },
                               error: s,
                             }),
-                            (0, r.jsx)(Gn, {
+                            (0, r.jsx)(Yn, {
                               id: "userAddress1_name",
                               type: fe.WITH_LABEL,
                               name: "userAddress1_name",
@@ -22488,8 +22544,8 @@
                                 f("");
                               },
                               onPaste: function (e) {
-                                return fo(void 0, void 0, void 0, function () {
-                                  return po(this, function (n) {
+                                return mo(void 0, void 0, void 0, function () {
+                                  return vo(this, function (n) {
                                     return _(e || c, "userAddress1_name"), [2];
                                   });
                                 });
@@ -22500,7 +22556,7 @@
                         },
                       ),
                     ),
-                    (0, r.jsx)(et, {
+                    (0, r.jsx)(nt, {
                       type: xe.NORMAL,
                       onChange: w,
                       value: p,
@@ -22514,13 +22570,13 @@
             ),
             (0, r.jsxs)(
               "div",
-              co(
+              ho(
                 { className: "company__footer" },
                 {
                   children: [
                     (0, r.jsxs)(
                       "div",
-                      co(
+                      ho(
                         { className: "company__footer__text" },
                         {
                           children: [
@@ -22535,7 +22591,7 @@
                     ),
                     (0, r.jsx)(
                       "div",
-                      co(
+                      ho(
                         { className: "company__footer__buttonContainer" },
                         {
                           children: g
@@ -22543,11 +22599,11 @@
                                 children: [
                                   (0, r.jsxs)(
                                     "p",
-                                    co(
+                                    ho(
                                       { className: "company__footer__success" },
                                       {
                                         children: [
-                                          (0, r.jsx)($, {}),
+                                          (0, r.jsx)(Y, {}),
                                           "Success!",
                                         ],
                                       },
@@ -22583,11 +22639,11 @@
         }),
       });
     },
-    mo = function () {
-      var e = It(),
+    go = function () {
+      var e = Pt(),
         n = e.addForUserSearch,
         t = e.addForSalesUserSearch,
-        a = rn(),
+        a = on(),
         l = a.userBackendData,
         i = a.fullname,
         s = a.userProfileImage,
@@ -22596,11 +22652,12 @@
         d = a.setFullname,
         f = a.setUserProfileImage,
         p = a.setJobTitle,
-        h = a.setUserAdress,
-        m = a.setUserLinkedin,
-        v = a.jobtitle,
-        y = a.userAddress1_name,
-        g = a.uds_linkedin;
+        h = a.setProfileBackground,
+        m = a.setUserAdress,
+        v = a.setUserLinkedin,
+        y = a.jobtitle,
+        g = a.userAddress1_name,
+        b = a.uds_linkedin;
       return (
         (0, o.useEffect)(function () {
           n(),
@@ -22611,15 +22668,16 @@
         }, []),
         (0, r.jsxs)("section", {
           children: [
-            (0, r.jsx)(ot, {
+            (0, r.jsx)(at, {
               name: i,
               onClick: function () {
                 c(),
+                  h(null),
                   d(null == u ? void 0 : u.userName),
                   f(null == u ? void 0 : u.id),
                   p(null == u ? void 0 : u.job),
-                  h(null == u ? void 0 : u.location),
-                  m((null == u ? void 0 : u.url) || "");
+                  m(null == u ? void 0 : u.location),
+                  v((null == u ? void 0 : u.url) || "");
               },
               image: (
                 null == s ? void 0 : s.includes("https://media.licdn.com")
@@ -22628,17 +22686,17 @@
                 : "https://openseauserdata.com/files/a1439c13b366dd156de18328ca708f9f.png",
             }),
             l
-              ? (0, r.jsx)(io, {})
-              : i || g || v || y
-                ? (0, r.jsx)(ho, {})
-                : (0, r.jsx)(Tt, { text: "Please Select User" }),
+              ? (0, r.jsx)(co, {})
+              : i || b || y || g
+                ? (0, r.jsx)(yo, {})
+                : (0, r.jsx)(It, { text: "Please Select User" }),
           ],
         })
       );
     };
-  var vo = function () {
+  var bo = function () {
     return (
-      (vo =
+      (bo =
         Object.assign ||
         function (e) {
           for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -22646,11 +22704,11 @@
               Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
           return e;
         }),
-      vo.apply(this, arguments)
+      bo.apply(this, arguments)
     );
   };
-  const yo = function () {
-    var e = rn(),
+  const xo = function () {
+    var e = on(),
       n = e.name,
       t = e.companyBackData,
       o = e.uds_linkedinprofilecompanyurl,
@@ -22668,31 +22726,31 @@
       v = e.websiteurlError,
       y = e.companyDescriptionError,
       g = e.isCompanyHaveError,
-      b = nr(),
+      b = tr(),
       x = b.updateCurrentCompany,
       C = b.checkHaveDifferentValueForButton,
-      w = Nr().handleChange;
+      w = Or().handleChange;
     return (0, r.jsxs)("div", {
       children: [
         (0, r.jsx)(
           "div",
-          vo(
+          bo(
             { className: "company__form" },
             {
-              children: (0, r.jsxs)(xt, {
+              children: (0, r.jsxs)(Ct, {
                 children: [
                   (0, r.jsxs)(
                     "tr",
-                    vo(
+                    bo(
                       {
                         className: a
-                          ? Ft(
+                          ? Bt(
                               a,
                               null == t
                                 ? void 0
                                 : t.uds_salesnavigatorcompanyurl,
                             )
-                          : Ft(
+                          : Bt(
                               o,
                               null == t
                                 ? void 0
@@ -22705,7 +22763,7 @@
                             children: "Company profile link",
                           }),
                           (0, r.jsx)("td", {
-                            children: (0, r.jsx)(et, {
+                            children: (0, r.jsx)(nt, {
                               type: xe.IN_TABLE,
                               name: "uds_linkedinprofilecompanyurl",
                               readOnly: !0,
@@ -22714,7 +22772,7 @@
                             }),
                           }),
                           (0, r.jsx)("td", {
-                            children: (0, r.jsx)(et, {
+                            children: (0, r.jsx)(nt, {
                               type: xe.IN_TABLE,
                               name: "companyProfileLink",
                               readOnly: !0,
@@ -22734,13 +22792,13 @@
                   ),
                   (0, r.jsxs)(
                     "tr",
-                    vo(
-                      { className: Ft(n, null == t ? void 0 : t.name) },
+                    bo(
+                      { className: Bt(n, null == t ? void 0 : t.name) },
                       {
                         children: [
                           (0, r.jsx)("td", { children: "Company name" }),
                           (0, r.jsx)("td", {
-                            children: (0, r.jsx)(Gn, {
+                            children: (0, r.jsx)(Yn, {
                               type: fe.IN_TABLE,
                               placeholder: "Company name",
                               id: "name",
@@ -22751,7 +22809,7 @@
                             }),
                           }),
                           (0, r.jsx)("td", {
-                            children: (0, r.jsx)(Gn, {
+                            children: (0, r.jsx)(Yn, {
                               type: fe.IN_TABLE,
                               value: null == t ? void 0 : t.name,
                               readonly: !0,
@@ -22763,15 +22821,15 @@
                   ),
                   (0, r.jsxs)(
                     "tr",
-                    vo(
+                    bo(
                       {
-                        className: Ft(s, null == t ? void 0 : t.address1_name),
+                        className: Bt(s, null == t ? void 0 : t.address1_name),
                       },
                       {
                         children: [
                           (0, r.jsx)("td", { children: "Company address" }),
                           (0, r.jsx)("td", {
-                            children: (0, r.jsx)(Gn, {
+                            children: (0, r.jsx)(Yn, {
                               type: fe.IN_TABLE,
                               id: "companyAddress1_name",
                               name: "companyAddress1_name",
@@ -22782,7 +22840,7 @@
                             }),
                           }),
                           (0, r.jsx)("td", {
-                            children: (0, r.jsx)(Gn, {
+                            children: (0, r.jsx)(Yn, {
                               type: fe.IN_TABLE,
                               value: null == t ? void 0 : t.address1_name,
                               readonly: !0,
@@ -22794,9 +22852,9 @@
                   ),
                   (0, r.jsxs)(
                     "tr",
-                    vo(
+                    bo(
                       {
-                        className: Ft(
+                        className: Bt(
                           Number(c),
                           null == t ? void 0 : t.numberofemployees,
                         ),
@@ -22805,7 +22863,7 @@
                         children: [
                           (0, r.jsx)("td", { children: "Employees on Ln" }),
                           (0, r.jsx)("td", {
-                            children: (0, r.jsx)(Gn, {
+                            children: (0, r.jsx)(Yn, {
                               type: fe.IN_TABLE,
                               value: c,
                               id: "numberofemployees",
@@ -22816,7 +22874,7 @@
                             }),
                           }),
                           (0, r.jsx)("td", {
-                            children: (0, r.jsx)(Gn, {
+                            children: (0, r.jsx)(Yn, {
                               type: fe.IN_TABLE,
                               value: null == t ? void 0 : t.numberofemployees,
                               readonly: !0,
@@ -22828,9 +22886,9 @@
                   ),
                   (0, r.jsxs)(
                     "tr",
-                    vo(
+                    bo(
                       {
-                        className: Ft(
+                        className: Bt(
                           l || "",
                           (null == t ? void 0 : t.websiteurl) || "",
                         ),
@@ -22839,7 +22897,7 @@
                         children: [
                           (0, r.jsx)("td", { children: "Website" }),
                           (0, r.jsx)("td", {
-                            children: (0, r.jsx)(Gn, {
+                            children: (0, r.jsx)(Yn, {
                               type: fe.IN_TABLE,
                               value: l || "",
                               id: "websiteurl",
@@ -22850,7 +22908,7 @@
                             }),
                           }),
                           (0, r.jsx)("td", {
-                            children: (0, r.jsx)(Gn, {
+                            children: (0, r.jsx)(Yn, {
                               type: fe.IN_TABLE,
                               readonly: !0,
                               value: null == t ? void 0 : t.websiteurl,
@@ -22862,9 +22920,9 @@
                   ),
                   (0, r.jsxs)(
                     "tr",
-                    vo(
+                    bo(
                       {
-                        className: Ft(
+                        className: Bt(
                           Number(i) || "",
                           (null == t ? void 0 : t.uds_linkedinsize) || "",
                         ),
@@ -22873,7 +22931,7 @@
                         children: [
                           (0, r.jsx)("td", { children: "Company size" }),
                           (0, r.jsx)("td", {
-                            children: (0, r.jsx)(Gn, {
+                            children: (0, r.jsx)(Yn, {
                               type: fe.IN_TABLE,
                               value: i,
                               id: "companySize",
@@ -22884,7 +22942,7 @@
                             }),
                           }),
                           (0, r.jsx)("td", {
-                            children: (0, r.jsx)(Gn, {
+                            children: (0, r.jsx)(Yn, {
                               type: fe.IN_TABLE,
                               readonly: !0,
                               value: null == t ? void 0 : t.uds_linkedinsize,
@@ -22896,9 +22954,9 @@
                   ),
                   (0, r.jsxs)(
                     "tr",
-                    vo(
+                    bo(
                       {
-                        className: Ft(
+                        className: Bt(
                           u,
                           (null == t ? void 0 : t.description)
                             ? null == t
@@ -22911,7 +22969,7 @@
                         children: [
                           (0, r.jsx)("td", { children: "Comment" }),
                           (0, r.jsx)("td", {
-                            children: (0, r.jsx)(et, {
+                            children: (0, r.jsx)(nt, {
                               type: xe.IN_TABLE,
                               name: "companyDescription",
                               placeholder: "Comment",
@@ -22921,7 +22979,7 @@
                             }),
                           }),
                           (0, r.jsx)("td", {
-                            children: (0, r.jsx)(et, {
+                            children: (0, r.jsx)(nt, {
                               type: xe.IN_TABLE,
                               name: "companyComment",
                               className: "right",
@@ -22940,14 +22998,14 @@
         ),
         (0, r.jsxs)(
           "div",
-          vo(
+          bo(
             { className: "existCompanyFooter" },
             {
               children: [
                 (0, r.jsx)(Un, {
                   type: ue.BLUE,
                   onClick: function () {
-                    an(
+                    ln(
                       d,
                       Ce.COMPANY,
                       (null == t ? void 0 : t.accountid)
@@ -22972,9 +23030,9 @@
       ],
     });
   };
-  var go = function () {
+  var Co = function () {
       return (
-        (go =
+        (Co =
           Object.assign ||
           function (e) {
             for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -22982,10 +23040,10 @@
                 Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
             return e;
           }),
-        go.apply(this, arguments)
+        Co.apply(this, arguments)
       );
     },
-    bo = function (e, n, t, r) {
+    wo = function (e, n, t, r) {
       return new (t || (t = Promise))(function (o, a) {
         function l(e) {
           try {
@@ -23015,7 +23073,7 @@
         s((r = r.apply(e, n || [])).next());
       });
     },
-    xo = function (e, n) {
+    _o = function (e, n) {
       var t,
         r,
         o,
@@ -23105,8 +23163,8 @@
         };
       }
     };
-  const Co = function () {
-      var e = rn(),
+  const ko = function () {
+      var e = on(),
         n = e.name,
         t = e.uds_linkedinprofilecompanyurl,
         o = e.uds_salesnavigatorcompanyurl,
@@ -23119,11 +23177,11 @@
         d = e.companyAddress1_nameError,
         f = e.companyDescriptionError,
         p = e.isCompanyHaveError,
-        h = nr(),
+        h = tr(),
         m = h.createCompany,
         v = h.createdCompany,
         y = h.isCreated,
-        g = Nr().handleChange,
+        g = Or().handleChange,
         b = function (e, n) {
           g({ target: { name: n, value: e } });
         };
@@ -23131,17 +23189,17 @@
         children: [
           (0, r.jsxs)(
             "div",
-            go(
+            Co(
               { className: "company__form" },
               {
                 children: [
                   (0, r.jsxs)(
                     "div",
-                    go(
+                    Co(
                       { className: "company__form__inputs" },
                       {
                         children: [
-                          (0, r.jsx)(Gn, {
+                          (0, r.jsx)(Yn, {
                             id: "uds_linkedinprofilecompanyurl",
                             name: "uds_linkedinprofilecompanyurl",
                             type: fe.WITH_LABEL,
@@ -23150,7 +23208,7 @@
                             readonly: !0,
                             required: !0,
                           }),
-                          (0, r.jsx)(Gn, {
+                          (0, r.jsx)(Yn, {
                             id: "name",
                             type: fe.WITH_LABEL,
                             name: "name",
@@ -23163,14 +23221,14 @@
                             error: c,
                             required: !0,
                             onPaste: function (e) {
-                              return bo(void 0, void 0, void 0, function () {
-                                return xo(this, function (t) {
+                              return wo(void 0, void 0, void 0, function () {
+                                return _o(this, function (t) {
                                   return b(e || n, "name"), [2];
                                 });
                               });
                             },
                           }),
-                          (0, r.jsx)(Gn, {
+                          (0, r.jsx)(Yn, {
                             id: "companyAddress1_name",
                             type: fe.WITH_LABEL,
                             name: "companyAddress1_name",
@@ -23182,8 +23240,8 @@
                             },
                             error: d,
                             onPaste: function (e) {
-                              return bo(void 0, void 0, void 0, function () {
-                                return xo(this, function (n) {
+                              return wo(void 0, void 0, void 0, function () {
+                                return _o(this, function (n) {
                                   return b(e || a, "companyAddress1_name"), [2];
                                 });
                               });
@@ -23193,7 +23251,7 @@
                       },
                     ),
                   ),
-                  (0, r.jsx)(et, {
+                  (0, r.jsx)(nt, {
                     type: xe.NORMAL,
                     onChange: g,
                     value: l,
@@ -23207,13 +23265,13 @@
           ),
           (0, r.jsxs)(
             "div",
-            go(
+            Co(
               { className: "company__footer" },
               {
                 children: [
                   (0, r.jsxs)(
                     "div",
-                    go(
+                    Co(
                       { className: "company__footer__text" },
                       {
                         children: [
@@ -23228,7 +23286,7 @@
                   ),
                   (0, r.jsx)(
                     "div",
-                    go(
+                    Co(
                       { className: "company__footer__buttonContainer" },
                       {
                         children: y
@@ -23236,17 +23294,17 @@
                               children: [
                                 (0, r.jsxs)(
                                   "p",
-                                  go(
+                                  Co(
                                     { className: "company__footer__success" },
                                     {
-                                      children: [(0, r.jsx)($, {}), "Success!"],
+                                      children: [(0, r.jsx)(Y, {}), "Success!"],
                                     },
                                   ),
                                 ),
                                 (0, r.jsx)(Un, {
                                   className: "company__captureButton",
                                   onClick: function () {
-                                    an(
+                                    ln(
                                       i,
                                       Ce.COMPANY,
                                       (null == v ? void 0 : v.accountid)
@@ -23280,11 +23338,11 @@
         ],
       });
     },
-    wo = function () {
-      var e = kr(),
+    Eo = function () {
+      var e = jr(),
         n = e.addForCompanySearch,
         t = e.addForSalesCompanySearch,
-        a = rn(),
+        a = on(),
         l = a.companyBackData,
         i = a.companyImage,
         s = a.name,
@@ -23304,7 +23362,7 @@
         }, []),
         (0, r.jsxs)("div", {
           children: [
-            (0, r.jsx)(ot, {
+            (0, r.jsx)(at, {
               name: s || "",
               onClick: function () {
                 u.map(function (e) {
@@ -23318,25 +23376,25 @@
                 ? i
                 : "https://openseauserdata.com/files/a1439c13b366dd156de18328ca708f9f.png",
             }),
-            l ? (0, r.jsx)(yo, {}) : (0, r.jsx)(Co, {}),
+            l ? (0, r.jsx)(xo, {}) : (0, r.jsx)(ko, {}),
           ],
         })
       );
     };
-  var _o = function (e) {
+  var So = function (e) {
       var n = new Date();
       return Math.abs(n.getTime() - e.getTime()) / 36e5;
     },
-    ko = function () {
+    jo = function () {
       var e = (0, o.useState)(!0),
         n = e[0],
         t = e[1],
-        a = kr(),
+        a = jr(),
         l = a.addControlForCompany,
         i = a.addControlForCompanySales,
         s = a.addForCompanySearch,
         u = a.addForSalesCompanySearch,
-        c = rn(),
+        c = on(),
         d = c.setSidebarOpen,
         f = c.setPage,
         p = c.accessToken,
@@ -23353,19 +23411,20 @@
         k = c.setCrmUrl,
         E = c.setClientId,
         S = c.setResetUser,
-        j = c.setResetCompany,
-        N = It(),
-        L = N.addForUserSearch,
-        A = N.addControlForUser,
-        O = N.addControlForUserSales,
-        T = N.addForSalesUserSearch;
+        j = c.setProfileBackground,
+        N = c.setResetCompany,
+        L = Pt(),
+        A = L.addForUserSearch,
+        O = L.addControlForUser,
+        T = L.addControlForUserSales,
+        I = L.addForSalesUserSearch;
       (0, o.useEffect)(function () {
         var e = function (e, n, r) {
           if (
             (e.message === he.LOGOUT &&
-              (I(), r({ status: "Logged out successfully" })),
+              (P(), r({ status: "Logged out successfully" })),
             e.message === he.REFRESS_TOKEN &&
-              (R(), r({ status: "Logged out successfully" })),
+              (D(), r({ status: "Logged out successfully" })),
             e.url)
           ) {
             var o = (function (e, n) {
@@ -23396,10 +23455,17 @@
                   }, 200),
                   M());
           }
-          e.message === he.ACCESS_TOKEN_GOES_BACK &&
-            e.code &&
-            (v(e.code), localStorage.setItem(ve.AUTH_TOKEN, e.code)),
-            console.log("Received message from " + n + ": ", e),
+          if (
+            (e.message === he.ACCESS_TOKEN_GOES_BACK &&
+              e.code &&
+              (v(e.code), localStorage.setItem(ve.AUTH_TOKEN, e.code)),
+            "PROFILE_DATA_RESULT" === e.type)
+          ) {
+            console.log(e.data);
+            var a = e.data;
+            j(a);
+          }
+          console.log("Received message from " + n + ": ", e),
             r({ received: !0 });
         };
         return (
@@ -23409,9 +23475,10 @@
           }
         );
       }, []);
-      var I = function () {
-        j(),
+      var P = function () {
+        N(),
           S(),
+          j(null),
           f(se.SETUP),
           localStorage.removeItem(ve.REFRESH_TIME),
           localStorage.removeItem(ve.REFRESH_TOKEN),
@@ -23421,25 +23488,25 @@
           M();
       };
       (0, o.useEffect)(function () {
-        P();
+        R();
         var e = localStorage.getItem(ve.REFRESH_TIME),
           n = localStorage.getItem(ve.REFRESH_TOKEN),
           t = localStorage.getItem(ve.ACCESS_TOKEN),
           r = localStorage.getItem(ve.AUTH_TOKEN);
-        e && t && n && r && (C(t), w(n), v(r), _o(new Date(e)) >= 8 && I()),
+        e && t && n && r && (C(t), w(n), v(r), So(new Date(e)) >= 8 && P()),
           M();
       }, []);
-      var P = function () {
-        L(),
-          A(),
+      var R = function () {
+        A(),
           O(),
           T(),
+          I(),
           u(),
           l(),
           s(),
           i(),
           setTimeout(function () {
-            L(), A(), s(), l(), O(), T(), u(), i();
+            A(), O(), s(), l(), T(), I(), u(), i();
           }, 3e3);
       };
       (0, o.useEffect)(
@@ -23450,7 +23517,7 @@
           ) {
             var e = document.querySelector("#search-results-container"),
               n = function () {
-                window.location.href.includes(ce.SALES_USER_SEARCH) && T(),
+                window.location.href.includes(ce.SALES_USER_SEARCH) && I(),
                   window.location.href.includes(ce.SALES_COMPANY_SEARCH) && u();
               },
               t = setInterval(function () {
@@ -23466,11 +23533,11 @@
       ),
         (0, o.useEffect)(
           function () {
-            n || (M(), P(), j(), S());
+            n || (M(), R(), N(), S(), j(null));
           },
           [n, p, h],
         );
-      var R = function () {
+      var D = function () {
         return (
           (e = void 0),
           (n = void 0),
@@ -23575,7 +23642,7 @@
             })(this, function (n) {
               return (
                 (e = localStorage.getItem(ve.REFRESH_TOKEN)) &&
-                  pn(g, b, x, y, pe.REFRESH, e).then(function (e) {
+                  hn(g, b, x, y, pe.REFRESH, e).then(function (e) {
                     e.access_token &&
                       (C(e.access_token),
                       w(e.refresh_token),
@@ -23625,7 +23692,7 @@
         function () {
           var e = localStorage.getItem(ve.REFRESH_TOKEN),
             n = localStorage.getItem(ve.REFRESH_TIME);
-          n && e && _o(new Date(n)) > 1 && R(), M();
+          n && e && So(new Date(n)) > 1 && D(), M();
         },
         [n, h, g, x, y, b],
       ),
@@ -23633,12 +23700,21 @@
           var e = localStorage.getItem(ve.TENANT_ID),
             n = localStorage.getItem(ve.CLIENT_ID),
             t = localStorage.getItem(ve.CRM_URL);
-          n && t && e && (E(n), _(e), k(t));
+          n && t && e
+            ? (E(n), _(e), k(t))
+            : chrome.storage.sync
+                .get(["tenantId", "clientId", "crmUrl"])
+                .then(function (e) {
+                  e.crmUrl &&
+                    e.clientId &&
+                    e.tenantId &&
+                    (E(e.clientId), _(e.tenantId), k(e.crmUrl));
+                });
         }, []),
         (0, o.useEffect)(
           function () {
             !p && h
-              ? pn(g, b, x, y, pe.BASIC, h).then(function (e) {
+              ? hn(g, b, x, y, pe.BASIC, h).then(function (e) {
                   e.access_token &&
                     (C(e.access_token),
                     w(e.refresh_token),
@@ -23668,7 +23744,7 @@
                 break;
               case e.includes(ce.SALES_USER_SEARCH) ||
                 e.includes(ce.PEOPLE_SEARCH):
-                S(), f(se.SEARCH_PEOPLE_SCRAPE);
+                S(), j(null), f(se.SEARCH_PEOPLE_SCRAPE);
                 break;
               case e.includes(ce.USER) || e.includes(ce.SALES_USER):
               case e.includes(ce.USER):
@@ -23684,23 +23760,23 @@
         CurrentPage: function () {
           switch (m) {
             case se.SETUP:
-              return (0, r.jsx)(no, {});
+              return (0, r.jsx)(oo, {});
             case se.LOGIN:
-              return (0, r.jsx)($r, {});
+              return (0, r.jsx)(Qr, {});
             case se.SOMETHING_WENT_WRONG:
-              return (0, r.jsx)(Vr, { page: me.LOGIN });
+              return (0, r.jsx)(Gr, { page: me.LOGIN });
             case se.ERROR:
-              return (0, r.jsx)(Vr, { page: me.ACTION });
+              return (0, r.jsx)(Gr, { page: me.ACTION });
             case se.USER:
-              return (0, r.jsx)(wr, {});
+              return (0, r.jsx)(Er, {});
             case se.COMPANY:
-              return (0, r.jsx)(Fr, {});
+              return (0, r.jsx)(zr, {});
             case se.WRONG_PAGE:
-              return (0, r.jsx)(ao, {});
+              return (0, r.jsx)(so, {});
             case se.SEARCH_COMPANY_SCRAPE:
-              return (0, r.jsx)(wo, {});
+              return (0, r.jsx)(Eo, {});
             case se.SEARCH_PEOPLE_SCRAPE:
-              return (0, r.jsx)(mo, {});
+              return (0, r.jsx)(go, {});
             default:
               return (0, r.jsx)(r.Fragment, {});
           }
@@ -23708,9 +23784,9 @@
         updated: n,
       };
     },
-    Eo = function () {
+    No = function () {
       return (
-        (Eo =
+        (No =
           Object.assign ||
           function (e) {
             for (var n, t = 1, r = arguments.length; t < r; t++)
@@ -23718,98 +23794,102 @@
                 Object.prototype.hasOwnProperty.call(n, o) && (e[o] = n[o]);
             return e;
           }),
-        Eo.apply(this, arguments)
+        No.apply(this, arguments)
       );
     };
-  var So = document.querySelector("body"),
-    jo = document.createElement("div");
-  (jo.id = "root"), So && So.appendChild(jo);
-  var No = document.getElementById("root");
-  (0, a.createRoot)(No).render(
-    (0, r.jsx)(o.StrictMode, {
-      children: (0, r.jsx)(function () {
-        var e = rn(),
-          n = e.setSidebarOpen,
-          t = e.sidebarOpen,
-          o = e.loading,
-          a = ko(),
-          l = a.CurrentPage,
-          i = a.updated;
-        return (0, r.jsxs)(
-          "div",
-          Eo(
-            { id: "udsextension", className: "".concat(t && "open") },
-            {
-              children: [
-                (0, r.jsx)(
-                  "button",
-                  Eo(
-                    {
-                      onClick: function () {
-                        n(!t);
+  var Lo = document.querySelector("body"),
+    Ao = document.createElement("div");
+  (Ao.id = "my-extension-root"),
+    window.location.href.includes(ce.SALES) &&
+      Ao.classList.add("uds_withReset"),
+    Lo && !document.getElementById("my-extension-root") && Lo.appendChild(Ao);
+  var Oo = document.getElementById("my-extension-root");
+  Oo &&
+    (0, a.createRoot)(Oo).render(
+      (0, r.jsx)(o.StrictMode, {
+        children: (0, r.jsx)(function () {
+          var e = on(),
+            n = e.setSidebarOpen,
+            t = e.sidebarOpen,
+            o = e.loading,
+            a = jo(),
+            l = a.CurrentPage,
+            i = a.updated;
+          return (0, r.jsxs)(
+            "div",
+            No(
+              { id: "udsextension", className: "".concat(t && "open") },
+              {
+                children: [
+                  (0, r.jsx)(
+                    "button",
+                    No(
+                      {
+                        onClick: function () {
+                          n(!t);
+                        },
+                        className: "linkedinSidePanelOpenClose",
                       },
-                      className: "linkedinSidePanelOpenClose",
-                    },
-                    {
-                      children: (0, r.jsx)("span", {
-                        children: (0, r.jsx)(Pe, {}),
-                      }),
-                    },
-                  ),
-                ),
-                (0, r.jsx)(
-                  "div",
-                  Eo(
-                    {
-                      id: "linkedin-side-panel",
-                      className: "linkedinSidePanel main ".concat(
-                        window.location.href.includes(ce.SALES) &&
-                          "salesExtension",
-                      ),
-                    },
-                    {
-                      children:
-                        i &&
-                        (0, r.jsxs)(r.Fragment, {
-                          children: [
-                            (0, r.jsx)(
-                              "div",
-                              Eo(
-                                { className: "closeIconLinkedin" },
-                                {
-                                  children: (0, r.jsx)(
-                                    "span",
-                                    Eo(
-                                      {
-                                        onClick: function () {
-                                          n(!1);
-                                        },
-                                      },
-                                      { children: (0, r.jsx)(Te, {}) },
-                                    ),
-                                  ),
-                                },
-                              ),
-                            ),
-                            l(),
-                            o && (0, r.jsx)(In, {}),
-                            (0, r.jsx)(
-                              "div",
-                              Eo(
-                                { className: "main__footer" },
-                                { children: (0, r.jsx)(_, {}) },
-                              ),
-                            ),
-                          ],
+                      {
+                        children: (0, r.jsx)("span", {
+                          children: (0, r.jsx)(Pe, {}),
                         }),
-                    },
+                      },
+                    ),
                   ),
-                ),
-              ],
-            },
-          ),
-        );
-      }, {}),
-    }),
-  );
+                  (0, r.jsx)(
+                    "div",
+                    No(
+                      {
+                        id: "linkedin-side-panel",
+                        className: "linkedinSidePanel main ".concat(
+                          window.location.href.includes(ce.SALES) &&
+                            "salesExtension",
+                        ),
+                      },
+                      {
+                        children:
+                          i &&
+                          (0, r.jsxs)(r.Fragment, {
+                            children: [
+                              (0, r.jsx)(
+                                "div",
+                                No(
+                                  { className: "closeIconLinkedin" },
+                                  {
+                                    children: (0, r.jsx)(
+                                      "span",
+                                      No(
+                                        {
+                                          onClick: function () {
+                                            n(!1);
+                                          },
+                                        },
+                                        { children: (0, r.jsx)(Te, {}) },
+                                      ),
+                                    ),
+                                  },
+                                ),
+                              ),
+                              l(),
+                              o && (0, r.jsx)(Pn, {}),
+                              (0, r.jsx)(
+                                "div",
+                                No(
+                                  { className: "main__footer" },
+                                  { children: (0, r.jsx)(_, {}) },
+                                ),
+                              ),
+                            ],
+                          }),
+                      },
+                    ),
+                  ),
+                ],
+              },
+            ),
+          );
+        }, {}),
+      }),
+    );
 })();

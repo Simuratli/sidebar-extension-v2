@@ -18,6 +18,7 @@ const Company = () => {
     uds_linkedinprofilecompanyurl,
     name,
     setLoading,
+    uds_linkedincompanyid,
     companyPagination,
     companyImage,
     setResetCompanyError,
@@ -45,19 +46,25 @@ const Company = () => {
   };
 
   useEffect(() => {
+    setLoading(true);
     if (
       !isChecked &&
       (uds_salesnavigatorcompanyurl
         ? uds_salesnavigatorcompanyurl
         : uds_linkedinprofilecompanyurl) &&
-      name
+      uds_linkedincompanyid
     ) {
       checkCompanyExist().then(() => {
         setLoading(false);
       });
       setisChecked(true);
     }
-  }, [isChecked, uds_linkedinprofilecompanyurl, name]);
+  }, [
+    isChecked,
+    uds_linkedinprofilecompanyurl,
+    uds_linkedincompanyid,
+    uds_salesnavigatorcompanyurl,
+  ]);
 
   return (
     <div>

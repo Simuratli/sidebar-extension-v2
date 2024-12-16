@@ -53,28 +53,28 @@ export function useNoExistUser() {
       if (value) {
         if (datePattern.test(value)) {
           const parts = value.split(".");
-          const day = parseInt(parts[0], 10);
-          const month = parseInt(parts[1], 10);
-          const year = parseInt(parts[2], 10);
+          const month = parseInt(parts[0], 10); // Extract month first
+          const day = parseInt(parts[1], 10); // Extract day next
+          const year = parseInt(parts[2], 10); // Extract year last
 
           if (
-            day >= 1 &&
-            day <= 31 &&
             month >= 1 &&
             month <= 12 &&
+            day >= 1 &&
+            day <= 31 &&
             year >= 1000
           ) {
-            setUserError(name, null);
+            setUserError(name, null); // No error if date is valid
           } else {
             setUserError(
               name,
-              "Invalid date format. Please enter date in dd.mm.yyyy format.",
+              "Invalid date format. Please enter date in mm.dd.yyyy format.",
             );
           }
         } else {
           setUserError(
             name,
-            "Invalid date format. Please enter date in dd.mm.yyyy format.",
+            "Invalid date format. Please enter date in mm.dd.yyyy format.",
           );
         }
       } else {

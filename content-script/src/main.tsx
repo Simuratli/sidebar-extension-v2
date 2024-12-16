@@ -2,28 +2,30 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import "./style/global.scss";
 import App from "./App";
+import { LINKEDIN_PAGE_ENUM } from "./types/global.types";
 
 const body = document.querySelector("body");
 
+// Create a unique container for your extension
 const app = document.createElement("div");
+app.id = "my-extension-root";
 
-app.id = "root";
+if (window.location.href.includes(LINKEDIN_PAGE_ENUM.SALES)) {
+  app.classList.add("uds_withReset");
+}
 
-// Make sure the element that you want to mount the app to has loaded. You can
-// also use `append` or insert the app using another method:
-// https://developer.mozilla.org/en-US/docs/Web/API/Element#methods
-//
-// Also control when the content script is injected from the manifest.json:
-// https://developer.chrome.com/docs/extensions/mv3/content_scripts/#run_time
-if (body) {
+// Ensure no conflicts with the existing page
+if (body && !document.getElementById("my-extension-root")) {
   body.appendChild(app);
 }
 
-const container = document.getElementById("root");
-const root = createRoot(container!);
-
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-);
+// Mount the React app
+const container = document.getElementById("my-extension-root");
+if (container) {
+  const root = createRoot(container);
+  root.render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>,
+  );
+}

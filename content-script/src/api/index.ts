@@ -48,7 +48,11 @@ export async function createDataverse(
   try {
     const response = await fetch(url, options);
     if (!response.ok) {
-      throw new Error(`Error creating data: ${response.statusText}`);
+      response.text().then((errorText) => {
+        console.error("Error Text:", errorText);
+        throw new Error(`Error Text: ${errorText}`);
+      });
+      // throw new Error(`Error creating data: ${response.statusText}`);
     }
     const data = await response.json(); // Assuming successful creation returns data
     return data;

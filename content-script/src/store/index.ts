@@ -14,6 +14,7 @@ import { useUserErrorState, userErrorState } from "./userErrorState";
 import { companyErrorState, useCompanyErrorState } from "./companyError";
 import { SearchControlState, useSearchControl } from "./searchControl";
 import { SidebarStateType, useSidebarOpen } from "./sidebarOpening";
+import { ProfileBackgroundTypes, useProfileBackround } from "./profileData";
 import {
   SearchControlCompanyState,
   useSearchControlCompany,
@@ -34,9 +35,11 @@ export const useStore = create<
     companyErrorState &
     SearchControlCompanyState &
     SearchControlState &
+    ProfileBackgroundTypes &
     SidebarStateType
 >()((...a) => ({
   ...useSearchControl(...a),
+  ...useProfileBackround(...a),
   ...usePageState(...a),
   ...useCredentialState(...a),
   ...useChallengeState(...a),

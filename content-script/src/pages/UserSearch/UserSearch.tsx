@@ -14,6 +14,7 @@ const UserSearch = () => {
     setFullname,
     setUserProfileImage,
     setJobTitle,
+    setProfileBackground,
     setUserAdress,
     setUserLinkedin,
     jobtitle,
@@ -33,6 +34,7 @@ const UserSearch = () => {
 
   const handleProfileReload = () => {
     setResetUser();
+    setProfileBackground(null);
     setFullname(dataForReloadSearchingUser?.userName);
     setUserProfileImage(dataForReloadSearchingUser?.id);
     setJobTitle(dataForReloadSearchingUser?.job);

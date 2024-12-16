@@ -62,6 +62,7 @@ export enum MESSAGE_ENUMS {
   ACCESS_TOKEN_GOES_BACK = "accessTokenGoesBack",
   REFRESS_TOKEN = "refresh",
   LOGOUT = "logout",
+  CREDENTIALS = "CREDENTIALS",
 }
 
 export enum ERROR_PAGE_TYPE {

@@ -110,21 +110,31 @@ export const useSaveUser = () => {
         : await createCompanyForUser();
     setCompanyBackendData(response);
     const responseUser = await saveUser(method, response.accountid);
-    setUserBackendData(responseUser);
-    updateUserDataAfterRequest(responseUser);
+    if (responseUser.error) {
+      setPage(PAGE_ENUM.ERROR);
+      setErrorText(responseUser.error);
+    } else {
+      setUserBackendData(responseUser);
+      updateUserDataAfterRequest(responseUser);
+    }
   };
 
   const handleClickSaveButtonUser = async (method: "POST" | "PATCH") => {
     setLoading(true);
     if (method === "POST") {
-      if (customer || companyBackData || customerId) {
-        if (companyBackData) {
+      if (customer || companyBackDataForSelect || customerId) {
+        if (companyBackDataForSelect) {
           const responseUser = await saveUser(
             "POST",
-            companyBackData.accountid,
+            companyBackDataForSelect.accountid,
           );
-          setUserBackendData(responseUser);
-          updateUserDataAfterRequest(responseUser);
+          if (responseUser.error) {
+            setPage(PAGE_ENUM.ERROR);
+            setErrorText(responseUser.error);
+          } else {
+            setUserBackendData(responseUser);
+            updateUserDataAfterRequest(responseUser);
+          }
         } else if (customer || customerId) {
           await createCompanyBeforeUser("POST");
         }
@@ -170,6 +180,7 @@ export const useSaveUser = () => {
         }
       } else {
         const response = await saveUser("PATCH");
+
         if (response.error) {
           setPage(PAGE_ENUM.ERROR);
           setErrorText(response.error);

@@ -19,12 +19,11 @@ export const useCompanyExist = () => {
 
   const getCompaniesWithNames = async (LIMIT: number = 5) => {
     if (name) {
+      setLoading(true);
       const existWithName = await getDataverse(
         `${webApiEndpoint}/accounts?$filter=contains(name,'${encodeURIComponent(name)}')&$top=${LIMIT}`,
         accessToken,
       );
-
-      console.log(existWithName, "exiasnd");
       if (existWithName.value && existWithName.value.length !== 0) {
         setCompanyBackendDataWithNames(existWithName.value);
         setCompanyPagination(EXIST_PAGE_PAGINATION.SELECT);
@@ -34,9 +33,15 @@ export const useCompanyExist = () => {
     } else {
       setCompanyPagination(EXIST_PAGE_PAGINATION.NOT_EXIST);
     }
+    setLoading(false);
+
     return "";
   };
   const checkCompanyExist = async () => {
+    console.log(
+      "what is going on here uds_linkedincompanyid",
+      uds_linkedincompanyid,
+    );
     setLoading(true);
     const query = `contains(uds_linkedincompanyid,'${uds_linkedincompanyid}')`;
     const encodedQuery = encodeURIComponent(query);

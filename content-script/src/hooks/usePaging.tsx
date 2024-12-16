@@ -23,6 +23,7 @@ import { getTimeDifferenceForToken } from "../utils/getTimeDifference";
 import { useUserSearchButton } from "./useUserSearchButton";
 import { areUrlsSame } from "../utils/url.utils";
 import { useCompanyControlButton } from "./useCompanyControlButton";
+import { ProfileData } from "../../../background/background";
 
 export const usePaging = () => {
   const [updated, setUpdated] = useState(true);
@@ -49,6 +50,7 @@ export const usePaging = () => {
     setCrmUrl,
     setClientId,
     setResetUser,
+    setProfileBackground,
     setResetCompany,
   } = useStore();
   const {
@@ -100,6 +102,13 @@ export const usePaging = () => {
           localStorage.setItem(STORAGED_ENUM.AUTH_TOKEN, message.code);
         }
       }
+
+      if (message.type === "PROFILE_DATA_RESULT") {
+        console.log(message.data);
+        const userData: ProfileData = message.data;
+        setProfileBackground(userData);
+      }
+
       console.log("Received message from " + sender + ": ", message);
       sendResponse({ received: true }); //respond however you like
     };
@@ -113,6 +122,7 @@ export const usePaging = () => {
   const logout = () => {
     setResetCompany();
     setResetUser();
+    setProfileBackground(null);
     setPage(PAGE_ENUM.SETUP);
     localStorage.removeItem(STORAGED_ENUM.REFRESH_TIME);
     localStorage.removeItem(STORAGED_ENUM.REFRESH_TOKEN);
@@ -220,6 +230,7 @@ export const usePaging = () => {
       putIconsToScreen();
       setResetCompany();
       setResetUser();
+      setProfileBackground(null);
     }
   }, [updated, accessToken, authToken]);
 
@@ -282,6 +293,16 @@ export const usePaging = () => {
       setClientId(storagedClientId);
       setTenantId(storagedTenantId);
       setCrmUrl(storagedCRMUrl);
+    } else {
+      chrome.storage.sync
+        .get(["tenantId", "clientId", "crmUrl"])
+        .then((res) => {
+          if (res.crmUrl && res.clientId && res.tenantId) {
+            setClientId(res.clientId);
+            setTenantId(res.tenantId);
+            setCrmUrl(res.crmUrl);
+          }
+        });
     }
   }, []);
 
@@ -333,6 +354,7 @@ export const usePaging = () => {
           case url.includes(LINKEDIN_PAGE_ENUM.SALES_USER_SEARCH) ||
             url.includes(LINKEDIN_PAGE_ENUM.PEOPLE_SEARCH):
             setResetUser();
+            setProfileBackground(null);
             setPage(PAGE_ENUM.SEARCH_PEOPLE_SCRAPE);
             break;
           case url.includes(LINKEDIN_PAGE_ENUM.USER) ||

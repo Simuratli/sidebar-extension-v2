@@ -1,15 +1,17 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { useUserSearchButton } from "../../hooks/useUserSearchButton";
 import useUserScrape from "../../hooks/useUserScrape";
 import { useStore } from "../../store";
-import { Profile } from "../../components";
+import { Loader, Profile } from "../../components";
 import { useUserExist } from "../../hooks/useUserExist";
 import {
   EXIST_PAGE_PAGINATION,
   LINKEDIN_PAGE_ENUM,
 } from "../../types/global.types";
+import { dateToNormalDateString } from "../../utils/time.utils";
 
 const User = () => {
+  const hasRun = useRef(false);
   const { addControlForUser, addControlForUserSales } = useUserSearchButton();
   const { scrapeUserData } = useUserScrape();
   const { checkUserExist, generateUserScrapePage } = useUserExist();
@@ -21,8 +23,15 @@ const User = () => {
     setLoading,
     setResetUserError,
     sidebarOpen,
+    setPersonalEmail,
     accessToken,
     userPagination,
+    profileBackground,
+    setPersonalPhone,
+    setBirthday,
+    customer,
+    setCustomer,
+    setCustomerId,
   } = useStore();
   const [isChecked, setisChecked] = useState(false);
 
@@ -38,42 +47,47 @@ const User = () => {
   }, []);
 
   useEffect(() => {
+    console.log(profileBackground, "profileBackground");
     if (sidebarOpen && accessToken) {
-      if (window.location.href.includes(LINKEDIN_PAGE_ENUM.USER)) {
-        const linkOfContactInfo = document.querySelector(
-          "#top-card-text-details-contact-info",
-        ) as HTMLElement;
-        linkOfContactInfo.click();
+      if (profileBackground) {
+        if (profileBackground.MOBILE) {
+          setPersonalPhone(profileBackground.MOBILE);
+        }
+        if (profileBackground.company) setCustomer(profileBackground.company);
+        if (profileBackground.companyId)
+          setCustomerId(profileBackground.companyId);
+
+        if (profileBackground.email) {
+          setPersonalEmail(profileBackground.email);
+        }
+        if (profileBackground.birthDate) {
+          setBirthday(dateToNormalDateString(profileBackground.birthDate));
+        }
       }
 
       setTimeout(() => {
         scrapeUserData();
         setTimeout(() => {
           scrapeUserData();
-          const overlay = document
-            .querySelector(".artdeco-modal-overlay")
-            ?.querySelector(".artdeco-button") as HTMLElement;
-          if (overlay) {
-            overlay.click();
-          }
-          // window.history.back();
         }, 500);
       }, 1000);
     }
-  }, [sidebarOpen, accessToken]);
+  }, [sidebarOpen, accessToken, profileBackground]);
 
   useEffect(() => {
-    if (
-      !isChecked &&
-      (uds_salesnavigatoruserurl ? uds_salesnavigatoruserurl : uds_linkedin) &&
-      fullname
-    ) {
-      checkUserExist().then(() => {
-        setLoading(false);
-      });
-      setisChecked(true);
-    }
-  }, [isChecked, uds_linkedin, fullname]);
+    const fetchUserExist = async () => {
+      if (
+        !isChecked &&
+        (uds_salesnavigatoruserurl || uds_linkedin) &&
+        fullname
+      ) {
+        await checkUserExist(); // Ensure this finishes
+        setisChecked(true);
+      }
+    };
+    fetchUserExist();
+    setLoading(false);
+  }, [isChecked, uds_linkedin, fullname, customer, uds_salesnavigatoruserurl]);
 
   const handleReloadUser = async () => {
     setLoading(true);
@@ -104,7 +118,7 @@ const User = () => {
           userPagination !== EXIST_PAGE_PAGINATION.SELECT ? "company__form" : ""
         }
       >
-        {generateUserScrapePage()}
+        {!userPagination ? <Loader /> : generateUserScrapePage()}
       </div>
     </div>
   );

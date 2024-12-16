@@ -80,49 +80,56 @@ const useUserScrape = () => {
             .replace(/\s+/g, " ")
             .slice(0, 1000);
 
-          // const assignedUserCustomer = headPanel
-          //   ?.querySelector("ul")
-          //   ?.querySelector("button")
-          //   ?.querySelector("span")
-          //   ?.textContent?.trim();
+          const assignedUserCustomer = headPanel
+            ?.querySelector("ul")
+            ?.querySelector("button")
+            ?.querySelector("span")
+            ?.textContent?.trim();
 
-          const assignedUserCustomer = null;
+          // const assignedUserCustomer = null;
 
-          if (!assignedUserCustomer) {
-            artdecoCards.forEach((artdecoCard) => {
-              if (
-                artdecoCard
-                  .querySelector(".pvs-header__title")
-                  ?.innerHTML.includes("Experience") ||
-                artdecoCard
-                  .querySelector(".pvs-header__title")
-                  ?.innerHTML.includes("Deneyim")
-              ) {
-                const customerIdWithSlash = artdecoCard
-                  ?.querySelector("ul")
-                  ?.querySelector('[data-field="experience_company_logo"]')
-                  ?.getAttribute("href")
-                  ?.split("https://www.linkedin.com/company/")[1];
+          artdecoCards.forEach((artdecoCard) => {
+            if (
+              artdecoCard
+                .querySelector(".pvs-header__title")
+                ?.innerHTML.includes("Experience") ||
+              artdecoCard
+                .querySelector(".pvs-header__title")
+                ?.innerHTML.includes("Deneyim")
+            ) {
+              const customerIdWithSlash = artdecoCard
+                ?.querySelector("ul")
+                ?.querySelector('[data-field="experience_company_logo"]')
+                ?.getAttribute("href")
+                ?.split("https://www.linkedin.com/company/")[1];
+              userCostumer = assignedUserCustomer
+                ? assignedUserCustomer
+                : artdecoCard
+                    ?.querySelector("ul")
+                    ?.querySelector("img")
+                    ?.getAttribute("alt")
+                    ?.trim();
+              if (customerIdWithSlash) {
+                userCostumerId = customerIdWithSlash?.split("/")[0];
+                // userCostumer = artdecoCard
+                //   .querySelector("li")
+                //   ?.querySelector(`.t-normal`)
+                //   ?.querySelector(`[aria-hidden="true"]`)
+                //   ?.textContent?.split("·")[0];
 
-                if (customerIdWithSlash) {
-                  userCostumerId = customerIdWithSlash?.split("/")[0];
-                  userCostumer = artdecoCard
-                    .querySelector("li")
-                    ?.querySelector(`.t-normal`)
-                    ?.querySelector(`[aria-hidden="true"]`)
-                    ?.textContent?.split("·")[0];
-                  // userCostumer = assignedUserCustomer
-                  //   ? assignedUserCustomer
-                  //   : artdecoCard
-                  //       .querySelector(".hoverable-link-text")
-                  //       ?.querySelector('[aria-hidden="true"]')
-                  //       ?.textContent?.split("·")[0];
-                }
+                //   console.log(artdecoCard
+                //     .querySelector(".hoverable-link-text")
+                //     ?.querySelector('[aria-hidden="true"]')
+                //     ?.textContent?.split("·")[0],'salasmd')
+                // userCostumer = assignedUserCustomer
+                //   ? assignedUserCustomer
+                //   : artdecoCard
+                //       .querySelector(".hoverable-link-text")
+                //       ?.querySelector('[aria-hidden="true"]')
+                //       ?.textContent?.split("·")[0];
               }
-            });
-          } else {
-            userCostumer = assignedUserCustomer;
-          }
+            }
+          });
 
           const infoModal = html.querySelector("[role='dialog']");
           const contactElements = infoModal?.querySelectorAll(
@@ -159,9 +166,9 @@ const useUserScrape = () => {
             } else if (
               element?.querySelector("h3")?.innerHTML.includes("Birthday")
             ) {
-              userBirthday = dateToNormalDateString(
-                element?.querySelector("span")?.innerHTML.trim(),
-              );
+              // userBirthday = dateToNormalDateString(
+              //   element?.querySelector("span")?.innerHTML.trim(),
+              // );
             }
           });
           userPersonalEmail = infoModal
@@ -185,9 +192,10 @@ const useUserScrape = () => {
           userBirthday = null;
           userFullName = headPanel?.querySelector("h1")?.textContent?.trim();
           userAdress = headPanel
-            ?.querySelector(".EBmuDvcrKIsrIgEqZcRfFWErAPcMMNRSLo")
+            ?.querySelector(".HblPRqGaLuHGtcuWzKdSRYYJoJQWyVdffTxA")
             ?.textContent?.trim()
             .split("  ")[0];
+          console.log(userAdress, "DFSDFSDFSDFSDF ADRESS");
           userJobTitle = headPanel
             ?.querySelector('[data-anonymize="headline"]')
             ?.textContent?.trim();
@@ -203,22 +211,25 @@ const useUserScrape = () => {
           userProfileImage = headPanel
             ?.querySelector("img")
             ?.getAttribute("src");
+
+          setBirthday(userBirthday);
+          setPersonalEmail(userPersonalEmail);
+          if (userPersonalPhone) {
+            setPersonalPhone(userPersonalPhone);
+          }
+          setEmail(null);
+          setCustomerId(userCostumerId);
+          setCustomer(userCostumer);
         }
 
         setFullname(removeEmojis(userFullName || ""));
         setUserAdress(userAdress);
         setWorkPhone(userWorkPhone);
-        setPersonalEmail(userPersonalEmail);
-        if (userPersonalPhone) {
-          setPersonalPhone(userPersonalPhone);
-        }
 
         setJobTitle(removeEmojis(userJobTitle || ""));
-        setBirthday(userBirthday);
-        setCustomerId(userCostumerId);
-        setCustomer(userCostumer);
+
         setUserProfileImage(userProfileImage);
-        setEmail(null);
+
         //display it directly inside dropdown
         setCompanyName(userCostumer || "");
         setLinkedinCompanyId(userCostumerId);

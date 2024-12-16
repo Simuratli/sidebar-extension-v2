@@ -35,7 +35,7 @@ function Dropdown({
     type,
   );
 
-  const { crmUrl } = useStore();
+  const { crmUrl, companyBackData, setCompanyBackendData } = useStore();
 
   return (
     <div ref={ref} className={`extensiondropdown ${inOut} ${type}`}>

@@ -9444,7 +9444,7 @@
         children: (0, r.jsx)(function () {
           return (0, r.jsx)(
             "div",
-            o({ className: "App" }, { children: "Hello World" }),
+            o({ className: "App" }, { children: "UDS Linkedin Extension" }),
           );
         }, {}),
       }),
