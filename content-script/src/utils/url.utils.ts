@@ -31,3 +31,11 @@ export function removeUnnecessaryIcons(input: string) {
   // Trim whitespace and return the cleaned result
   return cleanedInput.trim();
 }
+
+
+
+export const fixUrlWithPathnameAndOrigin = (url: string) => {
+  const parsedUrl = new URL(url);
+  const cleanedUrl = `${parsedUrl.origin}${parsedUrl.pathname}`;
+  return cleanedUrl
+}

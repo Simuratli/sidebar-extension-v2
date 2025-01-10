@@ -35,7 +35,7 @@ export const dateToNormalDateString = (dateString?: string) => {
 
   // Get the day, month, and year
   const formattedDay = date.getDate();
-  const formattedMonth = date.getMonth() + 1; // Adding 1 to represent January as 1 instead of 0
+  const formattedMonth = date.getMonth(); // Adding 1 to represent January as 1 instead of 0
   const formattedYear = date.getFullYear();
 
   // Return the date in the format "DD.MM.YYYY"

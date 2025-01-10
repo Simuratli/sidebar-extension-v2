@@ -88,17 +88,13 @@ export const useUserExist = () => {
   };
 
   const checkUserExist = async () => {
-    console.log("i am out on ifn eos", fullname, uds_salesnavigatoruserurl);
-
     if ((uds_linkedin && fullname) || (uds_salesnavigatoruserurl && fullname)) {
-      console.log("i am in on ifn eos");
       const query = `contains(${uds_linkedin ? "uds_linkedin" : "uds_salesnavigatoruserurl"},'${uds_linkedin ? fixUserLinkedinUrl(uds_linkedin.replace(/\/$/, "")) : fixUserLinkedinUrl(uds_salesnavigatoruserurl)}')`;
       const encodedQuery = encodeURIComponent(query);
       const response = await getDataverse(
         `${webApiEndpoint}/contacts?$filter=${encodedQuery}`,
         accessToken,
       );
-      console.log("check user no?");
 
       if (!response.error) {
         if (response.value.length === 0) {
@@ -117,7 +113,6 @@ export const useUserExist = () => {
 
   useEffect(() => {
     if (customer || customerId) {
-      console.log("war customer", customer, customerId);
       getCustomerWithCustomerId();
     }
   }, [customer, customerId]);

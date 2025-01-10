@@ -55,6 +55,7 @@ function NotExistUser() {
     mobilephoneError,
     isUserHaveError,
     userAddress1_nameError,
+    userBackendData,
   } = useStore();
   const { handleChange, handlePaste } = useNoExistUser();
   const { handleSearch, showLoaderForDropdown } = useExistUser();
@@ -185,17 +186,17 @@ function NotExistUser() {
           />
 
           <Input
-            id="emailaddress1"
+            id="emailaddress2"
             type={INPUT_TYPES.WITH_LABEL}
-            name="emailaddress1"
+            name="emailaddress2"
             onChange={handleChange}
             placeholder="Email"
-            value={emailaddress1 ? emailaddress1 : ""}
+            value={emailaddress2 ? emailaddress2 : ""}
             onClear={() => {
               setPersonalEmail("");
             }}
             onPaste={async (e) => {
-              handlePaste(e ? e : emailaddress1, "emailaddress1");
+              handlePaste(e ? e : emailaddress2, "emailaddress2");
             }}
             error={emailaddress1Error}
           />
@@ -217,17 +218,17 @@ function NotExistUser() {
           />
 
           <Input
-            id="emailaddress2"
+            id="emailaddress1"
             type={INPUT_TYPES.WITH_LABEL}
-            name="emailaddress2"
+            name="emailaddress1"
             onChange={handleChange}
             placeholder="Personal email"
-            value={emailaddress2 ? emailaddress2 : ""}
+            value={emailaddress1 ? emailaddress1 : ""}
             onClear={() => {
               setEmail("");
             }}
             onPaste={async (e) => {
-              handlePaste(e ? e : emailaddress2, "emailaddress2");
+              handlePaste(e ? e : emailaddress1, "emailaddress1");
             }}
             error={emailaddress2Error}
           />
@@ -247,7 +248,7 @@ function NotExistUser() {
           <p>You can complete the empty fields yourself</p>
         </div>
         <div className="company__footer__buttonContainer">
-          {isCreated ? (
+          {userBackendData ? (
             <>
               <p className="company__footer__success">
                 <SuccessIcon />

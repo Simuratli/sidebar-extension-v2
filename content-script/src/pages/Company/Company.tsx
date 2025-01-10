@@ -19,8 +19,12 @@ const Company = () => {
     name,
     setLoading,
     uds_linkedincompanyid,
+    setResetCompany,
+    setCompanyBackendData,
+    setUserBackendData,
     companyPagination,
     companyImage,
+    companyBackData,
     setResetCompanyError,
   } = useStore();
   useEffect(() => {
@@ -66,24 +70,32 @@ const Company = () => {
     uds_salesnavigatorcompanyurl,
   ]);
 
+
+  const handleReloadCompany = async () => {
+    setResetCompanyError();
+    setResetCompany()
+    setCompanyBackendData(null)
+    setUserBackendData(null)
+    await scrapeCompanyData();
+    await checkCompanyExist();
+
+    setTimeout(() => {
+      setLoading(false);
+    }, 500);
+  }
+
   return (
     <div>
       {companyPagination !== EXIST_PAGE_PAGINATION.SELECT && (
         <Profile
+          existText={companyBackData ? "Account already exists in the CRM" : "Account doesn’t exist in CRM"}
           name={name ? name : ""}
           image={
             companyImage?.includes("https://media.licdn.com")
               ? companyImage
               : "https://openseauserdata.com/files/a1439c13b366dd156de18328ca708f9f.png"
           }
-          onClick={async () => {
-            await scrapeCompanyData();
-            await checkCompanyExist();
-            setResetCompanyError();
-            setTimeout(() => {
-              setLoading(false);
-            }, 500);
-          }}
+          onClick={handleReloadCompany}
         />
       )}
       {CompanyPagination()}

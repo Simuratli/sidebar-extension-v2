@@ -4,34 +4,29 @@ import useUserScrape from "../../hooks/useUserScrape";
 import { useStore } from "../../store";
 import { Loader, Profile } from "../../components";
 import { useUserExist } from "../../hooks/useUserExist";
-import {
-  EXIST_PAGE_PAGINATION,
-  LINKEDIN_PAGE_ENUM,
-} from "../../types/global.types";
-import { dateToNormalDateString } from "../../utils/time.utils";
+import { EXIST_PAGE_PAGINATION } from "../../types/global.types";
+import { useSaveUser } from "../../hooks/useSaveUser";
 
 const User = () => {
-  const hasRun = useRef(false);
   const { addControlForUser, addControlForUserSales } = useUserSearchButton();
-  const { scrapeUserData } = useUserScrape();
+  const { scrapeUserData, saveUserDetailsInLinkedinUser } = useUserScrape();
   const { checkUserExist, generateUserScrapePage } = useUserExist();
+  const { setIsCreated } = useSaveUser();
   const {
     fullname,
+    userBackendData,
     userProfileImage,
     uds_salesnavigatoruserurl,
     uds_linkedin,
     setLoading,
     setResetUserError,
     sidebarOpen,
-    setPersonalEmail,
     accessToken,
+    setUserBackendData,
     userPagination,
+    setCompanyBackendData,
     profileBackground,
-    setPersonalPhone,
-    setBirthday,
     customer,
-    setCustomer,
-    setCustomerId,
   } = useStore();
   const [isChecked, setisChecked] = useState(false);
 
@@ -47,32 +42,20 @@ const User = () => {
   }, []);
 
   useEffect(() => {
-    console.log(profileBackground, "profileBackground");
+    setLoading(true);
     if (sidebarOpen && accessToken) {
-      if (profileBackground) {
-        if (profileBackground.MOBILE) {
-          setPersonalPhone(profileBackground.MOBILE);
-        }
-        if (profileBackground.company) setCustomer(profileBackground.company);
-        if (profileBackground.companyId)
-          setCustomerId(profileBackground.companyId);
-
-        if (profileBackground.email) {
-          setPersonalEmail(profileBackground.email);
-        }
-        if (profileBackground.birthDate) {
-          setBirthday(dateToNormalDateString(profileBackground.birthDate));
-        }
+      if (!fullname && fullname === "") {
+        saveUserDetailsInLinkedinUser(profileBackground);
       }
-
       setTimeout(() => {
         scrapeUserData();
         setTimeout(() => {
           scrapeUserData();
         }, 500);
       }, 1000);
+      setLoading(false);
     }
-  }, [sidebarOpen, accessToken, profileBackground]);
+  }, [sidebarOpen, accessToken, profileBackground, fullname]);
 
   useEffect(() => {
     const fetchUserExist = async () => {
@@ -91,7 +74,12 @@ const User = () => {
 
   const handleReloadUser = async () => {
     setLoading(true);
+    setIsCreated(false);
+    setUserBackendData(null);
+    setCompanyBackendData(null);
+
     await checkUserExist();
+    saveUserDetailsInLinkedinUser(profileBackground);
     await scrapeUserData();
     setResetUserError();
     setTimeout(() => {
@@ -104,6 +92,7 @@ const User = () => {
       {userPagination !== EXIST_PAGE_PAGINATION.SELECT && (
         <Profile
           name={fullname}
+          existText={userBackendData ? "Contact already exists in the CRM" : "Contact doesn’t exist in CRM"}
           onClick={handleReloadUser}
           image={
             userProfileImage?.includes("https://media.licdn.com")

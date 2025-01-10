@@ -1,4 +1,5 @@
 import { getDataverse } from "../api";
+import { BackendCompanyInterface } from "../api/api.types";
 
 export const checkIfUserExistOrNotSearch = async (
   url?: string,
@@ -13,20 +14,31 @@ export const checkIfUserExistOrNotSearch = async (
     accessToken ? accessToken : "",
   );
 
-  let companyData = null;
+  let companyData: null | [] = null;
   if (existWithUrl.value && existWithUrl.value.length !== 0) {
-    const query = `accountid eq ${existWithUrl.value[0]?._parentcustomerid_value}`;
-    const encodedQuery = encodeURIComponent(query);
-    const existWithID = await getDataverse(
-      `${webApiEndpoint}/accounts?$filter=${encodedQuery}`,
-      accessToken ? accessToken : "",
-    );
-    companyData = existWithID.value;
+
+    if (existWithUrl.value[0]?._parentcustomerid_value) {
+      const query = `accountid eq ${existWithUrl.value[0]?._parentcustomerid_value}`;
+      const encodedQuery = encodeURIComponent(query);
+      const existWithID = await getDataverse(`${webApiEndpoint}/accounts?$filter=${encodedQuery}`, accessToken ? accessToken : "");
+      if (existWithID.value && existWithID.value.length > 0) {
+        companyData = existWithID.value[0];
+      }
+    }
+
+
+  }
+
+  if (existWithUrl.error) {
+    return {
+      userData: { error: "Something went wrong!" },
+      companyData: { error: "Something went wrong!" },
+    };
   }
 
   return {
-    userData: existWithUrl.value,
-    companyData: companyData,
+    userData: existWithUrl.value[0] as any,
+    companyData: companyData as any,
   };
 };
 
@@ -46,13 +58,13 @@ export const checkIfCompanyExistOrNotSearch = async (
 
   const existWithName = id
     ? await getDataverse(
-        `${webApiEndpoint}/accounts?$filter=${encodedQuery_uds_linkedincompanyid}`,
-        accessToken ? accessToken : "",
-      )
+      `${webApiEndpoint}/accounts?$filter=${encodedQuery_uds_linkedincompanyid}`,
+      accessToken ? accessToken : "",
+    )
     : await getDataverse(
-        `${webApiEndpoint}/accounts?$filter=${encodedQuery_name}`,
-        accessToken ? accessToken : "",
-      );
+      `${webApiEndpoint}/accounts?$filter=${encodedQuery_name}`,
+      accessToken ? accessToken : "",
+    );
 
   return existWithName;
 };

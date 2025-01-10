@@ -70,11 +70,8 @@ export const useCompanyState: StateCreator<CompanyState> = (set) => ({
       uds_linkedincompanyid: "",
       websiteurl: "",
       companyAddress1_name: "",
-      uds_linkedinprofilecompanyurl: "",
-      companyImage: "",
       companySize: 0,
       companyDescription: "",
-      uds_salesnavigatorcompanyurl: "",
       accountid: "",
     }),
   setCompanyProfileUrl: (value) =>

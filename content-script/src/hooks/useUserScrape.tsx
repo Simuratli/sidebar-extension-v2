@@ -3,7 +3,8 @@ import { LINKEDIN_PAGE_ENUM, PAGE_ENUM } from "../types/global.types";
 import { executeScriptAndParseHTML } from "../utils/getHtml";
 import { dateToNormalDateString } from "../utils/time.utils";
 import { useStore } from "../store";
-import { removeEmojis } from "../utils/removeEmoji";
+import { extractNameAndSurname } from "../utils/removeEmojis";
+import { ProfileData } from "../../../background/background";
 
 const useUserScrape = () => {
   const {
@@ -23,20 +24,8 @@ const useUserScrape = () => {
     setBirthday,
     setUserProfileImage,
     // customerId,
-    webApiEndpoint,
-    accessToken,
-    uds_linkedin,
-    uds_salesnavigatoruserurl,
-    fullname,
-    userPagination,
-    setUserPagination,
-    setUserBackendData,
-    setUserBackendDataWithNames,
-    setCompanyBackendData,
     setCompanyName,
     setLinkedinCompanyId,
-    userBackendData,
-    customerId,
     setEmail,
   } = useStore();
 
@@ -62,120 +51,6 @@ const useUserScrape = () => {
           userProfileImage = headPanel
             ?.querySelector("img")
             ?.getAttribute("src");
-          userFullName = headPanel
-            ?.querySelector("h1")
-            ?.textContent?.trim()
-            .slice(0, 100);
-
-          userAdress = headPanel
-            ?.querySelector(".mt2")
-            ?.querySelector(
-              "span.text-body-small.inline.t-black--light.break-words",
-            )
-            ?.textContent?.trim()
-            .replace(/\s+/g, " ");
-          userJobTitle = headPanel
-            ?.querySelector(".text-body-medium")
-            ?.textContent?.trim()
-            .replace(/\s+/g, " ")
-            .slice(0, 1000);
-
-          const assignedUserCustomer = headPanel
-            ?.querySelector("ul")
-            ?.querySelector("button")
-            ?.querySelector("span")
-            ?.textContent?.trim();
-
-          // const assignedUserCustomer = null;
-
-          artdecoCards.forEach((artdecoCard) => {
-            if (
-              artdecoCard
-                .querySelector(".pvs-header__title")
-                ?.innerHTML.includes("Experience") ||
-              artdecoCard
-                .querySelector(".pvs-header__title")
-                ?.innerHTML.includes("Deneyim")
-            ) {
-              const customerIdWithSlash = artdecoCard
-                ?.querySelector("ul")
-                ?.querySelector('[data-field="experience_company_logo"]')
-                ?.getAttribute("href")
-                ?.split("https://www.linkedin.com/company/")[1];
-              userCostumer = assignedUserCustomer
-                ? assignedUserCustomer
-                : artdecoCard
-                    ?.querySelector("ul")
-                    ?.querySelector("img")
-                    ?.getAttribute("alt")
-                    ?.trim();
-              if (customerIdWithSlash) {
-                userCostumerId = customerIdWithSlash?.split("/")[0];
-                // userCostumer = artdecoCard
-                //   .querySelector("li")
-                //   ?.querySelector(`.t-normal`)
-                //   ?.querySelector(`[aria-hidden="true"]`)
-                //   ?.textContent?.split("·")[0];
-
-                //   console.log(artdecoCard
-                //     .querySelector(".hoverable-link-text")
-                //     ?.querySelector('[aria-hidden="true"]')
-                //     ?.textContent?.split("·")[0],'salasmd')
-                // userCostumer = assignedUserCustomer
-                //   ? assignedUserCustomer
-                //   : artdecoCard
-                //       .querySelector(".hoverable-link-text")
-                //       ?.querySelector('[aria-hidden="true"]')
-                //       ?.textContent?.split("·")[0];
-              }
-            }
-          });
-
-          const infoModal = html.querySelector("[role='dialog']");
-          const contactElements = infoModal?.querySelectorAll(
-            ".pv-contact-info__contact-type",
-          );
-
-          contactElements?.forEach((element) => {
-            if (
-              element?.querySelector("h3")?.innerHTML.includes("Phone") ||
-              element?.querySelector("h3")?.innerHTML.includes("Telefon")
-            ) {
-              if (
-                element
-                  ?.querySelector("li")
-                  ?.querySelector(".t-black--light")
-                  ?.innerHTML.trim()
-                  ?.includes("Mobile") ||
-                element
-                  ?.querySelector("li")
-                  ?.querySelector(".t-black--light")
-                  ?.innerHTML.trim()
-                  ?.includes("Mobil")
-              ) {
-                userPersonalPhone = element
-                  ?.querySelector("li")
-                  ?.querySelector(".t-black")
-                  ?.innerHTML.trim();
-              } else {
-                userWorkPhone = element
-                  ?.querySelector("li")
-                  ?.querySelector(".t-black")
-                  ?.innerHTML.trim();
-              }
-            } else if (
-              element?.querySelector("h3")?.innerHTML.includes("Birthday")
-            ) {
-              // userBirthday = dateToNormalDateString(
-              //   element?.querySelector("span")?.innerHTML.trim(),
-              // );
-            }
-          });
-          userPersonalEmail = infoModal
-            ?.querySelector('a[href*="mailto"]')
-            ?.textContent?.trim()
-            .replace(/\s+/g, " ");
-
           setUserLinkedin(url);
         } else {
           const headPanel = html.querySelector("._header_sqh8tm");
@@ -195,7 +70,6 @@ const useUserScrape = () => {
             ?.querySelector(".HblPRqGaLuHGtcuWzKdSRYYJoJQWyVdffTxA")
             ?.textContent?.trim()
             .split("  ")[0];
-          console.log(userAdress, "DFSDFSDFSDFSDF ADRESS");
           userJobTitle = headPanel
             ?.querySelector('[data-anonymize="headline"]')
             ?.textContent?.trim();
@@ -220,19 +94,14 @@ const useUserScrape = () => {
           setEmail(null);
           setCustomerId(userCostumerId);
           setCustomer(userCostumer);
+          setFullname(extractNameAndSurname(userFullName || ""));
+          setUserAdress(userAdress);
+          setWorkPhone(userWorkPhone);
+          setJobTitle(extractNameAndSurname(userJobTitle || ""));
+          setCompanyName(userCostumer || "");
+          setLinkedinCompanyId(userCostumerId);
         }
-
-        setFullname(removeEmojis(userFullName || ""));
-        setUserAdress(userAdress);
-        setWorkPhone(userWorkPhone);
-
-        setJobTitle(removeEmojis(userJobTitle || ""));
-
         setUserProfileImage(userProfileImage);
-
-        //display it directly inside dropdown
-        setCompanyName(userCostumer || "");
-        setLinkedinCompanyId(userCostumerId);
       } else {
         setLoading(false);
         setPage(PAGE_ENUM.ERROR);
@@ -242,7 +111,38 @@ const useUserScrape = () => {
     return;
   };
 
-  return { scrapeUserData };
+  const saveUserDetailsInLinkedinUser = (
+    profileBackground: ProfileData | null,
+  ) => {
+    if (window.location.href.includes(LINKEDIN_PAGE_ENUM.USER)) {
+      if (profileBackground) {
+        setUserAdress(profileBackground.adress);
+        setJobTitle(profileBackground.headline);
+        setCustomer(profileBackground.company);
+        setUserAdress(profileBackground.adress);
+        setCompanyName(profileBackground.company);
+        setCustomerId(profileBackground.companyId);
+        setBirthday(dateToNormalDateString(profileBackground.birthDate));
+        setPersonalEmail(profileBackground.email);
+        setPersonalPhone(profileBackground.MOBILE);
+        setFullname(
+          extractNameAndSurname(
+            `${profileBackground.firstName} ${profileBackground.lastName}`,
+          ),
+        );
+      } else {
+        const profileId = window.location.pathname.match(/\/in\/([^/]+)/)?.[1];
+        if (profileId) {
+          chrome.runtime.sendMessage({
+            type: "FETCH_PROFILE",
+            profileId: profileId,
+          });
+        }
+      }
+    }
+  };
+
+  return { scrapeUserData, saveUserDetailsInLinkedinUser };
 };
 
 export default useUserScrape;

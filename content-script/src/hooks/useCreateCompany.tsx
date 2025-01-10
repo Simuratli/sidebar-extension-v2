@@ -22,6 +22,7 @@ export const useCreateCompany = () => {
     name,
     setLoading,
     uds_linkedinprofilecompanyurl,
+    
     uds_linkedincompanyid,
     numberofemployees,
     companyAddress1_name,
@@ -68,7 +69,7 @@ export const useCreateCompany = () => {
     };
 
     // if (customerId) {
-    //   companyRequest["uds_linkedincompanyid"] = customerId;
+    //   companyRequest["uds_linkedincompanyid"] = customerId!;
     // }
     const response = await saveCompany("POST", companyRequest);
     return response;
@@ -77,7 +78,8 @@ export const useCreateCompany = () => {
   const createCompany = async () => {
     setLoading(true);
     const request = createRequestDataForCreateCompany(
-      uds_linkedinprofilecompanyurl,
+      uds_linkedinprofilecompanyurl || null,
+      uds_salesnavigatorcompanyurl || null,
       uds_linkedincompanyid,
       name,
       numberofemployees,
@@ -100,21 +102,21 @@ export const useCreateCompany = () => {
     const newSearchControlCompanyData = searchControlCompanyData.map(
       (data) => ({
         ...data,
-        exist: data.url === uds_linkedinprofilecompanyurl ? true : data.exist,
+        exist: data.url === (uds_salesnavigatorcompanyurl ? uds_salesnavigatorcompanyurl : uds_linkedinprofilecompanyurl) ? true : data.exist,
         existedData:
-          data.url === uds_linkedinprofilecompanyurl
-            ? response
-            : data.existedData,
+          data.url === (uds_salesnavigatorcompanyurl ? uds_salesnavigatorcompanyurl : uds_linkedinprofilecompanyurl) ? response : data.existedData,
       }),
     );
     setSearchControlCompanyData(newSearchControlCompanyData);
     return response;
   };
 
+
   const updateCurrentCompany = async () => {
     setLoading(true);
     const request = createRequestDataForCreateCompany(
-      uds_linkedinprofilecompanyurl,
+      uds_linkedinprofilecompanyurl || null,
+      uds_salesnavigatorcompanyurl  || null,
       uds_linkedincompanyid,
       name,
       numberofemployees,
@@ -179,5 +181,6 @@ export const useCreateCompany = () => {
     isCreated,
     checkHaveDifferentValueForButton,
     updateCurrentCompany,
+    saveCompany,
   };
 };

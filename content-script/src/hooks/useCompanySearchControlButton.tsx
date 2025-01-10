@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useStore } from "../store";
 import { createDataverse } from "../api";
 import { checkIfCompanyExistOrNotSearch } from "../utils/userSearch";
+import { LINKEDIN_PAGE_ENUM } from "../types/global.types";
 
 export const useCompanySearchControlButton = (
   url: string,
@@ -24,6 +25,7 @@ export const useCompanySearchControlButton = (
     setSearchControlCompanyData,
     setCompanyProfileImage,
     setCompanyProfileUrl,
+    setSalesNavigatorCompanyUrl,
     setResetCompany,
     setCompanyName,
     setCompanyBackendData,
@@ -108,7 +110,7 @@ export const useCompanySearchControlButton = (
     setCompanyAdress(location);
     setCompanyDescription(description?.trim() || "");
     setCompanyProfileImage(image);
-    setCompanyProfileUrl(url || "");
+    window.location.href.includes(LINKEDIN_PAGE_ENUM.SALES) ? setSalesNavigatorCompanyUrl(url!) : setCompanyProfileUrl(url!);
     setCompanyName(name);
     setLinkedinCompanyId(id);
     numberOfEmployees && setNumberOfEmployees(numberOfEmployees);

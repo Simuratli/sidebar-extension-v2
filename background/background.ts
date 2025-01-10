@@ -30,7 +30,6 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
       () => {},
     );
   }
-  console.log("Received message from " + sender + ": ", request);
   sendResponse({ received: true }); //respond however you like
 });
 
@@ -62,7 +61,6 @@ chrome.tabs.onUpdated.addListener(async (tabId, changeInfo) => {
 
 // const checkTokeens = async () => {
 
-//   console.log(response,'rere')
 // }
 
 setInterval(async () => {
@@ -110,6 +108,7 @@ export interface ProfileData {
   adress: string;
   MOBILE?: string;
   companyId: string;
+  id: string;
 }
 
 interface LinkedInAPIResponse {
@@ -205,7 +204,11 @@ class LinkedInAPIService {
         headers,
       );
 
-      return this.processAPIResponse(profileResponse, contactResponse);
+      return this.processAPIResponse(
+        profileResponse,
+        contactResponse,
+        profileId,
+      );
     } catch (error) {
       console.error("Error fetching LinkedIn data:", error);
       throw error;
@@ -215,6 +218,7 @@ class LinkedInAPIService {
   private processAPIResponse(
     profileResponse: LinkedInAPIResponse,
     contactResponse: LinkedInAPIResponse,
+    profileId: string,
   ): ProfileData {
     const included = profileResponse.included || [];
     const contactInfo = contactResponse.data || [];
@@ -228,16 +232,27 @@ class LinkedInAPIService {
       headline: "",
       lastName: "",
       publicIdentifier: "",
+      id: "",
     };
 
     // Process basic profile information
     for (const item of included) {
-      if (item.firstName) profileData.firstName = item.firstName;
-      if (item.lastName) profileData.lastName = item.lastName;
-      if (item.headline) profileData.headline = item.headline;
-      if (item.address) {
+      if (
+        item.firstName &&
+        profileId === encodeURIComponent(item.publicIdentifier)
+      ) {
+        profileData.firstName = item.firstName;
+        profileData.lastName = item.lastName;
+        profileData.headline = item.occupation;
+      }
+
+      if (item["*miniProfile"]) profileData.id = item["*miniProfile"];
+
+      if (item.geoLocationName && item.geoCountryName) {
+        profileData.adress = `${item.geoLocationName}, ${item.geoCountryName}`;
+      } else if (typeof item.adress === "string") {
         profileData.adress = item.adress;
-      } else if (item.locationName) {
+      } else if (typeof item.locationName === "string") {
         profileData.adress = item.locationName;
       }
       if (item.summary) profileData.summary = item.summary;
@@ -248,11 +263,16 @@ class LinkedInAPIService {
         const numberSplit = item.entityUrn.split(",")[1];
         if (numberSplit.split(")")[0] === "0") {
           profileData.company = item.name;
-          profileData.companyId = item["*miniCompany"].match(/\d+$/)[0];
+          if (item["*miniCompany"] || item["miniCompany"]) {
+            profileData.companyId = item["*miniCompany"]
+              ? item["*miniCompany"].match(/\d+$/)[0]
+              : item["miniCompany"].match(/\d+$/)[0];
+          }
         }
       }
-      if (item.publicIdentifier)
+      if (encodeURIComponent(item.publicIdentifier) === profileId) {
         profileData.publicIdentifier = item.publicIdentifier;
+      }
     }
 
     // Process contact information

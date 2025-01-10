@@ -2,34 +2,25 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { UserSearchControlButton, UserControlButton } from "../components";
 import { LINKEDIN_PAGE_ENUM } from "../types/global.types";
+import { UserSearchControlButtonSales } from "../components/ControlButtons";
 
 export const useUserSearchButton = () => {
   const addForUserSearch = async () => {
     if (window.location.href.includes(LINKEDIN_PAGE_ENUM.PEOPLE_SEARCH)) {
-      const usernames = document.querySelectorAll(".entity-result__title-line");
+      // const list = document.querySelector(`[role="list"]`)
+      const usernames = document.querySelectorAll(
+        `[data-view-name="search-entity-result-universal-template"]`,
+      );
       usernames.forEach((user) => {
-        const mainParentCard = user.parentElement?.parentElement?.parentElement;
+        const LinkProfile = user?.querySelectorAll("a")[1].parentElement
+          ?.parentElement as HTMLElement;
         user?.classList?.add("noOverflow");
-        const image =
-          mainParentCard?.parentElement?.parentElement?.querySelector(
-            "img",
-          )?.src;
-        const userName = mainParentCard
-          ?.querySelector("a")
-          ?.querySelector('[aria-hidden="true"]')
-          ?.textContent?.trim();
-        const job = mainParentCard
-          ?.querySelector(".entity-result__primary-subtitle")
-          ?.textContent?.trim();
-        const location = mainParentCard
-          ?.querySelector(".entity-result__secondary-subtitle")
-          ?.textContent?.trim();
-
-        const userElement = user as HTMLElement;
-        // userElement.style.position = 'relative';
-        // userElement.style.overflow = 'auto';
-        userElement.style.width = "100%";
-        const LinkProfile = user?.querySelector(".entity-result__title-text");
+        const image = user.querySelector("img")?.src;
+        LinkProfile.style.position = "relative";
+        LinkProfile.style.overflow = "unset";
+        LinkProfile.style.width = "100%";
+        LinkProfile.style.display = "flex";
+        LinkProfile.style.alignItems = "center";
         const idForLinkedinIconElelement =
           user.querySelector(".idForLinkedinIcon");
         if (!idForLinkedinIconElelement) {
@@ -41,12 +32,10 @@ export const useUserSearchButton = () => {
         } else {
           ReactDOM.render(
             <UserSearchControlButton
-              name={userName}
-              job={job}
               image={
-                image || LinkProfile?.querySelector("a")?.href.split("?")[0]
+                image ||
+                "https://media.licdn.com/dms/image/v2/D4E12AQEud3Ll5MI7cQ/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1660833954461?e=1740009600&v=beta&t=z1ZPpcRRRe2AhWy78-6UorS1EL_7A1jd4H02peab70E"
               }
-              location={location}
               url={LinkProfile?.querySelector("a")?.href.split("?")[0]}
             />,
             idForLinkedinIconElelement,
@@ -174,7 +163,7 @@ export const useUserSearchButton = () => {
                 }
               } else {
                 ReactDOM.render(
-                  <UserSearchControlButton
+                  <UserSearchControlButtonSales
                     job={job}
                     company={companyName}
                     jobCompanyId={jobCompanyID}
@@ -183,6 +172,7 @@ export const useUserSearchButton = () => {
                     description={description}
                     image={image}
                     url={LinkProfile?.href}
+                    id={LinkProfile?.href}
                   />,
                   idForLinkedinIconElelement,
                 );

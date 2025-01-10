@@ -38,17 +38,10 @@ export const useCompanyExist = () => {
     return "";
   };
   const checkCompanyExist = async () => {
-    console.log(
-      "what is going on here uds_linkedincompanyid",
-      uds_linkedincompanyid,
-    );
     setLoading(true);
     const query = `contains(uds_linkedincompanyid,'${uds_linkedincompanyid}')`;
     const encodedQuery = encodeURIComponent(query);
-    let existWithID = await getDataverse(
-      `${webApiEndpoint}/accounts?$filter=${encodedQuery}`,
-      accessToken,
-    );
+    let existWithID = await getDataverse(`${webApiEndpoint}/accounts?$filter=${encodedQuery}`,accessToken);
 
     if (existWithID.value && existWithID.value.length >= 1) {
       existWithID.value.map((elem: BackendCompanyInterface) => {

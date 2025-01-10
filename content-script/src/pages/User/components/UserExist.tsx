@@ -56,7 +56,6 @@ function ExistUser() {
   } = useExistUser();
   const { handleClickSaveButtonUser, handleClickOpenUser } = useSaveUser();
   const { handleChange } = useNoExistUser();
-  console.log(userBackendData, "userBackendData");
   return (
     <>
       <Table>
@@ -90,11 +89,7 @@ function ExistUser() {
               name="companyProfileLink"
               readOnly
               className="right"
-              value={
-                userBackendData?.uds_salesnavigatoruserurl
-                  ? userBackendData?.uds_salesnavigatoruserurl
-                  : userBackendData?.uds_linkedin
-              }
+              value={ userBackendData?.uds_salesnavigatoruserurl ? userBackendData?.uds_salesnavigatoruserurl : userBackendData?.uds_linkedin }
             />
           </td>
         </tr>

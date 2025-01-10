@@ -97,7 +97,6 @@ export const useUserStore: StateCreator<UserStoreType> = (set) => ({
       customerId: "",
       userBackendData: null,
       userBackendDataWithNames: null,
-      userProfileImage: "",
     }),
   setUserSales: (value) => set({ uds_salesnavigatoruserurl: value }),
   setJobTitle: (value) => set({ jobtitle: value || "" }),

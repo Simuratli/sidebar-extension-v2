@@ -62,7 +62,6 @@ export function useDropdown(
         (companyData) => companyData.accountid === id,
       )[0];
     if (filteredCompanyData) {
-      console.log(filteredCompanyData);
       setCompanyBackendData(filteredCompanyData);
       setCompanyPagination(EXIST_PAGE_PAGINATION.EXIST);
     } else {

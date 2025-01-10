@@ -58,11 +58,7 @@ function ExistCompany() {
                 name="uds_linkedinprofilecompanyurl"
                 readOnly
                 placeholder="Company profile link"
-                value={
-                  uds_salesnavigatorcompanyurl
-                    ? uds_salesnavigatorcompanyurl
-                    : uds_linkedinprofilecompanyurl
-                }
+                value={ uds_salesnavigatorcompanyurl ? uds_salesnavigatorcompanyurl : uds_linkedinprofilecompanyurl }
               />
             </td>
             <td>
@@ -71,11 +67,7 @@ function ExistCompany() {
                 name="companyProfileLink"
                 readOnly
                 className="right"
-                value={
-                  uds_salesnavigatorcompanyurl
-                    ? companyBackData?.uds_salesnavigatorcompanyurl
-                    : companyBackData?.uds_linkedinprofilecompanyurl
-                }
+                value={ companyBackData?.uds_salesnavigatorcompanyurl ? companyBackData?.uds_salesnavigatorcompanyurl : companyBackData?.uds_linkedinprofilecompanyurl }
               />
             </td>
           </tr>

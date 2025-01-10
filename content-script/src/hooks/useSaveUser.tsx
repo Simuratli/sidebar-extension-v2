@@ -108,6 +108,7 @@ export const useSaveUser = () => {
       method === "PATCH"
         ? await createCompanyForUserOnupdate()
         : await createCompanyForUser();
+
     setCompanyBackendData(response);
     const responseUser = await saveUser(method, response.accountid);
     if (responseUser.error) {
@@ -122,11 +123,28 @@ export const useSaveUser = () => {
   const handleClickSaveButtonUser = async (method: "POST" | "PATCH") => {
     setLoading(true);
     if (method === "POST") {
-      if (customer || companyBackDataForSelect || customerId) {
+      if (
+        customer ||
+        companyBackDataForSelect ||
+        customerId ||
+        companyBackData
+      ) {
         if (companyBackDataForSelect) {
           const responseUser = await saveUser(
             "POST",
             companyBackDataForSelect.accountid,
+          );
+          if (responseUser.error) {
+            setPage(PAGE_ENUM.ERROR);
+            setErrorText(responseUser.error);
+          } else {
+            setUserBackendData(responseUser);
+            updateUserDataAfterRequest(responseUser);
+          }
+        } else if (companyBackData) {
+          const responseUser = await saveUser(
+            "POST",
+            companyBackData.accountid,
           );
           if (responseUser.error) {
             setPage(PAGE_ENUM.ERROR);
@@ -149,7 +167,18 @@ export const useSaveUser = () => {
       }
     } else {
       if (companyBackData || name || companyBackDataForSelect) {
-        if (companyBackData) {
+        if (companyBackDataForSelect) {
+          const responseOfUser = await saveUser(
+            "PATCH",
+            companyBackDataForSelect?.accountid,
+          );
+          if (responseOfUser.error) {
+            setPage(PAGE_ENUM.ERROR);
+            setErrorText(responseOfUser.error);
+          } else {
+            updateUserDataAfterRequest(responseOfUser);
+          }
+        } else if (companyBackData) {
           if (name !== companyBackData.name && name !== "") {
             await createCompanyBeforeUser("PATCH");
           } else {
@@ -163,17 +192,6 @@ export const useSaveUser = () => {
             } else {
               updateUserDataAfterRequest(responseOfUser);
             }
-          }
-        } else if (companyBackDataForSelect) {
-          const responseOfUser = await saveUser(
-            "PATCH",
-            companyBackDataForSelect?.accountid,
-          );
-          if (responseOfUser.error) {
-            setPage(PAGE_ENUM.ERROR);
-            setErrorText(responseOfUser.error);
-          } else {
-            updateUserDataAfterRequest(responseOfUser);
           }
         } else if (name) {
           await createCompanyBeforeUser("PATCH");
@@ -205,5 +223,6 @@ export const useSaveUser = () => {
     handleClickSaveButtonUser,
     isCreated,
     handleClickOpenUser,
+    setIsCreated,
   };
 };

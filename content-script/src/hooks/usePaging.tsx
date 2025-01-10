@@ -52,6 +52,7 @@ export const usePaging = () => {
     setResetUser,
     setProfileBackground,
     setResetCompany,
+    setLoading,
   } = useStore();
   const {
     addForUserSearch,
@@ -80,12 +81,18 @@ export const usePaging = () => {
         localStorage.setItem("currentPage", message.url);
         if (message.url.includes(LINKEDIN_PAGE_ENUM.USER)) {
           if (isItSame) {
+            setLoading(true);
+            setResetUser();
             setUpdated(false);
             setSidebarOpen(false);
+            setProfileBackground(null);
             setTimeout(() => {
               setUpdated(true);
-            }, 200);
+              setLoading(false);
+            }, 40);
             setPageViaUrl();
+          } else {
+            setSidebarOpen(false);
           }
         } else {
           setUpdated(false);
@@ -104,12 +111,10 @@ export const usePaging = () => {
       }
 
       if (message.type === "PROFILE_DATA_RESULT") {
-        console.log(message.data);
         const userData: ProfileData = message.data;
-        setProfileBackground(userData);
+        if (userData) setProfileBackground(userData);
       }
 
-      console.log("Received message from " + sender + ": ", message);
       sendResponse({ received: true }); //respond however you like
     };
     chrome.runtime.onMessage.addListener(messageListener);
@@ -230,7 +235,7 @@ export const usePaging = () => {
       putIconsToScreen();
       setResetCompany();
       setResetUser();
-      setProfileBackground(null);
+      // setProfileBackground(null);
     }
   }, [updated, accessToken, authToken]);
 

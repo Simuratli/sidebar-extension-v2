@@ -63,28 +63,36 @@ export const useCompanyControlButton = () => {
 
   const addForCompanySearch = async () => {
     if (window.location.href.includes(LINKEDIN_PAGE_ENUM.COMPANY_SEARCH)) {
-      const usernames = document.querySelectorAll(".entity-result__title-line");
+      const usernames = document.querySelectorAll(
+        `[data-view-name="search-entity-result-universal-template"]`,
+      );
       usernames.forEach((user) => {
-        const mainParentCard = user.parentElement?.parentElement?.parentElement;
-        user?.classList?.add("noOverflow");
-        const image =
-          mainParentCard?.parentElement?.parentElement?.querySelector(
-            "img",
-          )?.src;
+        const mainParentCard = user;
+        // user?.classList?.add("noOverflow");
+        const image = mainParentCard?.querySelector("img")?.src;
         const companyName = mainParentCard
-          ?.querySelector("a")
+          ?.querySelectorAll("a")[1]
           ?.textContent?.trim();
         const location = mainParentCard
-          ?.querySelector(".entity-result__primary-subtitle")
+          ?.querySelector(".mb1")
+          ?.querySelector(".t-black")
+          ?.textContent?.trim()
+          .split("•")[1];
+        const description = mainParentCard
+          ?.querySelector(".entity-result__summary--2-lines")
           ?.textContent?.trim();
-        const description = mainParentCard?.parentElement
-          ?.querySelector(".entity-result__summary")
-          ?.textContent?.trim();
+
         const userElement = user as HTMLElement;
         // userElement.style.position = 'relative';
         // userElement.style.overflow = 'auto';
         userElement.style.width = "100%";
-        const LinkProfile = user?.querySelector(".entity-result__title-text");
+        const LinkProfile = user?.querySelectorAll("a")[1].parentElement
+          ?.parentElement as HTMLElement;
+        LinkProfile.style.position = "relative";
+        LinkProfile.style.overflow = "unset";
+        LinkProfile.style.width = "100%";
+        LinkProfile.style.display = "flex";
+        LinkProfile.style.alignItems = "center";
         const idForLinkedinIconElelement =
           user.querySelector(".idForLinkedinIcon");
         if (!idForLinkedinIconElelement) {

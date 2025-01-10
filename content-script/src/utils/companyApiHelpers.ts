@@ -1,5 +1,6 @@
 export const createRequestDataForCreateCompany = (
-  uds_linkedinprofilecompanyurl: string,
+  uds_linkedinprofilecompanyurl: string | null,
+  uds_salesnavigatorcompanyurl:string | null,
   uds_linkedincompanyid: string | null | undefined,
   name?: string,
   numberofemployees?: number,
@@ -8,8 +9,8 @@ export const createRequestDataForCreateCompany = (
   companySize?: number,
   companyDescription?: string | null,
 ) => {
-  return {
-    uds_linkedinprofilecompanyurl: uds_linkedinprofilecompanyurl,
+
+  const request:any = {
     uds_linkedincompanyid: uds_linkedincompanyid,
     name: name ? name : `No Name ${Math.random()}`,
     numberofemployees: numberofemployees ? numberofemployees : 0,
@@ -18,4 +19,10 @@ export const createRequestDataForCreateCompany = (
     uds_linkedinsize: companySize ? companySize : 0,
     description: companyDescription ? companyDescription : "",
   };
+
+
+  if(uds_linkedinprofilecompanyurl) request.uds_linkedinprofilecompanyurl  = uds_linkedinprofilecompanyurl
+  if(uds_salesnavigatorcompanyurl) request.uds_salesnavigatorcompanyurl  = uds_salesnavigatorcompanyurl
+
+  return request
 };

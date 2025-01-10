@@ -78,7 +78,11 @@ function ExistSearchUser() {
               name="companyProfileLink"
               readOnly
               placeholder="Profile link"
-              value={uds_linkedin ? uds_linkedin : uds_salesnavigatoruserurl}
+              value={
+                uds_salesnavigatoruserurl
+                  ? uds_salesnavigatoruserurl
+                  : uds_linkedin
+              }
             />
           </td>
           <td>
@@ -88,9 +92,9 @@ function ExistSearchUser() {
               readOnly
               className="right"
               value={
-                uds_linkedin
-                  ? userBackendData?.uds_linkedin
-                  : userBackendData?.uds_salesnavigatoruserurl
+                userBackendData?.uds_salesnavigatoruserurl
+                  ? userBackendData?.uds_salesnavigatoruserurl
+                  : userBackendData?.uds_linkedin
               }
             />
           </td>

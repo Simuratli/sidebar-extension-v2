@@ -10,7 +10,7 @@ import "../../style/component/profile.scss";
 import { ProfilePropTypes } from "./Profile.types";
 import { useStore } from "../../store";
 import { PAGE_ENUM } from "../../types/global.types";
-function Profile({ image, name, onClick }: ProfilePropTypes) {
+function Profile({ image, name, onClick, existText }: ProfilePropTypes) {
   const {
     setPage,
     companyBackData,
@@ -27,9 +27,8 @@ function Profile({ image, name, onClick }: ProfilePropTypes) {
         <div className="profile__information">
           <h1 className="profile__information__name">{name}</h1>
           <h2 className="profile__information__info">
-            {companyBackData || userBackendData
-              ? "Contact already exists in the CRM"
-              : "Contact doesn’t exist in CRM"}
+            {existText}
+              
             <InfoIcon />
           </h2>
         </div>

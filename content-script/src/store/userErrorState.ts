@@ -14,8 +14,7 @@ export interface userErrorState {
   setUserError: (name: string, value: string | null) => void;
   setResetUserError: () => void;
 }
-
-export const useUserErrorState: StateCreator<userErrorState> = (set) => ({
+export const useUserErrorState: StateCreator<userErrorState> = (set, get) => ({
   fullnameError: null,
   telephone1Error: null,
   birthdayError: null,
@@ -27,9 +26,32 @@ export const useUserErrorState: StateCreator<userErrorState> = (set) => ({
   descriptionError: null,
   isUserHaveError: false,
   setUserError: (name, error) =>
-    set({
-      [`${name}Error`]: error,
-      isUserHaveError: typeof error === "string",
+    set((state) => {
+      const updatedErrors = {
+        ...state,
+        [`${name}Error`]: error,
+      };
+
+      const currentErrorState = {
+        telephone1Error: updatedErrors.telephone1Error,
+        fullnameError: updatedErrors.fullnameError,
+        birthdayError: updatedErrors.birthdayError,
+        mobilephoneError: updatedErrors.mobilephoneError,
+        jobtitleError: updatedErrors.jobtitleError,
+        emailaddress1Error: updatedErrors.emailaddress1Error,
+        userAddress1_nameError: updatedErrors.emailaddress1Error,
+        emailaddress2Error: updatedErrors.emailaddress2Error,
+        descriptionError: updatedErrors.descriptionError,
+        // Add other errors if needed
+      };
+
+      const hasError = Object.values(currentErrorState).some(
+        (value) => value !== null && typeof value === "string",
+      );
+      return {
+        ...updatedErrors,
+        isUserHaveError: hasError,
+      };
     }),
   setResetUserError: () =>
     set({

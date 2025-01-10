@@ -1,17 +1,26 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { PeopleSearchControlType } from "./ControlButton.types";
 import { ControlIcon, QuickFetchIcon, RedirectIcon } from "../../assets";
 import { APP_LOCATION, CONTROL_ICONS_TYPE } from "../../types/global.types";
 import { useStore } from "../../store";
+import { checkIfUserExistOrNotSearch } from "../../utils/userSearch";
 import { BackendUserInterface } from "../../api/api.types";
 import { openInCrm } from "../../utils/openCrm.util";
 import "../../style/component/control.scss";
-import { useUserSearchControlButton } from "../../hooks/useUserSearchControlButton";
-import { SearchControlStateObject } from "../../store/searchControl";
+import { useUserSearchControlButtonSales } from "../../hooks/useUserSearchControlButtonSales";
 
-const UserSearchControlButton = ({ image, url }: PeopleSearchControlType) => {
+const UserSearchControlButton = ({
+  image,
+  job,
+  location,
+  name,
+  url,
+  company,
+  description,
+  jobCompanyId,
+  id,
+}: PeopleSearchControlType) => {
   const { accessToken, searchControlData, crmUrl } = useStore();
-
   const {
     handleClickControlIcon,
     handleClickQuickFetch,
@@ -19,7 +28,16 @@ const UserSearchControlButton = ({ image, url }: PeopleSearchControlType) => {
     setShowMainInfoDetail,
     showMainInfoDetail,
     showQuickCaptureDetail,
-  } = useUserSearchControlButton(url || "", image || "");
+  } = useUserSearchControlButtonSales(
+    url || "",
+    name || "",
+    job || "",
+    location || "",
+    image || "",
+    company || "",
+    description || "",
+    jobCompanyId || "",
+  );
 
   return (
     <div className="controlIcon__holder">
@@ -36,16 +54,8 @@ const UserSearchControlButton = ({ image, url }: PeopleSearchControlType) => {
           onClick={handleClickControlIcon}
           type={
             accessToken
-              ? searchControlData.filter(
-                  (data: SearchControlStateObject) =>
-                    encodeURIComponent(data.publicIdentifier!) ===
-                    url?.split("/in/")[1]?.split("?")[0],
-                )[0] &&
-                searchControlData.filter(
-                  (data) =>
-                    encodeURIComponent(data.publicIdentifier!) ===
-                    url?.split("/in/")[1]?.split("?")[0],
-                )[0].exist
+              ? searchControlData.filter((data) => data.id === image)[0] &&
+                searchControlData.filter((data) => data.id === image)[0].exist
                 ? CONTROL_ICONS_TYPE.CAPTURE_EXIST
                 : CONTROL_ICONS_TYPE.CAPTURE_NOEXIST
               : CONTROL_ICONS_TYPE.LOGIN
@@ -54,16 +64,8 @@ const UserSearchControlButton = ({ image, url }: PeopleSearchControlType) => {
         {showMainInfoDetail && (
           <span className="iconHoverDetail">
             {accessToken
-              ? searchControlData.filter(
-                  (data) =>
-                    encodeURIComponent(data.publicIdentifier!) ===
-                    url?.split("/in/")[1]?.split("?")[0],
-                )[0] &&
-                searchControlData.filter(
-                  (data) =>
-                    encodeURIComponent(data.publicIdentifier!) ===
-                    url?.split("/in/")[1]?.split("?")[0],
-                )[0].exist
+              ? searchControlData.filter((data) => data.id === image)[0] &&
+                searchControlData.filter((data) => data.id === image)[0].exist
                 ? "Contact already exists in CRM."
                 : "Capture Contact into CRM."
               : "Login to LinkedIn extension"}
@@ -71,16 +73,8 @@ const UserSearchControlButton = ({ image, url }: PeopleSearchControlType) => {
         )}
       </div>
       {accessToken &&
-        (searchControlData.filter(
-          (data) =>
-            encodeURIComponent(data.publicIdentifier!) ===
-            url?.split("/in/")[1]?.split("?")[0],
-        )[0] &&
-        !searchControlData.filter(
-          (data) =>
-            encodeURIComponent(data.publicIdentifier!) ===
-            url?.split("/in/")[1]?.split("?")[0],
-        )[0].exist ? (
+        (searchControlData.filter((data) => data.id === image)[0] &&
+        !searchControlData.filter((data) => data.id === image)[0].exist ? (
           <div
             onMouseEnter={() => {
               setQuickShowCaptureDetail(true);
@@ -108,11 +102,8 @@ const UserSearchControlButton = ({ image, url }: PeopleSearchControlType) => {
             <RedirectIcon
               onClick={() => {
                 const existedData: BackendUserInterface | null | undefined =
-                  searchControlData.filter(
-                    (data) =>
-                      encodeURIComponent(data.publicIdentifier!) ===
-                      url?.split("/in/")[1]?.split("?")[0],
-                  )[0].existedData;
+                  searchControlData.filter((data) => data.url === id)[0]
+                    .existedData;
                 const contactId = existedData ? existedData.contactid : "";
                 openInCrm(crmUrl, APP_LOCATION.USER, contactId);
               }}
